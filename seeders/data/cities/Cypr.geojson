@@ -1,0 +1,2007 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-12-16T16:57:36Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/533154",
+        "admin_level": "8",
+        "boundary": "administrative",
+        "int_name": "Larnaca",
+        "name": "Δήμος Λάρνακας",
+        "name:ar": "لارنكا",
+        "name:ckb": "لارناکا",
+        "name:el": "Δήμος Λάρνακας",
+        "name:en": "Larnaca",
+        "name:fr": "Larnaca",
+        "name:he": "לרנקה",
+        "name:it": "Larnaca",
+        "name:ku": "Larnaka",
+        "name:lt": "Larnaka",
+        "name:mk": "Ларнака",
+        "name:pl": "Larnaka",
+        "name:ru": "Ларнака",
+        "name:sl": "Larnaka",
+        "name:tr": "Larnaka",
+        "name:uk": "Ларнака",
+        "official_name:en": "Larnaca Municipality",
+        "place": "town",
+        "type": "boundary",
+        "wikidata": "Q171882",
+        "wikipedia": "en:Larnaca",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.6189733,
+          34.9012874
+        ]
+      },
+      "id": "relation/533154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/2628521",
+        "admin_level": "8",
+        "alt_name:ar": "الأفقوسية",
+        "alt_name:grc": "Λήδρα;Καλληνίκησις;Λευκοθέον",
+        "alt_name:ru": "Левкосия",
+        "boundary": "administrative",
+        "description": "Municipality",
+        "name": "Δήμος Λευκωσίας",
+        "name:af": "Nicosia",
+        "name:am": "ሌፍኮዚያ",
+        "name:an": "Nicosia",
+        "name:ar": "نيقوسيا",
+        "name:arz": "نيكوسيا",
+        "name:az": "Nikosiya",
+        "name:be": "Нікасія",
+        "name:bg": "Никозия",
+        "name:bn": "নিকোসিয়া",
+        "name:bo": "ནེ་ཁོ་ཤི་ཡ།",
+        "name:br": "Nikozia",
+        "name:bs": "Nikozija",
+        "name:ca": "Nicòsia",
+        "name:ckb": "نیکۆسیا",
+        "name:crh": "Lefkoşa",
+        "name:cs": "Nikósie",
+        "name:cy": "Nicosia",
+        "name:da": "Nicosia",
+        "name:de": "Nikosia",
+        "name:el": "Δήμος Λευκωσίας",
+        "name:en": "Nicosia Municipality",
+        "name:eo": "Nikozio",
+        "name:es": "Municipio de Nicosia",
+        "name:fa": "نیکوزیا",
+        "name:fr": "Nicosie",
+        "name:ga": "An Leafcóis",
+        "name:gag": "Lefkoşa",
+        "name:gd": "Nicosia",
+        "name:gl": "Nicosia",
+        "name:grc": "Λευκωσία",
+        "name:gv": "Lefkosia",
+        "name:he": "ניקוסיה",
+        "name:hi": "निकोसिया",
+        "name:hr": "Nikozija",
+        "name:ht": "Nikozi",
+        "name:hu": "Nicosia",
+        "name:hy": "Նիկոսիա",
+        "name:is": "Nikósía",
+        "name:it": "Nicosia",
+        "name:ja": "ニコシア",
+        "name:ka": "ნიქოზია",
+        "name:kaa": "Arqa Nikosiya",
+        "name:kk": "Никосия",
+        "name:kl": "Nicosia",
+        "name:ko": "니코시아",
+        "name:ky": "Лефкоша",
+        "name:la": "Nicosia",
+        "name:lad": "Nikosiya",
+        "name:lij": "Nicosia",
+        "name:lmo": "Nicoséa",
+        "name:lt": "Nikosija",
+        "name:lv": "Nikosija",
+        "name:mdf": "Никосия",
+        "name:mi": "Nicosia",
+        "name:mk": "Левкозија",
+        "name:mr": "निकोसिया",
+        "name:ms": "Nicosia",
+        "name:mzn": "نیکوزیا",
+        "name:nah": "Nicosia",
+        "name:nan": "Nicosia",
+        "name:nap": "Nicosìa",
+        "name:nl": "Nicosia",
+        "name:oc": "Nicosia",
+        "name:os": "Никоси",
+        "name:pl": "Nikozja",
+        "name:pms": "Nicosìa",
+        "name:pnb": "نیکوسیا",
+        "name:pnt": "Λευκωσίαν",
+        "name:pt": "Nicósia",
+        "name:ro": "Nicosia",
+        "name:ru": "Никосия",
+        "name:rw": "Nikosiya",
+        "name:sah": "Никосия",
+        "name:sco": "Nicosia",
+        "name:sh": "Nikozija",
+        "name:sk": "Nikózia",
+        "name:sl": "Nikozija",
+        "name:sq": "Nicosia",
+        "name:sr": "Никозија",
+        "name:stq": "Nicosia",
+        "name:sv": "Nicosia",
+        "name:ta": "நிக்கோசியா",
+        "name:tg": "Никосия",
+        "name:th": "นิโคเซีย",
+        "name:tl": "Nicosia",
+        "name:tr": "Lefkoşa Belediyesi",
+        "name:tt": "Никосия",
+        "name:udm": "Никосия",
+        "name:ug": "نىكوسىيە",
+        "name:uk": "Нікосія",
+        "name:ur": "نیکوسیا",
+        "name:vep": "Nikosii",
+        "name:vi": "Nicosia",
+        "name:war": "Nicosia",
+        "name:yi": "ניקאסיע",
+        "name:yo": "Nicosia",
+        "name:zh": "尼科西亚",
+        "old_name:ar": "الأفقوسية",
+        "place": "city",
+        "population": "310355",
+        "type": "boundary",
+        "wikidata": "Q56037497",
+        "wikipedia": "en:Nicosia Municipality",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3770589,
+          35.176975
+        ]
+      },
+      "id": "relation/2628521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/2628523",
+        "admin_level": "8",
+        "boundary": "administrative",
+        "int_name": "Dimos Agiou Dometiou",
+        "name": "Δήμος Αγίου Δομετίου",
+        "name:el": "Δήμος Αγίου Δομετίου",
+        "name:en": "Ayios Dhometios Municipality",
+        "name:ru": "Агиос-Дометиос",
+        "name:uk": "Айос Дометіос",
+        "place": "town",
+        "type": "boundary",
+        "wikidata": "Q2430460",
+        "wikipedia": "el:Άγιος Δομέτιος Λευκωσίας",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3300659,
+          35.1751723
+        ]
+      },
+      "id": "relation/2628523"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/2628524",
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Engomi",
+        "name:ar": "إنغومي",
+        "name:ru": "Энгоми (Тузла)",
+        "name:uk": "Енгомі",
+        "place": "town",
+        "type": "boundary",
+        "wikidata": "Q2430556",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3163412,
+          35.1526601
+        ]
+      },
+      "id": "relation/2628524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/2628525",
+        "admin_level": "7",
+        "boundary": "administrative",
+        "name": "Lakatameia",
+        "name:de": "Lakatamia",
+        "name:el": "Λακατάμεια",
+        "name:ru": "Лакатамия",
+        "name:uk": "Лакатамія",
+        "place": "town",
+        "type": "boundary",
+        "wikidata": "Q349503",
+        "wikipedia": "el:Λακατάμια",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3131736,
+          35.116393
+        ]
+      },
+      "id": "relation/2628525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/2628526",
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Latsia",
+        "name:ru": "Лация",
+        "name:uk": "Лація",
+        "place": "town",
+        "type": "boundary",
+        "wikidata": "Q2430447",
+        "wikipedia": "el:Λατσιά",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3730545,
+          35.0968042
+        ]
+      },
+      "id": "relation/2628526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/2628527",
+        "admin_level": "7",
+        "boundary": "administrative",
+        "name": "Strovolos",
+        "name:ar": "استروفولوس",
+        "name:ru": "Строволос",
+        "name:uk": "Строволос",
+        "place": "town",
+        "type": "boundary",
+        "wikidata": "Q668370",
+        "wikipedia": "en:Strovolos",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3457266,
+          35.1342598
+        ]
+      },
+      "id": "relation/2628527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/2672302",
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Πέγεια",
+        "name:ar": "بيغيا",
+        "name:el": "Πέγεια",
+        "name:en": "Peyia",
+        "name:fr": "Péyia",
+        "name:ru": "Пейя",
+        "name:uk": "Пегейя",
+        "place": "town",
+        "type": "boundary",
+        "wikidata": "Q2538717",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.3631631,
+          34.8943368
+        ]
+      },
+      "id": "relation/2672302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/5509192",
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Ξυλοτύμβου",
+        "name:el": "Ξυλοτύμβου",
+        "name:en": "Xylotymbou",
+        "name:uk": "Ксілотимбу",
+        "place": "town",
+        "type": "boundary",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.742136,
+          35.016733
+        ]
+      },
+      "id": "relation/5509192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/5509196",
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Ορμήδεια",
+        "name:el": "Ορμήδεια",
+        "name:en": "Ormideia",
+        "name:uk": "Ормідея",
+        "place": "town",
+        "type": "boundary",
+        "wikidata": "Q81570",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.7662095,
+          34.9895323
+        ]
+      },
+      "id": "relation/5509196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9331795",
+        "alt_name": "Lemesos",
+        "alt_name:de": "Lemesos",
+        "alt_name:it": "Limassol",
+        "alt_name:ru": "Лемесос",
+        "alt_name:tr": "Leymosun",
+        "capital": "5",
+        "int_name": "Limassol",
+        "name": "Λεμεσός",
+        "name:ar": "ليماسول",
+        "name:de": "Limassol",
+        "name:el": "Λεμεσός",
+        "name:en": "Limassol",
+        "name:es": "Limasol",
+        "name:et": "Limassol",
+        "name:eu": "Limasol",
+        "name:fr": "Limassol",
+        "name:he": "לימסול",
+        "name:hu": "Limassol",
+        "name:hy": "Լիմասոլ",
+        "name:it": "Limisso",
+        "name:mk": "Лимасол",
+        "name:ml": "ലിമസ്സോൾ",
+        "name:nn": "Lemesós",
+        "name:no": "Lemesós",
+        "name:ru": "Лимасол",
+        "name:tr": "Limasol",
+        "name:uk": "Лімасол",
+        "name:yue": "利馬索爾",
+        "name:zh": "利马索尔/利馬索爾",
+        "name:zh-Hans": "利马索尔",
+        "name:zh-Hant": "利馬索爾",
+        "place": "city",
+        "population": "101000",
+        "population:date": "2011",
+        "ref:LOCODE": "CYLMS",
+        "wikidata": "Q185632"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.0332657,
+          34.6852901
+        ]
+      },
+      "id": "node/9331795"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21285807",
+        "is_in": "Cyprus",
+        "is_in:country": "Cyprus",
+        "is_in:country_code": "CY",
+        "name": "Ξυλοφάγου",
+        "name:ar": "اكسيلوفغو",
+        "name:de": "Xylofagou",
+        "name:el": "Ξυλοφάγου",
+        "name:en": "Xylofagou",
+        "name:eu": "Xylofagou",
+        "name:fr": "Xylofágou",
+        "name:hu": "Xilofágu",
+        "name:mk": "Ксилофагу",
+        "name:pl": "Ksilofagu",
+        "name:ru": "Ксилофагу",
+        "name:uk": "Ксілофагу",
+        "place": "town",
+        "population": "4957",
+        "wikidata": "Q8045452",
+        "wikipedia": "en:Xylofagou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.8491973,
+          34.9772326
+        ]
+      },
+      "id": "node/21285807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21422489",
+        "is_in": "Cyprus",
+        "name": "Πρωταράς",
+        "name:de": "Protaras",
+        "name:el": "Πρωταράς",
+        "name:en": "Protaras",
+        "name:hu": "Protarász",
+        "name:ru": "Протарас",
+        "name:uk": "Протарас",
+        "place": "town",
+        "wikidata": "Q2113430",
+        "wikipedia": "en:Protaras"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.0531284,
+          35.0149462
+        ]
+      },
+      "id": "node/21422489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21422610",
+        "is_in": "Cyprus",
+        "is_in:country": "Cyprus",
+        "is_in:country_code": "CY",
+        "name": "Παραλίμνι",
+        "name:ar": "باراليمني",
+        "name:de": "Paralimni",
+        "name:el": "Παραλίμνι",
+        "name:en": "Paralimni",
+        "name:es": "Paralimni",
+        "name:eu": "Paralimni",
+        "name:fr": "Paralimni",
+        "name:he": "פאראלימני",
+        "name:hu": "Paralímni",
+        "name:lt": "Paralimnis",
+        "name:ru": "Паралимни",
+        "name:tr": "Paralimni",
+        "name:uk": "Паралімні",
+        "place": "town",
+        "population": "15000",
+        "website": "https://www.paralimni.org.cy/",
+        "wikidata": "Q954174",
+        "wikipedia": "en:Paralimni"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9828013,
+          35.0391526
+        ]
+      },
+      "id": "node/21422610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21621301",
+        "alt_name:ar": "ايا نابا",
+        "int_name": "Ayia Napa",
+        "is_in": "Cyprus",
+        "is_in:country": "Cyprus",
+        "is_in:country_code": "CY",
+        "name": "Αγία Νάπα",
+        "name:ar": "آيا نابا",
+        "name:de": "Agia Napa",
+        "name:el": "Αγία Νάπα",
+        "name:en": "Ayia Napa",
+        "name:es": "Ayia Napa",
+        "name:eu": "Ayia Napa",
+        "name:fr": "Agia Napa",
+        "name:hu": "Ajía Nápa",
+        "name:ka": "აია-ნაპა",
+        "name:lt": "Agia Napa",
+        "name:pl": "Ajia Napa",
+        "name:ru": "Айя-Напа",
+        "name:tr": "Aya Napa",
+        "name:uk": "Ая-Напа",
+        "place": "town",
+        "population": "2693",
+        "website": "https://www.agianapa.org.cy/",
+        "wikidata": "Q393593",
+        "wikipedia": "en:Ayia Napa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9962036,
+          34.9893216
+        ]
+      },
+      "id": "node/21621301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29377568",
+        "name": "Έμπα",
+        "name:el": "Έμπα",
+        "name:en": "Empa",
+        "name:hu": "Émba",
+        "name:uk": "Емпа",
+        "place": "town",
+        "population": "4855",
+        "wikidata": "Q5369408",
+        "wikipedia": "en:Empa, Cyprus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.4235493,
+          34.8087473
+        ]
+      },
+      "id": "node/29377568"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29705484",
+        "name": "Κίτι",
+        "name:el": "Κίτι",
+        "name:en": "Kiti",
+        "name:hu": "Kíti",
+        "name:uk": "Кіті",
+        "place": "town",
+        "population": "4252",
+        "wikidata": "Q6418213",
+        "wikipedia": "en:Kiti, Cyprus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5726051,
+          34.8456226
+        ]
+      },
+      "id": "node/29705484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29705608",
+        "int_name": "Dromolaxia",
+        "name": "Δρομολαξιά",
+        "name:el": "Δρομολαξιά",
+        "name:en": "Dromolaxia",
+        "name:eu": "Dromolaxia",
+        "name:hu": "Dromolaxiá",
+        "name:tr": "Mormenekşe",
+        "name:uk": "Дромолаксія",
+        "place": "town",
+        "population": "5064",
+        "wikidata": "Q5308294",
+        "wikipedia": "en:Dromolaxia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5871451,
+          34.8730569
+        ]
+      },
+      "id": "node/29705608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/30354208",
+        "alt_name:en": "Chlorakas",
+        "is_in": "Paphos District",
+        "name": "Χλώρακας",
+        "name:el": "Χλώρακας",
+        "name:en": "Chloraka",
+        "name:fr": "Chlórakas",
+        "name:hu": "Hlórakasz",
+        "name:uk": "Хлорака",
+        "place": "town",
+        "population": "5356",
+        "wikidata": "Q5102908",
+        "wikipedia": "en:Chloraka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.4079198,
+          34.7995901
+        ]
+      },
+      "id": "node/30354208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/38989632",
+        "alt_name": "Πόλις Χρυσοχούς",
+        "alt_name:en": "Polis Chrysochous",
+        "alt_name:fr": "Pólis Chrysochoús",
+        "alt_name:ru": "Полис Христохус",
+        "is_in": "Cyprus",
+        "is_in:country": "Cyprus",
+        "is_in:country_code": "CY",
+        "name": "Πόλις",
+        "name:ar": "بوليس",
+        "name:de": "Polis",
+        "name:el": "Πόλις",
+        "name:en": "Polis",
+        "name:eu": "Polis",
+        "name:fr": "Pólis",
+        "name:hu": "Pólisz",
+        "name:ru": "Полис",
+        "name:tr": "Poli",
+        "name:uk": "Поліс",
+        "place": "town",
+        "population": "3000",
+        "website": "http://www.polis-municipality-cyprus.com",
+        "wikidata": "Q2626631",
+        "wikipedia": "en:Polis, Cyprus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.426471,
+          35.034477
+        ]
+      },
+      "id": "node/38989632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/39663578",
+        "name": "Γέρι",
+        "name:el": "Γέρι",
+        "name:en": "Geri",
+        "name:hu": "Jéri",
+        "name:uk": "Гері",
+        "place": "town",
+        "population": "8235",
+        "wikidata": "Q3104074"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4204148,
+          35.1068501
+        ]
+      },
+      "id": "node/39663578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/41005573",
+        "alt_name": "Pegeia",
+        "is_in": "Cyprus",
+        "is_in:country": "Cyprus",
+        "is_in:country_code": "CY",
+        "name": "Πέγεια",
+        "name:ar": "بيغيا",
+        "name:de": "Peyia",
+        "name:el": "Πέγεια",
+        "name:en": "Peyia",
+        "name:eu": "Pegeia",
+        "name:fr": "Pegeia",
+        "name:hu": "Péjia",
+        "name:ru": "Пейя",
+        "name:uk": "Пейя",
+        "place": "town",
+        "population": "3953",
+        "website": "https://www.pegeiamunicipality.com/",
+        "wikidata": "Q2538717",
+        "wikipedia": "en:Peyia",
+        "@relations": [
+          {
+            "role": "admin_centre",
+            "rel": 2672302,
+            "reltags": {
+              "admin_level": "8",
+              "boundary": "administrative",
+              "name": "Πέγεια",
+              "name:ar": "بيغيا",
+              "name:el": "Πέγεια",
+              "name:en": "Peyia",
+              "name:fr": "Péyia",
+              "name:ru": "Пейя",
+              "name:uk": "Пегейя",
+              "place": "town",
+              "type": "boundary",
+              "wikidata": "Q2538717"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.3803202,
+          34.8835052
+        ]
+      },
+      "id": "node/41005573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/60057108",
+        "alt_name": "Germasogeia",
+        "name": "Γερμασόγεια",
+        "name:ar": "غرمسوغيا",
+        "name:el": "Γερμασόγεια",
+        "name:en": "Yermasoyia",
+        "name:fr": "Germasogeia",
+        "name:hu": "Jermaszójia",
+        "name:pl": "Jermasoja",
+        "name:ru": "Гермасойя",
+        "name:tr": "Yermasoyia",
+        "name:uk": "Гермасойя",
+        "place": "town",
+        "population": "8535",
+        "postal_code": "4044",
+        "website": "http://www.yermasoyia.org/",
+        "wikidata": "Q349340",
+        "wikipedia": "en:Yermasoyia, Cyprus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.0879427,
+          34.7130838
+        ]
+      },
+      "id": "node/60057108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/67322815",
+        "name": "Αραδίππου",
+        "name:ar": "أراديبو",
+        "name:de": "Aradippou",
+        "name:el": "Αραδίππου",
+        "name:en": "Aradhippou",
+        "name:eu": "Aradipou",
+        "name:fr": "Aradippou",
+        "name:hu": "Aradíppu",
+        "name:lt": "Aradipu",
+        "name:pl": "Aradipu",
+        "name:ru": "Арадиппоу",
+        "name:tr": "Aradippu",
+        "name:uk": "Арадіппоу",
+        "place": "town",
+        "population": "20000",
+        "website": "http://www.aradippou.org.cy/",
+        "wikidata": "Q2009604",
+        "wikipedia": "en:Aradhippou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5926752,
+          34.9496176
+        ]
+      },
+      "id": "node/67322815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/229501573",
+        "name": "Lefkoşa",
+        "name:af": "Nicosia",
+        "name:ar": "نيقوسيا",
+        "name:az-Arab": "لفکوشا",
+        "name:azb": "لفکوشا",
+        "name:de": "Nikosia",
+        "name:el": "Λευκωσία",
+        "name:en": "Nicosia",
+        "name:es": "Nicosia",
+        "name:fa": "لفکوشای",
+        "name:grc": "Λευκωσία",
+        "name:hy": "Նիկոսիա",
+        "name:hyw": "Նիկոսիա",
+        "name:kk-Arab": "لەفكوسىييا",
+        "name:ps": "نیکوزیا",
+        "name:sv": "Nicosia",
+        "name:tr": "Lefkoşa",
+        "name:ug": "نىكوسىيە",
+        "name:uk": "Нікосія",
+        "name:ur": "نیکوسیا",
+        "place": "city",
+        "wikidata": "Q2762100",
+        "wikipedia": "tr:Kuzey Lefkoşa",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3211486,
+          35.2117037
+        ]
+      },
+      "id": "way/229501573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/268526913",
+        "name": "Επισκοπή",
+        "name:ar": "إيبسكوبي",
+        "name:de": "Episkopi",
+        "name:el": "Επισκοπή",
+        "name:en": "Episkopi",
+        "name:hu": "Episkopí",
+        "name:mk": "Епископи",
+        "name:ru": "Эпископи",
+        "name:tr": "Episkopi",
+        "name:uk": "Епіскопі",
+        "place": "town",
+        "population": "3681",
+        "wikidata": "Q5383505",
+        "wikipedia": "en:Episkopi, Limassol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.9018553,
+          34.6704337
+        ]
+      },
+      "id": "node/268526913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/285165752",
+        "alt_name:uk": "Хаміткьой",
+        "is_in": "Kuzey Kıbrıs Türk Cumhuriyeti",
+        "name": "Hamitköy",
+        "name:el": "Χαμίτ Μάντρες",
+        "name:en": "Hamit Mandres",
+        "name:tr": "Hamitköy",
+        "name:uk": "Хаміт Мантрес",
+        "place": "town",
+        "population": "5338",
+        "wikidata": "Q3561616",
+        "wikipedia": "en:Hamitköy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3786657,
+          35.2151704
+        ]
+      },
+      "id": "node/285165752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/289749677",
+        "alt_name:uk": "Алсанджак",
+        "is_in": "Girne;Kuzey Kıbrıs Türk Cumhuriyeti",
+        "name": "Alsancak",
+        "name:el": "Καραβάς",
+        "name:en": "Karavas",
+        "name:tr": "Alsancak",
+        "name:uk": "Каравас",
+        "place": "town",
+        "wikidata": "Q2560200",
+        "wikimedia_commons": "Category:Karavas",
+        "wikipedia": "en:Karavas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.1956124,
+          35.3431715
+        ]
+      },
+      "id": "node/289749677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/306213431",
+        "alt_name:uk": "Чаталкьой",
+        "is_in": "Girne;Kuzey Kıbrıs Türk Cumhuriyeti",
+        "name": "Çatalköy",
+        "name:el": "Αγ Επίκτητος",
+        "name:en": "Agios Epiktitos",
+        "name:uk": "Агіос Епіктітос",
+        "place": "town",
+        "wikidata": "Q4692627",
+        "wikipedia": "tr:Çatalköy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3906576,
+          35.3213447
+        ]
+      },
+      "id": "node/306213431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/306213498",
+        "capital": "5",
+        "name": "Lefke",
+        "name:ar": "لفكا",
+        "name:el": "Λεύκα",
+        "name:en": "Lefka",
+        "name:eu": "Lefka",
+        "name:fa": "لفکا",
+        "name:tr": "Lefke",
+        "name:uk": "Лефка",
+        "name:ur": "لفکا",
+        "name_old": "Arsinoe",
+        "place": "town",
+        "watch:djanda": "yes",
+        "wikidata": "Q967211",
+        "wikipedia": "en:Lefka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8499935,
+          35.1132003
+        ]
+      },
+      "id": "node/306213498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/306213529",
+        "alt_name:ar": "فاماغوستا",
+        "alt_name:tr": "Mağusa",
+        "capital": "5",
+        "designation": "Municipality",
+        "int_name": "Famagusta",
+        "is_in": "Cyprus",
+        "is_in:country": "Cyprus",
+        "is_in:country_code": "CY",
+        "name": "Gazimağusa",
+        "name:ar": "الماغوصة",
+        "name:ca": "Famagusta",
+        "name:da": "Famagusta",
+        "name:de": "Famagusta",
+        "name:el": "Αμμόχωστος",
+        "name:en": "Famagusta",
+        "name:es": "Famagusta",
+        "name:et": "Famagusta",
+        "name:eu": "Famagusta",
+        "name:fr": "Famagouste",
+        "name:he": "פמגוסטה",
+        "name:hu": "Famagusta",
+        "name:it": "Famagosta",
+        "name:ml": "ഫാമഗുസ്ത",
+        "name:oc": "Famagosta",
+        "name:pl": "Famagusta",
+        "name:ru": "Фамагуста",
+        "name:tr": "Gazimağusa",
+        "name:uk": "Фамагуста",
+        "old_name": "Ammochostos",
+        "place": "city",
+        "population": "42526",
+        "website": "http://www.magusa.org/",
+        "wikidata": "Q193190",
+        "wikipedia": "en:Famagusta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9325419,
+          35.1245436
+        ]
+      },
+      "id": "node/306213529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/337031440",
+        "alt_name:uk": "Гюзельюрт",
+        "name": "Güzelyurt",
+        "name:ar": "مورفو",
+        "name:azb": "مورفو",
+        "name:de": "Morfou",
+        "name:el": "Μόρφου",
+        "name:en": "Guzelyurt",
+        "name:fa": "مورفو",
+        "name:tr": "Güzelyurt",
+        "name:uk": "Морфу",
+        "name:ur": "مورفو",
+        "place": "town",
+        "wikidata": "Q830638",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.9932855,
+          35.1975295
+        ]
+      },
+      "id": "way/337031440"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/482253970",
+        "alt_name:uk": "Гьоньєлі",
+        "is_in": "Lefkoşa",
+        "name": "Gönyeli",
+        "name:en": "Gonyeli",
+        "name:tr": "Gönyeli",
+        "name:uk": "Кіонелі",
+        "place": "town",
+        "population": "20000",
+        "wikidata": "Q4822077",
+        "wikipedia": "tr:Gönyeli",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3065482,
+          35.2188973
+        ]
+      },
+      "id": "way/482253970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/676672956",
+        "alt_name": "Girne",
+        "alt_name:de": "Keryneia",
+        "alt_name:tr": "Keryneia",
+        "capital": "5",
+        "designation": "Municipality",
+        "int_name": "Kyrenia",
+        "is_in": "Cyprus",
+        "is_in:country": "Cyprus",
+        "is_in:country_code": "CY",
+        "name": "Girne",
+        "name:ar": "غرنة",
+        "name:de": "Kyrenia",
+        "name:el": "Κερύνεια",
+        "name:en": "Kyrenia",
+        "name:et": "Kyrenia",
+        "name:eu": "Kirenia",
+        "name:fi": "Kyrenia",
+        "name:fr": "Kyrenia",
+        "name:hu": "Girne",
+        "name:ml": "കുറേന്യ",
+        "name:ru": "Кирения",
+        "name:tr": "Girne",
+        "name:uk": "Кіренія",
+        "place": "city",
+        "population": "33207",
+        "source": "UN Gazetteer",
+        "wikidata": "Q206760",
+        "wikipedia": "el:Κερύνεια"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3188405,
+          35.3352654
+        ]
+      },
+      "id": "node/676672956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/696236231",
+        "name": "Lefke",
+        "name:ar": "لفكا",
+        "name:el": "Λευκα",
+        "name:fa": "لفکا",
+        "name:tr": "Lefke",
+        "name:uk": "Лефка",
+        "name:ur": "لفکا",
+        "place": "town",
+        "wikidata": "Q967211",
+        "wikipedia": "en:Lefka",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8483895,
+          35.1138796
+        ]
+      },
+      "id": "way/696236231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1080163344",
+        "alt_name:uk": "Діпкарпаз",
+        "is_in": "Cyprus",
+        "name": "Dipkarpaz",
+        "name:el": "Ριζοκάρπασο",
+        "name:en": "Rizokarpaso",
+        "name:eu": "Rizokarpaso",
+        "name:hu": "Dipkarpaz",
+        "name:uk": "Різокарпасон",
+        "place": "town",
+        "wikidata": "Q1190325",
+        "wikipedia": "en:Rizokarpaso"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.3806708,
+          35.5977395
+        ]
+      },
+      "id": "node/1080163344"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1097007425",
+        "alt_name:ar": "إسكله",
+        "capital": "5",
+        "is_in": "Cyprus",
+        "is_in:country": "Cyprus",
+        "is_in:country_code": "CY",
+        "name": "İskele",
+        "name:ar": "تريكومو",
+        "name:de": "Trikomo",
+        "name:el": "Τρίκωμο",
+        "name:en": "Trikomo",
+        "name:es": "Trikomo",
+        "name:eu": "Trikomo",
+        "name:fr": "Trikomo",
+        "name:uk": "Трікомо",
+        "place": "town",
+        "wikidata": "Q344055",
+        "wikipedia": "en:Trikomo, Cyprus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.8919192,
+          35.2863679
+        ]
+      },
+      "id": "node/1097007425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1097038376",
+        "alt_name:uk": "Гечіткале",
+        "name": "Geçitkale",
+        "name:el": "Lefkoniko",
+        "name:en": "Lefkoniko",
+        "name:ru": "Лефконико/Lefkonuk",
+        "name:uk": "Лефконіко",
+        "place": "town",
+        "wikidata": "Q934563",
+        "wikimedia_commons": "Category:Lefkoniko",
+        "wikipedia": "tr:Geçitkale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.7321988,
+          35.2605334
+        ]
+      },
+      "id": "node/1097038376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1621752518",
+        "alt_name": "Ipsonas",
+        "name": "Ύψωνας",
+        "name:el": "Ύψωνας",
+        "name:en": "Ypsonas",
+        "name:hu": "Ípszonasz",
+        "name:uk": "Іпсонас",
+        "place": "town",
+        "population": "10916",
+        "wikidata": "Q3560553",
+        "wikipedia": "en:Ypsonas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.9631519,
+          34.6903956
+        ]
+      },
+      "id": "node/1621752518"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1625160790",
+        "alt_name": "Βορόκληνη",
+        "name": "Ορόκλινη",
+        "name:el": "Ορόκλινη",
+        "name:en": "Oroklini",
+        "name:fr": "Oróklini",
+        "name:hu": "Oróklini",
+        "name:uk": "Орокліні",
+        "place": "town",
+        "population": "6134",
+        "wikidata": "Q7103757"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.6558552,
+          34.9822755
+        ]
+      },
+      "id": "node/1625160790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1637467513",
+        "alt_name:en": "Yeroskipou",
+        "is_in": "Paphos",
+        "name": "Γεροσκήπου",
+        "name:de": "Geroskipou",
+        "name:el": "Γεροσκήπου",
+        "name:en": "Geroskipou",
+        "name:hu": "Jeroszkípu",
+        "name:uk": "Героскіпу",
+        "place": "town",
+        "population": "8313",
+        "wikidata": "Q588760",
+        "wikipedia": "en:Geroskipou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.4526968,
+          34.7611753
+        ]
+      },
+      "id": "node/1637467513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1637506794",
+        "alt_name:el": "Αθηαίνου",
+        "is_in": "Cyprus",
+        "is_in:country": "Cyprus",
+        "is_in:country_code": "CY",
+        "name": "Αθηένου",
+        "name:ar": "أثينو",
+        "name:de": "Athienou",
+        "name:el": "Αθηένου",
+        "name:en": "Athienou",
+        "name:fa": "آتیه‌نو",
+        "name:fr": "Athienou",
+        "name:hu": "Athiénu",
+        "name:pl": "Atienu",
+        "name:tr": "Kiracıköy",
+        "name:uk": "Атієноу",
+        "name:ur": "آتھینو",
+        "place": "town",
+        "population": "5000",
+        "website": "https://www.athienou.org.cy/",
+        "wikidata": "Q570146",
+        "wikipedia": "en:Athienou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5404951,
+          35.0618614
+        ]
+      },
+      "id": "node/1637506794"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1637869319",
+        "alt_name": "Dherynia",
+        "alt_name:en": "Dherynia",
+        "is_in": "Cyprus",
+        "is_in:country": "Cyprus",
+        "is_in:country_code": "CY",
+        "name": "Δερύνεια",
+        "name:ar": "درينيا",
+        "name:el": "Δερύνεια",
+        "name:en": "Deryneia",
+        "name:eu": "Deryneia",
+        "name:hu": "Derínia",
+        "name:ru": "Дериния",
+        "name:tr": "Derinya",
+        "name:uk": "Дерінея",
+        "place": "town",
+        "population": "5758",
+        "wikidata": "Q777760",
+        "wikipedia": "en:Dherynia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9609128,
+          35.064867
+        ]
+      },
+      "id": "node/1637869319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1893015330",
+        "admin_level": "2",
+        "alt_name:ar": "الأفقوسية",
+        "alt_name:grc": "Λήδρα;Καλληνίκησις;Λευκοθέον",
+        "alt_name:ru": "Левкосия",
+        "capital": "yes",
+        "capital_ISO3166-1": "yes",
+        "name": "Λευκωσία - Lefkoşa",
+        "name:af": "Nicosia",
+        "name:am": "ሌፍኮዚያ",
+        "name:an": "Nicosia",
+        "name:ar": "نيقوسيا",
+        "name:arz": "نيكوسيا",
+        "name:az": "Nikosiya",
+        "name:az-Arab": "لفکوشا",
+        "name:azb": "لفکوشا",
+        "name:be": "Нікасія",
+        "name:bg": "Никозия",
+        "name:bn": "নিকোসিয়া",
+        "name:bo": "ནེ་ཁོ་ཤི་ཡ།",
+        "name:br": "Nikozia",
+        "name:bs": "Nikozija",
+        "name:ca": "Nicòsia",
+        "name:ckb": "نیکۆسیا",
+        "name:crh": "Lefkoşa",
+        "name:cs": "Nikósie",
+        "name:cy": "Nicosia",
+        "name:da": "Nicosia",
+        "name:de": "Nikosia",
+        "name:el": "Λευκωσία",
+        "name:en": "Nicosia",
+        "name:eo": "Nikozio",
+        "name:es": "Nicosia",
+        "name:et": "Nikosia",
+        "name:eu": "Nikosia",
+        "name:fa": "لفکوشای",
+        "name:fr": "Nicosie",
+        "name:ga": "An Leafcóis",
+        "name:gag": "Lefkoşa",
+        "name:gd": "Nicosia",
+        "name:gl": "Nicosia",
+        "name:grc": "Λευκωσία",
+        "name:gv": "Lefkosia",
+        "name:he": "ניקוסיה",
+        "name:hi": "निकोसिया",
+        "name:hr": "Nikozija",
+        "name:ht": "Nikozi",
+        "name:hu": "Nicosia",
+        "name:hy": "Նիկոսիա",
+        "name:hyw": "Նիկոսիա",
+        "name:is": "Nikósía",
+        "name:it": "Nicosia",
+        "name:ja": "ニコシア",
+        "name:ka": "ნიქოზია",
+        "name:kaa": "Arqa Nikosiya",
+        "name:kk": "Никосия",
+        "name:kk-Arab": "لەفكوسىييا",
+        "name:kl": "Nicosia",
+        "name:kn": "ನಿಕೋಸಿಯ",
+        "name:ko": "니코시아",
+        "name:ky": "Лефкоша",
+        "name:la": "Nicosia",
+        "name:lad": "Nikosiya",
+        "name:lij": "Nicosia",
+        "name:lmo": "Nicoséa",
+        "name:lt": "Nikosija",
+        "name:lv": "Nikosija",
+        "name:mdf": "Никосия",
+        "name:mi": "Nicosia",
+        "name:mk": "Левкозија",
+        "name:ml": "നിക്കോഷ്യ",
+        "name:mr": "निकोसिया",
+        "name:ms": "Nicosia",
+        "name:mzn": "نیکوزیا",
+        "name:nah": "Nicosia",
+        "name:nan": "Nicosia",
+        "name:nap": "Nicosìa",
+        "name:nl": "Nicosia",
+        "name:oc": "Nicosia",
+        "name:os": "Никоси",
+        "name:pl": "Nikozja",
+        "name:pms": "Nicosìa",
+        "name:pnb": "نیکوسیا",
+        "name:pnt": "Λευκωσίαν",
+        "name:ps": "نیکوزیا",
+        "name:pt": "Nicósia",
+        "name:ro": "Nicosia",
+        "name:ru": "Никосия",
+        "name:rw": "Nikosiya",
+        "name:sah": "Никосия",
+        "name:sco": "Nicosia",
+        "name:sh": "Nikozija",
+        "name:sk": "Nikózia",
+        "name:sl": "Nikozija",
+        "name:sq": "Nicosia",
+        "name:sr": "Никозија",
+        "name:stq": "Nicosia",
+        "name:sv": "Nicosia",
+        "name:ta": "நிக்கோசியா",
+        "name:tg": "Никосия",
+        "name:th": "นิโคเซีย",
+        "name:tl": "Nicosia",
+        "name:tr": "Lefkoşa",
+        "name:tt": "Никосия",
+        "name:udm": "Никосия",
+        "name:ug": "نىكوسىيە",
+        "name:uk": "Нікосія",
+        "name:ur": "نیکوسیا",
+        "name:vep": "Nikosii",
+        "name:vi": "Nicosia",
+        "name:war": "Nicosia",
+        "name:yi": "ניקאסיע",
+        "name:yo": "Nicosia",
+        "name:zh": "尼科西亞",
+        "old_name:ar": "الأفقوسية",
+        "place": "city",
+        "population": "310355",
+        "population:date": "2011",
+        "source": "UN Gazetteer",
+        "website": "http://www.nicosia.org.cy/",
+        "wikidata": "Q3856",
+        "wikipedia": "el:Λευκωσία",
+        "@relations": [
+          {
+            "role": "admin_centre",
+            "rel": 2628521,
+            "reltags": {
+              "admin_level": "8",
+              "alt_name:ar": "الأفقوسية",
+              "alt_name:grc": "Λήδρα;Καλληνίκησις;Λευκοθέον",
+              "alt_name:ru": "Левкосия",
+              "boundary": "administrative",
+              "description": "Municipality",
+              "name": "Δήμος Λευκωσίας",
+              "name:af": "Nicosia",
+              "name:am": "ሌፍኮዚያ",
+              "name:an": "Nicosia",
+              "name:ar": "نيقوسيا",
+              "name:arz": "نيكوسيا",
+              "name:az": "Nikosiya",
+              "name:be": "Нікасія",
+              "name:bg": "Никозия",
+              "name:bn": "নিকোসিয়া",
+              "name:bo": "ནེ་ཁོ་ཤི་ཡ།",
+              "name:br": "Nikozia",
+              "name:bs": "Nikozija",
+              "name:ca": "Nicòsia",
+              "name:ckb": "نیکۆسیا",
+              "name:crh": "Lefkoşa",
+              "name:cs": "Nikósie",
+              "name:cy": "Nicosia",
+              "name:da": "Nicosia",
+              "name:de": "Nikosia",
+              "name:el": "Δήμος Λευκωσίας",
+              "name:en": "Nicosia Municipality",
+              "name:eo": "Nikozio",
+              "name:es": "Municipio de Nicosia",
+              "name:fa": "نیکوزیا",
+              "name:fr": "Nicosie",
+              "name:ga": "An Leafcóis",
+              "name:gag": "Lefkoşa",
+              "name:gd": "Nicosia",
+              "name:gl": "Nicosia",
+              "name:grc": "Λευκωσία",
+              "name:gv": "Lefkosia",
+              "name:he": "ניקוסיה",
+              "name:hi": "निकोसिया",
+              "name:hr": "Nikozija",
+              "name:ht": "Nikozi",
+              "name:hu": "Nicosia",
+              "name:hy": "Նիկոսիա",
+              "name:is": "Nikósía",
+              "name:it": "Nicosia",
+              "name:ja": "ニコシア",
+              "name:ka": "ნიქოზია",
+              "name:kaa": "Arqa Nikosiya",
+              "name:kk": "Никосия",
+              "name:kl": "Nicosia",
+              "name:ko": "니코시아",
+              "name:ky": "Лефкоша",
+              "name:la": "Nicosia",
+              "name:lad": "Nikosiya",
+              "name:lij": "Nicosia",
+              "name:lmo": "Nicoséa",
+              "name:lt": "Nikosija",
+              "name:lv": "Nikosija",
+              "name:mdf": "Никосия",
+              "name:mi": "Nicosia",
+              "name:mk": "Левкозија",
+              "name:mr": "निकोसिया",
+              "name:ms": "Nicosia",
+              "name:mzn": "نیکوزیا",
+              "name:nah": "Nicosia",
+              "name:nan": "Nicosia",
+              "name:nap": "Nicosìa",
+              "name:nl": "Nicosia",
+              "name:oc": "Nicosia",
+              "name:os": "Никоси",
+              "name:pl": "Nikozja",
+              "name:pms": "Nicosìa",
+              "name:pnb": "نیکوسیا",
+              "name:pnt": "Λευκωσίαν",
+              "name:pt": "Nicósia",
+              "name:ro": "Nicosia",
+              "name:ru": "Никосия",
+              "name:rw": "Nikosiya",
+              "name:sah": "Никосия",
+              "name:sco": "Nicosia",
+              "name:sh": "Nikozija",
+              "name:sk": "Nikózia",
+              "name:sl": "Nikozija",
+              "name:sq": "Nicosia",
+              "name:sr": "Никозија",
+              "name:stq": "Nicosia",
+              "name:sv": "Nicosia",
+              "name:ta": "நிக்கோசியா",
+              "name:tg": "Никосия",
+              "name:th": "นิโคเซีย",
+              "name:tl": "Nicosia",
+              "name:tr": "Lefkoşa Belediyesi",
+              "name:tt": "Никосия",
+              "name:udm": "Никосия",
+              "name:ug": "نىكوسىيە",
+              "name:uk": "Нікосія",
+              "name:ur": "نیکوسیا",
+              "name:vep": "Nikosii",
+              "name:vi": "Nicosia",
+              "name:war": "Nicosia",
+              "name:yi": "ניקאסיע",
+              "name:yo": "Nicosia",
+              "name:zh": "尼科西亚",
+              "old_name:ar": "الأفقوسية",
+              "place": "city",
+              "population": "310355",
+              "type": "boundary",
+              "wikidata": "Q56037497",
+              "wikipedia": "en:Nicosia Municipality"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3638783,
+          35.1746503
+        ]
+      },
+      "id": "node/1893015330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1939509422",
+        "alt_name:de": "Larnaca",
+        "capital": "5",
+        "int_name": "Larnaca",
+        "name": "Λάρνακα",
+        "name:ar": "لارنكا",
+        "name:ckb": "لارناکا",
+        "name:de": "Larnaka",
+        "name:el": "Λάρνακα",
+        "name:en": "Larnaca",
+        "name:et": "Larnaca",
+        "name:eu": "Larnaka",
+        "name:fr": "Larnaca",
+        "name:he": "לרנקה",
+        "name:hu": "Lárnaka",
+        "name:it": "Larnaca",
+        "name:ku": "Larnaka",
+        "name:lt": "Larnaka",
+        "name:mk": "Ларнака",
+        "name:ml": "ലാർനാക്ക",
+        "name:pl": "Larnaka",
+        "name:ru": "Ларнака",
+        "name:sl": "Larnaka",
+        "name:tr": "Larnaka",
+        "name:uk": "Ларнака",
+        "old_name:de": "Larnax",
+        "place": "city",
+        "population": "51468",
+        "population:date": "2011",
+        "website": "https://www.larnaka.org.cy/",
+        "wikidata": "Q171882",
+        "wikipedia": "en:Larnaca",
+        "@relations": [
+          {
+            "role": "admin_centre",
+            "rel": 533154,
+            "reltags": {
+              "admin_level": "8",
+              "boundary": "administrative",
+              "int_name": "Larnaca",
+              "name": "Δήμος Λάρνακας",
+              "name:ar": "لارنكا",
+              "name:ckb": "لارناکا",
+              "name:el": "Δήμος Λάρνακας",
+              "name:en": "Larnaca",
+              "name:fr": "Larnaca",
+              "name:he": "לרנקה",
+              "name:it": "Larnaca",
+              "name:ku": "Larnaka",
+              "name:lt": "Larnaka",
+              "name:mk": "Ларнака",
+              "name:pl": "Larnaka",
+              "name:ru": "Ларнака",
+              "name:sl": "Larnaka",
+              "name:tr": "Larnaka",
+              "name:uk": "Ларнака",
+              "official_name:en": "Larnaca Municipality",
+              "place": "town",
+              "type": "boundary",
+              "wikidata": "Q171882",
+              "wikipedia": "en:Larnaca"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.6236184,
+          34.9236095
+        ]
+      },
+      "id": "node/1939509422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2005564796",
+        "is_in": "Cyprus",
+        "is_in:country": "Cyprus",
+        "is_in:country_code": "CY",
+        "name": "Κοκκινοτριμιθιά",
+        "name:ar": "ككينوتريميثيا",
+        "name:el": "Κοκκινοτριμιθιά",
+        "name:en": "Kokkinotrimithia",
+        "name:fr": "Kokkinotrimithia",
+        "name:hu": "Kokinotrimithiá",
+        "name:ru": "Коккинотримития",
+        "name:uk": "Коккінотрімітія",
+        "place": "town",
+        "population": "3096",
+        "wikidata": "Q6426673",
+        "wikipedia": "en:Kokkinotrimithia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.1986543,
+          35.1542715
+        ]
+      },
+      "id": "node/2005564796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2011086710",
+        "is_in": "Cyprus",
+        "is_in:country": "Cyprus",
+        "is_in:country_code": "CY",
+        "name": "Δάλι",
+        "name:ar": "دالي",
+        "name:el": "Δάλι",
+        "name:en": "Dali",
+        "name:eu": "Dali",
+        "name:fr": "Dali",
+        "name:hu": "Dáli",
+        "name:ru": "Дали",
+        "name:uk": "Далі",
+        "place": "town",
+        "population": "10000",
+        "website": "https://www.dali.org.cy/",
+        "wikidata": "Q2555453",
+        "wikipedia": "en:Dali, Cyprus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4218073,
+          35.0225693
+        ]
+      },
+      "id": "node/2011086710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2052006010",
+        "int_name": "Lakatamia",
+        "name": "Λακατάμεια",
+        "name:de": "Lakatamia",
+        "name:el": "Λακατάμεια",
+        "name:en": "Lakatamia",
+        "name:eu": "Lakatamia",
+        "name:hu": "Lakatámia",
+        "name:uk": "Лакатамія",
+        "place": "town",
+        "population": "38345",
+        "wikidata": "Q349503",
+        "wikipedia": "en:Lakatamia",
+        "@relations": [
+          {
+            "role": "admin_centre",
+            "rel": 2628525,
+            "reltags": {
+              "admin_level": "7",
+              "boundary": "administrative",
+              "name": "Lakatameia",
+              "name:de": "Lakatamia",
+              "name:el": "Λακατάμεια",
+              "name:ru": "Лакатамия",
+              "name:uk": "Лакатамія",
+              "place": "town",
+              "type": "boundary",
+              "wikidata": "Q349503",
+              "wikipedia": "el:Λακατάμια"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3078496,
+          35.1200946
+        ]
+      },
+      "id": "node/2052006010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2052006016",
+        "is_in": "Cyprus",
+        "is_in:country": "Cyprus",
+        "is_in:country_code": "CY",
+        "name": "Στρόβολος",
+        "name:ar": "استروفولوس",
+        "name:de": "Strovolos",
+        "name:el": "Στρόβολος",
+        "name:en": "Strovolos",
+        "name:es": "Strovolos",
+        "name:fr": "Strovolos",
+        "name:hu": "Sztróvolosz",
+        "name:ru": "Строволос",
+        "name:tr": "Strovolos",
+        "name:uk": "Строволос",
+        "place": "town",
+        "population": "67904",
+        "population:date": "2011",
+        "wikidata": "Q668370",
+        "wikipedia": "en:Strovolos",
+        "@relations": [
+          {
+            "role": "admin_centre",
+            "rel": 2628527,
+            "reltags": {
+              "admin_level": "7",
+              "boundary": "administrative",
+              "name": "Strovolos",
+              "name:ar": "استروفولوس",
+              "name:ru": "Строволос",
+              "name:uk": "Строволос",
+              "place": "town",
+              "type": "boundary",
+              "wikidata": "Q668370",
+              "wikipedia": "en:Strovolos"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3454972,
+          35.1328993
+        ]
+      },
+      "id": "node/2052006016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2057562429",
+        "name": "Λατσιά",
+        "name:el": "Λατσιά",
+        "name:en": "Latsia",
+        "name:hu": "Laciá",
+        "name:uk": "Лачія",
+        "place": "town",
+        "population": "12195",
+        "website": "http://www.latsia.org.cy/",
+        "wikidata": "Q2430447",
+        "wikipedia": "en:Latsia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3815988,
+          35.0995648
+        ]
+      },
+      "id": "node/2057562429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2109675460",
+        "name": "Tσέρι",
+        "name:el": "Τσέρι",
+        "name:en": "Tseri",
+        "name:eu": "Tseri",
+        "name:hu": "Tszéri",
+        "name:uk": "Цері",
+        "place": "town",
+        "population": "7035",
+        "wikidata": "Q3541492",
+        "wikipedia": "en:Tseri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.324669,
+          35.0726972
+        ]
+      },
+      "id": "node/2109675460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5614350943",
+        "capital": "5",
+        "name": "Πάφος",
+        "name:ar": "بافوس",
+        "name:de": "Paphos",
+        "name:el": "Πάφος",
+        "name:en": "Pafos",
+        "name:es": "Pafos",
+        "name:et": "Paphos",
+        "name:eu": "Pafos",
+        "name:fr": "Paphos",
+        "name:hu": "Páfosz",
+        "name:it": "Pafo",
+        "name:ml": "പാഫോസ്",
+        "name:ru": "Пафос",
+        "name:uk": "Пафос",
+        "place": "city",
+        "population": "32892",
+        "website": "https://www.pafos.org.cy/",
+        "wikidata": "Q180918",
+        "wikipedia": "es:Pafos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.4231586,
+          34.7743988
+        ]
+      },
+      "id": "node/5614350943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6572625863",
+        "alt_name:uk": "Гьоньєлі",
+        "name": "Gönyeli",
+        "name:el": "Κιόνελι",
+        "name:en": "Gönyeli",
+        "name:tr": "Gönyeli",
+        "name:uk": "Кіонелі",
+        "place": "town",
+        "population": "11671",
+        "wikidata": "Q4822077",
+        "wikipedia": "en:Gönyeli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.302562,
+          35.2145138
+        ]
+      },
+      "id": "node/6572625863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6615980502",
+        "alt_name:uk": "Гюзельюрт",
+        "capital": "5",
+        "name": "Güzelyurt",
+        "name:ar": "مورفو",
+        "name:azb": "مورفو",
+        "name:el": "Μορφου",
+        "name:en": "Morphou",
+        "name:eu": "Morfou",
+        "name:fa": "مورفو",
+        "name:hu": "Güzelyurt",
+        "name:tr": "Güzelyurt",
+        "name:uk": "Морфу",
+        "name:ur": "مورفو",
+        "place": "town",
+        "wikidata": "Q830638",
+        "wikipedia": "en:Morphou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.9934993,
+          35.1985518
+        ]
+      },
+      "id": "node/6615980502"
+    }
+  ]
+}

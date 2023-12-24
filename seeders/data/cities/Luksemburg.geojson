@@ -1,0 +1,615 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-12-16T16:50:22Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/52932305",
+        "name": "Ettelbruck",
+        "name:de": "Ettelbrück",
+        "name:lb": "Ettelbréck",
+        "name:lt": "Etelbriukas",
+        "name:ru": "Эттельбрюк",
+        "place": "town",
+        "population": "7795",
+        "population:date": "2020-12-31",
+        "source:population": "https://data.public.lu/fr/datasets/population-par-localite-population-per-locality"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0984659,
+          49.8470016
+        ]
+      },
+      "id": "node/52932305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/52938674",
+        "name": "Diekirch",
+        "name:als": "Dikrech",
+        "name:be": "Дзікірх",
+        "name:bg": "Дикирх",
+        "name:de": "Diekirch",
+        "name:fa": "دیکیرش",
+        "name:fr": "Diekirch",
+        "name:lb": "Dikrech",
+        "name:lt": "Dykirchas",
+        "name:ru": "Дикирх",
+        "name:sr": "Дикирх",
+        "name:uk": "Дікірх",
+        "place": "town",
+        "population": "7047",
+        "population:date": "2020-12-31",
+        "source:population": "https://data.public.lu/fr/datasets/population-par-localite-population-per-locality",
+        "wikidata": "Q16050",
+        "wikipedia": "lb:Dikrech"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1600549,
+          49.8690898
+        ]
+      },
+      "id": "node/52938674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/52943358",
+        "admin_level": "2",
+        "alt_name:la": "Luxemburgum",
+        "capital": "yes",
+        "capital_ISO3166-1": "yes",
+        "name": "Luxembourg",
+        "name:ace": "Luksèmburg",
+        "name:af": "Luxemburg",
+        "name:als": "Luxemburg",
+        "name:am": "ሉክሰምበርግ",
+        "name:an": "Luxemburgo",
+        "name:ang": "Letseburg",
+        "name:ar": "لوكسمبورغ",
+        "name:arc": "ܠܘܟܣܡܒܘܪܓ",
+        "name:arz": "لوكسيمبورج",
+        "name:ast": "Luxemburgu",
+        "name:az": "Lüksemburq",
+        "name:ba": "Люксембург",
+        "name:bar": "Luxmburg",
+        "name:bat-smg": "Lioksembōrgs",
+        "name:bcl": "Luhemburgo",
+        "name:be": "Люксембург",
+        "name:be-tarask": "Люксэмбург",
+        "name:bg": "Люксембург",
+        "name:bi": "Luxembourg",
+        "name:bn": "লুক্সেমবুর্গ",
+        "name:bo": "ལུ་སེམ་བའུརག",
+        "name:bpy": "লুক্সেমবুর্গ",
+        "name:br": "Luksembourg",
+        "name:bs": "Luxembourg",
+        "name:bxr": "Люксембург",
+        "name:ca": "Ciutat de Luxemburg",
+        "name:cdo": "Lù-sĕng-bō̤",
+        "name:ce": "Люксембург",
+        "name:ceb": "Luksemburgo",
+        "name:ckb": "لوکسەمبورگ",
+        "name:co": "Lussemburgu",
+        "name:crh": "Lüksemburg",
+        "name:cs": "Lucemburk",
+        "name:csb": "Luksembùrg",
+        "name:cu": "Люѯємбоургъ",
+        "name:cv": "Люксембург",
+        "name:cy": "Dinas Lwcsembwrg",
+        "name:da": "Luxembourg",
+        "name:de": "Luxemburg",
+        "name:diq": "Luksemburg",
+        "name:dsb": "Luxemburgska",
+        "name:ee": "Luxembourg",
+        "name:el": "Λουξεμβούργο",
+        "name:eml": "Lussembûrgh",
+        "name:en": "Luxembourg",
+        "name:eo": "Luksemburgo",
+        "name:es": "Luxemburgo",
+        "name:et": "Luxembourg",
+        "name:eu": "Luxenburgo",
+        "name:ext": "Lussembulgu",
+        "name:fa": "لوکزامبورگ",
+        "name:fi": "Luxemburg",
+        "name:fo": "Luksemburg",
+        "name:fr": "Luxembourg",
+        "name:frp": "Luxembôrg",
+        "name:frr": "Luxemborj",
+        "name:fur": "Lussemburc",
+        "name:fy": "Lúksemboarch",
+        "name:ga": "Lucsamburg",
+        "name:gag": "Lüksemburg",
+        "name:gd": "Lucsamburg",
+        "name:gl": "Luxemburgo",
+        "name:gn": "Luxemburgo",
+        "name:gu": "લક્ઝેમ્બર્ગ",
+        "name:gv": "Lucsemburg",
+        "name:hak": "Lù-sêm-pó",
+        "name:haw": "Lukemapuka",
+        "name:he": "לוקסמבורג",
+        "name:hi": "लक्ज़मबर्ग",
+        "name:hif": "Luxembourg",
+        "name:hr": "Luksemburg",
+        "name:hsb": "Luxemburgska",
+        "name:ht": "Liksanbou",
+        "name:hu": "Luxembourg",
+        "name:hy": "Լյուքսեմբուրգ",
+        "name:ia": "Luxemburg",
+        "name:id": "Luksemburg",
+        "name:ie": "Luxemburgia",
+        "name:ilo": "Luxembourg",
+        "name:io": "Luxemburgia",
+        "name:is": "Lúxemborg",
+        "name:it": "Lussemburgo",
+        "name:ja": "ルクセンブルク",
+        "name:jbo": "lEtsyburg",
+        "name:jv": "Luksemburg",
+        "name:ka": "ლუქსემბურგი",
+        "name:kaa": "Lyuksemburg",
+        "name:kab": "Luxembourg",
+        "name:kbd": "Луксембург",
+        "name:kg": "Luxembourg",
+        "name:kk": "Люксембург",
+        "name:kl": "Luxembourg",
+        "name:kn": "ಲುಕ್ಸೆಂಬೂರ್ಗ್",
+        "name:ko": "룩셈부르크",
+        "name:koi": "Лецебург",
+        "name:krc": "Люксембург",
+        "name:ksh": "Luxemburg",
+        "name:ku": "Lûksembûrg",
+        "name:kv": "Люксембург",
+        "name:kw": "Lushaborg",
+        "name:ky": "Люксембург",
+        "name:la": "Luxemburgum",
+        "name:lad": "Luksemburgo",
+        "name:lb": "Lëtzebuerg",
+        "name:lez": "Люксембург",
+        "name:li": "Luxembörg",
+        "name:lij": "Luxemburgo",
+        "name:lmo": "Lüssemburgh",
+        "name:ln": "Luksamburg",
+        "name:lt": "Liuksemburgas",
+        "name:ltg": "Luksemburga",
+        "name:lv": "Luksemburga",
+        "name:lzh": "盧森堡",
+        "name:mdf": "Люксембур",
+        "name:mg": "Loksemborga",
+        "name:mhr": "Люксембург",
+        "name:mi": "Rakapuō",
+        "name:mk": "Луксембург",
+        "name:ml": "ലക്സംബർഗ്",
+        "name:mn": "Люксембург",
+        "name:mr": "लक्झेंबर्ग",
+        "name:ms": "Bandar Luxembourg",
+        "name:mt": "Lussemburgu",
+        "name:my": "လူဇင်ဘတ်နိုင်ငံ",
+        "name:mzn": "لوکزامبورگ",
+        "name:na": "Ruketemburg",
+        "name:nah": "Luxemburgo",
+        "name:nan": "Luxembourg",
+        "name:nds": "Luxemborg",
+        "name:nds-nl": "Luxemburg",
+        "name:ne": "लक्जेम्बर्ग",
+        "name:new": "लक्जेम्बर्ग",
+        "name:nl": "Luxemburg",
+        "name:nn": "Luxembourg by",
+        "name:no": "Luxembourg",
+        "name:nov": "Luxembourg",
+        "name:nrm": "Luxembourg",
+        "name:nv": "Látsębooʼ",
+        "name:oc": "Luxemborg",
+        "name:or": "ଲକ୍ସମବର୍ଗ",
+        "name:os": "Люксембург",
+        "name:pa": "ਲਕਸਮਬਰਗ",
+        "name:pam": "Luxemburgo",
+        "name:pap": "Luxembourg",
+        "name:pcd": "Lussimbourk",
+        "name:pdc": "Luxemburg",
+        "name:pfl": "Lugsebursch",
+        "name:pih": "Luksemborg",
+        "name:pl": "Luksemburg",
+        "name:pms": "Lussemborgh",
+        "name:pnb": "لکسمبرگ",
+        "name:pnt": "Λουξεμβούργο",
+        "name:ps": "لوګزامبورګ",
+        "name:pt": "Luxemburgo",
+        "name:qu": "Luksimbur",
+        "name:rm": "Luxemburg",
+        "name:rmy": "Luksemburgo",
+        "name:ro": "Luxemburg",
+        "name:roa-tara": "Lussemburghe",
+        "name:ru": "Люксембург",
+        "name:rue": "Луксембурьско",
+        "name:rw": "Lugizamburu",
+        "name:sa": "लक्सम्बर्ग",
+        "name:sah": "Лүксембург",
+        "name:sc": "Lussemburgu",
+        "name:scn": "Lussimburgu",
+        "name:sco": "Luxembourg",
+        "name:se": "Luxemburg",
+        "name:sh": "Luksemburg",
+        "name:simple": "Luxembourg City",
+        "name:sk": "Luxemburg",
+        "name:sl": "Luksemburg",
+        "name:so": "Luksemburg",
+        "name:sq": "Luksemburgu",
+        "name:sr": "Луксембург",
+        "name:srn": "Luksemburgkondre",
+        "name:ss": "Lusembogu",
+        "name:stq": "Luxembuurich",
+        "name:su": "Luksemburg",
+        "name:sv": "Luxemburg",
+        "name:sw": "Luxemburg",
+        "name:szl": "Luksymburg",
+        "name:ta": "லக்சம்பர்க்",
+        "name:tet": "Luxemburgu",
+        "name:tg": "Люксембург",
+        "name:th": "ลักเซมเบิร์ก",
+        "name:tk": "Lýuksemburg",
+        "name:tl": "Lungsod ng Luxembourg",
+        "name:tr": "Lüksemburg",
+        "name:tt": "Люксембург",
+        "name:udm": "Люксембург",
+        "name:ug": "ليۇكسېمبۇرگ شەھىرى",
+        "name:uk": "Люксембург",
+        "name:ur": "لکسمبرگ",
+        "name:uz": "Luksemburg",
+        "name:vec": "Lusenburgo",
+        "name:vep": "Lüksemburg",
+        "name:vi": "Luxembourg",
+        "name:vls": "Luxemburg",
+        "name:vo": "Luxämburgän",
+        "name:vro": "Luxembourg",
+        "name:wa": "Lussimbork veye",
+        "name:war": "Luxemburgo",
+        "name:wo": "Luksambuur",
+        "name:wuu": "卢森堡",
+        "name:xal": "Лүксин Балһсна Нутг",
+        "name:xmf": "ლუქსემბურგი",
+        "name:yi": "לוקסעמבורג",
+        "name:yo": "Luxembourg",
+        "name:yue": "盧森堡",
+        "name:zea": "Luxemburg",
+        "name:zh": "卢森堡 / 盧森堡",
+        "name:zh-Hans": "卢森堡",
+        "name:zh-Hant": "盧森堡",
+        "place": "city",
+        "population": "122273",
+        "population:date": "2020-01-03",
+        "source:population": "https://data.public.lu/fr/datasets/population-par-localite-population-per-locality",
+        "wikidata": "Q1842",
+        "wikipedia": "lb:Lëtzebuerg (Stad)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.129799,
+          49.6112768
+        ]
+      },
+      "id": "node/52943358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/132015841",
+        "alt_name:lb": "Eechternoach",
+        "name": "Echternach",
+        "name:als": "Iechternach",
+        "name:be": "Эхтэрнах",
+        "name:bg": "Ехтернах",
+        "name:de": "Echternach",
+        "name:fr": "Echternach",
+        "name:ja": "エヒタナハ",
+        "name:ka": "ეხტერნახი",
+        "name:lb": "Iechternach",
+        "name:lt": "Echternachas",
+        "name:ru": "Эхтернах",
+        "name:sr": "Ехтернах",
+        "name:uk": "Ехтернах",
+        "name:wa": "Echternak",
+        "place": "town",
+        "population": "5617",
+        "population:date": "2020-01-03",
+        "source:population": "https://data.public.lu/fr/datasets/population-par-localite-population-per-locality",
+        "wikidata": "Q204317",
+        "wikipedia": "lb:Iechternach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4214859,
+          49.8120961
+        ]
+      },
+      "id": "node/132015841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/180650109",
+        "name": "Wiltz",
+        "name:lb": "Wolz",
+        "name:lt": "Vilcas",
+        "name:ru": "Вильц",
+        "place": "town",
+        "population": "5405",
+        "population:date": "2020-09-30",
+        "source:population": "https://data.public.lu/fr/datasets/population-par-localite-population-per-locality"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9321021,
+          49.9666914
+        ]
+      },
+      "id": "node/180650109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/203125341",
+        "alt_name:lb": "Beetebuerg",
+        "name": "Bettembourg",
+        "name:de": "Bettemburg",
+        "name:fr": "Bettembourg",
+        "name:lb": "Beetebuerg",
+        "name:lt": "Betembūras",
+        "place": "town",
+        "population": "9049",
+        "population:date": "2020-01-03",
+        "source:population": "https://data.public.lu/fr/datasets/population-par-localite-population-per-locality"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0966536,
+          49.5173351
+        ]
+      },
+      "id": "node/203125341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/203133645",
+        "is_in:country": "Luxembourg",
+        "name": "Dudelange",
+        "name:de": "Düdelingen",
+        "name:fr": "Dudelange",
+        "name:lb": "Diddeleng",
+        "name:lt": "Diudelanžas",
+        "name:ru": "Дюделанж",
+        "place": "town",
+        "population": "21291",
+        "population:date": "2020-01-03",
+        "source:population": "https://data.public.lu/fr/datasets/population-par-localite-population-per-locality",
+        "wikidata": "Q20969331",
+        "wikipedia": "lb:Diddeleng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0847792,
+          49.4786477
+        ]
+      },
+      "id": "node/203133645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/247368754",
+        "name": "Schifflange",
+        "name:de": "Schifflingen",
+        "name:fr": "Schifflange",
+        "name:lb": "Schëffleng",
+        "name:lt": "Šiflanžas",
+        "name:uk": "Шиффланж",
+        "place": "town",
+        "population": "11293",
+        "population:date": "2020-01-03",
+        "source:population": "https://data.public.lu/fr/datasets/population-par-localite-population-per-locality",
+        "website": "https://schifflange.lu/",
+        "wikidata": "Q669155",
+        "wikipedia": "lb:Schëffleng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0118175,
+          49.5062732
+        ]
+      },
+      "id": "node/247368754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/247989176",
+        "is_in:country": "Luxembourg",
+        "name": "Remich",
+        "name:lb": "Réimech",
+        "name:lt": "Rėmichas",
+        "name:ru": "Ремих",
+        "place": "town",
+        "population": "3732",
+        "population:date": "2020-01-03",
+        "source:population": "https://data.public.lu/fr/datasets/population-par-localite-population-per-locality"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3676062,
+          49.5442267
+        ]
+      },
+      "id": "node/247989176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/265466889",
+        "is_in:country": "Luxembourg",
+        "loc_name": "Déifferdang",
+        "name": "Differdange",
+        "name:de": "Differdingen",
+        "name:lb": "Déifferdeng",
+        "name:lt": "Diferdanžas",
+        "name:ru": "Дифферданж",
+        "place": "town",
+        "population": "15022",
+        "population:date": "2020-01-03",
+        "source:population": "https://data.public.lu/fr/datasets/population-par-localite-population-per-locality",
+        "wikidata": "Q4844168",
+        "wikipedia": "lb:Déifferdeng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.889242,
+          49.5208469
+        ]
+      },
+      "id": "node/265466889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/265721067",
+        "name": "Pétange",
+        "name:de": "Petingen",
+        "name:lb": "Péiténg",
+        "name:lt": "Petanžas",
+        "place": "town",
+        "population": "9455",
+        "population:date": "2020-01-03",
+        "source:population": "https://data.public.lu/fr/datasets/population-par-localite-population-per-locality",
+        "wikidata": "Q29105819",
+        "wikipedia": "lb:Péiteng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8776052,
+          49.5566918
+        ]
+      },
+      "id": "node/265721067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/268622788",
+        "alt_name:lb": "Maacher",
+        "name": "Grevenmacher",
+        "name:de": "Grevenmacher",
+        "name:lb": "Gréiwemaacher",
+        "name:lt": "Grėvenmacheris",
+        "name:ru": "Гревенмахер",
+        "place": "town",
+        "population": "4936",
+        "population:date": "2020-01-03",
+        "source:population": "https://data.public.lu/fr/datasets/population-par-localite-population-per-locality",
+        "wikidata": "Q4132923",
+        "wikipedia": "lb:Gréiwemaacher"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4430979,
+          49.679313
+        ]
+      },
+      "id": "node/268622788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/303255349",
+        "ele": "469",
+        "name": "Troisvierges",
+        "name:de": "Ulflingen",
+        "name:lb": "Ëlwen",
+        "place": "town",
+        "population": "1799",
+        "population:date": "2020-01-03",
+        "source:population": "https://data.public.lu/fr/datasets/population-par-localite-population-per-locality"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0020737,
+          50.1212652
+        ]
+      },
+      "id": "node/303255349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1583666963",
+        "alt_name:lb": "Cliärref",
+        "capital": "6",
+        "is_in:country": "Luxembourg",
+        "name": "Clervaux",
+        "name:de": "Clerf",
+        "name:fr": "Clervaux",
+        "name:lb": "Klierf",
+        "name:lt": "Klervas",
+        "name:ru": "Клерво",
+        "place": "town",
+        "population": "1425",
+        "population:date": "2020-01-03",
+        "source:population": "https://data.public.lu/fr/datasets/population-par-localite-population-per-locality",
+        "wikidata": "Q836075"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0275511,
+          50.0547912
+        ]
+      },
+      "id": "node/1583666963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1628731564",
+        "contact:website": "www.esch.lu",
+        "is_in:country": "Luxembourg",
+        "name": "Esch-sur-Alzette",
+        "name:de": "Esch an der Alzette",
+        "name:fr": "Esch-sur-Alzette",
+        "name:lb": "Esch-Uelzecht",
+        "name:lt": "Ešas prie Alzeto",
+        "name:ru": "Эш-сюр-Альзетт",
+        "place": "town",
+        "population": "36218",
+        "population:date": "2020-01-03",
+        "source:population": "https://data.public.lu/fr/datasets/population-par-localite-population-per-locality",
+        "wikidata": "Q16010",
+        "wikipedia": "lb:Esch-Uelzecht"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9850306,
+          49.4959628
+        ]
+      },
+      "id": "node/1628731564"
+    }
+  ]
+}

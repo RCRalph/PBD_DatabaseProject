@@ -1,0 +1,809 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-12-16T16:59:40Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/129953030",
+        "alt_name": "Città Hompesch;Casal Zabbar",
+        "alt_name:ar": "جبار",
+        "name": "Ħaż-Żabbar",
+        "name:ar": "الصبار",
+        "name:en": "Zabbar",
+        "name:it": "Zabbar",
+        "name:mt": "Ħaż-Żabbar",
+        "old_name:it": "Zabbaria",
+        "place": "town",
+        "population": "15404",
+        "wikidata": "Q39518",
+        "wikipedia": "en:Żabbar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5374788,
+          35.8753368
+        ]
+      },
+      "id": "node/129953030"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/129953073",
+        "alt_name": "Fgura",
+        "name": "Il-Fgura",
+        "name:it": "Figura",
+        "place": "town",
+        "population": "11670",
+        "postal_code": "FGR",
+        "wikidata": "Q44388",
+        "wikipedia": "en:Fgura"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.520799,
+          35.8728325
+        ]
+      },
+      "id": "node/129953073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/129953376",
+        "alt_name": "Il-Floriana;Borgo Vilhena",
+        "name": "Il-Furjana",
+        "name:en": "Floriana",
+        "name:it": "Floriana",
+        "name:mt": "Il-Furjana",
+        "name:tr": "Furyana",
+        "place": "town",
+        "population": "2205",
+        "wikidata": "Q832807",
+        "wikimedia_commons": "Category:Floriana",
+        "wikipedia": "en:Floriana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5052716,
+          35.8929838
+        ]
+      },
+      "id": "node/129953376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/129953609",
+        "alt_name": "Rabat;Il-Belt Victoria",
+        "alt_name:ar": "الرابات",
+        "name": "Ir-Rabat",
+        "name:ar": "الرباط",
+        "name:en": "Victoria",
+        "name:fr": "Rabat (Victoria)",
+        "name:it": "Rabat",
+        "name:ru": "Виктория",
+        "nat_name": "Rabat",
+        "old_name:ar": "فكتوريا",
+        "old_name:it": "Rabato del Castello",
+        "place": "city",
+        "population": "6901",
+        "wikidata": "Q752348",
+        "wikipedia": "en:Victoria, Gozo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2398479,
+          36.0428907
+        ]
+      },
+      "id": "node/129953609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/130864306",
+        "name": "Ta' Xbiex",
+        "place": "town",
+        "population": "1846",
+        "wikidata": "Q1017348",
+        "wikipedia": "en:Ta' Xbiex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4948986,
+          35.8991087
+        ]
+      },
+      "id": "node/130864306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/130868022",
+        "alt_name:en": "Gzira",
+        "name": "Il-Gżira",
+        "name:en": "Gżira",
+        "name:it": "Gezira",
+        "place": "town",
+        "population": "8029",
+        "wikidata": "Q632097",
+        "wikipedia": "en:Gżira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4961247,
+          35.9077803
+        ]
+      },
+      "id": "node/130868022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/130869315",
+        "name": "San Ġwann",
+        "name:it": "San Giovanni",
+        "place": "town",
+        "population": "12523",
+        "wikidata": "Q39507",
+        "wikipedia": "en:San Ġwann"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4788042,
+          35.9093052
+        ]
+      },
+      "id": "node/130869315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/130871200",
+        "name": "San Ġiljan",
+        "name:en": "Saint Julian's",
+        "name:es": "San Julián",
+        "name:gcf": "Sen Jilyàn",
+        "name:it": "San Giuliano",
+        "name:mt": "San Ġiljan",
+        "name:ru": "Сан Джулианс",
+        "place": "town",
+        "population": "10232",
+        "wikidata": "Q669979",
+        "wikipedia": "en:St. Julian's, Malta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4877119,
+          35.9199225
+        ]
+      },
+      "id": "node/130871200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/130875582",
+        "name": "Is-Swieqi",
+        "name:en": "Swieqi",
+        "name:it": "Suiechi",
+        "name:ru": "Свийи",
+        "place": "town",
+        "population": "7749",
+        "wikidata": "Q220667",
+        "wikipedia": "en:Swieqi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.469548,
+          35.9236256
+        ]
+      },
+      "id": "node/130875582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/130877808",
+        "alt_name:ar": "ناكسار",
+        "name": "In-Naxxar",
+        "name:ar": "الناشار",
+        "name:en": "Naxxar",
+        "name:it": "Nasciaro",
+        "name:lt": "Našaras",
+        "place": "town",
+        "population": "13443",
+        "wikidata": "Q44397",
+        "wikipedia": "en:Naxxar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4432851,
+          35.9133396
+        ]
+      },
+      "id": "node/130877808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/130878149",
+        "alt_name": "Mosta",
+        "alt_name:it": "Casal Musta",
+        "name": "Il-Mosta",
+        "name:ar": "موستا",
+        "name:en": "Mosta",
+        "name:it": "Musta",
+        "place": "town",
+        "population": "20241",
+        "wikidata": "Q39520",
+        "wikipedia": "en:Mosta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4241508,
+          35.9079178
+        ]
+      },
+      "id": "node/130878149"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/130878486",
+        "alt_name:ar": "بيركيركارا",
+        "alt_name:en": "B'Kara",
+        "name": "Birkirkara",
+        "name:ar": "بئر كيركرة",
+        "name:en": "Birkirkara",
+        "name:it": "Birchircara",
+        "place": "town",
+        "population": "22247",
+        "wikidata": "Q39583",
+        "wikipedia": "en:Birkirkara"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4649578,
+          35.8994547
+        ]
+      },
+      "id": "node/130878486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/130880844",
+        "name": "L-Imsida",
+        "name:en": "Msida",
+        "name:it": "Misida",
+        "place": "town",
+        "population": "7623",
+        "wikidata": "Q585187",
+        "wikipedia": "en:Msida"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4891829,
+          35.8956943
+        ]
+      },
+      "id": "node/130880844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/130881508",
+        "alt_name:it": "Hamrun",
+        "name": "Il-Ħamrun",
+        "name:en": "Hamrun",
+        "name:it": "Ħamrun",
+        "old_name:it": "Casale San Giuseppe",
+        "place": "town",
+        "population": "9513"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4854096,
+          35.8867896
+        ]
+      },
+      "id": "node/130881508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/130883184",
+        "name": "Ħal Qormi",
+        "name:el": "Όρμι",
+        "name:en": "Qormi",
+        "name:it": "Curmi",
+        "name:lt": "Kormis",
+        "name:mt": "Ħal Qormi",
+        "name:ru": "Корми",
+        "place": "town",
+        "population": "16779",
+        "wikidata": "Q39578",
+        "wikipedia": "en:Qormi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4739598,
+          35.877464
+        ]
+      },
+      "id": "node/130883184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/130885854",
+        "alt_name:ar": "زيباغ",
+        "alt_name:it": "Casal Zebbugi",
+        "name": "Ħaż-Żebbuġ",
+        "old_name:it": "Città Rohan",
+        "place": "town",
+        "population": "11903",
+        "wikipedia": "en:Ħaż-Żebbuġ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4398593,
+          35.8725956
+        ]
+      },
+      "id": "node/130885854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/130888701",
+        "alt_name:ar": "زرياق",
+        "alt_name:en": "Zurrieq",
+        "name": "Iż-Żurrieq",
+        "name:ar": "الزرياق",
+        "name:en": "Żurrieq",
+        "name:it": "Zurrico",
+        "name:ru": "Зуррик",
+        "place": "town",
+        "population": "11823",
+        "wikidata": "Q44417",
+        "wikipedia": "en:Żurrieq"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4745172,
+          35.8294676
+        ]
+      },
+      "id": "node/130888701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/130891133",
+        "name": "Birżebbuġa",
+        "name:en": "Birzebbugia",
+        "name:it": "Birzebbugia",
+        "name:mt": "Birżebbuġa",
+        "place": "town",
+        "population": "9736",
+        "wikidata": "Q258028",
+        "wikipedia": "en:Birżebbuġa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5274189,
+          35.8269478
+        ]
+      },
+      "id": "node/130891133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/130892778",
+        "alt_name:en": "Zejtun",
+        "name": "Iż-Żejtun",
+        "name:ar": "الزيتون",
+        "name:en": "Żejtun",
+        "name:it": "Zeitun",
+        "place": "town",
+        "population": "11508",
+        "wikidata": "Q44392",
+        "wikipedia": "mt:Żejtun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5315311,
+          35.8537008
+        ]
+      },
+      "id": "node/130892778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/130898763",
+        "alt_name": "Pawla;Paola",
+        "alt_name:it": "Casal Paola;Casal Nuovo",
+        "name": "Raħal Ġdid",
+        "name:en": "Paola",
+        "name:it": "Paola",
+        "name:mt": "Raħal Ġdid",
+        "place": "town",
+        "population": "7864",
+        "wikidata": "Q846589",
+        "wikipedia": "mt:Raħal Ġdid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5073748,
+          35.8717994
+        ]
+      },
+      "id": "node/130898763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/130908825",
+        "alt_name:ar": "الرابات",
+        "alt_name:it": "Rabato della Notabile",
+        "name": "Ir-Rabat",
+        "name:ar": "الرباط",
+        "name:de": "Rabat",
+        "name:el": "Ραμπάτ",
+        "name:en": "Rabat",
+        "name:es": "Rabat",
+        "name:it": "Rabat",
+        "name:mt": "Ir-Rabat",
+        "name:sr": "Рабат",
+        "name:ur": "ربط",
+        "place": "town",
+        "population": "11497",
+        "wikidata": "Q44381",
+        "wikipedia": "en:Rabat, Malta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3988213,
+          35.8818906
+        ]
+      },
+      "id": "node/130908825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/130910723",
+        "alt_name:ar": "عطار;أتارد",
+        "alt_name:it": "Casal Attard",
+        "name": "Ħ'Attard",
+        "name:ar": "عطارد",
+        "name:en": "Attard",
+        "name:it": "Attard",
+        "name:mt": "Ħ'Attard",
+        "place": "town",
+        "population": "10650",
+        "wikidata": "Q44557",
+        "wikipedia": "en:Attard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4430093,
+          35.8909172
+        ]
+      },
+      "id": "node/130910723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/130913962",
+        "name": "Pembroke",
+        "name:ar": "بيمبروك",
+        "name:it": "Pembroke",
+        "place": "town",
+        "population": "3645",
+        "wikidata": "Q775756",
+        "wikipedia": "en:Pembroke, Malta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4795722,
+          35.9281313
+        ]
+      },
+      "id": "node/130913962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/130931427",
+        "alt_name": "Isla;Città Invicta",
+        "alt_name:en": "Città Invicta;Civitas Invicta",
+        "alt_name:it": "Città Senglea",
+        "int_name": "Senglea",
+        "name": "L-Isla",
+        "name:en": "Senglea",
+        "place": "town",
+        "wikidata": "Q846593",
+        "wikipedia": "en:Senglea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.517307,
+          35.887175
+        ]
+      },
+      "id": "node/130931427"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/130931433",
+        "alt_name:en": "Bir Mula;Burmola;Bormola;Città Cospicua;Città Cottonera;Civitas Cottonera",
+        "alt_name:it": "Burmola",
+        "name": "Bormla",
+        "name:en": "Cospicua",
+        "name:it": "Cospicua",
+        "place": "town",
+        "population": "5395",
+        "wikidata": "Q757225",
+        "wikipedia": "en:Cospicua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.522721,
+          35.8825817
+        ]
+      },
+      "id": "node/130931433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/130932631",
+        "alt_name": "Marsaskala",
+        "alt_name:ar": "مارساسكالا",
+        "name": "Wied il-Għajn",
+        "name:ar": "وادي العين",
+        "name:en": "Marsascala",
+        "name:it": "Marsascala",
+        "name:mt": "Wied il-Għajn",
+        "place": "town",
+        "population": "12134",
+        "short_name": "M'Skala",
+        "wikidata": "Q534571",
+        "wikipedia": "mt:Wied il-Għajn (Marsaskala)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5591879,
+          35.8629162
+        ]
+      },
+      "id": "node/130932631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1501825792",
+        "name": "San Pawl il-Baħar",
+        "name:ar": "البحر القديس بولس",
+        "name:cs": "Záliv Sv. Pavla",
+        "name:en": "Saint Paul's Bay",
+        "name:es": "Bahía de San Pablo",
+        "name:it": "Baia di San Paolo",
+        "name:mt": "San Pawl il-Baħar",
+        "name:ru": "Сент-Полс-Бэй",
+        "place": "town",
+        "population": "21046",
+        "wikidata": "Q39521",
+        "wikipedia": "en:St. Paul's Bay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3973929,
+          35.9480742
+        ]
+      },
+      "id": "node/1501825792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1501849405",
+        "name": "Tas-Sliema",
+        "name:ar": "سليمة",
+        "name:en": "Sliema",
+        "name:it": "Sliema",
+        "name:ru": "Слима",
+        "name:zh": "斯利馬",
+        "place": "town",
+        "population": "16854",
+        "wikidata": "Q39526",
+        "wikipedia": "en:Sliema"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5020708,
+          35.9127609
+        ]
+      },
+      "id": "node/1501849405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1501909943",
+        "admin_level": "2",
+        "alt_name": "Il-Belt",
+        "alt_name:ar": "فالتة;لا فاليتا",
+        "capital": "yes",
+        "capital_ISO3166-1": "yes",
+        "name": "Valletta",
+        "name:am": "ቫሌታ",
+        "name:ar": "فاليتا",
+        "name:arz": "فاليتا",
+        "name:be": "Валета",
+        "name:be-tarask": "Валета",
+        "name:bg": "Валета",
+        "name:bn": "ভাল্লেত্তা",
+        "name:bo": "ཝ་ལེ་ཐ།",
+        "name:br": "Valletta",
+        "name:ca": "La Valletta",
+        "name:ckb": "واڵێتا",
+        "name:cv": "Валлетта",
+        "name:de": "Valletta",
+        "name:el": "Βαλέτα",
+        "name:en": "Valletta",
+        "name:eo": "La-Valeto",
+        "name:es": "La Valeta",
+        "name:eu": "Valleta",
+        "name:fa": "والتا",
+        "name:fr": "La Valette",
+        "name:ga": "Vaileite",
+        "name:gag": "Valetta",
+        "name:gcf": "Valèt",
+        "name:gl": "A Valeta",
+        "name:he": "ולטה",
+        "name:ht": "La Valèt",
+        "name:hu": "Valetta",
+        "name:hy": "Վալետա",
+        "name:is": "Valletta",
+        "name:it": "La Valletta",
+        "name:ja": "バレッタ",
+        "name:ka": "ვალეტა",
+        "name:kn": "ವಲೆಟ್ಟ",
+        "name:ko": "발레타",
+        "name:lij": "A Valletta",
+        "name:lmo": "La Valeta",
+        "name:lt": "Valeta",
+        "name:lv": "Valleta",
+        "name:mk": "Валета",
+        "name:mr": "व्हॅलेटा",
+        "name:no": "Valletta",
+        "name:oc": "La Valeta",
+        "name:os": "Валлеттæ",
+        "name:pl": "Valletta",
+        "name:pms": "La Valëtta",
+        "name:pnb": "ولیٹا",
+        "name:pt": "Valeta",
+        "name:ru": "Валлетта",
+        "name:sk": "Valletta",
+        "name:sq": "Valeta",
+        "name:sr": "Валета",
+        "name:sr-Latn": "Valeta",
+        "name:sv": "Valletta",
+        "name:ta": "வல்லெட்டா",
+        "name:tg": "Валлетта",
+        "name:th": "วัลเลตตา",
+        "name:tr": "Valetta",
+        "name:tt": "Валлетта",
+        "name:udm": "Валлетта",
+        "name:uk": "Валлетта",
+        "name:vep": "Vallett",
+        "name:wo": "Waleta",
+        "name:yue": "華列他",
+        "name:zh": "瓦萊塔",
+        "name:zh-Hans": "瓦莱塔",
+        "old_name": "Humilissima Civitas Valletta",
+        "old_name:it": "Città Umilissima",
+        "place": "city",
+        "population": "5721",
+        "source:name:br": "ofis publik ar brezhoneg",
+        "website": "http://www.cityofvalletta.org/cityofvalletta/home.aspx",
+        "wikidata": "Q23800",
+        "wikipedia": "es:La Valeta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5136759,
+          35.8989818
+        ]
+      },
+      "id": "node/1501909943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2522930881",
+        "alt_name": "Vittoriosa;Città Vittoriosa",
+        "name": "Il-Birgu",
+        "name:en": "Birgu",
+        "name:it": "Vittoriosa",
+        "place": "town",
+        "population": "2629",
+        "wikidata": "Q752346",
+        "wikipedia": "en:Birgu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5238445,
+          35.8881119
+        ]
+      },
+      "id": "node/2522930881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4224194638",
+        "alt_name:ar": "مدينة",
+        "alt_name:en": "Città Notabile;Città Vecchia Maleth;Melite;Melita",
+        "alt_name:it": "Città Vecchia;Città Notabile",
+        "image": "File:Malta_-_Mdina_-_Triq_Mesquita_-_Pjazza_Mesquita_05_ies.jpg",
+        "name": "L-Imdina",
+        "name:ar": "المدينة",
+        "name:en": "Mdina",
+        "name:it": "Medina",
+        "place": "town",
+        "population": "292"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4025684,
+          35.8859549
+        ]
+      },
+      "id": "node/4224194638"
+    }
+  ]
+}

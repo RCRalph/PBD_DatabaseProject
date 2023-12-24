@@ -1,0 +1,5722 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-12-16T16:54:29Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/111887",
+        "admin_level": "8",
+        "boundary": "administrative",
+        "full_name": "Breitenfurt bei Wien",
+        "name": "Gemeinde Breitenfurt bei Wien",
+        "name:de": "Breitenfurt",
+        "name:hu": "Breitenfurt",
+        "name:ru": "Брайтенфурт",
+        "official_name": "Breitenfurt bei Wien",
+        "place": "town",
+        "population": "5323",
+        "postal_code": "2384",
+        "ref:at:gkz": "31703",
+        "ref:at:okz": "05142",
+        "short_name": "Gemeinde Breitenfurt",
+        "type": "boundary",
+        "wikidata": "Q662190",
+        "wikipedia": "de:Breitenfurt bei Wien",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1589165,
+          48.1363202
+        ]
+      },
+      "id": "relation/111887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/17328659",
+        "ISO3166-1:alpha2": "AT",
+        "admin_level": "2",
+        "alt_name:gl": "Wien",
+        "capital": "yes",
+        "capital_ISO3166-1": "yes",
+        "description": "Wien ist die Hauptstadt der Republik Österreich und zugleich eines der neun österreichischen Bundesländer.",
+        "ele": "542",
+        "name": "Wien",
+        "name:ace": "Wina",
+        "name:af": "Wene",
+        "name:am": "ቪየና",
+        "name:an": "Viena",
+        "name:ar": "فيينا",
+        "name:arc": "ܒܝܝܢܐ",
+        "name:arz": "فيينا",
+        "name:ast": "Viena",
+        "name:az": "Vyana",
+        "name:ba": "Beč",
+        "name:bar": "Wean",
+        "name:bat-smg": "Viena",
+        "name:be": "Вена",
+        "name:be-tarask": "Вена",
+        "name:bg": "Виена",
+        "name:bi": "Vienna",
+        "name:bn": "ভিয়েনা",
+        "name:bo": "ཝི་ཨེ་ན།",
+        "name:br": "Vienna",
+        "name:bs": "Beč",
+        "name:ca": "Viena",
+        "name:ce": "Вена",
+        "name:ceb": "Vienna",
+        "name:ckb": "ڤیێنا",
+        "name:co": "Vienna",
+        "name:crh": "Viyana",
+        "name:cs": "Vídeň",
+        "name:cv": "Вена",
+        "name:de": "Wien",
+        "name:diq": "Wiyana",
+        "name:ee": "Vienna",
+        "name:el": "Βιέννη",
+        "name:en": "Vienna",
+        "name:eo": "Vieno",
+        "name:es": "Viena",
+        "name:et": "Viin",
+        "name:eu": "Viena",
+        "name:ext": "Viena",
+        "name:fa": "وین",
+        "name:fi": "Wien",
+        "name:fr": "Vienne",
+        "name:frp": "Vièna",
+        "name:fur": "Viene",
+        "name:fy": "Wenen",
+        "name:ga": "Vín",
+        "name:gag": "Vena",
+        "name:gd": "Vienna",
+        "name:gl": "Viena",
+        "name:gv": "Veen",
+        "name:he": "וינה",
+        "name:hi": "वियना",
+        "name:hif": "Vienna",
+        "name:hr": "Beč",
+        "name:ht": "Vyèn",
+        "name:hu": "Bécs",
+        "name:hy": "Վիեննա",
+        "name:ia": "Vienna",
+        "name:id": "Wina",
+        "name:ie": "Vienna",
+        "name:ilo": "Vienna",
+        "name:is": "Vín",
+        "name:it": "Vienna",
+        "name:ja": "ウィーン",
+        "name:jv": "Wina",
+        "name:ka": "ვენა",
+        "name:kab": "Wien",
+        "name:kk": "Вена",
+        "name:kn": "ವಿಯೆನ್ನ",
+        "name:ko": "빈",
+        "name:koi": "Вин",
+        "name:krc": "Вена",
+        "name:ku": "Viyana",
+        "name:kv": "Вена",
+        "name:ky": "Вена",
+        "name:la": "Vindobona",
+        "name:lez": "Вена",
+        "name:li": "Wene",
+        "name:lij": "Vienna",
+        "name:lmo": "Viena",
+        "name:ln": "Viɛnɛ",
+        "name:lt": "Viena",
+        "name:lv": "Vīne",
+        "name:mhr": "Вена",
+        "name:mi": "Whiena",
+        "name:mk": "Виена",
+        "name:ml": "വിയന്ന",
+        "name:mn": "Вена",
+        "name:mr": "व्हियेना",
+        "name:mrj": "Вена",
+        "name:ms": "Vienna",
+        "name:my": "ဗီယင်နာမြို့",
+        "name:mzn": "وین",
+        "name:nah": "Viena",
+        "name:nds": "Wien",
+        "name:nds-nl": "Wienen",
+        "name:nl": "Wenen",
+        "name:no": "Wien",
+        "name:oc": "Viena",
+        "name:os": "Венæ",
+        "name:pap": "Viena",
+        "name:pih": "Wienna",
+        "name:pl": "Wiedeń",
+        "name:pms": "Vien-a",
+        "name:pnb": "ویآنا",
+        "name:ps": "وين",
+        "name:pt": "Viena",
+        "name:rm": "Vienna",
+        "name:rmy": "Bech",
+        "name:ro": "Viena",
+        "name:roa-tara": "Vienne",
+        "name:ru": "Вена",
+        "name:rue": "Відень",
+        "name:sah": "Вена",
+        "name:sc": "Vienna",
+        "name:scn": "Vienna",
+        "name:sco": "Vienna",
+        "name:sh": "Beč",
+        "name:sk": "Viedeň",
+        "name:sl": "Dunaj",
+        "name:so": "Fiyena",
+        "name:sq": "Vjena",
+        "name:sr": "Беч",
+        "name:st": "Vienna",
+        "name:sv": "Wien",
+        "name:sw": "Vienna",
+        "name:szl": "Wiedziyń",
+        "name:ta": "வியன்னா",
+        "name:tg": "Вена",
+        "name:th": "เวียนนา",
+        "name:tk": "Wena",
+        "name:tl": "Vienna",
+        "name:tr": "Viyana",
+        "name:tt": "Вена шәһәре",
+        "name:tzl": "Viadna",
+        "name:udm": "Вена",
+        "name:ug": "Wyéna",
+        "name:uk": "Відень",
+        "name:ur": "ویانا",
+        "name:uz": "Vena",
+        "name:vec": "Viena",
+        "name:vep": "Ven",
+        "name:vi": "Viên",
+        "name:vro": "Viin",
+        "name:war": "Vienna",
+        "name:wo": "Wiyen",
+        "name:wuu": "维恩纳",
+        "name:yi": "וויען",
+        "name:yo": "Vienna",
+        "name:yue": "維也納",
+        "name:yue-Latn": "Wai4 Jaa5 Naap6",
+        "name:zh": "維也納",
+        "name:zh-Hans": "维也纳",
+        "name:zh-Hant": "維也納",
+        "name:zh-Latn": "Wéiyěnà",
+        "place": "city",
+        "population": "1920949",
+        "population:date": "2021-01-01",
+        "source:population": "wikipedia",
+        "website": "https://www.wien.gv.at/",
+        "wikidata": "Q1741",
+        "wikipedia": "de:Wien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3725042,
+          48.2083537
+        ]
+      },
+      "id": "node/17328659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/17330426",
+        "ele": "248",
+        "name": "Purkersdorf",
+        "name:de": "Purkersdorf",
+        "name:hu": "Purkersdorf",
+        "name:ru": "Пуркерсдорф",
+        "name:zh": "普尔克尔斯多夫",
+        "place": "town",
+        "population": "9684",
+        "postal_code": "3002",
+        "ref:at:gkz": "3241601",
+        "ref:at:okz": "06722",
+        "wikidata": "Q590620",
+        "wikipedia": "de:Purkersdorf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1772068,
+          48.2076724
+        ]
+      },
+      "id": "node/17330426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21015489",
+        "alt_name:hr": "Gradac",
+        "alt_name:la": "Graecium",
+        "alt_name:mk": "Градец",
+        "capital": "4",
+        "ele": "353",
+        "name": "Graz",
+        "name:ar": "غراتس",
+        "name:be": "Грац",
+        "name:be-tarask": "Грац",
+        "name:bg": "Грац",
+        "name:cs": "Štýrský Hradec",
+        "name:de": "Graz",
+        "name:en": "Graz",
+        "name:fr": "Graz",
+        "name:hr": "Graz",
+        "name:hsb": "Štyrski Hródk",
+        "name:hu": "Grác",
+        "name:ka": "გრაცი",
+        "name:la": "Graecia",
+        "name:lt": "Gracas",
+        "name:mk": "Грац",
+        "name:rmc": "Gereci",
+        "name:ru": "Грац",
+        "name:sl": "Gradec",
+        "name:sr": "Грац",
+        "name:ta": "க்ராத்ஸ்",
+        "name:uk": "Грац",
+        "name:zh-Hans": "格拉茨",
+        "name:zh-Hant": "格拉茨",
+        "openGeoDB:community_identification_number": "60101",
+        "openGeoDB:loc_id": "29386",
+        "openGeoDB:postal_codes": "8010,8020,8036,8041,8042,8043,8044,8045,8046,8047,8051,8052,8053,8054,8055,8073,8074,8012,8013,8015,8016,8017,8018,8019,8022,8023,8024,8025,8026,8027,8028,8029,8035,8056",
+        "place": "city",
+        "population": "331359",
+        "population:date": "2020-01",
+        "website": "https://www.graz.at/",
+        "wikidata": "Q13298",
+        "wikipedia": "de:Graz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4382786,
+          47.0708678
+        ]
+      },
+      "id": "node/21015489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/25181326",
+        "alt_name:mk": "Линец",
+        "capital": "4",
+        "ele": "266",
+        "name": "Linz",
+        "name:ar": "لنتس",
+        "name:be": "Лінц",
+        "name:be-tarask": "Лінц",
+        "name:bg": "Линц",
+        "name:cs": "Linec",
+        "name:de": "Linz",
+        "name:en": "Linz",
+        "name:fr": "Linz",
+        "name:hu": "Linz",
+        "name:hy": "Լինց",
+        "name:ja": "リンツ",
+        "name:ka": "ლინყი",
+        "name:la": "Lentia",
+        "name:mk": "Линц",
+        "name:ru": "Линц",
+        "name:sr": "Линц",
+        "name:uk": "Лінц",
+        "place": "city",
+        "population": "207812",
+        "population:date": "2021-01-01",
+        "wikidata": "Q41329",
+        "wikipedia": "de:Linz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.286198,
+          48.3059078
+        ]
+      },
+      "id": "node/25181326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26370473",
+        "ele": "750",
+        "name": "Zell am See",
+        "name:hu": "Zell am See",
+        "name:la": "Cella in Bisoncio",
+        "name:ru": "Целль-ам-Зе",
+        "openGeoDB:auto_update": "population,is_in",
+        "openGeoDB:community_identification_number": "5062805",
+        "openGeoDB:layer": "7",
+        "openGeoDB:loc_id": "30426",
+        "openGeoDB:name": "Zell am See",
+        "openGeoDB:population": "10131",
+        "openGeoDB:postal_codes": "5700,5705",
+        "openGeoDB:sort_name": "ZELL",
+        "openGeoDB:type": "Ort",
+        "openGeoDB:version": "0.2.6.11 / 2007-12-04 / http://fa-technik.adfc.de/code/opengeodb/dump/",
+        "opengeodb:lat": "47.3241083",
+        "opengeodb:lon": "12.7965926",
+        "place": "town",
+        "population": "10131",
+        "source": "landsat",
+        "wikidata": "Q187572",
+        "wikipedia": "de:Zell am See"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7963165,
+          47.3239636
+        ]
+      },
+      "id": "node/26370473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26748998",
+        "ele": "317",
+        "name": "Wels",
+        "name:hu": "Wels",
+        "name:lt": "Velsas",
+        "name:uk": "Вельс",
+        "place": "town",
+        "population": "59853",
+        "website": "https://www.wels.at/",
+        "wikidata": "Q178582",
+        "wikipedia": "de:Wels (Stadt)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243752,
+          48.1565472
+        ]
+      },
+      "id": "node/26748998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26754457",
+        "name": "Leoben",
+        "name:hu": "Leoben",
+        "name:ru": "Леобен",
+        "place": "town",
+        "population": "24645"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0947756,
+          47.3805128
+        ]
+      },
+      "id": "node/26754457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26759080",
+        "name": "Voitsberg",
+        "name:hu": "Voitsberg",
+        "name:ru": "Фойтсберг",
+        "place": "town",
+        "ref:at:gkz": "6162501",
+        "ref:at:okz": "16219"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1474771,
+          47.0504742
+        ]
+      },
+      "id": "node/26759080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26759287",
+        "name": "Köflach",
+        "name:hu": "Köflach",
+        "name:ru": "Кёфлах",
+        "place": "town",
+        "population": "4856"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0850032,
+          47.0644882
+        ]
+      },
+      "id": "node/26759287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26807229",
+        "alt_name": "Wr. Neustadt",
+        "ele": "262",
+        "geonameid": "2761353",
+        "import_ref": "city_import_at_1",
+        "name": "Wiener Neustadt",
+        "name:ar": "فينر نويشتات",
+        "name:bg": "Винер Нойщат",
+        "name:bs": "Bečko Novo Mjesto",
+        "name:cs": "Vídeňské Nové Město",
+        "name:de": "Wiener Neustadt",
+        "name:he": "וינר נוישטט",
+        "name:hr": "Bečko Novo Mjesto",
+        "name:hu": "Bécsújhely",
+        "name:ja": "ウィーナー・ノイシュタット",
+        "name:ka": "ვენური ახალქალაქი",
+        "name:lt": "Vyner Noištatas",
+        "name:ru": "Винер-Нойштадт",
+        "name:sk": "Viedenské Nové Mesto",
+        "name:sl": "Dunajsko Novo mesto",
+        "name:sr": "Винер Нојштат",
+        "name:uk": "Вінер-Нойштадт",
+        "name:zh": "維也納新城",
+        "place": "town",
+        "population": "38481",
+        "source": "survey",
+        "source:name": "www.geonames.org",
+        "website": "https://www.wiener-neustadt.at/",
+        "wikidata": "Q131612",
+        "wikipedia": "de:Wiener Neustadt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2441166,
+          47.8131847
+        ]
+      },
+      "id": "node/26807229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26807230",
+        "ele": "238",
+        "geonameid": "2771817",
+        "import_ref": "city_import_at_1",
+        "name": "Mattersburg",
+        "name:hr": "Matrštof",
+        "name:hu": "Nagymarton",
+        "name:ru": "Маттерсбург",
+        "place": "town",
+        "population": "7177",
+        "postal_code": "7210",
+        "source:name": "www.geonames.org",
+        "wikidata": "Q250832",
+        "wikipedia": "de:Mattersburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3980488,
+          47.7368423
+        ]
+      },
+      "id": "node/26807230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26807241",
+        "capital": "4",
+        "ele": "182",
+        "name": "Eisenstadt",
+        "name:bar": "Eisnståd",
+        "name:be": "Айзенштат",
+        "name:be-tarask": "Айзенштат",
+        "name:bg": "Айзенщат",
+        "name:cs": "Železno",
+        "name:de": "Eisenstadt",
+        "name:he": "אייזנשטט",
+        "name:hr": "Željezno",
+        "name:hu": "Kismarton",
+        "name:ka": "რკინისქალაქი",
+        "name:la": "Ferreum Castrum",
+        "name:lt": "Eizenštatas",
+        "name:rmc": "Srasta",
+        "name:ru": "Айзенштадт",
+        "name:sk": "Železno",
+        "name:sr": "Ајзенштат",
+        "name:uk": "Айзенштадт",
+        "place": "town",
+        "population": "9243",
+        "postal_code": "7000",
+        "source:name": "www.geonames.org",
+        "wikidata": "Q126321",
+        "wikipedia": "de:Eisenstadt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5249288,
+          47.8454821
+        ]
+      },
+      "id": "node/26807241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26902436",
+        "ele": "513",
+        "name": "Wörgl",
+        "name:hu": "Wörgl",
+        "name:ru": "Вёргль",
+        "place": "town",
+        "population": "13811",
+        "population:date": "2018-01-01",
+        "rank": "20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.0637633,
+          47.4872718
+        ]
+      },
+      "id": "node/26902436"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26902437",
+        "name": "Kufstein",
+        "name:ar": "كوفشتاين",
+        "name:hu": "Kufstein",
+        "name:ja": "クーフシュタイン",
+        "name:ru": "Куфштайн",
+        "name:zh": "库夫施泰因",
+        "place": "town",
+        "population": "19223",
+        "population:date": "2018-01-01",
+        "rank": "20",
+        "wikidata": "Q486341",
+        "wikipedia": "de:Kufstein"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.1692134,
+          47.582996
+        ]
+      },
+      "id": "node/26902437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27270094",
+        "name": "Neulengbach",
+        "name:hu": "Neulengbach",
+        "name:ru": "Нойленгбах",
+        "place": "town",
+        "population": "1529",
+        "source": "gns"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.907098,
+          48.1970124
+        ]
+      },
+      "id": "node/27270094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27270101",
+        "name": "Alland",
+        "name:hu": "Alland",
+        "name:ru": "Алланд",
+        "place": "town",
+        "place:note": "town aufgrund der Bedeutung für die Region gewählt, obwohl population<2000 ist",
+        "population": "1558",
+        "population:date": "2023-01-01",
+        "source": "gns",
+        "source:population": "wikipedia",
+        "wikidata": "Q665137",
+        "wikipedia": "de:Alland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0786108,
+          48.0585791
+        ]
+      },
+      "id": "node/27270101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27270104",
+        "name": "Hainfeld",
+        "name:ru": "Хайнфельд",
+        "place": "town",
+        "population": "2025",
+        "source": "gns"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7711936,
+          48.0348237
+        ]
+      },
+      "id": "node/27270104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27270106",
+        "name": "Stockerau",
+        "name:cs": "Štokrava",
+        "name:hu": "Stockerau",
+        "name:ru": "Штоккерау",
+        "place": "town",
+        "population": "16858",
+        "wikidata": "Q494283",
+        "wikipedia": "de:Stockerau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2076303,
+          48.3846124
+        ]
+      },
+      "id": "node/27270106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27270107",
+        "name": "Korneuburg",
+        "name:hu": "Korneuburg",
+        "name:ru": "Корнойбург",
+        "place": "town",
+        "source": "gns",
+        "wikidata": "Q21879671"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3334321,
+          48.3440605
+        ]
+      },
+      "id": "node/27270107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29748312",
+        "ele": "128",
+        "name": "Purbach am Neusiedler See",
+        "name:de": "Purbach am Neusiedler See",
+        "name:hr": "Porpuh",
+        "name:hu": "Feketeváros",
+        "name:ru": "Пурбах",
+        "official_name": "Purbach am Neusiedler See",
+        "place": "town",
+        "population": "2885",
+        "short_name": "Purbach",
+        "website": "https://www.purbach.at/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6957954,
+          47.913427
+        ]
+      },
+      "id": "node/29748312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29748318",
+        "ele": "123",
+        "name": "Rust",
+        "name:hr": "Rušta",
+        "name:hu": "Ruszt",
+        "name:ru": "Руст",
+        "place": "town",
+        "population": "1980"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6749452,
+          47.8003459
+        ]
+      },
+      "id": "node/29748318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29749399",
+        "name": "Puchberg am Schneeberg",
+        "place": "town",
+        "population": "2812",
+        "short_name": "Puchberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9124064,
+          47.7895615
+        ]
+      },
+      "id": "node/29749399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29749984",
+        "alt_name:hr": "Bruk na Lajti",
+        "name": "Bruck an der Leitha",
+        "name:cs": "Most nad Litavou",
+        "name:hr": "Bruka",
+        "name:hu": "Lajtabruck",
+        "name:ru": "Брук-ан-дер-Лайта",
+        "name:sk": "Most nad Litavou",
+        "place": "town",
+        "reg_name": "Bruck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7790041,
+          48.0255094
+        ]
+      },
+      "id": "node/29749984"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29749986",
+        "name": "Orth an der Donau",
+        "name:hr": "Šari Grad",
+        "name:ru": "Орт-на-Дунае",
+        "name:sk": "Ort",
+        "openGeoDB:auto_update": "population,is_in",
+        "openGeoDB:community_identification_number": "3084401",
+        "openGeoDB:is_in": "Orth an der Donau,Gänserndorf,Niederösterreich,Österreich,Europe",
+        "openGeoDB:is_in_loc_id": "63729",
+        "openGeoDB:layer": "7",
+        "openGeoDB:loc_id": "29926",
+        "openGeoDB:name": "Orth an der Donau",
+        "openGeoDB:population": "1966",
+        "openGeoDB:postal_codes": "2304",
+        "openGeoDB:sort_name": "ORTH",
+        "openGeoDB:type": "Ort",
+        "openGeoDB:version": "0.2.6.11 / 2007-12-04 / http://fa-technik.adfc.de/code/opengeodb/dump/",
+        "opengeodb:lat": "48.1486658",
+        "opengeodb:lon": "16.7017163",
+        "place": "town",
+        "place:note": "town aufgrund der Bedeutung für die Region gewählt, obwohl population<2000 ist",
+        "population": "1966"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7017163,
+          48.1486658
+        ]
+      },
+      "id": "node/29749986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29752440",
+        "ele": "213",
+        "name": "Melk",
+        "name:cs": "Medlík",
+        "name:ru": "Мельк",
+        "place": "town",
+        "population": "5296",
+        "postal_code": "3390",
+        "wikidata": "Q489806",
+        "wikipedia": "de:Melk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3369992,
+          48.2272068
+        ]
+      },
+      "id": "node/29752440"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29777261",
+        "ele": "501",
+        "name": "Villach",
+        "name:cs": "Bělák",
+        "name:de": "Villach",
+        "name:fur": "Vilac",
+        "name:hu": "Villach",
+        "name:it": "Villaco",
+        "name:ka": "ფილახი",
+        "name:ru": "Филлах",
+        "name:sl": "Beljak",
+        "place": "town",
+        "population": "61221",
+        "population:date": "2016",
+        "postal_code": "9500",
+        "wikidata": "Q483522",
+        "wikipedia": "de:Villach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8500268,
+          46.6167284
+        ]
+      },
+      "id": "node/29777261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29777988",
+        "alt_name:hr": "Celovac",
+        "capital": "4",
+        "ele": "446",
+        "name": "Klagenfurt",
+        "name:ar": "كلاغنفورت",
+        "name:be": "Клагенфурт",
+        "name:be-tarask": "Клягенфурт",
+        "name:bs": "Celovec",
+        "name:cs": "Celovec",
+        "name:de": "Klagenfurt",
+        "name:en": "Klagenfurt",
+        "name:es": "Klagenfurt",
+        "name:fr": "Klagenfurt",
+        "name:fur": "Clanfurt",
+        "name:hr": "Klagenfurt",
+        "name:hsb": "Celowc",
+        "name:hu": "Klagenfurt",
+        "name:ka": "კლაგენფურთი;ცელოვწი",
+        "name:la": "Clagenfurtum",
+        "name:lt": "Clanforte",
+        "name:lv": "Klāgenfurte",
+        "name:mk": "Клагенфурт",
+        "name:ru": "Клагенфурт",
+        "name:sl": "Celovec ob Vrbskem jezeru",
+        "name:sr": "Клагенфурт",
+        "name:uk": "Клагенфурт",
+        "official_name": "Klagenfurt am Wörthersee",
+        "official_name:de": "Klagenfurt am Wörthersee",
+        "old_name:cs": "Celovec",
+        "place": "city",
+        "population": "100316",
+        "population:date": "2018-01-01",
+        "postal_code": "9020",
+        "website": "https://www.klagenfurt.at/",
+        "wikidata": "Q41753",
+        "wikipedia": "de:Klagenfurt am Wörthersee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3075976,
+          46.623943
+        ]
+      },
+      "id": "node/29777988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29868275",
+        "alt_name": "Heiligenblut am Großglockner",
+        "name": "Heiligenblut",
+        "name:ru": "Хайлигенблут",
+        "place": "town",
+        "population": "1111",
+        "website": "https://heiligenblut.at/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.8421104,
+          47.0392667
+        ]
+      },
+      "id": "node/29868275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/30587791",
+        "addr:postcode": "4810",
+        "ele": "425",
+        "name": "Gmunden",
+        "name:hu": "Gmunden",
+        "name:ru": "Гмунден",
+        "place": "town",
+        "population": "13104",
+        "postal_code": "4810",
+        "wikidata": "Q430449",
+        "wikipedia": "de:Gmunden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8003048,
+          47.9185855
+        ]
+      },
+      "id": "node/30587791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/30589153",
+        "name": "Kirchdorf an der Krems",
+        "name:cs": "Kostelec nad Kremží",
+        "openGeoDB:auto_update": "population,is_in",
+        "openGeoDB:community_identification_number": "4090501",
+        "openGeoDB:is_in": "Kirchdorf an der Krems,Kirchdorf an der Krems,Oberösterreich,Österreich,Europe",
+        "openGeoDB:is_in_loc_id": "70094",
+        "openGeoDB:layer": "7",
+        "openGeoDB:loc_id": "29582",
+        "openGeoDB:name": "Kirchdorf an der Krems",
+        "openGeoDB:population": "4099",
+        "openGeoDB:postal_codes": "4560,4563",
+        "openGeoDB:sort_name": "KIRCHDORF",
+        "openGeoDB:type": "Ort",
+        "openGeoDB:version": "0.2.6.11 / 2007-12-04 / http://fa-technik.adfc.de/code/opengeodb/dump/",
+        "opengeodb:lat": "47.8982554",
+        "opengeodb:lon": "14.1286549",
+        "place": "town",
+        "population": "4099",
+        "wikidata": "Q688620"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1244169,
+          47.905194
+        ]
+      },
+      "id": "node/30589153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/31238390",
+        "name": "Greifenburg",
+        "place": "town"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1804131,
+          46.7506053
+        ]
+      },
+      "id": "node/31238390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/31238737",
+        "name": "Möllbrücke",
+        "place": "town",
+        "wikidata": "Q572166",
+        "wikipedia": "de:Möllbrücke"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3704357,
+          46.8370716
+        ]
+      },
+      "id": "node/31238737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/31238888",
+        "ele": "560",
+        "name": "Spittal",
+        "name:hu": "Spittal an der Drau",
+        "name:ja": "シュピッタール",
+        "official_name:ja": "シュピッタール・アン・デア・ドラウ",
+        "openGeoDB:community_identification_number": "2063523",
+        "openGeoDB:loc_id": "30179",
+        "openGeoDB:postal_codes": "9800,9802,9803",
+        "place": "town",
+        "population": "15549",
+        "wikidata": "Q487500",
+        "wikipedia": "de:Spittal an der Drau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4963308,
+          46.7982211
+        ]
+      },
+      "id": "node/31238888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/32463266",
+        "alt_name": "Sankt Johann in Tirol",
+        "name": "St. Johann in Tirol",
+        "name:hu": "St. Johann in Tirol",
+        "note": "Offizielle Schreibweise l.t. Gemeinde ist St. Johann in Tirol",
+        "place": "town",
+        "wikidata": "Q699599",
+        "wikipedia": "de:St. Johann in Tirol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4286809,
+          47.5224141
+        ]
+      },
+      "id": "node/32463266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/32627098",
+        "name": "Feldkirch",
+        "name:el": "Φέλντκιρχ",
+        "name:ja": "フェルトキルヒ",
+        "name:mk": "Фелдкирх",
+        "name:rm": "Sogn Pieder",
+        "name:uk": "Фельдкірх",
+        "name:zh": "費爾德基希",
+        "place": "town",
+        "population": "35793",
+        "population:date": "2023-01-01",
+        "source:population": "Statistik Austria",
+        "wikidata": "Q183104",
+        "wikipedia": "de:Feldkirch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5981724,
+          47.2375671
+        ]
+      },
+      "id": "node/32627098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/34103909",
+        "name": "Bad Vöslau",
+        "name:de": "Bad Vöslau",
+        "name:hu": "Bad Vöslau",
+        "name:ru": "Бад-Фёслау",
+        "place": "town",
+        "population": "11190",
+        "wikidata": "Q798800",
+        "wikipedia": "de:Bad Vöslau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2148073,
+          47.9655519
+        ]
+      },
+      "id": "node/34103909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/34103911",
+        "addr:postcode": "2500",
+        "alt_name": "Baden bei Wien",
+        "heritage": "1",
+        "heritage:operator": "whc",
+        "heritage:ref": "1613",
+        "heritage:website": "https://whc.unesco.org/en/list/1613/",
+        "name": "Baden",
+        "name:hr": "Teplice",
+        "name:hu": "Baden",
+        "name:lt": "Badenas",
+        "name:ru": "Баден",
+        "note": "Stadt",
+        "place": "town",
+        "population": "25000",
+        "ref:whc": "1613-001",
+        "whc:criteria": "(ii)(iii)",
+        "whc:inscription_date": "2021",
+        "wikidata": "Q486450",
+        "wikipedia": "de:Baden (Niederösterreich)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2334951,
+          48.0085749
+        ]
+      },
+      "id": "node/34103911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/34104024",
+        "ele": "314",
+        "name": "Berndorf",
+        "name:de": "Berndorf",
+        "name:hu": "Berndorf",
+        "name:ru": "Берндорф",
+        "place": "town",
+        "population": "8698",
+        "wikidata": "Q666615",
+        "wikipedia": "de:Berndorf (Niederösterreich)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1093585,
+          47.9455876
+        ]
+      },
+      "id": "node/34104024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/34823766",
+        "name": "Schärding",
+        "name:ru": "Шердинг",
+        "place": "town",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4318,
+          48.4569975
+        ]
+      },
+      "id": "node/34823766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/34840064",
+        "alt_name:cs": "Inomostí",
+        "capital": "4",
+        "ele": "574",
+        "name": "Innsbruck",
+        "name:ar": "إنسبروك",
+        "name:az": "İnsbruk",
+        "name:be": "Інсбрук",
+        "name:be-tarask": "Інсбрук",
+        "name:bg": "Инсбрук",
+        "name:bn": "ইন্সব্রুক",
+        "name:cs": "Innsbruck",
+        "name:cv": "Инсбрук",
+        "name:de": "Innsbruck",
+        "name:el": "Ίνσμπρουκ",
+        "name:en": "Innsbruck",
+        "name:fa": "اینسبروک",
+        "name:fr": "Innsbruck",
+        "name:he": "אינסברוק",
+        "name:hu": "Innsbruck",
+        "name:it": "Innsbruck",
+        "name:ja": "インスブルック",
+        "name:ka": "ინსბრუკი",
+        "name:kk": "Инсбрук",
+        "name:ko": "인스브루크",
+        "name:la": "Pons Aeni",
+        "name:lld": "Dispruch",
+        "name:lt": "Insbrukas",
+        "name:lv": "Insbruka",
+        "name:mk": "Инсбрук",
+        "name:mr": "इन्सब्रुक",
+        "name:os": "Инсбрук",
+        "name:rm": "Puntina",
+        "name:ru": "Инсбрук",
+        "name:sr": "Инзбрук",
+        "name:th": "อินส์บรุค",
+        "name:tr": "İnnsbruck",
+        "name:uk": "Інсбрук",
+        "name:zh": "因斯布鲁克",
+        "name:zh-Hant": "因斯布魯克",
+        "old_name:it": "Ponte sull'Eno",
+        "place": "city",
+        "population": "130585",
+        "population:date": "2022",
+        "website": "http://www.innsbruck.at/",
+        "wikidata": "Q1735",
+        "wikipedia": "de:Innsbruck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3927685,
+          47.2654296
+        ]
+      },
+      "id": "node/34840064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/34841814",
+        "name": "Oberpullendorf/Felsőpulya",
+        "name:hr": "Gornja Pulja",
+        "name:hu": "Felsőpulya",
+        "name:rmc": "Uprutni Puja",
+        "name:ru": "Оберпуллендорф",
+        "place": "town",
+        "population": "3176"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5054577,
+          47.5012609
+        ]
+      },
+      "id": "node/34841814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/34844268",
+        "name": "Mank",
+        "place": "town",
+        "population": "1571"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3410341,
+          48.111069
+        ]
+      },
+      "id": "node/34844268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/34847834",
+        "name": "Fehring",
+        "place": "town"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0104808,
+          46.9360244
+        ]
+      },
+      "id": "node/34847834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/34848074",
+        "name": "Jennersdorf",
+        "name:hr": "Jeništrof",
+        "name:hu": "Gyanafalva",
+        "name:ru": "Йеннерсдорф",
+        "name:sl": "Ženavci",
+        "place": "town",
+        "population": "2351"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1412906,
+          46.9371733
+        ]
+      },
+      "id": "node/34848074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/34849803",
+        "name": "Gleisdorf",
+        "name:ru": "Гляйсдорф",
+        "place": "town",
+        "population": "11072",
+        "population:date": "2021-01-01",
+        "wikidata": "Q643600",
+        "wikipedia": "de:Gleisdorf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7098162,
+          47.1054105
+        ]
+      },
+      "id": "node/34849803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/34852357",
+        "name": "Fürstenfeld",
+        "name:hu": "Fölöstöm",
+        "place": "town"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0816815,
+          47.0499925
+        ]
+      },
+      "id": "node/34852357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/34854128",
+        "name": "Frohnleiten",
+        "place": "town",
+        "population": "6655"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3260206,
+          47.2715315
+        ]
+      },
+      "id": "node/34854128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/34855256",
+        "name": "Bruck an der Mur",
+        "name:hu": "Bruck an der Mur",
+        "name:ru": "Брук-ан-дер-Мур",
+        "place": "town",
+        "population": "9748"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2721668,
+          47.4121987
+        ]
+      },
+      "id": "node/34855256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/34911640",
+        "name": "Leibnitz",
+        "name:de": "Leibnitz",
+        "name:sl": "Lipnica",
+        "place": "town",
+        "wikidata": "Q659860",
+        "wikipedia": "de:Leibnitz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5407005,
+          46.7804762
+        ]
+      },
+      "id": "node/34911640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/34911644",
+        "name": "Deutschlandsberg",
+        "name:hu": "Deutschlandsberg",
+        "name:ru": "Дойчландсберг",
+        "place": "town",
+        "population": "7983"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2137799,
+          46.8146272
+        ]
+      },
+      "id": "node/34911644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/34911700",
+        "name": "Lavamünd",
+        "name:de": "Lavamünd",
+        "name:sl": "Labot",
+        "place": "town",
+        "population": "404",
+        "postal_code": "9473"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9420703,
+          46.6424934
+        ]
+      },
+      "id": "node/34911700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/34911783",
+        "name": "Kapfenberg",
+        "name:ru": "Капфенберг",
+        "place": "town",
+        "population": "23004",
+        "wikidata": "Q623049",
+        "wikipedia": "de:Kapfenberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2901669,
+          47.4405481
+        ]
+      },
+      "id": "node/34911783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/34911808",
+        "name": "Mürzzuschlag",
+        "place": "town",
+        "population": "6842"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6723805,
+          47.6053538
+        ]
+      },
+      "id": "node/34911808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/34956200",
+        "name": "Mureck",
+        "name:ru": "Мурек",
+        "name:sl": "Cmurek",
+        "place": "town",
+        "population": "1690"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7690617,
+          46.7083655
+        ]
+      },
+      "id": "node/34956200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/34964314",
+        "alt_name:cs": "Solnohrad",
+        "alt_name:mk": "Залцбург",
+        "capital": "4",
+        "ele": "424",
+        "name": "Salzburg",
+        "name:ar": "زالتسبورغ",
+        "name:bar": "Soizburg",
+        "name:be-tarask": "Зальцбург",
+        "name:cs": "Salcburk",
+        "name:de": "Salzburg",
+        "name:el": "Σάλτσμπουργκ",
+        "name:en": "Salzburg",
+        "name:es": "Salzburgo",
+        "name:fr": "Salzbourg",
+        "name:he": "זלצבורג",
+        "name:hu": "Salzburg",
+        "name:it": "Salisburgo",
+        "name:ka": "ზალცბურგი",
+        "name:ko": "짤츠부르크",
+        "name:la": "Salisburgum",
+        "name:lt": "Zalcburgas",
+        "name:lv": "Zalcburga",
+        "name:mk": "Салцбург",
+        "name:ro": "Salzburg",
+        "name:ru": "Зальцбург",
+        "name:sk": "Soľnohrad",
+        "name:sr": "Салцбург",
+        "name:uk": "Зальцбург",
+        "name:zh": "萨尔茨堡",
+        "name:zh-Hans": "萨尔茨堡",
+        "name:zh-Hant": "薩爾茨堡",
+        "old_name:sl": "Solnograd",
+        "openGeoDB:community_identification_number": "5010101",
+        "openGeoDB:loc_id": "30086",
+        "openGeoDB:postal_codes": "5020,5023,5026,5061,5071,5082,5101,5010,5012,5014,5015,5016,5017,5022,5024,5027,5032,5033",
+        "place": "city",
+        "population": "152083",
+        "population:date": "2015",
+        "wikidata": "Q34713",
+        "wikipedia": "de:Salzburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0464806,
+          47.7981346
+        ]
+      },
+      "id": "node/34964314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/35293519",
+        "name": "Oberwart/Felsőőr",
+        "name:de": "Oberwart",
+        "name:hr": "Gornja Borta",
+        "name:hu": "Felsőőr",
+        "name:ro": "Erba",
+        "name:ru": "Оберварт",
+        "place": "town",
+        "population": "6442",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2124214,
+          47.2861513
+        ]
+      },
+      "id": "node/35293519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/35350228",
+        "name": "Ried im Innkreis",
+        "name:hu": "Ried im Innkreis",
+        "place": "town",
+        "population": "11404"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.48839,
+          48.2085868
+        ]
+      },
+      "id": "node/35350228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/36487909",
+        "ele": "618",
+        "name": "Seeboden",
+        "place": "town",
+        "population": "6325",
+        "postal_code": "9871",
+        "wikidata": "Q660576",
+        "wikipedia": "de:Seeboden am Millstätter See"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.5186548,
+          46.8190736
+        ]
+      },
+      "id": "node/36487909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/36488223",
+        "alt_name": "die GranatStadt",
+        "name": "Radenthein",
+        "name:de": "Radenthein",
+        "name:ru": "Радентайн",
+        "name:zh": "拉登泰因",
+        "place": "town",
+        "population": "1974"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7107017,
+          46.8007487
+        ]
+      },
+      "id": "node/36488223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/36488725",
+        "addr:postcode": "9872",
+        "ele": "611",
+        "name": "Millstatt",
+        "name:ru": "Милльштатт",
+        "name:uk": "Мілльштатт",
+        "name:zh": "米尔施塔特",
+        "place": "town",
+        "population": "3334",
+        "postal_code": "9872",
+        "wikidata": "Q668044",
+        "wikipedia": "de:Millstatt am See"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.5714926,
+          46.8051293
+        ]
+      },
+      "id": "node/36488725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/37580635",
+        "name": "Heidenreichstein",
+        "name:cs": "Kamýk",
+        "place": "town",
+        "population": "4067",
+        "website": "https://www.heidenreichstein.gv.at/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1230155,
+          48.8657996
+        ]
+      },
+      "id": "node/37580635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/37581252",
+        "name": "Litschau",
+        "name:cs": "Líčov",
+        "name:de": "Litschau",
+        "name:ru": "Личау",
+        "place": "town",
+        "population": "1451",
+        "wikidata": "Q669693",
+        "wikipedia": "de:Litschau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0453244,
+          48.9443409
+        ]
+      },
+      "id": "node/37581252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/37585033",
+        "name": "Gmünd",
+        "name:cs": "Cmunt",
+        "name:ru": "Гмюнд",
+        "place": "town",
+        "population": "5088"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9861752,
+          48.7729279
+        ]
+      },
+      "id": "node/37585033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/39460210",
+        "ele": "231",
+        "name": "Neufeld an der Leitha",
+        "name:de": "Neufeld an der Leitha",
+        "name:hr": "Novo Selo",
+        "name:hu": "Lajtaújfalu",
+        "name:ru": "Нойфельд-на-Лайте",
+        "place": "town",
+        "population": "3486",
+        "ref:at:gkz": "1030901",
+        "wikidata": "Q259859",
+        "wikipedia": "de:Neufeld an der Leitha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3764014,
+          47.8677623
+        ]
+      },
+      "id": "node/39460210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/41404066",
+        "ele": "430",
+        "name": "Pregarten",
+        "name:ru": "Прегартен",
+        "place": "town",
+        "population": "2509"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5308123,
+          48.3549856
+        ]
+      },
+      "id": "node/41404066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/41843375",
+        "alt_name:cs": "Český Bejdov",
+        "ele": "510",
+        "name": "Waidhofen an der Thaya",
+        "name:cs": "Bejdov nad Dyjí",
+        "place": "town",
+        "population": "5459",
+        "postal_code": "3830",
+        "website": "https://www.waidhofen-thaya.at/",
+        "wikidata": "Q660060",
+        "wikipedia": "de:Waidhofen an der Thaya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.284518,
+          48.8146165
+        ]
+      },
+      "id": "node/41843375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/43758043",
+        "name": "Weitra",
+        "name:cs": "Vitoraz",
+        "place": "town",
+        "population": "1749"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8941385,
+          48.7007937
+        ]
+      },
+      "id": "node/43758043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/44833357",
+        "name": "Zistersdorf",
+        "name:cs": "Čistějov",
+        "name:ru": "Цистерсдорф",
+        "name:sk": "Čistejov",
+        "place": "town",
+        "population": "3138",
+        "website": "www.zistersdorf.at"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7621379,
+          48.5447465
+        ]
+      },
+      "id": "node/44833357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/44846322",
+        "name": "Mistelbach",
+        "name:cs": "Mysliboch",
+        "name:hu": "Mistelbach",
+        "name:ru": "Мистельбах",
+        "name:sk": "Mysliboch",
+        "openGeoDB:auto_update": "population",
+        "openGeoDB:community_identification_number": "3163308",
+        "openGeoDB:is_in": "Mistelbach,Mistelbach,Niederösterreich,Österreich,Europe",
+        "openGeoDB:is_in_loc_id": "65316",
+        "openGeoDB:layer": "7",
+        "openGeoDB:loc_id": "29782",
+        "openGeoDB:name": "Mistelbach",
+        "openGeoDB:population": "85",
+        "openGeoDB:postal_codes": "2130",
+        "openGeoDB:sort_name": "MISTELBACH",
+        "openGeoDB:type": "Ort",
+        "openGeoDB:version": "0.2.6.11 / 2007-12-04 / http://fa-technik.adfc.de/code/opengeodb/dump/",
+        "opengeodb:lat": "48.5688931",
+        "opengeodb:lon": "16.5714042",
+        "place": "town",
+        "population": "10643",
+        "website": "https://www.mistelbach.at/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5720327,
+          48.5694535
+        ]
+      },
+      "id": "node/44846322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/44848916",
+        "name": "Ernstbrunn",
+        "name:ru": "Эрнстбрун",
+        "place": "town",
+        "population": "1332"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3628114,
+          48.5282016
+        ]
+      },
+      "id": "node/44848916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/44905294",
+        "name": "Eggenburg",
+        "name:ru": "Эггенбург",
+        "place": "town",
+        "population": "3092",
+        "website": "https://www.eggenburg.gv.at/",
+        "wikidata": "Q661774",
+        "wikipedia": "de:Eggenburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8162695,
+          48.6432222
+        ]
+      },
+      "id": "node/44905294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/44926987",
+        "ele": "183",
+        "name": "Laa an der Thaya",
+        "name:cs": "Láva nad Dyjí",
+        "name:ru": "Ла-ан-дер-Тайя",
+        "name:sk": "Lava nad Dyjou",
+        "place": "town",
+        "population": "4500"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3853207,
+          48.7210387
+        ]
+      },
+      "id": "node/44926987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/45018840",
+        "ele": "311",
+        "name": "Horn",
+        "name:cs": "Rohy",
+        "name:hu": "Horn",
+        "place": "town",
+        "population": "6632",
+        "postal_code": "3580",
+        "wikidata": "Q659918",
+        "wikipedia": "de:Horn (Niederösterreich)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6563147,
+          48.6636596
+        ]
+      },
+      "id": "node/45018840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/47166248",
+        "name": "Gallneukirchen",
+        "name:hu": "Gallneukirchen",
+        "place": "town",
+        "population": "5915"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4164196,
+          48.3531392
+        ]
+      },
+      "id": "node/47166248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/47740705",
+        "name": "Bad Leonfelden",
+        "place": "town"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2930689,
+          48.5226514
+        ]
+      },
+      "id": "node/47740705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/47910185",
+        "name": "Grein",
+        "place": "town",
+        "population": "2141",
+        "ref:at:gkz": "41105",
+        "ref:at:okz": "10050"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8551948,
+          48.2271779
+        ]
+      },
+      "id": "node/47910185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/47912944",
+        "name": "Perg",
+        "place": "town",
+        "population": "8479",
+        "population:date": "2018",
+        "ref:at:gkz": "41116",
+        "ref:at:okz": "10186"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6338102,
+          48.2500898
+        ]
+      },
+      "id": "node/47912944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/52950607",
+        "name": "Enns",
+        "name:hu": "Enns",
+        "place": "town",
+        "population": "8046",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4793948,
+          48.2141482
+        ]
+      },
+      "id": "node/52950607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/54790820",
+        "name": "Hollabrunn",
+        "name:ru": "Холлабрунн",
+        "place": "town",
+        "population": "6005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0798033,
+          48.5625384
+        ]
+      },
+      "id": "node/54790820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/57651883",
+        "name": "Pöchlarn",
+        "name:ru": "Пёхларн",
+        "place": "town",
+        "population": "1296",
+        "wikidata": "Q255350",
+        "wikipedia": "de:Pöchlarn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2120099,
+          48.2119885
+        ]
+      },
+      "id": "node/57651883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/59599529",
+        "name": "Strasshof an der Nordbahn",
+        "name:ru": "Штрасхоф-ан-дер-Нордбан",
+        "old_name": "Straßhof an der Nordbahn",
+        "place": "town",
+        "population": "6993",
+        "postal_code": "2231",
+        "short_name": "Strasshof"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6429437,
+          48.3189487
+        ]
+      },
+      "id": "node/59599529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/59841472",
+        "name": "Geras",
+        "name:cs": "Jeruš",
+        "place": "town",
+        "population": "1873",
+        "postal_code": "2093",
+        "source:population": "http://www.geras.gv.at/system/web/fakten.aspx?menuonr=218557110"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6724733,
+          48.7974749
+        ]
+      },
+      "id": "node/59841472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/60041539",
+        "name": "Tulln an der Donau",
+        "name:cs": "Dolina",
+        "name:hu": "Tulln",
+        "name:la": "Comagena",
+        "name:ru": "Тульн",
+        "place": "town",
+        "population": "12357",
+        "short_name": "Tulln",
+        "source": "http://www.statistik.at/wcm/idc/idcplg?IdcService=GET_PDF_FILE&RevisionSelectionMethod=LatestReleased&dDocName=103419",
+        "url": "https://www.tulln.at",
+        "wikidata": "Q489810"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0567744,
+          48.3311686
+        ]
+      },
+      "id": "node/60041539"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/60220275",
+        "ele": "829",
+        "name": "Murau",
+        "place": "town",
+        "population": "3714",
+        "postal_code": "8850",
+        "ref:at:gkz": "6141101",
+        "ref:at:okz": "16002",
+        "wikidata": "Q605054",
+        "wikipedia": "de:Murau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.16919,
+          47.11224
+        ]
+      },
+      "id": "node/60220275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/60240127",
+        "name": "Herzogenburg",
+        "name:ru": "Херцогенбург",
+        "place": "town",
+        "population": "2954"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6946065,
+          48.2843295
+        ]
+      },
+      "id": "node/60240127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/60291887",
+        "name": "Maissau",
+        "place": "town",
+        "population": "801",
+        "postal_code": "3712"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8259176,
+          48.5706932
+        ]
+      },
+      "id": "node/60291887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/60806241",
+        "name": "Amstetten",
+        "name:hu": "Amstetten",
+        "place": "town",
+        "population": "13878"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8752424,
+          48.1203262
+        ]
+      },
+      "id": "node/60806241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/60806408",
+        "name": "Scheibbs",
+        "place": "town",
+        "population": "4275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1674871,
+          48.0053866
+        ]
+      },
+      "id": "node/60806408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/61102063",
+        "ele": "131",
+        "name": "Neusiedl am See",
+        "name:bg": "Нойзидъл ам Зее",
+        "name:cs": "Nezider",
+        "name:hr": "Niuzalj",
+        "name:hu": "Nezsider",
+        "name:ru": "Нойзидль-ам-Зе",
+        "name:sk": "Nezider",
+        "place": "town",
+        "population": "8585",
+        "website": "https://www.neusiedl-am-see.at"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8425149,
+          47.9491855
+        ]
+      },
+      "id": "node/61102063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/61276046",
+        "name": "Waidhofen an der Ybbs",
+        "name:cs": "Bejdov nad Jivicí",
+        "name:hu": "Waidhofen an der Ybbs",
+        "place": "town",
+        "population": "4559",
+        "short_name": "Waidhofen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7747171,
+          47.9609716
+        ]
+      },
+      "id": "node/61276046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/61764877",
+        "ele": "827",
+        "name": "Imst",
+        "name:ja": "イムスト",
+        "name:ru": "Имст",
+        "name:zh": "伊姆斯特",
+        "openGeoDB:auto_update": "population,is_in",
+        "openGeoDB:community_identification_number": "7020301",
+        "openGeoDB:is_in": "Imst,Imst,Tirol,Österreich,Europe",
+        "openGeoDB:is_in_loc_id": "77442",
+        "openGeoDB:layer": "7",
+        "openGeoDB:loc_id": "29516",
+        "openGeoDB:name": "Imst",
+        "openGeoDB:population": "8689",
+        "openGeoDB:postal_codes": "6460",
+        "openGeoDB:sort_name": "IMST",
+        "openGeoDB:type": "Ort",
+        "openGeoDB:version": "0.2.6.11 / 2007-12-04 / http://fa-technik.adfc.de/code/opengeodb/dump/",
+        "opengeodb:lat": "47.2381536",
+        "opengeodb:lon": "10.7406982",
+        "place": "town",
+        "population": "10504"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7406982,
+          47.2381536
+        ]
+      },
+      "id": "node/61764877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/66147281",
+        "name": "Mariazell",
+        "name:hr": "Celje",
+        "name:rmc": "Cej",
+        "place": "town"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3174781,
+          47.7717395
+        ]
+      },
+      "id": "node/66147281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/76472938",
+        "ele": "634",
+        "name": "Telfs",
+        "name:hu": "Telfs",
+        "openGeoDB:auto_update": "population,is_in",
+        "openGeoDB:community_identification_number": "7035712",
+        "openGeoDB:is_in": "Telfs,Innsbruck-Land,Tirol,Österreich,Europe",
+        "openGeoDB:is_in_loc_id": "77599",
+        "openGeoDB:layer": "7",
+        "openGeoDB:loc_id": "30241",
+        "openGeoDB:name": "Telfs",
+        "openGeoDB:population": "15920",
+        "openGeoDB:postal_codes": "6410",
+        "openGeoDB:sort_name": "TELFS",
+        "openGeoDB:type": "Markt",
+        "openGeoDB:version": "0.2.6.11 / 2007-12-04 / http://fa-technik.adfc.de/code/opengeodb/dump/",
+        "opengeodb:lat": "47.3051446",
+        "opengeodb:lon": "11.0715813",
+        "place": "town",
+        "population": "15920",
+        "wikidata": "Q660015",
+        "wikipedia": "de:Telfs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.071515,
+          47.3046511
+        ]
+      },
+      "id": "node/76472938"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/79977566",
+        "ele": "817",
+        "name": "Landeck",
+        "name:ru": "Ландекк",
+        "name:zh": "蘭德克",
+        "openGeoDB:auto_update": "population,is_in",
+        "openGeoDB:community_identification_number": "7061401",
+        "openGeoDB:is_in": "Landeck,Landeck,Tirol,Österreich,Europe",
+        "openGeoDB:is_in_loc_id": "77817",
+        "openGeoDB:layer": "7",
+        "openGeoDB:loc_id": "77818",
+        "openGeoDB:name": "Landeck",
+        "openGeoDB:population": "7336",
+        "openGeoDB:postal_codes": "6500",
+        "openGeoDB:sort_name": "LANDECK",
+        "openGeoDB:type": "Ort",
+        "openGeoDB:version": "0.2.6.11 / 2007-12-04 / http://fa-technik.adfc.de/code/opengeodb/dump/",
+        "opengeodb:lat": "47.1424135",
+        "opengeodb:lon": "10.5704571",
+        "place": "town",
+        "population": "7336"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5704571,
+          47.1424135
+        ]
+      },
+      "id": "node/79977566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/79994020",
+        "ele": "437",
+        "name": "Dornbirn",
+        "name:hu": "Dornbirn",
+        "name:ja": "ドルンビルン",
+        "name:ru": "Дорнбирн",
+        "name:uk": "Дорнбірн",
+        "name:zh": "多恩比恩",
+        "place": "town",
+        "population": "51222",
+        "population:date": "2023-01-01",
+        "postal_code": "6850",
+        "source:population": "Statistik Austria",
+        "website": "https://www.dornbirn.at",
+        "wikidata": "Q171219",
+        "wikipedia": "de:Dornbirn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7423762,
+          47.4136351
+        ]
+      },
+      "id": "node/79994020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/82499752",
+        "name": "Haag",
+        "place": "town",
+        "population": "5299"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5660884,
+          48.1118898
+        ]
+      },
+      "id": "node/82499752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/82521380",
+        "name": "Mittersill",
+        "place": "town",
+        "population": "1900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4837012,
+          47.2815157
+        ]
+      },
+      "id": "node/82521380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/82747879",
+        "name": "Pinkafeld",
+        "name:de": "Pinkafeld",
+        "name:hr": "Pinkafelj",
+        "name:hu": "Pinkafő",
+        "name:ro": "Pinkafa",
+        "name:ru": "Пинкафельд",
+        "place": "town",
+        "population": "5272",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1234157,
+          47.37254
+        ]
+      },
+      "id": "node/82747879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/87079818",
+        "name": "Poysdorf",
+        "name:cs": "Pušdorf",
+        "name:ru": "Пойсдорф",
+        "name:sk": "Pušdorf",
+        "place": "town",
+        "population": "2480"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6291796,
+          48.6678922
+        ]
+      },
+      "id": "node/87079818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/88942045",
+        "name": "Altheim",
+        "name:hu": "Altheim",
+        "place": "town",
+        "population": "4146"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2320404,
+          48.250022
+        ]
+      },
+      "id": "node/88942045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/88961904",
+        "name": "Grieskirchen",
+        "place": "town",
+        "population": "4307"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.826192,
+          48.235011
+        ]
+      },
+      "id": "node/88961904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/94676798",
+        "name": "Rattenberg",
+        "place": "town",
+        "population": "440"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.8941106,
+          47.4398841
+        ]
+      },
+      "id": "node/94676798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/95467937",
+        "name": "Ybbs an der Donau",
+        "place": "town",
+        "population": "5777",
+        "short_name": "Ybbs",
+        "website": "https://www.ybbs.gv.at/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0852856,
+          48.1772445
+        ]
+      },
+      "id": "node/95467937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/119759840",
+        "name": "Pulkau",
+        "name:hu": "Pulkau",
+        "openGeoDB:auto_update": "population,is_in",
+        "openGeoDB:community_identification_number": "3103504",
+        "openGeoDB:is_in": "Pulkau,Hollabrunn,Niederösterreich,Österreich,Europe",
+        "openGeoDB:is_in_loc_id": "64026",
+        "openGeoDB:layer": "7",
+        "openGeoDB:loc_id": "30006",
+        "openGeoDB:name": "Pulkau",
+        "openGeoDB:population": "967",
+        "openGeoDB:postal_codes": "3741",
+        "openGeoDB:sort_name": "PULKAU",
+        "openGeoDB:type": "Ort",
+        "openGeoDB:version": "0.2.6.11 / 2007-12-04 / http://fa-technik.adfc.de/code/opengeodb/dump/",
+        "opengeodb:lat": "48.7049133",
+        "opengeodb:lon": "15.8642022",
+        "place": "town",
+        "population": "967",
+        "postal_code": "3741"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8609985,
+          48.7048968
+        ]
+      },
+      "id": "node/119759840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/123531953",
+        "name": "Raabs an der Thaya",
+        "name:cs": "Rakousy nad Dyjí",
+        "place": "town",
+        "population": "901",
+        "postal_code": "3820",
+        "website": "https://www.raabs-thaya.gv.at/",
+        "wikipedia": "de:Raabs an der Thaya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4934343,
+          48.8474094
+        ]
+      },
+      "id": "node/123531953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/126460646",
+        "name": "Gars am Kamp",
+        "place": "town",
+        "population": "1804",
+        "postal_code": "3571"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6594592,
+          48.5951053
+        ]
+      },
+      "id": "node/126460646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/148357541",
+        "name": "Traismauer",
+        "name:ru": "Трайсмауэр",
+        "place": "town",
+        "population": "2747",
+        "source": "Population: Statistik Austria Gebietsstand 1.1.2019"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7441868,
+          48.3499106
+        ]
+      },
+      "id": "node/148357541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/150541848",
+        "addr:city": "Liezen",
+        "name": "Liezen",
+        "name:cs": "Štýrský Týnec",
+        "place": "town",
+        "population": "6803"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2420508,
+          47.567685
+        ]
+      },
+      "id": "node/150541848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/170812358",
+        "name": "Griffen",
+        "place": "town"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7308073,
+          46.7038006
+        ]
+      },
+      "id": "node/170812358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/176758063",
+        "alt_name:uk": "Гетцис",
+        "ele": "448",
+        "name": "Götzis",
+        "name:de": "Götzis",
+        "name:hu": "Götzis",
+        "name:ru": "Гётцис",
+        "name:uk": "Ґьотціс",
+        "name:zh": "格齐斯",
+        "place": "town",
+        "population": "12041",
+        "population:date": "2023-01-01",
+        "postal_code": "6840",
+        "source:population": "Statistik Austria",
+        "website": "https://goetzis.at/",
+        "wikidata": "Q698573",
+        "wikipedia": "de:Götzis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6440092,
+          47.3351291
+        ]
+      },
+      "id": "node/176758063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/178470564",
+        "name": "Groß Gerungs",
+        "name:cs": "Velké Kerušice",
+        "openGeoDB:auto_update": "population,is_in",
+        "openGeoDB:community_identification_number": "32508",
+        "openGeoDB:is_in": "Zwettl,Niederösterreich,Österreich,Europe",
+        "openGeoDB:is_in_loc_id": "67025",
+        "openGeoDB:layer": "6",
+        "openGeoDB:loc_id": "67069",
+        "openGeoDB:name": "Groß-Gerungs",
+        "openGeoDB:population": "4737",
+        "openGeoDB:postal_codes": "3920,3921,3924",
+        "openGeoDB:sort_name": "GROSS-GERUNGS",
+        "openGeoDB:type": "Gemeinde",
+        "openGeoDB:version": "0.2.6.11 / 2007-12-04 / http://fa-technik.adfc.de/code/opengeodb/dump/",
+        "opengeodb:lat": "48.5749809",
+        "opengeodb:lon": "14.9573862",
+        "place": "town",
+        "population": "4737"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9570948,
+          48.5731094
+        ]
+      },
+      "id": "node/178470564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/182703854",
+        "name": "Tamsweg",
+        "openGeoDB:auto_update": "population,is_in",
+        "openGeoDB:community_identification_number": "5051007",
+        "openGeoDB:layer": "7",
+        "openGeoDB:loc_id": "30233",
+        "openGeoDB:name": "Tamsweg",
+        "openGeoDB:population": "3606",
+        "openGeoDB:postal_codes": "5580",
+        "openGeoDB:sort_name": "TAMSWEG",
+        "openGeoDB:type": "Ort",
+        "openGeoDB:version": "0.2.6.11 / 2007-12-04 / http://fa-technik.adfc.de/code/opengeodb/dump/",
+        "opengeodb:lat": "47.1241621",
+        "opengeodb:lon": "13.8113697",
+        "place": "town",
+        "population": "3606"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8103817,
+          47.1261065
+        ]
+      },
+      "id": "node/182703854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/185432598",
+        "name": "Gurk",
+        "place": "town",
+        "population": "861"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2897692,
+          46.8751209
+        ]
+      },
+      "id": "node/185432598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/185503543",
+        "name": "Hermagor",
+        "name:cs": "Šmohor",
+        "name:fur": "Sant Armacul",
+        "name:it": "Sant'Ermagora",
+        "name:sl": "Šmohor",
+        "place": "town",
+        "population": "1527"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3702382,
+          46.6268076
+        ]
+      },
+      "id": "node/185503543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/186636093",
+        "name": "Völkermarkt",
+        "name:sl": "Velikovec",
+        "place": "town",
+        "population": "4859"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6340505,
+          46.6604246
+        ]
+      },
+      "id": "node/186636093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/196540588",
+        "ele": "858",
+        "name": "Radstadt",
+        "openGeoDB:community_identification_number": "5041704",
+        "openGeoDB:loc_id": "30018",
+        "openGeoDB:population": "2292",
+        "place": "town",
+        "population": "4826",
+        "postal_code": "5550"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4627822,
+          47.3846705
+        ]
+      },
+      "id": "node/196540588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/200769912",
+        "name": "Judenburg",
+        "name:hu": "Judenburg",
+        "name:ru": "Юденбург",
+        "name:zh": "尤登堡",
+        "place": "town",
+        "population": "9514"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6601079,
+          47.1694082
+        ]
+      },
+      "id": "node/200769912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/200770473",
+        "ele": "659",
+        "name": "Zeltweg",
+        "place": "town",
+        "population": "7327",
+        "postal_code": "8740"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7549244,
+          47.1912045
+        ]
+      },
+      "id": "node/200770473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/200881689",
+        "name": "Kindberg",
+        "place": "town",
+        "population": "5546"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4498601,
+          47.5049711
+        ]
+      },
+      "id": "node/200881689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/205753242",
+        "alt_name": "Fertőboldogasszony",
+        "ele": "124",
+        "name": "Frauenkirchen",
+        "name:hr": "Svetica za Jezerom",
+        "name:hu": "Boldogasszony",
+        "name:ru": "Фрауэнкирхен",
+        "place": "town",
+        "population": "2856"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9241358,
+          47.837745
+        ]
+      },
+      "id": "node/205753242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/206378027",
+        "name": "Lienz",
+        "name:hu": "Lienz",
+        "name:ru": "Линц",
+        "openGeoDB:community_identification_number": "7071601",
+        "openGeoDB:is_in_loc_id": "77931",
+        "openGeoDB:loc_id": "77932",
+        "place": "town",
+        "population": "12077",
+        "postal_code": "9900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7681269,
+          46.8298662
+        ]
+      },
+      "id": "node/206378027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/224024924",
+        "addr:postcode": "8970",
+        "ele": "745",
+        "name": "Schladming",
+        "place": "town",
+        "population": "6538",
+        "wikidata": "Q254221",
+        "wikipedia": "de:Schladming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6867878,
+          47.3940415
+        ]
+      },
+      "id": "node/224024924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/237042948",
+        "ele": "352",
+        "name": "Braunau am Inn",
+        "name:hu": "Braunau",
+        "name:ru": "Браунау-ам-Инн",
+        "place": "town",
+        "population": "16380",
+        "ref:at:gkz": "4040404",
+        "ref:at:okz": "07178",
+        "wikidata": "Q131128",
+        "wikipedia": "de:Braunau am Inn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.039506,
+          48.253136
+        ]
+      },
+      "id": "node/237042948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240024258",
+        "ele": "563",
+        "name": "Jenbach",
+        "place": "town",
+        "population": "7021",
+        "rank": "30",
+        "website": "https://www.jenbach.at/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7717443,
+          47.3915387
+        ]
+      },
+      "id": "node/240024258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240025153",
+        "ele": "393",
+        "name": "Ternitz",
+        "name:ar": "تيرنتس",
+        "name:he": "תרניץ",
+        "name:hu": "Ternitz",
+        "name:ru": "Терниц",
+        "place": "town",
+        "population": "14823",
+        "website": "https://www.ternitz.gv.at/",
+        "wikidata": "Q659984",
+        "wikipedia": "de:Ternitz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0194688,
+          47.7066007
+        ]
+      },
+      "id": "node/240025153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240028097",
+        "name": "Drosendorf",
+        "name:cs": "Drozdovice",
+        "place": "town",
+        "population": "522",
+        "postal_code": "2095"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.619693,
+          48.8684166
+        ]
+      },
+      "id": "node/240028097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240029790",
+        "loc_name": "Rankwil",
+        "name": "Rankweil",
+        "name:de": "Rankweil",
+        "name:hu": "Rankweil",
+        "name:uk": "Ранквайль",
+        "name:zh": "兰克韦尔",
+        "place": "town",
+        "population": "12150",
+        "population:date": "2023-01-01",
+        "postal_code": "6830",
+        "source:population": "Statistik Austria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6426923,
+          47.2703808
+        ]
+      },
+      "id": "node/240029790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240032101",
+        "name": "Wieselburg",
+        "name:ru": "Визельбург",
+        "place": "town",
+        "population": "4408",
+        "wikidata": "Q661734",
+        "wikipedia": "de:Wieselburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1376585,
+          48.1298877
+        ]
+      },
+      "id": "node/240032101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240032338",
+        "ele": "826",
+        "name": "Vils",
+        "openGeoDB:community_identification_number": "70833",
+        "openGeoDB:loc_id": "78126",
+        "openGeoDB:postal_codes": "6600,6682",
+        "place": "town",
+        "population": "1638",
+        "postal_code": "6682",
+        "wikidata": "Q26340",
+        "wikipedia": "de:Vils (Tirol)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6304727,
+          47.5493283
+        ]
+      },
+      "id": "node/240032338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240038219",
+        "capital": "4",
+        "ele": "267",
+        "name": "St. Pölten",
+        "name:ar": "سانت بولتن",
+        "name:be": "Санкт-Пёльтэн",
+        "name:be-tarask": "Санкт-Пёльтэн",
+        "name:cs": "Svatý Hypolit",
+        "name:hu": "Sankt Pölten",
+        "name:ru": "Санкт-Пёльтен",
+        "name:sr": "Санкт Пелтен",
+        "place": "town",
+        "population": "56360",
+        "wikidata": "Q82500",
+        "wikimedia_commons": "Category:St. Pölten",
+        "wikipedia": "de:St. Pölten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6229118,
+          48.2043985
+        ]
+      },
+      "id": "node/240038219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240039905",
+        "name": "Wolkersdorf im Weinviertel",
+        "name:ru": "Волькерсдорф-им-Вайнфиртель",
+        "place": "town",
+        "population": "3359",
+        "ref:at:gkz": "31655",
+        "ref:at:okz": "05138",
+        "short_name": "Wolkersdorf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5181068,
+          48.3829773
+        ]
+      },
+      "id": "node/240039905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240040458",
+        "name": "Marchegg",
+        "name:hr": "Marhek",
+        "name:sk": "Marchek",
+        "openGeoDB:auto_update": "population,place,name,is_in",
+        "openGeoDB:community_identification_number": "3083502",
+        "openGeoDB:is_in": "Marchegg,Gänserndorf,Niederösterreich,Österreich,Europe",
+        "openGeoDB:is_in_loc_id": "63720",
+        "openGeoDB:layer": "7",
+        "openGeoDB:loc_id": "63722",
+        "openGeoDB:location": "locality",
+        "openGeoDB:name": "Marchegg",
+        "openGeoDB:population": "2118",
+        "openGeoDB:postal_codes": "2293,2294",
+        "openGeoDB:sort_name": "MARCHEGG",
+        "openGeoDB:type": "Ort",
+        "openGeoDB:version": "0.2.6.11 / 2007-12-04 / http://fa-technik.adfc.de/code/opengeodb/dump/",
+        "place": "town",
+        "population": "2118",
+        "website": "https://www.marchegg.at",
+        "wikidata": "Q546273",
+        "wikipedia": "de:Marchegg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9097882,
+          48.2778951
+        ]
+      },
+      "id": "node/240040458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240040704",
+        "alt_name:cs": "Rec",
+        "name": "Retz",
+        "name:cs": "Reteč",
+        "place": "town",
+        "population": "2529"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9511119,
+          48.7569663
+        ]
+      },
+      "id": "node/240040704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240041310",
+        "name": "Bad Radkersburg",
+        "name:hu": "Regede",
+        "name:sl": "Radgona",
+        "openGeoDB:postal_codes": "8490",
+        "place": "town",
+        "population": "1474"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9880546,
+          46.6880556
+        ]
+      },
+      "id": "node/240041310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240042171",
+        "ele": "1103",
+        "name": "Sillian",
+        "place": "town",
+        "population": "2086",
+        "wikidata": "Q687344",
+        "wikipedia": "en:Sillian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4180291,
+          46.7472874
+        ]
+      },
+      "id": "node/240042171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240042621",
+        "ele": "1048",
+        "name": "Steinach am Brenner",
+        "place": "town",
+        "population": "3314",
+        "wikidata": "Q697506",
+        "wikipedia": "de:Steinach am Brenner"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4665722,
+          47.0907467
+        ]
+      },
+      "id": "node/240042621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240044695",
+        "name": "Schrems",
+        "name:cs": "Skřemelice",
+        "name:ru": "Шремс",
+        "place": "town",
+        "population": "3455"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0689756,
+          48.7933789
+        ]
+      },
+      "id": "node/240044695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240044982",
+        "ele": "953",
+        "name": "Matrei am Brenner",
+        "openGeoDB:auto_update": "population,name,is_in",
+        "openGeoDB:community_identification_number": "70370",
+        "openGeoDB:is_in": "Innsbruck-Land,Tirol,Österreich,Europe",
+        "openGeoDB:is_in_loc_id": "77494",
+        "openGeoDB:layer": "6",
+        "openGeoDB:loc_id": "77538",
+        "openGeoDB:location": "political_structure",
+        "openGeoDB:name": "Matrei am Brenner",
+        "openGeoDB:population": "950",
+        "openGeoDB:postal_codes": "6143",
+        "openGeoDB:sort_name": "MATREI",
+        "openGeoDB:type": "Markt",
+        "openGeoDB:version": "0.2.6.11 / 2007-12-04 / http://fa-technik.adfc.de/code/opengeodb/dump/",
+        "place": "town",
+        "population": "902",
+        "wikidata": "Q429728",
+        "wikipedia": "de:Matrei am Brenner"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4536634,
+          47.1312496
+        ]
+      },
+      "id": "node/240044982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240049058",
+        "name": "Winklern",
+        "place": "town",
+        "population": "51"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.8776815,
+          46.8704513
+        ]
+      },
+      "id": "node/240049058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240051786",
+        "name": "Neumarkt am Wallersee",
+        "place": "town",
+        "population": "3741"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2253002,
+          47.9450169
+        ]
+      },
+      "id": "node/240051786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240052074",
+        "name": "Traiskirchen",
+        "name:fa": "ترایزکیرشن",
+        "name:hu": "Traiskirchen",
+        "name:ka": "ტრაისკირხენი",
+        "name:ru": "Трайскирхен",
+        "name:sr": "Трајскирхен",
+        "name:zh": "特賴斯基興",
+        "place": "town",
+        "population": "18000",
+        "wikidata": "Q659950",
+        "wikipedia": "de:Traiskirchen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2952311,
+          48.0138858
+        ]
+      },
+      "id": "node/240052074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240052146",
+        "full_name": "Gmünd in Kärnten",
+        "name": "Gmünd",
+        "place": "town",
+        "population": "1547",
+        "postal_code": "9853",
+        "ref:at:gkz": "2060803",
+        "ref:at:okz": "01896",
+        "wikidata": "Q660580",
+        "wikipedia": "de:Gmünd in Kärnten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.5359844,
+          46.9065611
+        ]
+      },
+      "id": "node/240052146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240052359",
+        "ele": "902",
+        "name": "Bad Bleiberg",
+        "place": "town",
+        "population": "589",
+        "website": "https://www.bad-bleiberg.gv.at",
+        "wikidata": "Q535737",
+        "wikipedia": "de:Bad Bleiberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6871559,
+          46.6245962
+        ]
+      },
+      "id": "node/240052359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240052571",
+        "name": "Hartberg",
+        "name:ru": "Хартберг",
+        "place": "town",
+        "population": "3920"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9691769,
+          47.2809371
+        ]
+      },
+      "id": "node/240052571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240052582",
+        "alt_name": "Sankt Valentin",
+        "ele": "268",
+        "full_name": "Sankt Valentin",
+        "name": "St. Valentin",
+        "place": "town",
+        "population": "2997",
+        "postal_code": "4300",
+        "ref:at:gkz": "3053105",
+        "ref:at:okz": "03294"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5319725,
+          48.1746466
+        ]
+      },
+      "id": "node/240052582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240052875",
+        "ele": "642",
+        "name": "Straßburg",
+        "place": "town",
+        "population": "2138",
+        "postal_code": "9341",
+        "wikidata": "Q660945",
+        "wikipedia": "de:Straßburg (Kärnten)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3313853,
+          46.8955368
+        ]
+      },
+      "id": "node/240052875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240053135",
+        "addr:postcode": "9220",
+        "alt_name": "Velden am Wörthersee",
+        "name": "Velden",
+        "name:sl": "Vrba",
+        "official_name": "Velden am Wörther See",
+        "official_name:sl": "Vrba na Koroškem",
+        "place": "town",
+        "population": "9127",
+        "population:date": "2023-01-01",
+        "source:population": "wikipedia",
+        "website": "https://velden.gv.at/",
+        "wikidata": "Q660687",
+        "wikipedia": "en:Velden am Wörther See"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0450583,
+          46.6151882
+        ]
+      },
+      "id": "node/240053135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240054234",
+        "ele": "937",
+        "name": "Fulpmes",
+        "name:ru": "Фульпмес",
+        "openGeoDB:auto_update": "population,place,name,is_in",
+        "openGeoDB:community_identification_number": "7031001",
+        "openGeoDB:is_in": "Fulpmes,Innsbruck-Land,Tirol,Österreich,Europe",
+        "openGeoDB:is_in_loc_id": "77510",
+        "openGeoDB:layer": "7",
+        "openGeoDB:loc_id": "29311",
+        "openGeoDB:location": "locality",
+        "openGeoDB:name": "Fulpmes",
+        "openGeoDB:population": "2842",
+        "openGeoDB:postal_codes": "6166",
+        "openGeoDB:sort_name": "FULPMES",
+        "openGeoDB:type": "Ort",
+        "openGeoDB:version": "0.2.6.11 / 2007-12-04 / http://fa-technik.adfc.de/code/opengeodb/dump/",
+        "place": "town",
+        "population": "4200",
+        "wikidata": "Q669803",
+        "wikimedia_commons": "Category:Fulpmes",
+        "wikipedia": "de:Fulpmes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3490587,
+          47.1530974
+        ]
+      },
+      "id": "node/240054234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240054419",
+        "name": "Litschau",
+        "place": "town",
+        "population": "2368",
+        "wikipedia": "de:Litschau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0446232,
+          48.944298
+        ]
+      },
+      "id": "node/240054419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240054941",
+        "name": "Fischamend",
+        "name:hr": "Fišament",
+        "name:ru": "Фишаменд",
+        "place": "town",
+        "population": "4416",
+        "website": "http://www.fischamend.gv.at"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6124745,
+          48.1179472
+        ]
+      },
+      "id": "node/240054941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240056349",
+        "ele": "578",
+        "name": "Arnoldstein",
+        "name:fur": "Orestagn",
+        "name:it": "Oristagno",
+        "name:sl": "Podklošter",
+        "place": "town",
+        "population": "2035",
+        "population:date": "2016",
+        "source:population": "wikipedia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7071246,
+          46.548718
+        ]
+      },
+      "id": "node/240056349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240056881",
+        "ele": "853",
+        "name": "Reutte",
+        "name:ru": "Ройтте",
+        "name:zh": "羅伊特",
+        "openGeoDB:auto_update": "population,is_in",
+        "openGeoDB:community_identification_number": "7082801",
+        "openGeoDB:is_in": "Reutte,Tirol,Österreich,Europe",
+        "openGeoDB:is_in_loc_id": "78102",
+        "openGeoDB:layer": "7",
+        "openGeoDB:loc_id": "30050",
+        "openGeoDB:location": "locality",
+        "openGeoDB:name": "Reutte",
+        "openGeoDB:population": "5719",
+        "openGeoDB:postal_codes": "6600",
+        "openGeoDB:sort_name": "REUTTE",
+        "openGeoDB:type": "Markt",
+        "openGeoDB:version": "0.2.6.11 / 2007-12-04 / http://fa-technik.adfc.de/code/opengeodb/dump/",
+        "place": "town",
+        "population": "5719"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7187955,
+          47.4891092
+        ]
+      },
+      "id": "node/240056881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240056945",
+        "name": "Zwettl",
+        "name:cs": "Světlá",
+        "name:de": "Zwettl",
+        "place": "town",
+        "population": "10908"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1681644,
+          48.6052683
+        ]
+      },
+      "id": "node/240056945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240057320",
+        "name": "Mödling",
+        "name:hu": "Mödling",
+        "name:ka": "მიოდლინგი",
+        "name:ru": "Мёдлинг",
+        "openGeoDB:community_identification_number": "317",
+        "openGeoDB:is_in_loc_id": "126",
+        "openGeoDB:layer": "5",
+        "openGeoDB:loc_id": "29794",
+        "openGeoDB:location": "region",
+        "place": "town",
+        "population": "20619",
+        "postal_code": "2340",
+        "ref:at:gkz": "31717",
+        "ref:at:okz": "05156",
+        "wikidata": "Q277965",
+        "wikipedia": "de:Mödling"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2833526,
+          48.0855922
+        ]
+      },
+      "id": "node/240057320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240059038",
+        "elevation": "681",
+        "name": "Rottenmann",
+        "place": "town",
+        "population": "5111",
+        "postal_code": "8786",
+        "wikipedia": "de:Rottenmann"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3585643,
+          47.524226
+        ]
+      },
+      "id": "node/240059038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240059493",
+        "name": "Laakirchen",
+        "place": "town",
+        "population": "9600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8225156,
+          47.9825598
+        ]
+      },
+      "id": "node/240059493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240059607",
+        "name": "Ansfelden",
+        "name:hu": "Ansfelden",
+        "place": "town",
+        "population": "17748",
+        "wikidata": "Q257130"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2892608,
+          48.2090744
+        ]
+      },
+      "id": "node/240059607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240063299",
+        "name": "Seekirchen am Wallersee",
+        "place": "town",
+        "population": "2427"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1260778,
+          47.8942481
+        ]
+      },
+      "id": "node/240063299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240067151",
+        "name": "Weiz",
+        "name:de": "Weiz",
+        "place": "town",
+        "population": "8799",
+        "website": "https://www.weiz.at/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6221694,
+          47.2174206
+        ]
+      },
+      "id": "node/240067151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240067971",
+        "name": "Sankt Veit",
+        "name:hu": "Sankt Veit an der Glan",
+        "name:sl": "Sveti Vid",
+        "official_name": "Sankt Veit an der Glan",
+        "place": "town",
+        "population": "12255",
+        "population:date": "2023-01-01",
+        "short_name": "St. Veit",
+        "source:population": "wikipedia",
+        "website": "www.stveit.carinthia.at",
+        "wikidata": "Q494604"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3576981,
+          46.7672814
+        ]
+      },
+      "id": "node/240067971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240068543",
+        "name": "Trofaiach",
+        "place": "town",
+        "population": "8385",
+        "postal_code": "8793",
+        "wikidata": "Q675834"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0065515,
+          47.4251065
+        ]
+      },
+      "id": "node/240068543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240070188",
+        "name": "Ferlach",
+        "name:de": "Ferlach",
+        "name:hu": "Ferlach",
+        "name:ru": "Ферлах",
+        "name:sl": "Borovlje",
+        "name:uk": "Ферлах",
+        "place": "town",
+        "population": "7450",
+        "source": "geoimage.at",
+        "wikidata": "Q610514",
+        "wikipedia": "de:Ferlach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3006203,
+          46.5265324
+        ]
+      },
+      "id": "node/240070188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240070646",
+        "name": "Sankt Johann im Pongau",
+        "name:hu": "Sankt Johann im Pongau",
+        "place": "town",
+        "population": "11000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2026049,
+          47.3475782
+        ]
+      },
+      "id": "node/240070646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240071579",
+        "alt_name": "Pörtschach am Wörthersee",
+        "name": "Pörtschach",
+        "name:ja": "ペルチャッハ",
+        "name:sl": "Poreče",
+        "official_name": "Pörtschach am Wörther See",
+        "official_name:sl": "Poreče ob Vrbskem jezeru",
+        "place": "town",
+        "population": "2937",
+        "population:date": "2023-01-01",
+        "postal_code": "9210",
+        "source:population": "wikipedia",
+        "wikidata": "Q875805",
+        "wikipedia": "en:Pörtschach am Wörthersee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1448209,
+          46.6359543
+        ]
+      },
+      "id": "node/240071579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240071805",
+        "name": "Kötschach",
+        "name:fur": "Catès-Mude",
+        "name:sl": "Koča-Muta",
+        "place": "town",
+        "population": "1612"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.004364,
+          46.6784661
+        ]
+      },
+      "id": "node/240071805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240072839",
+        "ele": "229",
+        "name": "Güssing",
+        "name:hr": "Novigrad",
+        "name:hu": "Németújvár",
+        "name:ro": "Ujvara",
+        "name:ru": "Гюссинг",
+        "place": "town",
+        "population": "2734"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3243364,
+          47.058765
+        ]
+      },
+      "id": "node/240072839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240074021",
+        "name": "Lilienfeld",
+        "place": "town",
+        "population": "495",
+        "postal_code": "3180",
+        "website": "https://www.lilienfeld.at/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5966191,
+          48.0149797
+        ]
+      },
+      "id": "node/240074021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240076643",
+        "name": "Traun",
+        "name:ru": "Траун",
+        "place": "town",
+        "population": "10627",
+        "website": "https://www.traun.at/",
+        "wikidata": "Q260176",
+        "wikipedia": "de:Traun (Stadt)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2368078,
+          48.2214369
+        ]
+      },
+      "id": "node/240076643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240076703",
+        "alt_name:uk": "Ляутерах",
+        "name": "Lauterach",
+        "name:uk": "Лаутерах",
+        "name:zh": "劳特阿赫",
+        "place": "town",
+        "population": "10433",
+        "population:date": "2023-01-01",
+        "postal_code": "6923",
+        "source:population": "Statistik Austria",
+        "website": "https://www.lauterach.at/",
+        "wikidata": "Q699781",
+        "wikipedia": "de:Lauterach (Vorarlberg)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7313331,
+          47.4747262
+        ]
+      },
+      "id": "node/240076703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240077050",
+        "name": "Purgstall",
+        "official_name": "Purgstall an der Erlauf",
+        "place": "town",
+        "population": "6154",
+        "postal_code": "3251",
+        "source:population": "http://www.purgstall-erlauf.gv.at/system/web/fakten.aspx?menuonr=218603963"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1352003,
+          48.0576733
+        ]
+      },
+      "id": "node/240077050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240077072",
+        "name": "Hopfgarten im Brixental",
+        "place": "town",
+        "population": "5365",
+        "rank": "30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.1558791,
+          47.4504996
+        ]
+      },
+      "id": "node/240077072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240077102",
+        "ele": "1368",
+        "name": "Sölden",
+        "name:ru": "Зёльден",
+        "openGeoDB:auto_update": "population,place,name,is_in",
+        "openGeoDB:community_identification_number": "70220",
+        "openGeoDB:is_in": "Imst,Tirol,Österreich,Europe",
+        "openGeoDB:is_in_loc_id": "77427",
+        "openGeoDB:layer": "6",
+        "openGeoDB:loc_id": "77476",
+        "openGeoDB:location": "political_structure",
+        "openGeoDB:name": "Sölden",
+        "openGeoDB:population": "3488",
+        "openGeoDB:postal_codes": "6450,6456,6458",
+        "openGeoDB:sort_name": "SOELDEN",
+        "openGeoDB:type": "Gemeinde",
+        "openGeoDB:version": "0.2.6.11 / 2007-12-04 / http://fa-technik.adfc.de/code/opengeodb/dump/",
+        "place": "town",
+        "population": "3488",
+        "website": "https://www.soelden.tirol.gv.at/",
+        "wikidata": "Q570486"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0070193,
+          46.9673961
+        ]
+      },
+      "id": "node/240077102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240079112",
+        "alt_name": "Bad Sankt Leonhard",
+        "ele": "714",
+        "int_name": "Bad Sankt Leonhard im Lavanttal",
+        "name": "Bad Sankt Leonhard im Lavanttal",
+        "old_name": "St. Leonhard im Lavantthale",
+        "place": "town",
+        "population": "4386",
+        "postal_code": "9462",
+        "wikidata": "Q660781",
+        "wikipedia": "de:Bad St. Leonhard im Lavanttal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7887727,
+          46.9646368
+        ]
+      },
+      "id": "node/240079112"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240079280",
+        "alt_name:uk": "Хоенемс",
+        "ele": "432",
+        "name": "Hohenems",
+        "name:de": "Hohenems",
+        "name:ru": "Хоэнемс",
+        "name:uk": "Гогенемс",
+        "name:zh": "霍恩埃姆斯",
+        "place": "town",
+        "population": "16720",
+        "population:date": "2020-01-01",
+        "postal_code": "6845",
+        "source:population": "Statistik Austria",
+        "website": "https://www.hohenems.at/",
+        "wikidata": "Q698591",
+        "wikipedia": "de:Hohenems"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.689271,
+          47.3639973
+        ]
+      },
+      "id": "node/240079280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240079480",
+        "ele": "310",
+        "name": "Steyr",
+        "name:cs": "Štýr",
+        "name:ru": "Штайр",
+        "place": "town",
+        "population": "38344",
+        "wikidata": "Q260320",
+        "wikipedia": "de:Steyr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4191276,
+          48.0390046
+        ]
+      },
+      "id": "node/240079480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240080957",
+        "ele": "167",
+        "image": "https://commons.wikimedia.org/wiki/File:G%C3%A4nserndorf_-_Rathaus.JPG",
+        "name": "Gänserndorf",
+        "name:cs": "Husník",
+        "name:hu": "Gänserndorf",
+        "name:ru": "Гензерндорф",
+        "name:sk": "Genšdorf",
+        "place": "town",
+        "population": "11404",
+        "website": "https://www.gaenserndorf.at/",
+        "wikidata": "Q259579",
+        "wikipedia": "de:Gänserndorf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7187051,
+          48.3403867
+        ]
+      },
+      "id": "node/240080957"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240082800",
+        "name": "Obervellach",
+        "place": "town",
+        "population": "243",
+        "postal_code": "9821"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2019817,
+          46.932825
+        ]
+      },
+      "id": "node/240082800"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240086875",
+        "name": "Peuerbach",
+        "place": "town",
+        "population": "2184"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7710445,
+          48.3438653
+        ]
+      },
+      "id": "node/240086875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240087857",
+        "ele": "633",
+        "name": "Mayrhofen",
+        "name:ru": "Майрхофен",
+        "name:zh": "迈尔霍芬",
+        "place": "town",
+        "population": "3883",
+        "website": "https://www.mayrhofen.tirol.gv.at/",
+        "wikidata": "Q668214",
+        "wikipedia": "de:Mayrhofen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.8638664,
+          47.1672188
+        ]
+      },
+      "id": "node/240087857"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240090385",
+        "name": "Neunkirchen",
+        "name:hu": "Neunkirchen",
+        "place": "town",
+        "population": "9974",
+        "postal_code": "2620",
+        "wikidata": "Q265948",
+        "wikipedia": "de:Neunkirchen (Niederösterreich)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.081602,
+          47.7221147
+        ]
+      },
+      "id": "node/240090385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240090615",
+        "name": "Wilhelmsburg",
+        "place": "town",
+        "population": "6660"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6058057,
+          48.1050511
+        ]
+      },
+      "id": "node/240090615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240091192",
+        "name": "Finkenstein",
+        "place": "town",
+        "population": "1275",
+        "wikidata": "Q662080",
+        "wikipedia": "de:Finkenstein am Faaker See"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8713597,
+          46.5659297
+        ]
+      },
+      "id": "node/240091192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240093642",
+        "name": "Freistadt",
+        "name:cs": "Cáhlov",
+        "name:hu": "Freistadt",
+        "place": "town",
+        "population": "7445"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5047566,
+          48.5112961
+        ]
+      },
+      "id": "node/240093642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240094722",
+        "alt_name:uk": "Прессбаум",
+        "ele": "315",
+        "name": "Pressbaum",
+        "name:de": "Pressbaum",
+        "name:uk": "Пресбаум",
+        "name:zh": "普雷斯鲍姆",
+        "note": "der alte Name bezieht sich auf den ersten Förster Paul Tanner, der hier 1675-1681 tätig war",
+        "old_name": "Tannering;Tannerin;Tonnerin;Donnerin",
+        "place": "town",
+        "population": "7863",
+        "population:date": "2023-01-01",
+        "source:population": "wikipedia",
+        "wikidata": "Q666577",
+        "wikipedia": "de:Pressbaum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.077089,
+          48.1792064
+        ]
+      },
+      "id": "node/240094722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240095192",
+        "name": "Leonding",
+        "name:ru": "Леондинг",
+        "place": "town",
+        "population": "4297",
+        "website": "https://www.leonding.at/",
+        "wikidata": "Q487958",
+        "wikipedia": "de:Leonding"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2487457,
+          48.2793314
+        ]
+      },
+      "id": "node/240095192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240095462",
+        "name": "Mannersdorf am Leithagebirge",
+        "name:ru": "Маннерсдорф-ам-Ляйтагебирге",
+        "place": "town",
+        "population": "3731",
+        "short_name": "Mannersdorf",
+        "website": "https://www.mannersdorf-leithagebirge.gv.at/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6038027,
+          47.9744729
+        ]
+      },
+      "id": "node/240095462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240096250",
+        "ele": "161",
+        "name": "Hainburg an der Donau",
+        "name:hr": "Hamborak",
+        "name:sk": "Hainburg nad Dunajom",
+        "official_name": "Hainburg an der Donau",
+        "place": "town",
+        "population": "6725",
+        "postal_code": "2410",
+        "short_name": "Hainburg",
+        "website": "https://www.hainburg-donau.gv.at/",
+        "wikidata": "Q752107",
+        "wikipedia": "de:Hainburg an der Donau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9422459,
+          48.1466103
+        ]
+      },
+      "id": "node/240096250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240099995",
+        "name": "Eferding",
+        "place": "town",
+        "population": "3521"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0203999,
+          48.3082607
+        ]
+      },
+      "id": "node/240099995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240100634",
+        "ele": "994",
+        "name": "Ehrwald",
+        "openGeoDB:auto_update": "population,place,name,is_in",
+        "openGeoDB:community_identification_number": "7080701",
+        "openGeoDB:is_in": "Ehrwald,Reutte,Tirol,Österreich,Europe",
+        "openGeoDB:is_in_loc_id": "78046",
+        "openGeoDB:layer": "7",
+        "openGeoDB:loc_id": "29234",
+        "openGeoDB:location": "locality",
+        "openGeoDB:name": "Ehrwald",
+        "openGeoDB:population": "2554",
+        "openGeoDB:postal_codes": "6632",
+        "openGeoDB:sort_name": "EHRWALD",
+        "openGeoDB:type": "Ort",
+        "openGeoDB:version": "0.2.6.11 / 2007-12-04 / http://fa-technik.adfc.de/code/opengeodb/dump/",
+        "place": "town",
+        "population": "2554"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9205046,
+          47.3986534
+        ]
+      },
+      "id": "node/240100634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240101128",
+        "ele": "259",
+        "name": "Steyregg",
+        "place": "town",
+        "population": "5017",
+        "population:date": "2019",
+        "source:population": "wikipedia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3711211,
+          48.2852845
+        ]
+      },
+      "id": "node/240101128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240101155",
+        "addr:city": "Vöcklabruck",
+        "addr:country": "AT",
+        "addr:postcode": "4840",
+        "ele": "433",
+        "name": "Vöcklabruck",
+        "name:hu": "Vöcklabruck",
+        "place": "town",
+        "population": "11972",
+        "postal_code": "4840",
+        "website": "https://www.voecklabruck.at/",
+        "wikidata": "Q251325",
+        "wikipedia": "de:Vöcklabruck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6460378,
+          48.0078587
+        ]
+      },
+      "id": "node/240101155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240101404",
+        "name": "Althofen",
+        "name:hu": "Althofen",
+        "place": "town",
+        "population": "4950"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4698793,
+          46.871383
+        ]
+      },
+      "id": "node/240101404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240102547",
+        "name": "Loosdorf",
+        "place": "town",
+        "population": "2732"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4020198,
+          48.2004159
+        ]
+      },
+      "id": "node/240102547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240103067",
+        "name": "Bludenz",
+        "name:mk": "Блуденц",
+        "name:pl": "Bogna",
+        "name:uk": "Блуденц",
+        "name:zh": "布卢登茨",
+        "place": "town",
+        "population": "15029",
+        "population:date": "2023-01-01",
+        "source:population": "Statistik Austria",
+        "wikidata": "Q494504",
+        "wikipedia": "de:Bludenz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8219314,
+          47.153037
+        ]
+      },
+      "id": "node/240103067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240105058",
+        "name": "Ebreichsdorf",
+        "name:hu": "Ebreichsdorf",
+        "name:ru": "Эбрайхсдорф",
+        "place": "town",
+        "population": "9194",
+        "wikidata": "Q646396",
+        "wikipedia": "de:Ebreichsdorf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4023629,
+          47.9626455
+        ]
+      },
+      "id": "node/240105058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240108057",
+        "alt_name:uk": "Люстенау",
+        "ele": "404",
+        "loc_name:uk": "Люштенау",
+        "name": "Lustenau",
+        "name:de": "Lustenau",
+        "name:hu": "Lustenau",
+        "name:uk": "Лустенау",
+        "name:zh": "盧斯特瑙",
+        "old_name": "Lustenoua",
+        "place": "town",
+        "population": "23843",
+        "population:date": "2023-01-01",
+        "postal_code": "6890;6893",
+        "source:population": "Statistik Austria",
+        "website": "https://www.lustenau.at/",
+        "wikidata": "Q488315",
+        "wikipedia": "de:Lustenau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6599406,
+          47.4276538
+        ]
+      },
+      "id": "node/240108057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240108142",
+        "ele": "430",
+        "email": "gemeinde@pernitz.co.at",
+        "name": "Pernitz",
+        "phone": "02632 / 72220",
+        "place": "town",
+        "population": "2478",
+        "postal_code": "2763",
+        "ref:at:gkz": "3232302",
+        "ref:at:okz": "06654",
+        "website": "http://pernitz.at",
+        "wikidata": "Q672797",
+        "wikipedia": "de:Pernitz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9596373,
+          47.8977953
+        ]
+      },
+      "id": "node/240108142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240109644",
+        "name": "Groß-Enzersdorf",
+        "name:cs": "Hrubý Enčesdorf",
+        "name:ru": "Гросэнцерсдорф",
+        "name:sk": "Hrubý Enčisdorf",
+        "place": "town",
+        "population": "8532"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5519598,
+          48.2018
+        ]
+      },
+      "id": "node/240109644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240110400",
+        "name": "Bad Ischl",
+        "name:hu": "Bad Ischl",
+        "name:ru": "Бад-Ишль",
+        "place": "town",
+        "population": "14088"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6239333,
+          47.7115299
+        ]
+      },
+      "id": "node/240110400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240110468",
+        "name": "Bad Eisenkappel/Železna Kapla",
+        "name:de": "Bad Eisenkappel",
+        "name:sl": "Železna Kapla",
+        "place": "town",
+        "population": "872",
+        "wikidata": "Q14954747",
+        "wikipedia": "de:Bad Eisenkappel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5932323,
+          46.4868033
+        ]
+      },
+      "id": "node/240110468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240110573",
+        "ele": "994",
+        "name": "Neustift im Stubaital",
+        "name:ru": "Нойштифт-им-Штубайталь",
+        "openGeoDB:auto_update": "population,place,name,is_in",
+        "openGeoDB:community_identification_number": "70334",
+        "openGeoDB:is_in": "Innsbruck-Land,Tirol,Österreich,Europe",
+        "openGeoDB:is_in_loc_id": "77494",
+        "openGeoDB:layer": "6",
+        "openGeoDB:loc_id": "77557",
+        "openGeoDB:location": "political_structure",
+        "openGeoDB:name": "Neustift im Stubaital",
+        "openGeoDB:population": "4504",
+        "openGeoDB:postal_codes": "6167",
+        "openGeoDB:sort_name": "NEUSTIFT",
+        "openGeoDB:type": "Gemeinde",
+        "openGeoDB:version": "0.2.6.11 / 2007-12-04 / http://fa-technik.adfc.de/code/opengeodb/dump/",
+        "place": "town",
+        "population": "4600",
+        "wikidata": "Q526569",
+        "wikipedia": "de:Neustift im Stubaital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.307579,
+          47.1106408
+        ]
+      },
+      "id": "node/240110573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240110614",
+        "name": "Bad Hall",
+        "place": "town",
+        "population": "4727",
+        "website": "http://www.badhall.com",
+        "wikidata": "Q259086",
+        "wikipedia": "de:Bad Hall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2091385,
+          48.0348017
+        ]
+      },
+      "id": "node/240110614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240111200",
+        "name": "Mattighofen",
+        "name:ru": "Маттигхофен",
+        "place": "town",
+        "population": "5287"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1503106,
+          48.1030792
+        ]
+      },
+      "id": "node/240111200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240112659",
+        "ele": "564",
+        "name": "Wattens",
+        "name:ru": "Ваттенс",
+        "openGeoDB:auto_update": "population,place,name,is_in",
+        "openGeoDB:community_identification_number": "70367",
+        "openGeoDB:is_in": "Innsbruck-Land,Tirol,Österreich,Europe",
+        "openGeoDB:is_in_loc_id": "77494",
+        "openGeoDB:layer": "6",
+        "openGeoDB:loc_id": "77627",
+        "openGeoDB:location": "political_structure",
+        "openGeoDB:name": "Wattens",
+        "openGeoDB:population": "7503",
+        "openGeoDB:postal_codes": "6112",
+        "openGeoDB:sort_name": "WATTENS",
+        "openGeoDB:type": "Markt",
+        "openGeoDB:version": "0.2.6.11 / 2007-12-04 / http://fa-technik.adfc.de/code/opengeodb/dump/",
+        "place": "town",
+        "population": "7503",
+        "postal_code": "6112",
+        "rank": "30",
+        "website": "https://www.wattens.com/",
+        "wikidata": "Q660935",
+        "wikipedia": "de:Wattens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5907326,
+          47.2935786
+        ]
+      },
+      "id": "node/240112659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240116186",
+        "ele": "554",
+        "name": "Feldkirchen",
+        "name:hu": "Feldkirchen in Kärnten",
+        "name:ru": "Фельдкирхен-ин-Кернтен",
+        "official_name": "Feldkirchen in Kärnten",
+        "place": "town",
+        "population": "14434",
+        "population:date": "2023-01-01",
+        "postal_code": "9560",
+        "source:population": "wikipedia",
+        "wikidata": "Q507533",
+        "wikipedia": "de:Feldkirchen in Kärnten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0964965,
+          46.7229178
+        ]
+      },
+      "id": "node/240116186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240118548",
+        "name": "Matrei in Osttirol",
+        "name:ru": "Матрай",
+        "name:uk": "Матрай-ін-Осттіроль",
+        "place": "town",
+        "population": "2466",
+        "wikidata": "Q261697",
+        "wikipedia": "de:Matrei in Osttirol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5333333,
+          47
+        ]
+      },
+      "id": "node/240118548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240120735",
+        "ele": "463",
+        "name": "Wolfsberg",
+        "name:hu": "Wolfsberg",
+        "name:ru": "Вольфсберг",
+        "name:sl": "Volšperk",
+        "place": "town",
+        "population": "25045",
+        "postal_code": "9400",
+        "wikidata": "Q487527",
+        "wikipedia": "de:Wolfsberg (Kärnten)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8452061,
+          46.8390583
+        ]
+      },
+      "id": "node/240120735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240121762",
+        "name": "Brixlegg",
+        "name:ru": "Брикслег",
+        "place": "town",
+        "population": "2840",
+        "rank": "30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.8772297,
+          47.4302395
+        ]
+      },
+      "id": "node/240121762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240122078",
+        "name": "Gloggnitz",
+        "name:ru": "Глогниц",
+        "place": "town",
+        "population": "6062",
+        "website": "https://www.gloggnitz.at/",
+        "wikidata": "Q679328",
+        "wikipedia": "de:Gloggnitz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9374085,
+          47.6757858
+        ]
+      },
+      "id": "node/240122078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240122286",
+        "name": "Schwechat",
+        "name:cs": "Švechaty",
+        "name:de": "Schwechat",
+        "name:hu": "Schwechat",
+        "name:ka": "შვეხათი",
+        "name:ru": "Швехат",
+        "name:sk": "Švechaty",
+        "openGeoDB:community_identification_number": "32419",
+        "openGeoDB:is_in_loc_id": "66975",
+        "openGeoDB:layer": "6",
+        "openGeoDB:loc_id": "67016",
+        "openGeoDB:location": "political_structure",
+        "openGeoDB:name": "Schwechat",
+        "openGeoDB:population": "15832",
+        "openGeoDB:postal_codes": "1300,2320",
+        "openGeoDB:type": "Gemeinde",
+        "openGeoDB:version": "0.2.6.11 / 2007-12-04 / http://fa-technik.adfc.de/code/opengeodb/dump/",
+        "place": "town",
+        "ref:at:gkz": "30740",
+        "ref:at:okz": "06728",
+        "wikidata": "Q489972",
+        "wikipedia": "de:Schwechat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4780312,
+          48.1397436
+        ]
+      },
+      "id": "node/240122286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240122409",
+        "name": "Sankt Johann im Pongau",
+        "place": "town",
+        "population": "10566",
+        "wikidata": "Q251022",
+        "wikipedia": "de:St. Johann im Pongau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.202318,
+          47.3488031
+        ]
+      },
+      "id": "node/240122409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240123085",
+        "name": "Pöllau",
+        "place": "town",
+        "population": "1981"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8340187,
+          47.302891
+        ]
+      },
+      "id": "node/240123085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240126489",
+        "ele": "575",
+        "name": "Zell am Ziller",
+        "name:cs": "Zell nad Zillerem",
+        "name:ru": "Целль-ам-Циллер",
+        "place": "town",
+        "population": "1723",
+        "website": "https://www.gemeinde-zell.at/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.881991,
+          47.2335951
+        ]
+      },
+      "id": "node/240126489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240127924",
+        "name": "Eisenerz",
+        "name:ru": "Айзенэрц",
+        "place": "town",
+        "population": "3742",
+        "postal_code": "8790",
+        "wikidata": "Q284596",
+        "wikimedia_commons": "Category:Eisenerz",
+        "wikipedia": "de:Eisenerz (Steiermark)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8857099,
+          47.5420788
+        ]
+      },
+      "id": "node/240127924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240129102",
+        "name": "Marchtrenk",
+        "name:hu": "Marchtrenk",
+        "name:ru": "Мархтренк",
+        "place": "town",
+        "population": "12951"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1117625,
+          48.1907992
+        ]
+      },
+      "id": "node/240129102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240129992",
+        "name": "Sankt Andrä",
+        "name:ru": "Санкт-Андре",
+        "place": "town",
+        "population": "9957",
+        "postal_code": "9433"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8236111,
+          46.7661111
+        ]
+      },
+      "id": "node/240129992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/269366799",
+        "name": "Gföhl",
+        "name:ru": "Гфёль",
+        "place": "town",
+        "population": "1888"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4905293,
+          48.516682
+        ]
+      },
+      "id": "node/269366799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/340180405",
+        "name": "Krems an der Donau",
+        "name:cs": "Kremže",
+        "name:hu": "Krems an der Donau",
+        "name:ka": "კრემზი დუნაიზე",
+        "name:ru": "Кремз на Дунае",
+        "place": "town",
+        "population": "12500",
+        "short_name": "Krems",
+        "wikidata": "Q131266"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6003717,
+          48.4108382
+        ]
+      },
+      "id": "node/340180405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/343343868",
+        "name": "Friesach",
+        "name:ru": "Фризах",
+        "place": "town",
+        "population": "2238"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4052266,
+          46.9520636
+        ]
+      },
+      "id": "node/343343868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/443006267",
+        "name": "Langenlois",
+        "name:ru": "Лангенлойс",
+        "name:uk": "Лангенлойс",
+        "name:zh": "朗根洛伊斯",
+        "place": "town",
+        "population": "4272",
+        "wikidata": "Q672511",
+        "wikipedia": "de:Langenlois"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.676295,
+          48.472601
+        ]
+      },
+      "id": "node/443006267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/528617322",
+        "name": "Bad Hofgastein",
+        "name:hu": "Bad Hofgastein",
+        "name:ru": "Бад-Хофгастайн",
+        "place": "town",
+        "population": "6726"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1060635,
+          47.1703104
+        ]
+      },
+      "id": "node/528617322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/611750804",
+        "name": "Feistritz an der Drau",
+        "name:cs": "Bystřice nad Drávou",
+        "place": "town",
+        "population": "1739"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.661408,
+          46.7037803
+        ]
+      },
+      "id": "node/611750804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/620831626",
+        "name": "Steinfeld",
+        "place": "town",
+        "population": "1337",
+        "population:date": "2018-01-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2476697,
+          46.7574965
+        ]
+      },
+      "id": "node/620831626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/641205466",
+        "name": "Schwanenstadt",
+        "name:ru": "Шваненштадт",
+        "place": "town",
+        "postal_code": "4690"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7749232,
+          48.0545249
+        ]
+      },
+      "id": "node/641205466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/746030027",
+        "name": "Deutsch-Wagram",
+        "name:cs": "Německý Ogrun",
+        "name:hr": "Nimški Ogrun",
+        "name:ru": "Дойч-Ваграм",
+        "name:sk": "Nemecký Ogrún",
+        "place": "town",
+        "population": "7830"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5568452,
+          48.2959872
+        ]
+      },
+      "id": "node/746030027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/802050695",
+        "name": "Klosterneuburg",
+        "name:hu": "Klosterneuburg",
+        "name:ml": "ക്ലോസ്റ്റർനോയ്ബർഗ്",
+        "name:ru": "Клостернойбург",
+        "place": "town",
+        "population": "26816",
+        "population:date": "2017-01-01",
+        "population:source": "Statistik Austria",
+        "wikidata": "Q487522",
+        "wikipedia": "de:Klosterneuburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.323756,
+          48.30499
+        ]
+      },
+      "id": "node/802050695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/826109863",
+        "ele": "748",
+        "name": "Saalfelden am Steinernen Meer",
+        "name:ru": "Зальфельден-ам-Штайнернен-Мер",
+        "openGeoDB:community_identification_number": "5061926",
+        "openGeoDB:loc_id": "30083",
+        "place": "town",
+        "population": "16235",
+        "postal_code": "5760",
+        "wikidata": "Q183228",
+        "wikipedia": "de:Saalfelden am Steinernen Meer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.8481048,
+          47.4266166
+        ]
+      },
+      "id": "node/826109863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1014320988",
+        "name": "Oberndorf bei Salzburg",
+        "name:ru": "Оберндорф-бай-Зальцбург",
+        "old_name": "Marktgemeinde Oberndorf",
+        "place": "town",
+        "population": "5578"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9461482,
+          47.939935
+        ]
+      },
+      "id": "node/1014320988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1090062682",
+        "name": "Kitzbühel",
+        "name:ja": "キッツビュール",
+        "name:ru": "Кицбюэль",
+        "name:zh": "基茨比尔",
+        "place": "town",
+        "population": "8574",
+        "rank": "30",
+        "wikidata": "Q264665",
+        "wikipedia": "de:Kitzbühel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3911473,
+          47.4463585
+        ]
+      },
+      "id": "node/1090062682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1303859047",
+        "name": "Bischofshofen",
+        "name:hu": "Bischofshofen",
+        "name:ru": "Бишофсхофен",
+        "place": "town",
+        "population": "7134"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2170933,
+          47.4168029
+        ]
+      },
+      "id": "node/1303859047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1612589807",
+        "ele": "574",
+        "name": "Hall in Tirol",
+        "name:hu": "Hall in Tirol",
+        "name:ja": "ハル・イン・チロル",
+        "name:ko": "할인티롤",
+        "name:ru": "Халль-ин-Тироль",
+        "name:zh": "蒂羅爾州霍爾",
+        "openGeoDB:auto_update": "population",
+        "openGeoDB:community_identification_number": "7035402",
+        "openGeoDB:is_in": "Hall in Tirol,Innsbruck-Land,Tirol,Österreich,Europe",
+        "openGeoDB:is_in_loc_id": "77590",
+        "openGeoDB:layer": "7",
+        "openGeoDB:loc_id": "29436",
+        "openGeoDB:name": "Hall in Tirol",
+        "openGeoDB:population": "10991",
+        "openGeoDB:postal_codes": "6060,6050",
+        "openGeoDB:sort_name": "HALL",
+        "openGeoDB:type": "Ort",
+        "openGeoDB:version": "0.2.6.11 / 2007-12-04 / http://fa-technik.adfc.de/code/opengeodb/dump/",
+        "opengeodb:lat": "47.2806951",
+        "opengeodb:lon": "11.5075424",
+        "place": "town",
+        "population": "14418",
+        "rank": "20",
+        "source": "GeoImage.at; Wikipedia",
+        "wikidata": "Q302745",
+        "wikipedia": "de:Hall in Tirol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5075337,
+          47.2816648
+        ]
+      },
+      "id": "node/1612589807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1685894040",
+        "name": "Hallein",
+        "name:ru": "Халлайн",
+        "place": "town",
+        "population": "20768"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0956313,
+          47.6821521
+        ]
+      },
+      "id": "node/1685894040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1898614152",
+        "capital": "4",
+        "ele": "427",
+        "name": "Bregenz",
+        "name:be": "Брэгенц",
+        "name:be-tarask": "Брэгенц",
+        "name:de": "Bregenz",
+        "name:fr": "Brégence",
+        "name:hu": "Bregenz",
+        "name:pl": "Bregencja",
+        "name:ru": "Брегенц",
+        "name:zh": "布雷根茨",
+        "place": "town",
+        "population": "29620",
+        "population:date": "2023-01-01",
+        "postal_code": "6900",
+        "source": "wikipedia.de",
+        "source:population": "Statistik Austria",
+        "website": "https://www.bregenz.at/",
+        "wikidata": "Q1737",
+        "wikipedia": "de:Bregenz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7472924,
+          47.5025779
+        ]
+      },
+      "id": "node/1898614152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1993122158",
+        "name": "Bleiburg/Pliberk",
+        "name:de": "Bleiburg",
+        "name:ru": "Блайбург",
+        "name:sl": "Pliberk",
+        "place": "town",
+        "population": "1339"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7989915,
+          46.5901133
+        ]
+      },
+      "id": "node/1993122158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2015063027",
+        "country": "AT",
+        "name": "Schwaz",
+        "name:ko": "한국어",
+        "name:ru": "Швац",
+        "name:zh": "施瓦茨",
+        "place": "town",
+        "population": "13058",
+        "rank": "20",
+        "website": "https://www.schwaz.at/",
+        "wikidata": "Q583485",
+        "wikipedia": "de:Schwaz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7084253,
+          47.3449529
+        ]
+      },
+      "id": "node/2015063027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2904894031",
+        "name": "Attnang-Puchheim",
+        "name:ru": "Атнанг-Пуххайм",
+        "note": "wiki.openstreetmap.org/wiki/Austria#Besonderheiten_und_Standards_beim_Kartografieren .Ortsname laut Ortstafeln \"Attnang-Pucheim\" (wie die Gesamtgemeinde). Auch wenn es laut BEV-Adressregister keine gleichnamige Ortschaft gibt",
+        "place": "town",
+        "population": "8839",
+        "postal_code": "4800",
+        "wikidata": "Q261216",
+        "wikipedia": "de:Attnang-Puchheim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7210848,
+          48.0114566
+        ]
+      },
+      "id": "node/2904894031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3653282655",
+        "name": "Feldbach",
+        "name:sl": "Vrbna",
+        "place": "town",
+        "population": "13369",
+        "population:date": "2018-01-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8886091,
+          46.9527822
+        ]
+      },
+      "id": "node/3653282655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3895747275",
+        "alt_name": "Rohrbach-Berg",
+        "name": "Rohrbach",
+        "place": "town",
+        "population": "5075",
+        "postal_code": "4150",
+        "source:name": "Ortstafeln gemäß https://wiki.openstreetmap.org/wiki/Austria#St%C3%A4dte-_und_Ortsnamen. \"Rohrbach-Berg\" heißt die Gesamtgemeinde",
+        "wikidata": "Q19848342",
+        "wikipedia": "de:Rohrbach-Berg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.9908156,
+          48.5723052
+        ]
+      },
+      "id": "node/3895747275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5362096170",
+        "name": "Gratwein-Straßengel",
+        "place": "town",
+        "population": "13000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3304611,
+          47.1231264
+        ]
+      },
+      "id": "node/5362096170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8986762228",
+        "ele": "659",
+        "name": "Bad Aussee",
+        "name:hu": "Bad Aussee",
+        "name:ru": "Бад-Аусзе",
+        "place": "town",
+        "population": "4762",
+        "postal_code": "8990",
+        "wikidata": "Q251065",
+        "wikipedia": "de:Bad Aussee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7835784,
+          47.6094985
+        ]
+      },
+      "id": "node/8986762228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9260667460",
+        "elevation": "645",
+        "name": "Knittelfeld",
+        "place": "town",
+        "population": "12574",
+        "postal_code": "8720",
+        "website": "https://knittelfeld.gv.at/",
+        "wikipedia": "de:Knittelfeld"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8297233,
+          47.2147399
+        ]
+      },
+      "id": "node/9260667460"
+    }
+  ]
+}

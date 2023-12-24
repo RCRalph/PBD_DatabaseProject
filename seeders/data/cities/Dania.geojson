@@ -1,0 +1,3088 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-12-16T16:51:25Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13704769",
+        "name": "Kastrup",
+        "name:de": "Kastrup",
+        "place": "town",
+        "population": "43010",
+        "wikidata": "Q1420866",
+        "wikipedia": "da:Kastrup (Amager)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6379955,
+          55.6378428
+        ]
+      },
+      "id": "node/13704769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13707878",
+        "admin_level": "2",
+        "alt_name:fi": "Köpis",
+        "alt_name:gl": "Copenhague",
+        "capital": "yes",
+        "country": "DK",
+        "ele": "24",
+        "name": "København",
+        "name:am": "ኮፐንሀገን",
+        "name:an": "Copenaguen",
+        "name:ang": "Cēapmannhæfen",
+        "name:ar": "كوبنهاغن",
+        "name:arc": "ܩܘܦܢܗܐܓܢ",
+        "name:arz": "كوبينهاجين",
+        "name:ast": "Conpenḥague",
+        "name:bat-smg": "Kuopenhaga",
+        "name:be": "Капенгаген",
+        "name:be-tarask": "Капэнгаген",
+        "name:bg": "Копенхаген",
+        "name:bn": "কোপেনহেগেন",
+        "name:bo": "ཁོ་ཕེན་ཧ་ཀེན།",
+        "name:br": "Kopenhagen",
+        "name:bs": "Kopenhagen",
+        "name:ca": "Copenhaguen",
+        "name:ckb": "کۆپنھاگن",
+        "name:co": "Copenaghen",
+        "name:cs": "Kodaň",
+        "name:csb": "Kòpenhaga",
+        "name:cu": "Кобєнхавнъ",
+        "name:cv": "Копенгаген",
+        "name:cy": "Copenhagen",
+        "name:da": "København",
+        "name:de": "Kopenhagen",
+        "name:diq": "Kopenhag",
+        "name:ee": "Copenhagen",
+        "name:el": "Κοπεγχάγη",
+        "name:en": "Copenhagen",
+        "name:eo": "Kopenhago",
+        "name:es": "Copenhague",
+        "name:et": "Kopenhaagen",
+        "name:eu": "Kopenhage",
+        "name:ext": "Copenagui",
+        "name:fa": "کپنهاگ",
+        "name:fi": "Kööpenhamina",
+        "name:fo": "Keypmannahavn",
+        "name:fr": "Copenhague",
+        "name:frr": "Kopenhuuwen",
+        "name:fy": "Kopenhagen",
+        "name:ga": "Cóbanhávan",
+        "name:gd": "Copenhagen",
+        "name:gl": "Copenhaguen",
+        "name:gv": "København",
+        "name:he": "קופנהגן",
+        "name:hi": "कोपनहेगन",
+        "name:hif": "Copenhagen",
+        "name:hr": "Kopenhagen",
+        "name:ht": "Kopènag",
+        "name:hu": "Koppenhága",
+        "name:hy": "Կոպենհագեն",
+        "name:ia": "Copenhagen",
+        "name:ilo": "Copenhagen",
+        "name:io": "København",
+        "name:is": "Kaupmannahöfn",
+        "name:it": "Copenaghen",
+        "name:ja": "コペンハーゲン",
+        "name:ka": "კოპენჰაგენი",
+        "name:kk": "Копенгаген",
+        "name:kl": "København",
+        "name:kn": "ಕೋಪನ್ಹಾಗೆನ್",
+        "name:ko": "코펜하겐",
+        "name:ku": "Kopenhag",
+        "name:kv": "Копенгаген",
+        "name:kw": "Kopenhavn",
+        "name:ky": "Копенгаген",
+        "name:la": "Hafnia",
+        "name:lb": "Kopenhagen",
+        "name:lij": "Copenaghen",
+        "name:lmo": "Cupenaghen",
+        "name:lt": "Kopenhaga",
+        "name:ltg": "Kopenhaga",
+        "name:lv": "Kopenhāgena",
+        "name:mg": "Kaopenagy",
+        "name:mi": "Copenhagen",
+        "name:mk": "Копенхаген",
+        "name:ml": "കോപ്പൻഹേഗൻ",
+        "name:mr": "कोपनहेगन",
+        "name:mt": "Kopenħagen",
+        "name:my": "ကိုပင်ဟေဂင်မြို့",
+        "name:nah": "Copenague",
+        "name:nan": "Copenhagen",
+        "name:nap": "Copenaghen",
+        "name:nds": "Kopenhagen",
+        "name:nl": "Kopenhagen",
+        "name:nn": "København",
+        "name:no": "København",
+        "name:nov": "København",
+        "name:oc": "Copenaga",
+        "name:os": "Копенгаген",
+        "name:pl": "Kopenhaga",
+        "name:pms": "Copenàghen",
+        "name:pnb": "کوپن ہیگن",
+        "name:pt": "Copenhaga",
+        "name:qu": "København",
+        "name:ro": "Copenhaga",
+        "name:roa-rup": "Copenhagen",
+        "name:ru": "Копенгаген",
+        "name:sa": "कोपनहागन",
+        "name:sah": "Копенһаген",
+        "name:sc": "Copenaghen",
+        "name:scn": "Copenaghen",
+        "name:sco": "Copenhagen",
+        "name:se": "Københápman",
+        "name:simple": "Copenhagen",
+        "name:sk": "Kodaň",
+        "name:sl": "København",
+        "name:so": "Kobanhaygan",
+        "name:sr": "Копенхаген",
+        "name:st": "Copenhagen",
+        "name:sv": "Köpenhamn",
+        "name:szl": "Kopynhaga",
+        "name:ta": "கோபனாவன்",
+        "name:te": "కోపెన్‌హాగన్",
+        "name:tg": "Копенҳаген",
+        "name:th": "โคเปนเฮเกน",
+        "name:tl": "Copenhagen",
+        "name:tr": "Kopenhag",
+        "name:tt": "Копенгаген",
+        "name:tzl": "Cjövnahaun",
+        "name:udm": "Копенгаген",
+        "name:ug": "Kopénhagén",
+        "name:uk": "Копенгаген",
+        "name:ur": "کوپن ہیگن",
+        "name:vec": "Copenaghen",
+        "name:vep": "Kopengagen",
+        "name:vi": "Copenhagen",
+        "name:vo": "København",
+        "name:vro": "Kopõnhaagõn",
+        "name:war": "Copenhagen",
+        "name:xmf": "კოპენჰაგენი",
+        "name:yi": "קאפנהאגן",
+        "name:yo": "Copenhagen",
+        "name:yue": "哥本哈根",
+        "name:zh": "哥本哈根",
+        "place": "city",
+        "population": "613288",
+        "population:date": "2018-01-01",
+        "short_name": "cph;kbh",
+        "source:name:br": "ofis publik ar brezhoneg",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q1748",
+        "wikipedia": "da:København"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5700724,
+          55.6867243
+        ]
+      },
+      "id": "node/13707878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21040320",
+        "name": "Helsingør",
+        "name:de": "Helsingör",
+        "name:en": "Elsinore",
+        "name:es": "Elsinor",
+        "name:fr": "Elseneur",
+        "name:ia": "Elsinor",
+        "name:is": "Helsingjaeyri",
+        "name:it": "Elsinore",
+        "name:ja": "ヘルシンゲル",
+        "name:ka": "ჰელსინგერი",
+        "name:ko": "헬싱외르",
+        "name:lmo": "Elsinör",
+        "name:lt": "Helsingioras",
+        "name:mk": "Хелсингер",
+        "name:pt": "Helsingor",
+        "name:ru": "Хельсингёр",
+        "name:sr": "Хелсингер",
+        "name:sv": "Helsingör",
+        "name:th": "เฮลซิงเงอร์",
+        "name:uk": "Гельсінгер",
+        "name:yue": "希星加",
+        "name:zh": "赫爾辛格",
+        "old_name:nl": "Elseneur",
+        "place": "town",
+        "population": "47364",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q26881",
+        "wikipedia": "da:Helsingør"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6130073,
+          56.0348739
+        ]
+      },
+      "id": "node/21040320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21040321",
+        "alt_name": "Kgs. Lyngby",
+        "loc_name": "Lyngby",
+        "name": "Kongens Lyngby",
+        "name:lt": "Liungbiu",
+        "place": "town",
+        "population": "53501",
+        "wikidata": "Q2239",
+        "wikipedia": "da:Kongens Lyngby"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5051413,
+          55.7718649
+        ]
+      },
+      "id": "node/21040321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21040334",
+        "name": "Roskilde",
+        "name:cv": "Роскильде",
+        "name:is": "Hróarskelda",
+        "name:ja": "ロスキレ",
+        "name:ka": "როსკილე",
+        "name:ko": "로스킬레",
+        "name:lt": "Roskildė",
+        "name:mk": "Роскилде",
+        "name:ru": "Роскилле",
+        "name:sr": "Роскилде",
+        "name:th": "รอสกิลด์",
+        "name:uk": "Роскілле",
+        "name:zh": "罗斯基勒",
+        "place": "city",
+        "population": "50781",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q26563",
+        "wikipedia": "da:Roskilde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.0819247,
+          55.6433478
+        ]
+      },
+      "id": "node/21040334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21040360",
+        "name": "Esbjerg",
+        "name:ar": "إسبيرغ",
+        "name:da": "Esbjerg",
+        "name:de": "Esberg",
+        "name:hu": "Esbjerg",
+        "name:lt": "Esbjergas",
+        "name:ru": "Эсбьерг",
+        "name:zh": "埃斯比约",
+        "place": "city",
+        "population": "72398",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q26234",
+        "wikipedia": "da:Esbjerg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4520751,
+          55.4664892
+        ]
+      },
+      "id": "node/21040360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21148742",
+        "name": "Sønderborg",
+        "name:da": "Sønderborg",
+        "name:de": "Sonderburg",
+        "name:id": "Munisipalitas Sønderborg",
+        "name:ja": "セナボー",
+        "name:ka": "სენერბორგი",
+        "name:ko": "쇠네르보르",
+        "name:lt": "Sionderborgas",
+        "name:mk": "Сондерборг",
+        "name:nl": "Sønderborg",
+        "name:ru": "Сённерборг",
+        "name:sr": "Сендерборг",
+        "place": "town",
+        "population": "27785",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q21179",
+        "wikipedia": "da:Sønderborg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7897999,
+          54.9089186
+        ]
+      },
+      "id": "node/21148742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21518091",
+        "name": "Varde",
+        "name:de": "Varde",
+        "name:nl": "Varde",
+        "name:ru": "Варде",
+        "name:sr": "Варде",
+        "place": "town",
+        "population": "13949",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q2048321",
+        "wikipedia": "da:Varde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4811757,
+          55.6176702
+        ]
+      },
+      "id": "node/21518091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21686564",
+        "name": "Holbæk",
+        "name:de": "Holbäk",
+        "name:ka": "ჰოლბეკი",
+        "name:lt": "Holbekas",
+        "name:mk": "Холбек",
+        "name:nl": "Holbæk",
+        "name:ru": "Хольбек",
+        "name:sr": "Холбек",
+        "place": "town",
+        "population": "28264",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q28042",
+        "wikipedia": "da:Holbæk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7135474,
+          55.7186117
+        ]
+      },
+      "id": "node/21686564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21770219",
+        "name": "Ballerup",
+        "name:de": "Ballerup",
+        "name:fa": "لیدل",
+        "name:ka": "ბალერუპი",
+        "name:ru": "Баллеруп",
+        "place": "town",
+        "population": "39087",
+        "wikidata": "Q28143",
+        "wikipedia": "da:Ballerup"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3612313,
+          55.7303589
+        ]
+      },
+      "id": "node/21770219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/25232818",
+        "name": "Ringsted",
+        "name:de": "Ringsted",
+        "name:ka": "რინგსტედი",
+        "name:nl": "Ringsted",
+        "name:ru": "Рингстед",
+        "name:zh": "灵斯泰兹",
+        "place": "town",
+        "population": "22657",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q283658",
+        "wikipedia": "da:Ringsted"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7975218,
+          55.446817
+        ]
+      },
+      "id": "node/25232818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/25274027",
+        "name": "Herlev",
+        "name:de": "Herlev",
+        "name:ka": "ჰერლევი",
+        "place": "town",
+        "population": "26890",
+        "wikidata": "Q3646715",
+        "wikipedia": "da:Herlev"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4377222,
+          55.7248173
+        ]
+      },
+      "id": "node/25274027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/25275433",
+        "name": "Ølstykke",
+        "name:ru": "Эльстюкке",
+        "note": "Ølstykke er fra 1. januar 2017 af Styrelsen for Dataforsyning og Effektivisering igen klassificeret som en selvstændig by",
+        "place": "town",
+        "population": "14833",
+        "population:date": "2017-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q9393687",
+        "wikipedia": "da:Ølstykke Stationsby"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.1717405,
+          55.7765597
+        ]
+      },
+      "id": "node/25275433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/25389641",
+        "name": "Frederiksberg",
+        "place": "town",
+        "wikidata": "Q30096",
+        "wikipedia": "en:Frederiksberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5326186,
+          55.678016
+        ]
+      },
+      "id": "node/25389641"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/25425345",
+        "alt_name": "Åbenrå",
+        "name": "Aabenraa",
+        "name:de": "Apenrade",
+        "name:es": "Abenrá",
+        "name:et": "Åbenrå",
+        "name:fr": "Åbenrå",
+        "name:fy": "Apenrua",
+        "name:hr": "Aabenraa",
+        "name:ja": "オーベンロー",
+        "name:ko": "오벤로",
+        "name:lt": "Obenro",
+        "name:nl": "Aabenraa",
+        "name:pt": "Åbenrå",
+        "name:ru": "Обенро",
+        "name:sk": "Åbenrå",
+        "name:sr": "Обенро",
+        "name:sv": "Åbenrå",
+        "name:zh": "奥本罗",
+        "place": "town",
+        "population": "16274",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q154897",
+        "wikipedia": "da:Aabenraa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4209667,
+          55.0446228
+        ]
+      },
+      "id": "node/25425345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/25435368",
+        "name": "Frederikssund",
+        "name:de": "Frederikssund",
+        "name:nl": "Frederikssund",
+        "name:no": "Frederikssund (by)",
+        "name:ru": "Фредерикссунн",
+        "name:sr": "Фредериксунд",
+        "place": "town",
+        "population": "16254",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q3223801",
+        "wikipedia": "da:Frederikssund"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.063595,
+          55.8417752
+        ]
+      },
+      "id": "node/25435368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559007",
+        "name": "Herning",
+        "name:de": "Herning",
+        "name:id": "Munisipalitas Herning",
+        "name:ja": "ヘアニング",
+        "name:ka": "ჰერნინგი",
+        "name:kk": "Хернинг",
+        "name:lt": "Herningas",
+        "name:mk": "Хернинг",
+        "name:ms": "Munisipaliti Herning",
+        "name:nl": "Herning",
+        "name:ru": "Хернинг",
+        "name:sr": "Хернинг",
+        "name:uk": "Гернінг",
+        "name:zh": "海宁 (丹麦)",
+        "place": "town",
+        "population": "44557",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q27393",
+        "wikipedia": "da:Herning"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9746623,
+          56.1379757
+        ]
+      },
+      "id": "node/26559007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559009",
+        "name": "Vordingborg",
+        "name:de": "Vordingburg",
+        "name:nl": "Vordingborg",
+        "name:ru": "Вордингборг",
+        "name:sr": "Вордингборг",
+        "name:zh": "沃尔丁堡",
+        "place": "town",
+        "population": "12038",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q2608258",
+        "wikipedia": "da:Vordingborg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9097478,
+          55.0102518
+        ]
+      },
+      "id": "node/26559009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559022",
+        "name": "Billund",
+        "name:de": "Billund",
+        "name:en": "Billund",
+        "name:ka": "ბილუნდი",
+        "name:lt": "Bilundas",
+        "name:nl": "Billund (plaats)",
+        "name:ru": "Биллунн",
+        "place": "town",
+        "population": "6451",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q1701099",
+        "wikipedia": "da:Billund"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1195835,
+          55.7247018
+        ]
+      },
+      "id": "node/26559022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559025",
+        "name": "Helsinge",
+        "name:de": "Helsinge",
+        "name:pl": "Gmina Helsinge",
+        "name:ru": "Хельсинге",
+        "place": "town",
+        "population": "8229",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q3173563",
+        "wikipedia": "da:Helsinge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.1951087,
+          56.0211073
+        ]
+      },
+      "id": "node/26559025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559035",
+        "name": "Ikast",
+        "name:de": "Ikast",
+        "name:lt": "Ikastas",
+        "name:sr": "Икаст",
+        "place": "town",
+        "population": "15479",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q1021277",
+        "wikipedia": "da:Ikast"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1547931,
+          56.1390178
+        ]
+      },
+      "id": "node/26559035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559044",
+        "name": "Nakskov",
+        "name:de": "Nakskov",
+        "name:lt": "Nakskovas",
+        "name:ru": "Наксков",
+        "name:sr": "Наксков",
+        "place": "town",
+        "population": "12661",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q24231",
+        "wikipedia": "da:Nakskov"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1493517,
+          54.8304979
+        ]
+      },
+      "id": "node/26559044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559045",
+        "name": "Birkerød",
+        "name:de": "Birkeröd",
+        "name:ru": "Биркерёд",
+        "place": "town",
+        "population": "20539",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q865630",
+        "wikipedia": "da:Birkerød"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4287796,
+          55.8403369
+        ]
+      },
+      "id": "node/26559045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559047",
+        "name": "Hedensted",
+        "name:de": "Hedensted",
+        "name:nl": "Hedensted",
+        "name:ru": "Хеденстед",
+        "name:sr": "Хеденстед",
+        "place": "town",
+        "population": "11835",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q3500912",
+        "wikipedia": "da:Hedensted"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6994255,
+          55.7705233
+        ]
+      },
+      "id": "node/26559047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559049",
+        "name": "Humlebæk",
+        "place": "town",
+        "population": "9643",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q2631512",
+        "wikipedia": "da:Humlebæk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5305462,
+          55.9618789
+        ]
+      },
+      "id": "node/26559049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559057",
+        "name": "Tranbjerg",
+        "name:ru": "Транбьерг",
+        "place": "town",
+        "population": "7307",
+        "source": "geonames.org",
+        "wikidata": "Q2329474",
+        "wikipedia": "da:Tranbjerg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1330099,
+          56.0905987
+        ]
+      },
+      "id": "node/26559057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559058",
+        "alt_name": "Fæstningsbyen",
+        "name": "Fredericia",
+        "name:de": "Fredericia",
+        "name:ja": "フレゼリシア",
+        "name:ka": "ფრედერისია",
+        "name:kk": "Фредерисия",
+        "name:ko": "프레데리시아",
+        "name:lt": "Frederisija",
+        "name:mk": "Фредериција",
+        "name:nl": "Fredericia",
+        "name:ru": "Фредерисия",
+        "name:sr": "Фредерикија",
+        "old_name:de": "Friedericia",
+        "place": "town",
+        "population": "41044",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q21181",
+        "wikipedia": "da:Fredericia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7562169,
+          55.565268
+        ]
+      },
+      "id": "node/26559058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559061",
+        "name": "Hundested",
+        "name:de": "Hundested",
+        "name:ru": "Хуннестед",
+        "place": "town",
+        "population": "8613",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q1020031",
+        "wikipedia": "da:Hundested"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.8515494,
+          55.9668501
+        ]
+      },
+      "id": "node/26559061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559063",
+        "name": "Fredensborg",
+        "place": "town",
+        "population": "8611",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q565436",
+        "wikipedia": "da:Fredensborg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4050622,
+          55.9740003
+        ]
+      },
+      "id": "node/26559063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559074",
+        "name": "Frederiksværk",
+        "name:de": "Frederiksvärk",
+        "name:ru": "Фредериксверк",
+        "place": "town",
+        "population": "12451",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q1796191",
+        "wikipedia": "da:Frederiksværk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.0174311,
+          55.9719082
+        ]
+      },
+      "id": "node/26559074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559081",
+        "name": "Værløse",
+        "name:de": "Værløse Kommune",
+        "name:pl": "Gmina Værløse",
+        "place": "town",
+        "population": "13070",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q3171395",
+        "wikipedia": "da:Værløse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.383333,
+          55.783333
+        ]
+      },
+      "id": "node/26559081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559092",
+        "name": "Haslev",
+        "name:de": "Haslev",
+        "name:ru": "Хаслев",
+        "name:sr": "Хаслев",
+        "place": "town",
+        "population": "11880",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q1016690",
+        "wikipedia": "da:Haslev"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9567297,
+          55.3271115
+        ]
+      },
+      "id": "node/26559092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559100",
+        "name": "Nivå",
+        "place": "town",
+        "population": "7821",
+        "source": "Statistikbanken Tabel BEF44",
+        "wikidata": "Q2926034",
+        "wikipedia": "da:Nivå"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5013529,
+          55.935056
+        ]
+      },
+      "id": "node/26559100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559138",
+        "name": "Rudkøbing",
+        "name:ru": "Рудкëбинг",
+        "place": "town",
+        "population": "4647",
+        "wikidata": "Q731023",
+        "wikipedia": "da:Rudkøbing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7167568,
+          54.9377498
+        ]
+      },
+      "id": "node/26559138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559142",
+        "name": "Smørumnedre",
+        "note": "byen befinder sig i 3 kommuner",
+        "place": "town",
+        "population": "19816",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q1715139",
+        "wikipedia": "da:Smørumnedre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2998472,
+          55.7366023
+        ]
+      },
+      "id": "node/26559142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559154",
+        "name": "Randers",
+        "name:de": "Randers",
+        "name:hu": "Randers",
+        "name:lt": "Randersas",
+        "name:lv": "Ranersa",
+        "name:ru": "Раннерс",
+        "name:uk": "Раннерс",
+        "place": "city",
+        "population": "62687",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q27168",
+        "wikipedia": "da:Randers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0371476,
+          56.4617545
+        ]
+      },
+      "id": "node/26559154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559159",
+        "name": "Hørsholm",
+        "name:de": "Hirschholm",
+        "name:ka": "ჰერსჰოლმი",
+        "name:lt": "Hiorsholmas",
+        "name:ru": "Хёрсхольм",
+        "note": "Byen befinder sig i tre kommuner",
+        "place": "town",
+        "population": "47489",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q20835",
+        "wikipedia": "da:Hørsholm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5000112,
+          55.8832986
+        ]
+      },
+      "id": "node/26559159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559167",
+        "census": "2013",
+        "name": "Høng",
+        "place": "town",
+        "population": "4272",
+        "wikidata": "Q12317806",
+        "wikipedia": "da:Høng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2927612,
+          55.5084661
+        ]
+      },
+      "id": "node/26559167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559169",
+        "name": "Nyborg",
+        "name:de": "Nyborg",
+        "name:nl": "Nyborg",
+        "name:ru": "Нюборг",
+        "name:sv": "Nyborg",
+        "old_name:de": "Nieburg",
+        "place": "town",
+        "population": "17164",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q3530435",
+        "wikipedia": "da:Nyborg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7976604,
+          55.3098281
+        ]
+      },
+      "id": "node/26559169"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559170",
+        "name": "Kolding",
+        "name:hu": "Kolding",
+        "name:lt": "Koldingas",
+        "name:ru": "Колдинг",
+        "name:uk": "Кольдинг",
+        "place": "city",
+        "population": "60508",
+        "population:date": "2018-01-01",
+        "source": "geonames.org",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q27119",
+        "wikipedia": "da:Kolding"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.47905,
+          55.4894999
+        ]
+      },
+      "id": "node/26559170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559171",
+        "name": "Skive",
+        "name:de": "Skive",
+        "name:en": "Skive",
+        "name:mk": "Скиве",
+        "name:nl": "Skive",
+        "name:no": "Skive (by)",
+        "name:ru": "Скиве",
+        "name:sr": "Скиве",
+        "place": "town",
+        "population": "20809",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q1019470",
+        "wikipedia": "da:Skive"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.029272,
+          56.5659301
+        ]
+      },
+      "id": "node/26559171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559174",
+        "name": "Næstved",
+        "name:de": "Nästved",
+        "name:ja": "ネストヴェズ",
+        "name:ka": "ნესტვედი",
+        "name:ko": "네스트베드",
+        "name:lt": "Nestvedas",
+        "name:mk": "Нествед",
+        "name:nl": "Næstved",
+        "name:ru": "Нествед",
+        "name:sr": "Нествед",
+        "name:zh": "奈斯特韦兹",
+        "place": "town",
+        "population": "43508",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q21178",
+        "wikipedia": "da:Næstved"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7674102,
+          55.2328252
+        ]
+      },
+      "id": "node/26559174"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559198",
+        "name": "Vejle",
+        "name:bg": "Вайле",
+        "name:fa": "وایله",
+        "name:ja": "ヴァイレ",
+        "name:ka": "ვაილე",
+        "name:ko": "바일레",
+        "name:lt": "Vailė",
+        "name:mk": "Вајле",
+        "name:ru": "Вайле",
+        "name:sr": "Вејле",
+        "name:th": "ไวเล",
+        "name:zh": "瓦埃勒",
+        "old_name:de": "Weile",
+        "place": "city",
+        "population": "56567",
+        "population:date": "2018-01-01",
+        "source": "geonames.org",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q27116",
+        "wikipedia": "da:Vejle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5333238,
+          55.7000057
+        ]
+      },
+      "id": "node/26559198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559203",
+        "name": "Korsør",
+        "name:de": "Korsör",
+        "name:ru": "Корсёр",
+        "name:sr": "Корсер",
+        "place": "town",
+        "population": "14583",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q1784816",
+        "wikipedia": "da:Korsør"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1425876,
+          55.3266045
+        ]
+      },
+      "id": "node/26559203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559209",
+        "int_name": "Haderslev",
+        "name": "Haderslev",
+        "name:da": "Haderslev",
+        "name:de": "Hadersleben",
+        "name:en": "Haderslev",
+        "name:eo": "Haderslevo",
+        "name:ka": "ჰადერსლევი",
+        "name:lt": "Haderslevas",
+        "name:mk": "Хадерслев",
+        "name:nl": "Haderslev",
+        "name:ru": "Хадерслев",
+        "name:sr": "Хадерслев",
+        "place": "town",
+        "population": "21973",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q29868",
+        "wikipedia": "da:Haderslev"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4997871,
+          55.2500715
+        ]
+      },
+      "id": "node/26559209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559213",
+        "alt_name:la": "Aarhusium",
+        "name": "Aarhus",
+        "name:ar": "آرهوس",
+        "name:be": "Орхус",
+        "name:be-tarask": "Оргус",
+        "name:bg": "Орхус",
+        "name:da": "Aarhus",
+        "name:de": "Aarhus",
+        "name:el": "Ώρχους",
+        "name:eo": "Arhuzo",
+        "name:et": "Århus",
+        "name:fa": "آرهوس",
+        "name:he": "אורהוס",
+        "name:hu": "Aarhus",
+        "name:hy": "Օրհուս",
+        "name:is": "Árósar",
+        "name:ja": "オーフス",
+        "name:ka": "ორჰუსი",
+        "name:ko": "오르후스",
+        "name:la": "Arhusa",
+        "name:lt": "Orhusas",
+        "name:lv": "Orhūsa",
+        "name:mk": "Орхус",
+        "name:mn": "Орхус",
+        "name:mr": "आर्हुस",
+        "name:nds-nl": "Oarhoes",
+        "name:os": "Орхус",
+        "name:pnb": "آرہس",
+        "name:ru": "Орхус",
+        "name:sr": "Орхус",
+        "name:sv": "Århus",
+        "name:th": "ออร์ฮูส",
+        "name:uk": "Орхус",
+        "name:zh": "奥胡斯",
+        "old_name": "Århus;Aarhus;Aros",
+        "old_name:de": "Arenhusen",
+        "place": "city",
+        "population": "273077",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q25319",
+        "wikipedia": "da:Aarhus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2134046,
+          56.1496278
+        ]
+      },
+      "id": "node/26559213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559214",
+        "name": "Køge",
+        "name:de": "Köge",
+        "name:ja": "キューゲ",
+        "name:ka": "კეგე",
+        "name:ko": "코이에",
+        "name:lt": "Kiogė",
+        "name:mk": "Кеге",
+        "name:nl": "Køge",
+        "name:ru": "Кёге",
+        "name:sr": "Кеје",
+        "name:zh": "克厄",
+        "place": "town",
+        "population": "37040",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q21184",
+        "wikipedia": "da:Køge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.1818964,
+          55.4565009
+        ]
+      },
+      "id": "node/26559214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559218",
+        "name": "Hadsten",
+        "name:de": "Hadsten",
+        "name:ru": "Хастен",
+        "place": "town",
+        "population": "8086",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q3522043",
+        "wikipedia": "da:Hadsten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0523863,
+          56.3290887
+        ]
+      },
+      "id": "node/26559218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559221",
+        "census": "2013",
+        "name": "Ringe",
+        "name:de": "Ringe",
+        "name:en": "Ringe",
+        "name:ms": "Ringe",
+        "name:nl": "Ringe",
+        "name:ru": "Ринге",
+        "name:zh": "林格",
+        "place": "town",
+        "population": "5584",
+        "wikidata": "Q303111",
+        "wikipedia": "da:Ringe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.481895,
+          55.2351317
+        ]
+      },
+      "id": "node/26559221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559236",
+        "name": "Vejen",
+        "name:ru": "Вайен",
+        "place": "town",
+        "population": "9763",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q1016313",
+        "wikipedia": "da:Vejen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1317951,
+          55.4743417
+        ]
+      },
+      "id": "node/26559236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559242",
+        "name": "Maribo",
+        "name:ru": "Марибо",
+        "name:uk": "Марібо",
+        "place": "town",
+        "population": "5936",
+        "wikidata": "Q386402",
+        "wikipedia": "da:Maribo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5054333,
+          54.7758018
+        ]
+      },
+      "id": "node/26559242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559248",
+        "name": "Silkeborg",
+        "name:bg": "Силкеборг",
+        "name:de": "Silkeborg",
+        "name:is": "Silkiborg",
+        "name:ja": "シルケボー",
+        "name:ka": "სილკებორგი",
+        "name:ko": "실케보르",
+        "name:lt": "Silkeborgas",
+        "name:mk": "Силкеборг",
+        "name:nl": "Silkeborg",
+        "name:ru": "Силькеборг",
+        "name:zh": "锡尔克堡",
+        "place": "town",
+        "population": "43313",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q21180",
+        "wikipedia": "da:Silkeborg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5495141,
+          56.169453
+        ]
+      },
+      "id": "node/26559248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559251",
+        "name": "Måløv",
+        "place": "town",
+        "population": "8513",
+        "source": "geonames.org",
+        "wikidata": "Q6950010",
+        "wikipedia": "da:Måløv"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3192001,
+          55.7493484
+        ]
+      },
+      "id": "node/26559251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559256",
+        "name": "Sorø",
+        "name:de": "Sorö",
+        "name:fy": "Sorø (plak)",
+        "name:is": "Sórey",
+        "name:ja": "ソレ",
+        "name:ko": "소뢰",
+        "name:la": "Sora",
+        "name:lt": "Sorė",
+        "name:mk": "Соре",
+        "name:nl": "Sorø",
+        "name:os": "Сорё",
+        "name:ru": "Сорё",
+        "name:sr": "Соре",
+        "name:zh": "索勒",
+        "place": "town",
+        "population": "7958",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q27858",
+        "wikipedia": "da:Sorø"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5629363,
+          55.4365822
+        ]
+      },
+      "id": "node/26559256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559259",
+        "alt_name": "Nykøbing F",
+        "name": "Nykøbing Falster",
+        "name:de": "Nyköbing Falster",
+        "name:ja": "ニュークビン・ファルスター",
+        "name:lt": "Niukiobingas",
+        "name:ru": "Нюкёбинг Фальстер",
+        "name:sr": "Никебинг Фалстер",
+        "name:uk": "Нюкебінґ Фальстер",
+        "old_name": "Nykøbing",
+        "place": "town",
+        "population": "16778",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q986435",
+        "wikipedia": "da:Nykøbing Falster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.8709918,
+          54.7646137
+        ]
+      },
+      "id": "node/26559259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559261",
+        "alt_name": "Nykøbing M",
+        "name": "Nykøbing Mors",
+        "name:da": "Nykøbing Mors",
+        "name:de": "Nyköbing Mors",
+        "name:ja": "ニュークビン・モース",
+        "official_name": "Nykøbing Mors",
+        "place": "town",
+        "population": "9173",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q1019481",
+        "wikipedia": "da:Nykøbing Mors"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8594834,
+          56.7943811
+        ]
+      },
+      "id": "node/26559261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559262",
+        "name": "Farum",
+        "name:de": "Farum",
+        "name:el": "Φάρουμ",
+        "name:lt": "Farumas",
+        "name:ru": "Фарум",
+        "name:zh": "法鲁姆",
+        "place": "town",
+        "population": "20302",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q3554742",
+        "wikipedia": "da:Farum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3702505,
+          55.8101232
+        ]
+      },
+      "id": "node/26559262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559266",
+        "name": "Skanderborg",
+        "name:de": "Skanderborg",
+        "name:nl": "Skanderborg",
+        "name:ru": "Сканнерборг",
+        "name:zh": "斯坎訥堡自治市",
+        "place": "town",
+        "population": "18907",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q503379",
+        "wikipedia": "da:Skanderborg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9317878,
+          56.0351868
+        ]
+      },
+      "id": "node/26559266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559270",
+        "name": "Jyllinge",
+        "name:de": "Jyllinge",
+        "name:lv": "Jilinge",
+        "place": "town",
+        "population": "10148",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q2546789",
+        "wikipedia": "da:Jyllinge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.1086079,
+          55.7535209
+        ]
+      },
+      "id": "node/26559270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559273",
+        "alt_name": "Tåstrup",
+        "name": "Taastrup",
+        "name:de": "Taastrup",
+        "name:en": "Taastrup",
+        "name:is": "Taastrup",
+        "name:ka": "ტოსტრუპი",
+        "name:ms": "Taastrup",
+        "name:nl": "Taastrup",
+        "name:no": "Taastrup",
+        "name:pl": "Taastrup",
+        "name:ro": "Taastrup",
+        "name:ru": "Тоструп",
+        "name:vi": "Taastrup",
+        "name:vo": "Taastrup",
+        "old_name": "Tåstrup",
+        "place": "town",
+        "population": "34470",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q20999",
+        "wikipedia": "da:Taastrup"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.292049,
+          55.6522136
+        ]
+      },
+      "id": "node/26559273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559274",
+        "name": "Odense",
+        "name:ar": "أودنسه",
+        "name:be": "Одэнсэ",
+        "name:be-tarask": "Одэнсэ",
+        "name:bg": "Оденсе",
+        "name:ce": "Оденсе",
+        "name:el": "Οντένσε",
+        "name:etymology:wikidata": "Q43610",
+        "name:fa": "ادنسه",
+        "name:he": "אודנזה",
+        "name:hu": "Odense",
+        "name:hy": "Օդենսե",
+        "name:is": "Óðinsvé",
+        "name:ja": "オーデンセ",
+        "name:ka": "ოდენსე",
+        "name:ko": "오덴세",
+        "name:la": "Othania",
+        "name:lt": "Odensė",
+        "name:mk": "Оденсе",
+        "name:os": "Оденсе",
+        "name:pms": "Odensa",
+        "name:pnb": "اوڈینس",
+        "name:ru": "Оденсе",
+        "name:sr": "Оденсе",
+        "name:th": "โอเดนเซ",
+        "name:uk": "Оденсе",
+        "name:zh": "欧登塞",
+        "old_name:de": "Ottensee",
+        "place": "city",
+        "population": "178210",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q25331",
+        "wikipedia": "da:Odense"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3852104,
+          55.3997225
+        ]
+      },
+      "id": "node/26559274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559275",
+        "name": "Odder",
+        "name:de": "Odder",
+        "name:es": "Odder (ciudad)",
+        "name:nl": "Odder",
+        "name:pl": "Odder (Dania)",
+        "name:ru": "Оддер",
+        "name:sr": "Одер",
+        "place": "town",
+        "population": "12093",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q925736",
+        "wikipedia": "da:Odder (by)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1513202,
+          55.975832
+        ]
+      },
+      "id": "node/26559275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559277",
+        "name": "Middelfart",
+        "name:de": "Middelfart",
+        "name:nl": "Middelfart",
+        "name:sr": "Миделфарт",
+        "place": "town",
+        "population": "15246",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q613441",
+        "wikipedia": "da:Middelfart"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7392181,
+          55.4993014
+        ]
+      },
+      "id": "node/26559277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559278",
+        "alt_name": "Fåborg",
+        "name": "Faaborg",
+        "name:da": "Faaborg",
+        "name:fr": "Faaborg",
+        "name:id": "Faaborg",
+        "name:ru": "Фоборг",
+        "name:sv": "Fåborg",
+        "place": "town",
+        "population": "7065",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q3547421",
+        "wikipedia": "da:Faaborg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2428246,
+          55.097087
+        ]
+      },
+      "id": "node/26559278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559288",
+        "alt_name": "Frederiksborg",
+        "name": "Hillerød",
+        "name:ar": "هيليرود",
+        "name:de": "Hilleröd",
+        "name:he": "הילרוד",
+        "name:id": "Munisipalitas Hillerød",
+        "name:ja": "ヒレレズ",
+        "name:ka": "ჰილერედი",
+        "name:ko": "힐레뢰드",
+        "name:lt": "Hileriodas",
+        "name:mk": "Хилеред",
+        "name:nl": "Hillerød",
+        "name:ru": "Хиллерёд",
+        "name:sq": "Hillerod",
+        "name:sr": "Хилеред",
+        "name:zh": "希勒勒",
+        "place": "town",
+        "population": "32698",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q27425",
+        "wikipedia": "da:Hillerød"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3063909,
+          55.9285735
+        ]
+      },
+      "id": "node/26559288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559290",
+        "name": "Kalundborg",
+        "name:de": "Kalundborg",
+        "name:nl": "Kalundborg",
+        "name:ru": "Калуннборг",
+        "place": "town",
+        "population": "16523",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q204957",
+        "wikipedia": "da:Kalundborg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0993619,
+          55.6833793
+        ]
+      },
+      "id": "node/26559290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26559293",
+        "name": "Greve Strand",
+        "name:de": "Greve",
+        "name:ka": "გრავე-სტრანი",
+        "name:ru": "Греве Странн",
+        "place": "town",
+        "population": "42824",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q2380509",
+        "wikipedia": "da:Greve Strand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2999286,
+          55.5833746
+        ]
+      },
+      "id": "node/26559293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27536827",
+        "name": "Slagelse",
+        "name:be": "Слагельсэ",
+        "name:de": "Slagelse",
+        "name:ru": "Слагельсе",
+        "place": "town",
+        "population": "33777",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q3414556",
+        "wikipedia": "da:Slagelse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3525415,
+          55.4061196
+        ]
+      },
+      "id": "node/27536827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/160744272",
+        "name": "Dragør",
+        "name:de": "Dragör",
+        "name:ru": "Драгёр",
+        "place": "town",
+        "population": "12085",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q1255278",
+        "wikipedia": "da:Dragør"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6719953,
+          55.592487
+        ]
+      },
+      "id": "node/160744272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/249523561",
+        "name": "Rønne",
+        "name:lt": "Rionė",
+        "place": "town",
+        "population": "13737",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q690062",
+        "wikipedia": "da:Rønne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7060906,
+          55.0994511
+        ]
+      },
+      "id": "node/249523561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/288670546",
+        "census": "2013",
+        "name": "Glostrup",
+        "name:de": "Glostrup",
+        "place": "town",
+        "population": "21805",
+        "wikidata": "Q3226599",
+        "wikipedia": "da:Glostrup"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3959521,
+          55.6692478
+        ]
+      },
+      "id": "node/288670546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/291733919",
+        "name": "Hedehusene",
+        "name:de": "Hedehusene",
+        "place": "town",
+        "population": "11990",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q2248624",
+        "wikipedia": "da:Hedehusene"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.1968926,
+          55.6480127
+        ]
+      },
+      "id": "node/291733919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/293063179",
+        "name": "Kokkedal",
+        "place": "town",
+        "population": "9000",
+        "wikidata": "Q2040882",
+        "wikipedia": "da:Kokkedal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4916721,
+          55.9105061
+        ]
+      },
+      "id": "node/293063179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/382851858",
+        "height": "14.9",
+        "place": "city",
+        "roof:height": "3.7",
+        "roof:shape": "gabled",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5848189,
+          55.6753315
+        ]
+      },
+      "id": "way/382851858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/416444238",
+        "name": "Tilst",
+        "name:etymology:wikidata": "Q172713",
+        "name:ru": "Тильст",
+        "place": "town",
+        "population": "16271",
+        "wikidata": "Q7802966",
+        "wikipedia": "da:Tilst"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1117391,
+          56.1921152
+        ]
+      },
+      "id": "node/416444238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/597643755",
+        "name": "Ribe",
+        "name:de": "Ripen",
+        "name:fa": "ریبه",
+        "name:hr": "Ribe",
+        "name:ja": "リーベ",
+        "name:ko": "리베",
+        "name:nl": "Ribe",
+        "name:ru": "Рибе",
+        "name:zh": "里伯",
+        "place": "town",
+        "population": "8259",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q322361",
+        "wikipedia": "da:Ribe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7647838,
+          55.3284036
+        ]
+      },
+      "id": "node/597643755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1368129781",
+        "name": "Horsens",
+        "name:lt": "Horsensas",
+        "name:ru": "Хорсенс",
+        "name:uk": "Хорсенс",
+        "place": "city",
+        "population": "58646",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q190235",
+        "wikipedia": "da:Horsens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8444774,
+          55.8611696
+        ]
+      },
+      "id": "node/1368129781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1498260436",
+        "name": "Tårnby",
+        "name:de": "Taarnby",
+        "name:ka": "ტორნბი",
+        "name:no": "Tårnby (Amager)",
+        "place": "town",
+        "population": "41206",
+        "wikidata": "Q28173",
+        "wikipedia": "da:Tårnby"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6006252,
+          55.6246457
+        ]
+      },
+      "id": "node/1498260436"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1688992103",
+        "name": "Tønder",
+        "name:da": "Tønder",
+        "name:de": "Tondern",
+        "name:fy": "Tuner",
+        "name:is": "Tönder",
+        "name:ja": "トゥナー",
+        "name:ko": "퇴네르",
+        "name:ru": "Тëннер",
+        "place": "town",
+        "population": "7581",
+        "population:date": "2020-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q3223979",
+        "wikipedia": "da:Tønder"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8629408,
+          54.9380637
+        ]
+      },
+      "id": "node/1688992103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1749628534",
+        "name": "Solrød Strand",
+        "name:de": "Solröd Strand",
+        "name:sr": "Солред Странд",
+        "place": "town",
+        "population": "16255",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q2229515",
+        "wikipedia": "da:Solrød Strand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2193108,
+          55.534253
+        ]
+      },
+      "id": "node/1749628534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2208554046",
+        "name": "Skagen",
+        "name:be": "Скаген",
+        "name:bg": "Скаген",
+        "name:fa": "اسکاگن",
+        "name:fy": "Skagen",
+        "name:is": "Skaginn",
+        "name:lt": "Skagenas",
+        "name:os": "Скаген",
+        "name:ru": "Скаген",
+        "name:uk": "Скаген",
+        "name:zh": "斯卡恩",
+        "place": "town",
+        "population": "8037",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q215177",
+        "wikipedia": "da:Skagen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5844602,
+          57.7259703
+        ]
+      },
+      "id": "node/2208554046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2211312681",
+        "alt_name:sv": "Frederikshamn",
+        "name": "Frederikshavn",
+        "name:de": "Frederikshavn",
+        "name:is": "Friðrikshöfn",
+        "name:ja": "フレゼリクスハウン",
+        "name:ka": "ფრედერიქსჰავნი",
+        "name:ko": "프레데릭스하운",
+        "name:lt": "Frederikshaunas",
+        "name:mk": "Фредериксхавн",
+        "name:nl": "Frederikshavn",
+        "name:ru": "Фредериксхавн",
+        "name:sr": "Фредериксхавн",
+        "name:sv": "Fredrikshamn",
+        "name:zh": "腓特烈港",
+        "place": "town",
+        "population": "23423",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q27452",
+        "wikipedia": "da:Frederikshavn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5336225,
+          57.4412134
+        ]
+      },
+      "id": "node/2211312681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2212804475",
+        "name": "Sæby",
+        "name:ru": "Себю",
+        "place": "town",
+        "population": "8871",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q346802",
+        "wikipedia": "da:Sæby"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5198811,
+          57.3312762
+        ]
+      },
+      "id": "node/2212804475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2222367820",
+        "name": "Hjørring",
+        "name:de": "Hjörring",
+        "name:ka": "იერინგი",
+        "name:mk": "Јеринг",
+        "name:nl": "Hjørring",
+        "name:ru": "Йёрринг",
+        "name:sr": "Јеринг",
+        "name:sv": "Hjörring",
+        "place": "town",
+        "population": "25994",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q21185",
+        "wikipedia": "da:Hjørring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9855998,
+          57.457183
+        ]
+      },
+      "id": "node/2222367820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2237916793",
+        "name": "Brønderslev",
+        "name:de": "Brönderslev",
+        "name:nl": "Brønderslev",
+        "name:ru": "Брëннерслев",
+        "name:sr": "Брендерслев",
+        "place": "town",
+        "population": "12598",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q995880",
+        "wikipedia": "da:Brønderslev"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9448631,
+          57.2700129
+        ]
+      },
+      "id": "node/2237916793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2246075609",
+        "name": "Nørresundby",
+        "name:de": "Nörresundby",
+        "name:ka": "ნერესუნბიუ",
+        "place": "town",
+        "population": "22859",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q1246235",
+        "wikipedia": "da:Nørresundby"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9241319,
+          57.0607251
+        ]
+      },
+      "id": "node/2246075609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2247048364",
+        "alt_name": "Svenstrup J",
+        "name": "Svenstrup",
+        "name:ru": "Свенструп",
+        "place": "town",
+        "population": "7056",
+        "wikidata": "Q3198692",
+        "wikipedia": "da:Svenstrup (Aalborg Kommune)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8525837,
+          56.9773211
+        ]
+      },
+      "id": "node/2247048364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2247730880",
+        "alt_name": "Ålborg",
+        "capital": "4",
+        "name": "Aalborg",
+        "name:ar": "آلبورغ",
+        "name:bg": "Олбор",
+        "name:el": "Άλμποργκ",
+        "name:et": "Ålborg",
+        "name:fa": "آلبورگ",
+        "name:he": "אולבורג",
+        "name:hu": "Aalborg",
+        "name:hy": "Օլբորգ",
+        "name:is": "Álaborg",
+        "name:ja": "オールボー",
+        "name:ka": "ოლბორგი",
+        "name:kk": "Ольборг",
+        "name:ko": "올보르",
+        "name:lmo": "Ålborg",
+        "name:lt": "Olborgas",
+        "name:lv": "Olborga",
+        "name:mk": "Аалборг",
+        "name:os": "Ольборг",
+        "name:pnb": "آلبرگ",
+        "name:ru": "Ольборг",
+        "name:sr": "Олборг",
+        "name:sv": "Ålborg",
+        "name:th": "ออลบอร์",
+        "name:uk": "Ольборг",
+        "name:zh": "奥尔堡",
+        "place": "city",
+        "population": "114194",
+        "population:date": "2018-01-01",
+        "ref:LOCODE": "DKAAL",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q25410",
+        "wikipedia": "da:Aalborg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9215263,
+          57.0462626
+        ]
+      },
+      "id": "node/2247730880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2251092237",
+        "name": "Thisted",
+        "name:de": "Thisted",
+        "name:etymology:wikidata": "Q172713",
+        "name:fi": "Thistedin kunta",
+        "name:ko": "티스테드",
+        "name:nl": "Thisted",
+        "name:ru": "Тистед",
+        "place": "town",
+        "population": "13416",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q1008152",
+        "wikipedia": "da:Thisted"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6848749,
+          56.9562093
+        ]
+      },
+      "id": "node/2251092237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2259729134",
+        "name": "Aars",
+        "name:de": "Aars",
+        "name:ja": "アース (デンマーク)",
+        "name:nl": "Aars",
+        "name:nn": "Års",
+        "name:ru": "Орс",
+        "name:sv": "Års",
+        "place": "town",
+        "population": "8301",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q303066",
+        "wikipedia": "da:Aars"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5168986,
+          56.8033777
+        ]
+      },
+      "id": "node/2259729134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2262438016",
+        "name": "Hobro",
+        "name:de": "Hobro",
+        "name:ru": "Хобро",
+        "name:sr": "Хобро",
+        "place": "town",
+        "population": "12032",
+        "population:date": "2018-01-01",
+        "reg_name": "Hobro",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q927713",
+        "wikipedia": "da:Hobro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7939799,
+          56.6371753
+        ]
+      },
+      "id": "node/2262438016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2264161478",
+        "name": "Hadsund",
+        "name:de": "Hadsund",
+        "name:ka": "ჰადსუნი",
+        "name:kk": "Хадсунн",
+        "name:lt": "Hadsundas",
+        "name:mk": "Хадсунн",
+        "name:nl": "Hadsund",
+        "name:ru": "Хадсунн",
+        "name:sr": "Хадсунд",
+        "name:yue": "乞信",
+        "name:zh": "乞信",
+        "place": "town",
+        "population": "5003",
+        "wikidata": "Q663011",
+        "wikipedia": "da:Hadsund"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1151108,
+          56.7193519
+        ]
+      },
+      "id": "node/2264161478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2278043434",
+        "name": "Bjerringbro",
+        "place": "town",
+        "population": "7477",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q4919613",
+        "wikipedia": "da:Bjerringbro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.656576,
+          56.3758414
+        ]
+      },
+      "id": "node/2278043434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2278186810",
+        "name": "Viborg",
+        "name:ca": "Viborg",
+        "name:de": "Viborg",
+        "name:el": "Βίμποργκ",
+        "name:en": "Viborg",
+        "name:hu": "Viborg",
+        "name:is": "Vébjörg",
+        "name:ja": "ヴィボー",
+        "name:ka": "ვიბორგი (დანია)",
+        "name:ko": "비보르",
+        "name:lt": "Viborgas",
+        "name:mk": "Виборг",
+        "name:nl": "Viborg",
+        "name:nn": "Viborg",
+        "name:ru": "Виборг",
+        "name:sr": "Виборг",
+        "name:sv": "Viborg",
+        "name:uk": "Віборг",
+        "name:vo": "Viborg",
+        "name:zh": "維堡 (丹麥)",
+        "old_name:de": "Wiborg",
+        "place": "town",
+        "population": "40621",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q21176",
+        "wikipedia": "da:Viborg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4059354,
+          56.4469128
+        ]
+      },
+      "id": "node/2278186810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2379841729",
+        "name": "Holstebro",
+        "name:de": "Holstebro",
+        "name:fo": "Holstebro kommuna",
+        "name:ka": "ჰოლსტებრო",
+        "name:lt": "Holstebro",
+        "name:mk": "Холтесбро",
+        "name:nl": "Holstebro",
+        "name:pl": "Gmina Holstebro",
+        "name:ru": "Хольстебро",
+        "name:sr": "Холстебро",
+        "name:zh": "霍爾斯特布羅",
+        "place": "town",
+        "population": "36199",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q27678",
+        "wikipedia": "da:Holstebro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6159188,
+          56.3590324
+        ]
+      },
+      "id": "node/2379841729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2381064271",
+        "name": "Lemvig",
+        "place": "town",
+        "population": "6978",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q502632",
+        "wikipedia": "da:Lemvig"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3046456,
+          56.5486971
+        ]
+      },
+      "id": "node/2381064271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2385984997",
+        "name": "Struer",
+        "name:de": "Struer",
+        "name:en": "Struer",
+        "name:nl": "Struer",
+        "name:ru": "Струер",
+        "name:sr": "Струер",
+        "place": "town",
+        "population": "10375",
+        "population:date": "2018-01-01",
+        "reg_name": "Struer",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q1797189",
+        "wikipedia": "da:Struer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5951427,
+          56.4866768
+        ]
+      },
+      "id": "node/2385984997"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2387702632",
+        "name": "Ringkøbing",
+        "name:lt": "Ringkiobingas",
+        "name:ru": "Рингкёбинг",
+        "place": "town",
+        "population": "9966",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q502693",
+        "wikipedia": "da:Ringkøbing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2540637,
+          56.0905708
+        ]
+      },
+      "id": "node/2387702632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2388778274",
+        "name": "Skjern",
+        "name:ru": "Скьерн",
+        "place": "town",
+        "population": "7866",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q2035962",
+        "wikipedia": "da:Skjern"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4909186,
+          55.9469339
+        ]
+      },
+      "id": "node/2388778274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2601651305",
+        "check_date:population": "2017-08-29",
+        "name": "Beder-Malling",
+        "note": "pr. 2013-01-01 er Beder og Malling at betragte som én by",
+        "place": "town",
+        "population": "8387",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q25043893",
+        "wikipedia": "da:Beder-Malling"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2017147,
+          56.0494063
+        ]
+      },
+      "id": "node/2601651305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2603507785",
+        "loc_name": "Allerød",
+        "name": "Lillerød",
+        "place": "town",
+        "population": "16878",
+        "population:date": "2018-01-01",
+        "source:population": "http://www.statistikbanken.dk/BY1",
+        "wikidata": "Q656234",
+        "wikipedia": "da:Lillerød"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3556762,
+          55.8707776
+        ]
+      },
+      "id": "node/2603507785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6121109293",
+        "name": "Hinnerup",
+        "name:ru": "Хиннеруп",
+        "place": "town",
+        "population": "7808",
+        "population:date": "2018-04-18",
+        "wikidata": "Q3175755",
+        "wikipedia": "da:Hinnerup"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0688688,
+          56.2678199
+        ]
+      },
+      "id": "node/6121109293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7150539911",
+        "name": "Svendborg",
+        "name:ru": "Свеннборг",
+        "place": "town",
+        "population": "27054",
+        "population:date": "2021-01",
+        "source:population": "Statistikbanken",
+        "wikidata": "Q28031",
+        "wikipedia": "da:Svendborg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6085377,
+          55.0636926
+        ]
+      },
+      "id": "node/7150539911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7447416109",
+        "alt_name": "Grenå",
+        "name": "Grenaa",
+        "name:de": "Grenaa",
+        "name:ru": "Грено",
+        "place": "town",
+        "population": "14856",
+        "wikidata": "Q3619316",
+        "wikipedia": "da:Grenaa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8793137,
+          56.4134419
+        ]
+      },
+      "id": "node/7447416109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7993125772",
+        "census": "2013",
+        "name": "Marstal",
+        "name:ru": "Марсталь",
+        "place": "town",
+        "population": "2370",
+        "wikidata": "Q3413939",
+        "wikipedia": "da:Marstal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5174056,
+          54.8558332
+        ]
+      },
+      "id": "node/7993125772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8015510456",
+        "name": "Støvring",
+        "name:ru": "Стëвринг",
+        "place": "town",
+        "population": "6988",
+        "wikidata": "Q3413440",
+        "wikipedia": "da:Støvring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.833064,
+          56.8847204
+        ]
+      },
+      "id": "node/8015510456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8247355512",
+        "name": "Bredsten",
+        "name:ru": "Брестен",
+        "place": "town",
+        "population": "1694",
+        "wikidata": "Q1984534",
+        "wikipedia": "da:Bredsten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3848026,
+          55.7025335
+        ]
+      },
+      "id": "node/8247355512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8387660952",
+        "name": "Lystrup",
+        "name:zh": "呂斯楚普",
+        "place": "town",
+        "population": "10376",
+        "wikidata": "Q2633183",
+        "wikipedia": "da:Lystrup (Aarhus Kommune)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.238378,
+          56.2363205
+        ]
+      },
+      "id": "node/8387660952"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8697386297",
+        "name": "Rødding",
+        "name:da": "Rødding",
+        "name:de": "Rödding",
+        "place": "town",
+        "population": "2694",
+        "wikidata": "Q836960",
+        "wikipedia": "da:Rødding (Vejen Kommune)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0581471,
+          55.3680577
+        ]
+      },
+      "id": "node/8697386297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8902021952",
+        "name": "Sakskøbing",
+        "name:lt": "Sakskiobingas",
+        "name:ru": "Сакскёбинг",
+        "place": "town",
+        "population": "4565",
+        "wikidata": "Q13218306",
+        "wikipedia": "da:Sakskøbing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6341381,
+          54.798788
+        ]
+      },
+      "id": "node/8902021952"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9105385739",
+        "name": "Faxe",
+        "name:de": "Faxe (Ort)",
+        "name:nl": "Fakse (plaats)",
+        "old_name": "Fakse",
+        "place": "town",
+        "population": "3828",
+        "wikidata": "Q777334",
+        "wikipedia": "da:Faxe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.1142399,
+          55.2521203
+        ]
+      },
+      "id": "node/9105385739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9463131170",
+        "name": "Vojens",
+        "name:de": "Woyens",
+        "name:etymology:wikidata": "Q43610",
+        "place": "town",
+        "population": "7579",
+        "wikidata": "Q1645444",
+        "wikipedia": "da:Vojens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3082416,
+          55.2464268
+        ]
+      },
+      "id": "node/9463131170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9491986787",
+        "name": "Brande",
+        "place": "town",
+        "population": "7207",
+        "wikidata": "Q897848",
+        "wikipedia": "da:Brande"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1282868,
+          55.9445468
+        ]
+      },
+      "id": "node/9491986787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10741049852",
+        "name": "Ebeltoft",
+        "name:de": "Ebeltoft",
+        "place": "town",
+        "population": "5888",
+        "wikidata": "Q523400",
+        "wikipedia": "da:Ebeltoft"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6770909,
+          56.1988382
+        ]
+      },
+      "id": "node/10741049852"
+    }
+  ]
+}

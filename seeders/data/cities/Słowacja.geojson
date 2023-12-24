@@ -1,0 +1,5553 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-12-16T16:59:40Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/3898631",
+        "loc_name": "Senec,Szenc",
+        "name": "Senec",
+        "name:de": "Wartberg",
+        "name:hu": "Szenc",
+        "name:pl": "Senec",
+        "name:sk": "Senec",
+        "old_name:hu": "Szempc",
+        "place": "town",
+        "type": "multipolygon",
+        "website": "https://www.senec.sk/sk",
+        "wikidata": "Q754790",
+        "wikipedia": "sk:Senec",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3988247,
+          48.2311475
+        ]
+      },
+      "id": "relation/3898631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/3922405",
+        "name": "Modra",
+        "name:de": "Modern",
+        "name:en": "Modra",
+        "name:hu": "Modor",
+        "name:la": "Modorinum",
+        "name:sk": "Modra",
+        "place": "town",
+        "type": "site",
+        "website": "https://www.modra.sk/",
+        "wikidata": "Q596044",
+        "wikipedia": "sk:Modra",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3169163,
+          48.3414214
+        ]
+      },
+      "id": "relation/3922405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/3942074",
+        "city_id": "508179",
+        "name": "Pezinok",
+        "name:de": "Bösing",
+        "name:hu": "Bazin",
+        "name:la": "Bazinium",
+        "name:pl": "Pezinok",
+        "name:ru": "Пезинок",
+        "name:sk": "Pezinok",
+        "place": "town",
+        "type": "site",
+        "website": "https://www.pezinok.sk/",
+        "wikidata": "Q659424",
+        "wikipedia": "sk:Pezinok",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2631252,
+          48.2903475
+        ]
+      },
+      "id": "relation/3942074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/3992676",
+        "capital": "yes",
+        "name": "Bratislava",
+        "name:ar": "براتيسلافا",
+        "name:arc": "ܒܪܛܝܣܠܐܒܐ",
+        "name:azb": "براتیسلاوا",
+        "name:be": "Браціслава",
+        "name:be-tarask": "Браціслава",
+        "name:ckb": "براتسیلاڤا",
+        "name:cu": "Братислава",
+        "name:cv": "Братислава",
+        "name:de": "Bratislava",
+        "name:diq": "Bratislawa",
+        "name:el": "Μπρατισλάβα",
+        "name:en": "Bratislava",
+        "name:eo": "Bratislavo",
+        "name:es": "Bratislava",
+        "name:fa": "براتیسلاوا",
+        "name:gr": "Ἰστρόπολις",
+        "name:grc": "Ἰστρόπολις",
+        "name:hr": "Bratislava",
+        "name:hu": "Pozsony",
+        "name:it": "Bratislava",
+        "name:ja": "ブラチスラヴァ",
+        "name:jbo": "bratislavas",
+        "name:ka": "ბრატისლავა",
+        "name:kk": "Братислава",
+        "name:kn": "ಬ್ರಾಟಿಸ್ಲಾವಾ",
+        "name:ko": "브라티슬라바",
+        "name:koi": "Братислава",
+        "name:ku": "Bratîslava",
+        "name:kv": "Братислава",
+        "name:la": "Posonium",
+        "name:lt": "Bratislava",
+        "name:mk": "Братислава",
+        "name:ml": "ബ്രാട്ടിസ്‌ലാവ",
+        "name:mn": "Братислав",
+        "name:mr": "ब्रातिस्लाव्हा",
+        "name:nds": "Preßburg",
+        "name:nl": "Bratislava",
+        "name:no": "Bratislava",
+        "name:os": "Братиславæ",
+        "name:pl": "Bratysława",
+        "name:pnb": "براتسلاوا",
+        "name:pt": "Bratislava",
+        "name:ru": "Братислава",
+        "name:rue": "Братїслава",
+        "name:sah": "Братислава",
+        "name:sq": "Bratisllava",
+        "name:sr": "Братислава",
+        "name:sr-Latn": "Bratislava",
+        "name:sv": "Bratislava",
+        "name:syc": "ܒܪܛܝܣܠܐܒܐ",
+        "name:ta": "பிராத்திஸ்லாவா",
+        "name:tg": "Братислава",
+        "name:th": "บราติสลาวา",
+        "name:tt": "Братислава",
+        "name:udm": "Братислава",
+        "name:ug": "براتىسلاۋا",
+        "name:uk": "Братислава",
+        "name:ur": "براٹیسلاوا",
+        "name:vep": "Bratislav",
+        "name:yi": "בראטיסלאווא",
+        "name:yue": "布拉迪斯拉發",
+        "name:zh": "布拉迪斯拉發",
+        "name:zh-Hans": "布拉迪斯拉发",
+        "name:zh-Hant": "布拉迪斯拉發",
+        "old_name:cs": "Prešpurk",
+        "old_name:de": "Preßburg",
+        "old_name:en": "Pressburg",
+        "old_name:es": "Presburgo",
+        "old_name:hr": "Požun",
+        "old_name:hu": "Pozsony",
+        "old_name:la": "Posonium",
+        "old_name:nds": "Preßburg",
+        "old_name:sk": "Prešporok",
+        "place": "city",
+        "population": "432801",
+        "type": "multipolygon",
+        "wikidata": "Q1780",
+        "wikipedia": "sk:Bratislava",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1029757,
+          48.1362158
+        ]
+      },
+      "id": "relation/3992676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4002771",
+        "name": "Stupava",
+        "name:de": "Stampfen",
+        "name:en": "Stampfen",
+        "name:hu": "Stompfa",
+        "name:sk": "Stupava",
+        "place": "town",
+        "population": "13000",
+        "type": "site",
+        "website": "https://www.stupava.sk/",
+        "wikidata": "Q782928",
+        "wikipedia": "sk:Stupava",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0363883,
+          48.2738772
+        ]
+      },
+      "id": "relation/4002771"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/25938759",
+        "city_id": "529354",
+        "contact:facebook": "https://www.facebook.com/mestskacastRACA/",
+        "contact:instagram": "https://www.instagram.com/mestska_cast_raca/",
+        "name": "Rača",
+        "name:de": "Ratzersdorf",
+        "name:hu": "Récse",
+        "name:pl": "Rača",
+        "name:sk": "Rača",
+        "old_name": "Račištorf",
+        "place": "town",
+        "population": "20438",
+        "reg_name": "Bratislava - Rača",
+        "region_id": "103",
+        "source:name": "http://www.statistics.sk",
+        "website": "https://www.raca.sk/",
+        "wikidata": "Q1025249",
+        "wikipedia": "sk:Bratislava – mestská časť Rača"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1534331,
+          48.2117887
+        ]
+      },
+      "id": "node/25938759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26035729",
+        "city_id": "518158",
+        "city_type": "county_city",
+        "ele": "297",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Zolyom;Zwolen;Zwoleń",
+        "name": "Zvolen",
+        "name:de": "Altsohl",
+        "name:hu": "Zólyom",
+        "name:la": "Veterosolium",
+        "name:pl": "Zwoleń",
+        "name:ru": "Зволен",
+        "name:sk": "Zvolen",
+        "place": "town",
+        "population": "42778",
+        "region_id": "611",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.zvolen.sk/",
+        "wikidata": "Q11874",
+        "wikipedia": "sk:Zvolen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1247135,
+          48.5782517
+        ]
+      },
+      "id": "node/26035729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26035755",
+        "city_id": "513997",
+        "ele": "489",
+        "import_ref": "city_import_sk_1",
+        "name": "Handlová",
+        "name:de": "Krickerhau",
+        "name:hu": "Nyitrabánya",
+        "name:pl": "Handlová",
+        "name:sk": "Handlová",
+        "name:uk": "Гандлова",
+        "old_name": "Krickerhau",
+        "place": "town",
+        "population": "17688",
+        "postal_code": "972 51",
+        "region_id": "307",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.handlova.sk/",
+        "wikidata": "Q842011",
+        "wikipedia": "sk:Handlová"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7626944,
+          48.7314317
+        ]
+      },
+      "id": "node/26035755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26035777",
+        "city_id": "513610",
+        "city_type": "county_city",
+        "ele": "264",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Pucho,Puchov,Puho,Puhó,Pukhov,Púchov",
+        "name": "Púchov",
+        "name:de": "Puchau",
+        "name:hu": "Puhó",
+        "name:pl": "Púchov",
+        "name:ru": "Пухов",
+        "name:sk": "Púchov",
+        "old_name:hu": "Puchó",
+        "place": "town",
+        "population": "18592",
+        "postal_code": "020 01",
+        "region_id": "308",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.puchov.sk/",
+        "wikidata": "Q258481",
+        "wikipedia": "sk:Púchov"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3239559,
+          49.123928
+        ]
+      },
+      "id": "node/26035777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26035810",
+        "city_id": "517381",
+        "city_type": "county_city",
+        "ele": "288",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Zarovnica,Žarovnica",
+        "name": "Žarnovica",
+        "name:de": "Scharnowitz",
+        "name:hu": "Zsarnóca",
+        "name:pl": "Žarnovica",
+        "name:ru": "Жарновица",
+        "name:sk": "Žarnovica",
+        "name:skr": "Žarnovica",
+        "place": "town",
+        "population": "6393",
+        "postal_code": "966 81",
+        "region_id": "612",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.zarnovica.sk/",
+        "wikidata": "Q393421",
+        "wikipedia": "sk:Žarnovica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7215497,
+          48.4833983
+        ]
+      },
+      "id": "node/26035810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26035833",
+        "city_id": "503592",
+        "ele": "129",
+        "import_ref": "city_import_sk_1",
+        "name": "Šurany",
+        "name:de": "Schuran",
+        "name:hu": "Nagysurány",
+        "name:pl": "Šurany",
+        "name:sk": "Šurany",
+        "place": "town",
+        "population": "10445",
+        "postal_code": "942 01",
+        "region_id": "404",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://surany.sk/",
+        "wikidata": "Q392704",
+        "wikipedia": "sk:Šurany"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1868344,
+          48.0861055
+        ]
+      },
+      "id": "node/26035833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26035885",
+        "city_id": "503665",
+        "city_type": "county_city",
+        "ele": "117",
+        "import_ref": "city_import_sk_1",
+        "name": "Galanta",
+        "name:de": "Gallandau",
+        "name:hu": "Galánta",
+        "name:pl": "Galanta",
+        "name:sk": "Galanta",
+        "old_name": "Galantha",
+        "place": "town",
+        "population": "15886",
+        "postal_code": "924 01",
+        "region_id": "202",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.galanta.sk/",
+        "wikidata": "Q460767",
+        "wikipedia": "sk:Galanta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7270629,
+          48.1910498
+        ]
+      },
+      "id": "node/26035885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26035889",
+        "city_id": "517097",
+        "ele": "509",
+        "import_ref": "city_import_sk_1",
+        "name": "Nová Baňa",
+        "name:de": "Königsberg",
+        "name:hu": "Újbánya",
+        "name:pl": "Nová Baňa",
+        "name:sk": "Nová Baňa",
+        "place": "town",
+        "population": "7422",
+        "postal_code": "968 01",
+        "region_id": "612",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.novabana.sk/",
+        "wikidata": "Q268463",
+        "wikipedia": "sk:Nová Baňa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6413651,
+          48.4245994
+        ]
+      },
+      "id": "node/26035889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26035900",
+        "city_id": "525405",
+        "ele": "304",
+        "import_ref": "city_import_sk_1",
+        "name": "Veľký Šariš",
+        "name:de": "Groß-Scharosch",
+        "name:hu": "Nagysáros",
+        "name:pl": "Wielki Szarysz",
+        "name:sk": "Veľký Šariš",
+        "name:uk": "Вельки Шариш",
+        "place": "town",
+        "population": "4941",
+        "postal_code": "082 21",
+        "region_id": "707",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.velkysaris.sk/",
+        "wikidata": "Q852313",
+        "wikipedia": "sk:Veľký Šariš"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1972706,
+          49.0406385
+        ]
+      },
+      "id": "node/26035900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26035910",
+        "city_id": "544213",
+        "ele": "184",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Hanusovce",
+        "name": "Hanušovce nad Topľou",
+        "name:hu": "Tapolyhanusfalva",
+        "name:pl": "Hanušovce nad Topľou",
+        "name:sk": "Hanušovce nad Topľou",
+        "place": "town",
+        "population": "3712",
+        "postal_code": "094 31",
+        "region_id": "713",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.hanusovce.sk/",
+        "wikidata": "Q780527",
+        "wikipedia": "sk:Hanušovce nad Topľou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5022473,
+          49.0268791
+        ]
+      },
+      "id": "node/26035910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26035953",
+        "city_id": "504891",
+        "ele": "181",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Sastin",
+        "name": "Šaštín-Stráže",
+        "name:de": "Schoßberg-Strascha",
+        "name:hu": "Sasvár-Morvaőr",
+        "name:pl": "Šaštín-Stráže",
+        "name:sk": "Šaštín-Stráže",
+        "place": "town",
+        "population": "5061",
+        "postal_code": "908 41",
+        "region_id": "205",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.mestosastinstraze.sk/",
+        "wikidata": "Q135649",
+        "wikipedia": "sk:Šaštín-Stráže"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1439377,
+          48.6380414
+        ]
+      },
+      "id": "node/26035953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26035956",
+        "city_id": "512842",
+        "city_type": "county_city",
+        "ele": "322",
+        "import_ref": "city_import_sk_1",
+        "int_name": "Považská Bystrica",
+        "loc_name": "Bystrica,Povazhska Bistrica,Povazska Bystrica,Povazske Bystraica,Považská Bystrica,Vagbeszterce",
+        "name": "Považská Bystrica",
+        "name:de": "Waagbistritz",
+        "name:hu": "Vágbeszterce",
+        "name:pl": "Powaska Bystrzyca",
+        "name:ru": "Поважска Бистрица",
+        "name:sk": "Považská Bystrica",
+        "place": "town",
+        "population": "41936",
+        "region_id": "306",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.povazska-bystrica.sk/",
+        "wikidata": "Q319787",
+        "wikipedia": "sk:Považská Bystrica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4469936,
+          49.1159316
+        ]
+      },
+      "id": "node/26035956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036064",
+        "city_id": "512036",
+        "city_type": "county_city",
+        "ele": "411",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Turciansky Svaty Martin,Turčiansky Svätý Martin",
+        "name": "Martin",
+        "name:de": "Sankt Martin",
+        "name:hu": "Turócszentmárton",
+        "name:pl": "Martin",
+        "name:ru": "Мартин",
+        "name:sk": "Martin",
+        "name:uk": "Mартін",
+        "place": "town",
+        "population": "58794",
+        "postal_code": "036 01",
+        "region_id": "506",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.martin.sk/",
+        "wikidata": "Q27001",
+        "wikipedia": "sk:Martin (mesto na Slovensku)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.929193,
+          49.0724921
+        ]
+      },
+      "id": "node/26036064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036067",
+        "alt_name:de": "Kesmark",
+        "city_id": "523585",
+        "city_type": "county_city",
+        "ele": "600",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Kasmark,Kesmark,Kezhmarok,Kezmarok,Kezmarokas,Kežmarok,Kežmarokas,Kiezmark,Kieżmark,Käsmark,Késmárk",
+        "name": "Kežmarok",
+        "name:de": "Käsmark",
+        "name:hu": "Késmárk",
+        "name:la": "Kesmarkium",
+        "name:pl": "Kieżmark",
+        "name:ru": "Кежмарок",
+        "name:sk": "Kežmarok",
+        "place": "town",
+        "population": "17013",
+        "postal_code": "060 01",
+        "region_id": "703",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.kezmarok.sk/",
+        "wikidata": "Q327977",
+        "wikipedia": "sk:Kežmarok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4308701,
+          49.1362088
+        ]
+      },
+      "id": "node/26036067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036111",
+        "city_id": "504998",
+        "city_type": "county_city",
+        "ele": "167",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Nagytapolcsany,Nagytapolcsány,Topoľchany,Topolcany,Topoľčany",
+        "name": "Topoľčany",
+        "name:de": "Topoltschan",
+        "name:hu": "Nagytapolcsány",
+        "name:pl": "Topolczany",
+        "name:ru": "Топольчаны",
+        "name:sk": "Topoľčany",
+        "place": "town",
+        "population": "28673",
+        "region_id": "406",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.topolcany.sk/",
+        "wikidata": "Q750423",
+        "wikipedia": "sk:Topoľčany"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1754394,
+          48.5594345
+        ]
+      },
+      "id": "node/26036111"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036127",
+        "city_id": "514829",
+        "ele": "452",
+        "import_ref": "city_import_sk_1",
+        "name": "Hnúšťa",
+        "name:de": "Nusten",
+        "name:hu": "Nyustya",
+        "name:pl": "Hnúšťa",
+        "name:ru": "Гнуштя",
+        "name:sk": "Hnúšťa",
+        "place": "town",
+        "population": "7471",
+        "postal_code": "981 01",
+        "region_id": "609",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://mesto.hnusta.sk/",
+        "wikidata": "Q828850",
+        "wikipedia": "sk:Hnúšťa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9531888,
+          48.5787043
+        ]
+      },
+      "id": "node/26036127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036153",
+        "city_id": "509507",
+        "ele": "550",
+        "import_ref": "city_import_sk_1",
+        "name": "Turzovka",
+        "name:de": "Tursowka",
+        "name:hu": "Turzófalva",
+        "name:pl": "Turzówka",
+        "name:sk": "Turzovka",
+        "place": "town",
+        "population": "7754",
+        "postal_code": "023 54",
+        "region_id": "502",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.turzovka.sk/",
+        "wikidata": "Q182903",
+        "wikipedia": "sk:Turzovka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6262948,
+          49.4051478
+        ]
+      },
+      "id": "node/26036153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036174",
+        "alt_name:de": "Schebnitz",
+        "city_id": "516643",
+        "city_type": "county_city",
+        "ele": "494",
+        "heritage": "1",
+        "heritage:operator": "whc",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Banska Stiavnica,Banska Stiavnica a Banska Bela,Banská Štiavnica,Banská Štiavnica a Banská Belá,Schemnitz,Selmecbanya,Selmecbánya,Selmeczbanya,Selmeczbánya",
+        "name": "Banská Štiavnica",
+        "name:de": "Schemnitz",
+        "name:hu": "Selmecbánya",
+        "name:pl": "Bańska Szczawnica",
+        "name:ru": "Банска Штьявница",
+        "name:sk": "Banská Štiavnica",
+        "place": "town",
+        "population": "9628",
+        "population:date": "2021",
+        "postal_code": "969 01",
+        "region_id": "602",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.banskastiavnica.sk/",
+        "wikidata": "Q208110",
+        "wikipedia": "sk:Banská Štiavnica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8988414,
+          48.4580926
+        ]
+      },
+      "id": "node/26036174"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036176",
+        "city_id": "501573",
+        "ele": "113",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Bes,Beš,Bos,Bös",
+        "name": "Gabčíkovo",
+        "name:de": "Bösch",
+        "name:hu": "Bős",
+        "name:pl": "Gabčíkovo",
+        "name:sk": "Gabčíkovo",
+        "old_name": "Beš",
+        "place": "town",
+        "population": "5212",
+        "postal_code": "930 05",
+        "region_id": "201",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.gabcikovo.sk/sk/",
+        "wikidata": "Q389397",
+        "wikipedia": "sk:Gabčíkovo (okres Dunajská Streda)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5781248,
+          47.8951059
+        ]
+      },
+      "id": "node/26036176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036195",
+        "city_id": "511765",
+        "city_type": "county_city",
+        "ele": "240",
+        "import_ref": "city_import_sk_1",
+        "name": "Poltár",
+        "name:hu": "Poltár",
+        "name:pl": "Poltár",
+        "name:sk": "Poltár",
+        "place": "town",
+        "population": "5836",
+        "postal_code": "987 01",
+        "region_id": "607",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.poltar.sk/",
+        "wikidata": "Q259694",
+        "wikipedia": "sk:Poltár"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.7923921,
+          48.4308293
+        ]
+      },
+      "id": "node/26036195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036262",
+        "city_id": "513156",
+        "city_type": "county_city",
+        "ele": "253",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Hava,Ilava,Illava",
+        "name": "Ilava",
+        "name:de": "Illau",
+        "name:hu": "Illava",
+        "name:pl": "Ilava",
+        "name:sk": "Ilava",
+        "name:uk": "Ілава",
+        "place": "town",
+        "population": "5503",
+        "postal_code": "019 01",
+        "region_id": "302",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.ilava.sk/",
+        "wikidata": "Q481564",
+        "wikipedia": "sk:Ilava"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.2307598,
+          48.9985674
+        ]
+      },
+      "id": "node/26036262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036269",
+        "city_id": "506524",
+        "ele": "311",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Otura,Ótura",
+        "name": "Stará Turá",
+        "name:de": "Alt-Turn",
+        "name:hu": "Ótura",
+        "name:pl": "Stará Turá",
+        "name:sk": "Stará Turá",
+        "place": "town",
+        "population": "9842",
+        "postal_code": "916 01",
+        "region_id": "304",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.staratura.sk/",
+        "wikidata": "Q512771",
+        "wikipedia": "sk:Stará Turá"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6941177,
+          48.7792477
+        ]
+      },
+      "id": "node/26036269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036300",
+        "city_id": "505315",
+        "city_type": "county_city",
+        "ele": "180",
+        "import_ref": "city_import_sk_1",
+        "name": "Partizánske",
+        "name:hu": "Simony",
+        "name:pl": "Partizánske",
+        "name:sk": "Partizánske",
+        "old_name": "Baťovany;,Šimonovany",
+        "place": "town",
+        "population": "24335",
+        "region_id": "305",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.partizanske.sk/",
+        "wikidata": "Q754768",
+        "wikipedia": "pl:Partizánske"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.371762,
+          48.6265223
+        ]
+      },
+      "id": "node/26036300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036308",
+        "city_id": "500933",
+        "ele": "172",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Verebely,Verebély",
+        "name": "Vráble",
+        "name:hu": "Verebély",
+        "name:pl": "Vráble",
+        "name:sk": "Vráble",
+        "place": "town",
+        "population": "9381",
+        "postal_code": "952 01",
+        "region_id": "403",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.vrable.sk/",
+        "wikidata": "Q264708",
+        "wikipedia": "sk:Vráble"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3061153,
+          48.2442845
+        ]
+      },
+      "id": "node/26036308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036344",
+        "alt_name": "Frašták",
+        "alt_name:de": "Freistadt an der Waag",
+        "city_id": "507032",
+        "city_type": "county_city",
+        "ele": "451",
+        "import_ref": "city_import_sk_1",
+        "name": "Hlohovec",
+        "name:de": "Freistadt",
+        "name:hu": "Galgóc",
+        "name:pl": "Hlohovec",
+        "name:sk": "Hlohovec",
+        "place": "town",
+        "population": "22575",
+        "region_id": "203",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "start_date": "1113",
+        "website": "https://www.hlohovec.sk/",
+        "wikidata": "Q754773",
+        "wikipedia": "sk:Hlohovec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.798782,
+          48.4278838
+        ]
+      },
+      "id": "node/26036344"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036345",
+        "city_id": "543292",
+        "city_type": "county_city",
+        "ele": "650",
+        "heritage": "1",
+        "heritage:operator": "whc",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Leutschau,Levoca,Levocha,Levoča,Locse,Löcse,Lőcse",
+        "name": "Levoča",
+        "name:de": "Leutschau",
+        "name:hu": "Lőcse",
+        "name:la": "Leutsovia",
+        "name:pl": "Lewocza",
+        "name:sk": "Levoča",
+        "place": "town",
+        "population": "14716",
+        "postal_code": "054 01",
+        "region_id": "704",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.levoca.sk/",
+        "wikidata": "Q242478",
+        "wikipedia": "sk:Levoča"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.587999,
+          49.0251116
+        ]
+      },
+      "id": "node/26036345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036359",
+        "city_id": "504581",
+        "city_type": "county_city",
+        "ele": "352",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Miava",
+        "name": "Myjava",
+        "name:de": "Miawa",
+        "name:hu": "Miava",
+        "name:pl": "Myjava",
+        "name:sk": "Myjava",
+        "place": "town",
+        "population": "12652",
+        "postal_code": "907 03",
+        "region_id": "303",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.myjava.sk/",
+        "wikidata": "Q837460",
+        "wikipedia": "sk:Myjava (mesto)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5650224,
+          48.7540345
+        ]
+      },
+      "id": "node/26036359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036360",
+        "city_id": "512729",
+        "city_type": "county_city",
+        "ele": "517",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Turcianske Teplice,Turčianske Teplice",
+        "name": "Turčianske Teplice",
+        "name:de": "Bad Stuben",
+        "name:hu": "Stubnyafürdő",
+        "name:pl": "Turcianske Teplice",
+        "name:ru": "Турчьянске Теплице",
+        "name:sk": "Turčianske Teplice",
+        "name:uk": "Турч'янське Тепліце",
+        "old_name": "Štubnianske Teplice",
+        "place": "town",
+        "population": "6991",
+        "postal_code": "039 01",
+        "region_id": "509",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.turciansketeplice.sk/",
+        "wikidata": "Q135647",
+        "wikipedia": "sk:Turčianske Teplice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8608115,
+          48.8614083
+        ]
+      },
+      "id": "node/26036360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036409",
+        "city_id": "543268",
+        "ele": "387",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Korompa,Krompachi,Krompachy,Krompakhi",
+        "name": "Krompachy",
+        "name:de": "Krompach",
+        "name:hu": "Korompa",
+        "name:pl": "Krompachy",
+        "name:sk": "Krompachy",
+        "name:uk": "Кромпахи",
+        "place": "town",
+        "population": "8809",
+        "postal_code": "053 42",
+        "region_id": "810",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.krompachy.sk/",
+        "wikidata": "Q842018",
+        "wikipedia": "sk:Krompachy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.8754977,
+          48.9144118
+        ]
+      },
+      "id": "node/26036409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036417",
+        "city_id": "522279",
+        "city_type": "county_city",
+        "ele": "103",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Michalovce,Mikhalovce,Nagymihaly,Nagymihály",
+        "name": "Michalovce",
+        "name:de": "Großmichel",
+        "name:hu": "Nagymihály",
+        "name:pl": "Michalovce",
+        "name:ru": "Михаловце",
+        "name:sk": "Michalovce",
+        "name:uk": "Михайлівці",
+        "place": "town",
+        "population": "39694",
+        "postal_code": "071 01",
+        "region_id": "807",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.michalovce.sk/sk",
+        "wikidata": "Q460925",
+        "wikipedia": "sk:Michalovce"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9211949,
+          48.7514383
+        ]
+      },
+      "id": "node/26036417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036421",
+        "city_id": "501905",
+        "ele": "128",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Somorja",
+        "name": "Šamorín",
+        "name:de": "Sommerein",
+        "name:hu": "Somorja",
+        "name:pl": "Šamorín",
+        "name:sk": "Šamorín",
+        "place": "town",
+        "population": "12736",
+        "postal_code": "931 01",
+        "region_id": "201",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://samorin.sk/",
+        "wikidata": "Q391068",
+        "wikipedia": "sk:Šamorín"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3115709,
+          48.0275832
+        ]
+      },
+      "id": "node/26036421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036457",
+        "city_id": "523925",
+        "ele": "704",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Szvit",
+        "name": "Svit",
+        "name:hu": "Szvit",
+        "name:pl": "Świt",
+        "name:sk": "Svit",
+        "place": "town",
+        "population": "7474",
+        "postal_code": "059 21",
+        "region_id": "706",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.svit.sk/",
+        "wikidata": "Q852318",
+        "wikipedia": "sk:Svit (mesto)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.1965291,
+          49.0582357
+        ]
+      },
+      "id": "node/26036457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036482",
+        "city_id": "520004",
+        "city_type": "county_city",
+        "ele": "139",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Gumenne,Homonna,Humenne,Humenné",
+        "name": "Humenné",
+        "name:de": "Homenau",
+        "name:hu": "Homonna",
+        "name:pl": "Humenné",
+        "name:ru": "Гуменне",
+        "name:sk": "Humenné",
+        "name:uk": "Гуменне",
+        "place": "town",
+        "population": "35028",
+        "postal_code": "066 01",
+        "region_id": "702",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.humenne.sk/",
+        "wikidata": "Q502264",
+        "wikipedia": "sk:Humenné"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9020268,
+          48.9350033
+        ]
+      },
+      "id": "node/26036482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036489",
+        "city_id": "520471",
+        "city_type": "county_city",
+        "ele": "427",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Boro,Boró,Medzilaborce,Mezolaborcz,Mezőlaborcz",
+        "name": "Medzilaborce",
+        "name:hu": "Mezőlaborc",
+        "name:pl": "Medzilaborce",
+        "name:ru": "Медзилаборце",
+        "name:rue": "Меджілабірці",
+        "name:sk": "Medzilaborce",
+        "name:uk": "Межилабірці",
+        "place": "town",
+        "population": "6586",
+        "postal_code": "068 01",
+        "region_id": "705",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.medzilaborce-urad.sk/",
+        "wikidata": "Q578686",
+        "wikipedia": "sk:Medzilaborce"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9039645,
+          49.2711323
+        ]
+      },
+      "id": "node/26036489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036518",
+        "city_id": "525146",
+        "city_type": "county_city",
+        "ele": "331",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Kisseben,Kisszeben,Sabinov,Zeben",
+        "name": "Sabinov",
+        "name:de": "Zeben",
+        "name:hu": "Kisszeben",
+        "name:la": "Cibinium",
+        "name:pl": "Sabinov",
+        "name:sk": "Sabinov",
+        "place": "town",
+        "population": "12489",
+        "postal_code": "083 01",
+        "region_id": "708",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.sabinov.sk/",
+        "wikidata": "Q837478",
+        "wikipedia": "sk:Sabinov"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0973337,
+          49.102674
+        ]
+      },
+      "id": "node/26036518"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036522",
+        "city_id": "513016",
+        "ele": "243",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Dubnica nad Vahom,Dubnica nad Váhom,Dubnica-nad-Vagom,Mariatoelgyes,Máriatölgyes",
+        "name": "Dubnica nad Váhom",
+        "name:de": "Dubnitz an der Waag",
+        "name:hu": "Máriatölgyes",
+        "name:pl": "Dubnica nad Váhom",
+        "name:sk": "Dubnica nad Váhom",
+        "old_name:hu": "Dubnic",
+        "place": "town",
+        "population": "25263",
+        "postal_code": "018 41",
+        "region_id": "302",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.dubnica.eu/",
+        "wikidata": "Q481528",
+        "wikipedia": "sk:Dubnica nad Váhom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1662967,
+          48.9574049
+        ]
+      },
+      "id": "node/26036522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036532",
+        "alt_name:uk": "Снина",
+        "city_id": "520802",
+        "city_type": "county_city",
+        "ele": "262",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Snina,Szinna",
+        "name": "Snina",
+        "name:hu": "Szinna",
+        "name:pl": "Snina",
+        "name:ru": "Снина",
+        "name:sk": "Snina",
+        "name:uk": "Сніна",
+        "place": "town",
+        "population": "21167",
+        "postal_code": "069 01",
+        "region_id": "709",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.snina.sk/",
+        "wikidata": "Q754788",
+        "wikipedia": "sk:Snina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1556248,
+          48.9900623
+        ]
+      },
+      "id": "node/26036532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036617",
+        "city_id": "514462",
+        "city_type": "county_city",
+        "ele": "193",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Rima-Szombat,Rimaszombat,Rimavska Sobota,Rimavská Sobota,Sobota Rimavska,Sobota Rimavská",
+        "name": "Rimavská Sobota",
+        "name:de": "Großsteffelsdorf",
+        "name:hu": "Rimaszombat",
+        "name:pl": "Rymawska Sobota",
+        "name:ru": "Римавска Собота",
+        "name:sk": "Rimavská Sobota",
+        "place": "town",
+        "population": "24309",
+        "postal_code": "979 01",
+        "region_id": "609",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.rimavskasobota.sk/",
+        "wikidata": "Q829812",
+        "wikipedia": "sk:Rimavská Sobota"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.0180584,
+          48.3833603
+        ]
+      },
+      "id": "node/26036617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036678",
+        "city_id": "523836",
+        "ele": "576",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Altendorf,Szepesofalu,Szepesófalu",
+        "name": "Spišská Stará Ves",
+        "name:de": "Altdorf",
+        "name:hu": "Szepesófalu",
+        "name:pl": "Stara Wieś Spiska",
+        "name:sk": "Spišská Stará Ves",
+        "place": "town",
+        "population": "2329",
+        "postal_code": "061 01",
+        "region_id": "703",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.spisskastaraves.sk/",
+        "wikidata": "Q592301",
+        "wikipedia": "sk:Spišská Stará Ves"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3598135,
+          49.383146
+        ]
+      },
+      "id": "node/26036678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036701",
+        "city_id": "513903",
+        "ele": "257",
+        "import_ref": "city_import_sk_1",
+        "name": "Bojnice",
+        "name:de": "Weinitz",
+        "name:hu": "Bajmóc",
+        "name:pl": "Bojnice",
+        "name:sk": "Bojnice",
+        "name:uk": "Бойніце",
+        "place": "town",
+        "population": "4951",
+        "postal_code": "972 01",
+        "region_id": "307",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.bojnice.sk/",
+        "wikidata": "Q788753",
+        "wikipedia": "sk:Bojnice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5821986,
+          48.7799591
+        ]
+      },
+      "id": "node/26036701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036744",
+        "city_id": "509868",
+        "city_type": "county_city",
+        "ele": "738",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Namestovo,Nameszto,Namiestow,Namiestów,Námestovo,Námesztó",
+        "name": "Námestovo",
+        "name:hu": "Námesztó",
+        "name:pl": "Namiestów",
+        "name:sk": "Námestovo",
+        "place": "town",
+        "population": "8123",
+        "postal_code": "029 01",
+        "region_id": "507",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.namestovo.sk/",
+        "wikidata": "Q377650",
+        "wikipedia": "sk:Námestovo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.4803756,
+          49.4095122
+        ]
+      },
+      "id": "node/26036744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036792",
+        "city_id": "518557",
+        "city_type": "county_city",
+        "ele": "314",
+        "import_ref": "city_import_sk_1",
+        "name": "Krupina",
+        "name:de": "Karpfen",
+        "name:hu": "Korpona",
+        "name:pl": "Krupina",
+        "name:ru": "Крупина",
+        "name:sk": "Krupina",
+        "place": "town",
+        "population": "7797",
+        "postal_code": "963 01",
+        "region_id": "605",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://krupina.sk/",
+        "wikidata": "Q756667",
+        "wikipedia": "sk:Krupina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.069182,
+          48.3527285
+        ]
+      },
+      "id": "node/26036792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036807",
+        "city_id": "528722",
+        "ele": "112",
+        "import_ref": "city_import_sk_1",
+        "name": "Sečovce",
+        "name:hu": "Gálszécs",
+        "name:pl": "Seczowce",
+        "name:sk": "Sečovce",
+        "place": "town",
+        "population": "8116",
+        "postal_code": "078 01",
+        "region_id": "811",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.secovce.sk/",
+        "wikidata": "Q847336",
+        "wikipedia": "sk:Sečovce"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6555995,
+          48.7015059
+        ]
+      },
+      "id": "node/26036807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036837",
+        "city_id": "508063",
+        "city_type": "county_city",
+        "ele": "167",
+        "import_ref": "city_import_sk_1",
+        "name": "Malacky",
+        "name:de": "Malatzka",
+        "name:hu": "Malacka",
+        "name:pl": "Malacky",
+        "name:ru": "Малацки",
+        "name:sk": "Malacky",
+        "old_name:de": "Kirchlee;Kyrchle",
+        "place": "town",
+        "population": "17887",
+        "postal_code": "901 01",
+        "region_id": "106",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://malacky.sk/",
+        "wikidata": "Q837464",
+        "wikipedia": "sk:Malacky"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0200447,
+          48.4362992
+        ]
+      },
+      "id": "node/26036837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036847",
+        "city_id": "501280",
+        "ele": "114",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Nasvad",
+        "name": "Nesvady",
+        "name:hu": "Naszvad",
+        "name:sk": "Nesvady",
+        "place": "town",
+        "population": "5034",
+        "postal_code": "946 51",
+        "region_id": "401",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.nesvady.sk/",
+        "wikidata": "Q629313",
+        "wikipedia": "sk:Nesvady"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1285528,
+          47.9285197
+        ]
+      },
+      "id": "node/26036847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036873",
+        "city_id": "509540",
+        "city_type": "county_city",
+        "ele": "596",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Alsokubin,Alsókubin,Dolni Kubin,Dolny Kubin,Dolní Kubín,Dolný Kubín",
+        "name": "Dolný Kubín",
+        "name:de": "Unterkubin",
+        "name:hu": "Alsókubin",
+        "name:pl": "Dolný Kubín",
+        "name:sk": "Dolný Kubín",
+        "place": "town",
+        "population": "19747",
+        "postal_code": "026 01",
+        "region_id": "503",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.dolnykubin.sk/",
+        "wikidata": "Q589309",
+        "wikipedia": "sk:Dolný Kubín"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.2953168,
+          49.2145239
+        ]
+      },
+      "id": "node/26036873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036884",
+        "alt_name:de": "Trentschiner Bad",
+        "city_id": "506613",
+        "ele": "444",
+        "import_ref": "city_import_sk_1",
+        "name": "Trenčianske Teplice",
+        "name:de": "Trentschin-Teplitz",
+        "name:hu": "Trencsénteplic",
+        "name:pl": "Trenczyńskie Cieplice",
+        "name:sk": "Trenčianske Teplice",
+        "place": "town",
+        "population": "4125",
+        "postal_code": "914 51",
+        "region_id": "309",
+        "source": "statistics.sk",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.teplice.sk/",
+        "wikidata": "Q532555",
+        "wikipedia": "sk:Trenčianske Teplice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1702976,
+          48.9094451
+        ]
+      },
+      "id": "node/26036884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036885",
+        "city_id": "508233",
+        "ele": "185",
+        "import_ref": "city_import_sk_1",
+        "name": "Stupava",
+        "name:de": "Stampfen",
+        "name:hu": "Stomfa",
+        "name:pl": "Stupava",
+        "name:sk": "Stupava",
+        "place": "town",
+        "population": "8745",
+        "postal_code": "900 31",
+        "region_id": "106",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.stupava.sk/",
+        "wikidata": "Q782928",
+        "wikipedia": "sk:Stupava"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0329528,
+          48.273044
+        ]
+      },
+      "id": "node/26036885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036896",
+        "city_id": "525529",
+        "city_type": "county_city",
+        "ele": "385",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Rozhnjava,Roznava,Rozsnyo,Rozsnyó,Rožňava",
+        "name": "Rožňava",
+        "name:de": "Rosenau",
+        "name:hu": "Rozsnyó",
+        "name:pl": "Rożniawa",
+        "name:ru": "Рожнява",
+        "name:sk": "Rožňava",
+        "place": "town",
+        "population": "17782",
+        "population:date": "2020-12-31",
+        "postal_code": "048 01",
+        "region_id": "808",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.roznava.sk/",
+        "wikidata": "Q267888",
+        "wikipedia": "sk:Rožňava"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5328607,
+          48.6620675
+        ]
+      },
+      "id": "node/26036896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036901",
+        "city_id": "501522",
+        "ele": "96",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Calovo,Nagy Meder,Nagy Megyer,Čalovo",
+        "name": "Veľký Meder",
+        "name:de": "Groß-Magendorf",
+        "name:hu": "Nagymegyer",
+        "name:pl": "Wielki Meder",
+        "name:sk": "Veľký Meder",
+        "place": "town",
+        "population": "8888",
+        "postal_code": "932 01",
+        "region_id": "201",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.velkymeder.sk/",
+        "wikidata": "Q740469",
+        "wikipedia": "sk:Veľký Meder"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7693671,
+          47.8557806
+        ]
+      },
+      "id": "node/26036901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036903",
+        "city_id": "510726",
+        "ele": "643",
+        "import_ref": "city_import_sk_1",
+        "name": "Liptovský Hrádok",
+        "name:de": "Liptau-Hradek",
+        "name:hu": "Liptóújvár",
+        "name:pl": "Liptowski Gródek",
+        "name:sk": "Liptovský Hrádok",
+        "old_name:de": "Neuhäusel in der Liptau",
+        "place": "town",
+        "population": "7729",
+        "postal_code": "033 01",
+        "region_id": "505",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.liptovskyhradok.sk/",
+        "wikidata": "Q338528",
+        "wikipedia": "sk:Liptovský Hrádok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.7217331,
+          49.0371787
+        ]
+      },
+      "id": "node/26036903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036918",
+        "city_id": "515612",
+        "ele": "172",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Safarikovo,Šafárikovo",
+        "name": "Tornaľa",
+        "name:hu": "Tornalja",
+        "name:pl": "Tornaľa",
+        "name:ru": "Торналя",
+        "name:sk": "Tornaľa",
+        "place": "town",
+        "population": "7920",
+        "postal_code": "982 01",
+        "region_id": "608",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.mestotornala.sk",
+        "wikidata": "Q909291",
+        "wikipedia": "sk:Tornaľa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3232507,
+          48.4221599
+        ]
+      },
+      "id": "node/26036918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036937",
+        "city_id": "516970",
+        "ele": "649",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Koermoecbanya,Kormoczbanya,Kremnica,Kremnitz,Körmöcbánya,Körmöczbánya",
+        "name": "Kremnica",
+        "name:de": "Kremnitz",
+        "name:hu": "Körmöcbánya",
+        "name:la": "Cremnicium",
+        "name:pl": "Kremnica",
+        "name:ru": "Кремница",
+        "name:sk": "Kremnica",
+        "place": "town",
+        "population": "5558",
+        "postal_code": "967 01",
+        "region_id": "613",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.kremnica.sk/",
+        "wikidata": "Q754776",
+        "wikipedia": "sk:Kremnica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9174851,
+          48.7042133
+        ]
+      },
+      "id": "node/26036937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036952",
+        "city_id": "515680",
+        "ele": "520",
+        "import_ref": "city_import_sk_1",
+        "name": "Tisovec",
+        "name:de": "Theißholz",
+        "name:hu": "Tiszolc",
+        "name:la": "Taxovia",
+        "name:pl": "Tisovec",
+        "name:sk": "Tisovec",
+        "place": "town",
+        "population": "4091",
+        "postal_code": "980 61",
+        "region_id": "609",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.tisovec.com/",
+        "wikidata": "Q370445",
+        "wikipedia": "sk:Tisovec (okres Rimavská Sobota)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9420632,
+          48.6812756
+        ]
+      },
+      "id": "node/26036952"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036960",
+        "city_id": "528447",
+        "ele": "100",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Kiraly Helmecz,Kiraly-Helmec,Király Helmecz,Király-Helmec,Kraľovsky Chlumec,Krulovsky,Kráľovský Chlumec",
+        "name": "Kráľovský Chlmec",
+        "name:hu": "Királyhelmec",
+        "name:sk": "Kráľovský Chlmec",
+        "place": "town",
+        "population": "7862",
+        "postal_code": "077 01",
+        "region_id": "811",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.kralovskychlmec.org/",
+        "wikidata": "Q135667",
+        "wikipedia": "sk:Kráľovský Chlmec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9804775,
+          48.4223618
+        ]
+      },
+      "id": "node/26036960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26036979",
+        "city_id": "501204",
+        "ele": "109",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Guta",
+        "name": "Kolárovo",
+        "name:hu": "Gúta",
+        "name:pl": "Kolárovo",
+        "name:ru": "Коларово",
+        "name:sk": "Kolárovo",
+        "place": "town",
+        "population": "10765",
+        "postal_code": "946 03",
+        "region_id": "401",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "http://old.kolarovo.sk",
+        "wikidata": "Q374095",
+        "wikipedia": "sk:Kolárovo",
+        "wrong_name": "Kollárovo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9966591,
+          47.9182347
+        ]
+      },
+      "id": "node/26036979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037035",
+        "alt_name:de": "Silein",
+        "city_id": "517402",
+        "city_type": "region_city",
+        "ele": "353",
+        "import_ref": "city_import_sk_1",
+        "name": "Žilina",
+        "name:ar": "جيلينا",
+        "name:be": "Жыліна",
+        "name:de": "Sillein",
+        "name:en": "Žilina",
+        "name:es": "Žilina",
+        "name:fr": "Žilina",
+        "name:hu": "Zsolna",
+        "name:la": "Solna",
+        "name:pl": "Żylina",
+        "name:ru": "Жилина",
+        "name:sk": "Žilina",
+        "name:sr": "Жилина",
+        "name:uk": "Жиліна",
+        "place": "city",
+        "population": "81494",
+        "region_id": "511",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.zilina.sk/",
+        "wikidata": "Q25797",
+        "wikipedia": "sk:Žilina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7393139,
+          49.2234674
+        ]
+      },
+      "id": "node/26037035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037045",
+        "alt_name:de": "Oberneustadel",
+        "city_id": "509256",
+        "city_type": "county_city",
+        "ele": "358",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Kisucke Nove Mesto,Kiszucaujhely,Kiszucaújhely,Kysucke Nove Mesto,Kysucké Nové Mesto",
+        "name": "Kysucké Nové Mesto",
+        "name:de": "Kischützneustadt",
+        "name:hu": "Kiszucaújhely",
+        "name:pl": "Kysucké Nové Mesto",
+        "name:sk": "Kysucké Nové Mesto",
+        "old_name:hu": "Kisucaújhely",
+        "place": "town",
+        "population": "15132",
+        "region_id": "504",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.kysuckenovemesto.sk/",
+        "wikidata": "Q516578",
+        "wikipedia": "sk:Kysucké Nové Mesto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7865084,
+          49.2999184
+        ]
+      },
+      "id": "node/26037045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037053",
+        "city_id": "502782",
+        "ele": "118",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Šahy,Ipolysag,Ipolyság,Sag,Sahy,Shagi,Ság",
+        "name": "Šahy",
+        "name:de": "Eipelschlag",
+        "name:hu": "Ipolyság",
+        "name:pl": "Šahy",
+        "name:sk": "Šahy",
+        "place": "town",
+        "population": "7949",
+        "postal_code": "936 01",
+        "region_id": "402",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.sahy.sk/",
+        "wikidata": "Q390946",
+        "wikipedia": "sk:Šahy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9482971,
+          48.0693466
+        ]
+      },
+      "id": "node/26037053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037066",
+        "city_id": "504378",
+        "ele": "189",
+        "import_ref": "city_import_sk_1",
+        "name": "Holíč",
+        "name:de": "Holitsch",
+        "name:hu": "Holics",
+        "name:pl": "Holíč",
+        "name:sk": "Holíč",
+        "old_name": "Holič",
+        "old_name:de": "Weißkirchen",
+        "place": "town",
+        "population": "11688",
+        "postal_code": "908 51",
+        "region_id": "206",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.holic.sk/",
+        "wikidata": "Q653326",
+        "wikipedia": "sk:Holíč"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.162143,
+          48.8078921
+        ]
+      },
+      "id": "node/26037066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037089",
+        "city_id": "528293",
+        "ele": "102",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Agcsernyo,Cerna,Cherna,Cierna,Cserno,Csernő,Černá,Čierna",
+        "name": "Čierna nad Tisou",
+        "name:hu": "Tiszacsernyő",
+        "name:pl": "Czerna nad Cisą",
+        "name:sk": "Čierna nad Tisou",
+        "place": "town",
+        "population": "4162",
+        "postal_code": "076 43",
+        "region_id": "811",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.ciernanadtisou.sk/",
+        "wikidata": "Q212590",
+        "wikipedia": "sk:Čierna nad Tisou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0887368,
+          48.4166409
+        ]
+      },
+      "id": "node/26037089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037093",
+        "city_id": "506281",
+        "ele": "222",
+        "import_ref": "city_import_sk_1",
+        "name": "Nemšová",
+        "name:hu": "Nemsó",
+        "name:pl": "Nemšová",
+        "name:sk": "Nemšová",
+        "old_name:hu": "Nemsova",
+        "place": "town",
+        "population": "6328",
+        "postal_code": "914 41",
+        "region_id": "309",
+        "source": "statistics.sk",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.nemsova.sk/",
+        "wikidata": "Q389942",
+        "wikipedia": "sk:Nemšová"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1175713,
+          48.9646151
+        ]
+      },
+      "id": "node/26037093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037142",
+        "city_id": "505820",
+        "city_type": "region_city",
+        "ele": "211",
+        "import_ref": "city_import_sk_1",
+        "is_in:country": "Slovakia",
+        "loc_name": "Trencin,Trencsen,Trencsén,Trenczyn,Trentschin,Trentsen,Trenčin,Trenčín",
+        "name": "Trenčín",
+        "name:ar": "ترنتشين",
+        "name:de": "Trentschin",
+        "name:en": "Trenčín",
+        "name:es": "Trenčín",
+        "name:fr": "Trenčín",
+        "name:hu": "Trencsén",
+        "name:la": "Trentsinium;Laugaricio",
+        "name:pl": "Trenczyn",
+        "name:ru": "Тренчин",
+        "name:sk": "Trenčín",
+        "name:sr": "Тренчин",
+        "name:uk": "Тренчин",
+        "old_name:de": "Trencsin",
+        "place": "city",
+        "population": "56759",
+        "region_id": "309",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://trencin.sk/",
+        "wikidata": "Q145002",
+        "wikipedia": "sk:Trenčín"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0387465,
+          48.8922719
+        ]
+      },
+      "id": "node/26037142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037153",
+        "alt_name:uk": "Собранце",
+        "city_id": "523089",
+        "city_type": "county_city",
+        "ele": "131",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Sobrance,Szobranc,Szobránc",
+        "name": "Sobrance",
+        "name:de": "Sobranz",
+        "name:hu": "Szobránc",
+        "name:pl": "Sobrance",
+        "name:sk": "Sobrance",
+        "name:uk": "Собранці",
+        "place": "town",
+        "population": "6239",
+        "postal_code": "073 01",
+        "region_id": "809",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.sobrance.sk/",
+        "wikidata": "Q241125",
+        "wikipedia": "sk:Sobrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1806628,
+          48.7446501
+        ]
+      },
+      "id": "node/26037153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037170",
+        "city_id": "504017",
+        "ele": "113",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Diosek,Kis-Dioszeg,Kis-Diószeg,Maly Diosek,Malý Diosek,Nagy-Dioszeg,Nagy-Diószeg,Veľky Diosek,Veldiosek,Veľký Diosek",
+        "name": "Sládkovičovo",
+        "name:de": "Diosek",
+        "name:hu": "Diószeg",
+        "name:ru": "Сладковичово",
+        "name:sk": "Sládkovičovo",
+        "place": "town",
+        "population": "5741",
+        "postal_code": "925 21",
+        "region_id": "202",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.sladkovicovo.sk/",
+        "wikidata": "Q568249",
+        "wikipedia": "sk:Sládkovičovo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6441038,
+          48.2053536
+        ]
+      },
+      "id": "node/26037170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037190",
+        "alt_name:pl": "Spiska Nowa Wieś",
+        "city_id": "526355",
+        "city_type": "county_city",
+        "ele": "452",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Iglo,Igló,Neudorf,Spishska Nova Ves,Spiska Nowa Wies,Spiska Nowa Wieś,Spisska,Spisska Nova Ves,Spišská,Spišská Nová Ves",
+        "name": "Spišská Nová Ves",
+        "name:de": "Zipser Neudorf",
+        "name:hu": "Igló",
+        "name:pl": "Nowa Wieś Spiska",
+        "name:ru": "Спишска Нова Вес",
+        "name:sk": "Spišská Nová Ves",
+        "place": "town",
+        "population": "38257",
+        "region_id": "810",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.spisskanovaves.eu/",
+        "wikidata": "Q462840",
+        "wikipedia": "pl:Nowa Wieś Spiska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.562964,
+          48.9435344
+        ]
+      },
+      "id": "node/26037190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037195",
+        "city_id": "528099",
+        "city_type": "county_city",
+        "ele": "110",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Toketerebes,Trebishov,Trebisov,Trebišov,Tőketerebes",
+        "name": "Trebišov",
+        "name:de": "Trebišov",
+        "name:hu": "Tőketerebes",
+        "name:pl": "Trzebiszów",
+        "name:ru": "Требишов",
+        "name:sk": "Trebišov",
+        "name:uk": "Требішов",
+        "place": "town",
+        "population": "23305",
+        "postal_code": "075 01",
+        "region_id": "811",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.trebisov.sk/",
+        "wikidata": "Q256301",
+        "wikipedia": "sk:Trebišov"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7201711,
+          48.6286222
+        ]
+      },
+      "id": "node/26037195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037204",
+        "city_id": "514268",
+        "ele": "251",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Navaky",
+        "name": "Nováky",
+        "name:hu": "Nyitranovák",
+        "name:pl": "Nováky",
+        "name:sk": "Nováky",
+        "place": "town",
+        "population": "4427",
+        "postal_code": "972 71",
+        "region_id": "307",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.novaky.sk/",
+        "wikidata": "Q909301",
+        "wikipedia": "sk:Nováky"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5408304,
+          48.7164472
+        ]
+      },
+      "id": "node/26037204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037254",
+        "alt_name:de": "Werbau",
+        "city_id": "507750",
+        "ele": "178",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Verbo,Verbó,Vrbove,Vrbové",
+        "name": "Vrbové",
+        "name:de": "Vrbau",
+        "name:hu": "Verbó",
+        "name:pl": "Vrbové",
+        "name:sk": "Vrbové",
+        "place": "town",
+        "population": "6272",
+        "postal_code": "922 03",
+        "region_id": "204",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.vrbove.sk/",
+        "wikidata": "Q846444",
+        "wikipedia": "sk:Vrbové"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7238763,
+          48.6195312
+        ]
+      },
+      "id": "node/26037254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037282",
+        "city_id": "526142",
+        "city_type": "county_city",
+        "ele": "297",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Nagyroce,Nagyrőce,Revuca,Revúce",
+        "name": "Revúca",
+        "name:de": "Großrauschenbach",
+        "name:hu": "Nagyrőce",
+        "name:pl": "Revúca",
+        "name:ru": "Ревуца",
+        "name:sk": "Revúca",
+        "place": "town",
+        "population": "12975",
+        "postal_code": "050 01",
+        "region_id": "608",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.revuca.sk/",
+        "wikidata": "Q847213",
+        "wikipedia": "sk:Revúca (mesto)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.1166667,
+          48.6833333
+        ]
+      },
+      "id": "node/26037282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037285",
+        "city_id": "502863",
+        "ele": "186",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Garamtolmacs,Garamtolmács,Timac,Timace,Timač,Timače",
+        "name": "Tlmače",
+        "name:hu": "Garamtolmács",
+        "name:pl": "Tlmače",
+        "name:sk": "Tlmače",
+        "place": "town",
+        "population": "4095",
+        "postal_code": "935 21",
+        "region_id": "402",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.mestotlmace.sk/",
+        "wikidata": "Q239637",
+        "wikipedia": "sk:Tlmače"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5318545,
+          48.2887778
+        ]
+      },
+      "id": "node/26037285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037308",
+        "city_id": "502987",
+        "ele": "142",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Zseliz",
+        "name": "Želiezovce",
+        "name:de": "Zelis",
+        "name:hu": "Zseliz",
+        "name:pl": "Želiezovce",
+        "name:sk": "Želiezovce",
+        "place": "town",
+        "population": "7471",
+        "postal_code": "937 01",
+        "region_id": "402",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.zeliezovce.sk/",
+        "wikidata": "Q393609",
+        "wikipedia": "sk:Želiezovce"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6583548,
+          48.0492258
+        ]
+      },
+      "id": "node/26037308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037335",
+        "city_id": "516210",
+        "ele": "335",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Kekko,Kékkő",
+        "name": "Modrý Kameň",
+        "name:de": "Blauenstein",
+        "name:hu": "Kékkő",
+        "name:pl": "Niebieski Kamień",
+        "name:sk": "Modrý Kameň",
+        "place": "town",
+        "population": "1522",
+        "postal_code": "992 01",
+        "region_id": "610",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.modrykamen.sk/",
+        "wikidata": "Q901050",
+        "wikipedia": "sk:Modrý Kameň"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.3340853,
+          48.2406025
+        ]
+      },
+      "id": "node/26037335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037344",
+        "city_id": "542652",
+        "city_type": "county_city",
+        "ele": "219",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Banovce",
+        "name": "Bánovce nad Bebravou",
+        "name:de": "Banowitz",
+        "name:hu": "Bán",
+        "name:pl": "Bánovce nad Bebravou",
+        "name:sk": "Bánovce nad Bebravou",
+        "place": "town",
+        "population": "20592",
+        "region_id": "301",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.banovce.sk/",
+        "wikidata": "Q549849",
+        "wikipedia": "sk:Bánovce nad Bebravou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.2598263,
+          48.7216671
+        ]
+      },
+      "id": "node/26037344"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037357",
+        "alt_name:de": "Lublau",
+        "alt_name:pl": "Lubowla",
+        "city_id": "526665",
+        "city_type": "county_city",
+        "ele": "557",
+        "import_ref": "city_import_sk_1",
+        "name": "Stará Ľubovňa",
+        "name:de": "Altlublau",
+        "name:hu": "Ólubló",
+        "name:pl": "Stara Lubowla",
+        "name:sk": "Stará Ľubovňa",
+        "name:uk": "Стара Любовня",
+        "old_name:pl": "Lubowla",
+        "place": "town",
+        "population": "16338",
+        "postal_code": "064 01",
+        "region_id": "710",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.staralubovna.sk/",
+        "wikidata": "Q605521",
+        "wikipedia": "sk:Stará Ľubovňa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.6889231,
+          49.3001533
+        ]
+      },
+      "id": "node/26037357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037381",
+        "city_id": "500968",
+        "city_type": "county_city",
+        "ele": "196",
+        "import_ref": "city_import_sk_1",
+        "name": "Zlaté Moravce",
+        "name:de": "Goldmorawitz",
+        "name:hu": "Aranyosmarót",
+        "name:pl": "Złote Moravce",
+        "name:ru": "Злате Моравце",
+        "name:sk": "Zlaté Moravce",
+        "place": "town",
+        "population": "13289",
+        "region_id": "407",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.zlatemoravce.eu/",
+        "wikidata": "Q207226",
+        "wikipedia": "sk:Zlaté Moravce"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4,
+          48.3833333
+        ]
+      },
+      "id": "node/26037381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037382",
+        "city_id": "501026",
+        "city_type": "county_city",
+        "ele": "168",
+        "import_ref": "city_import_sk_1",
+        "name": "Komárno",
+        "name:de": "Komorn",
+        "name:hu": "Komárom",
+        "name:pl": "Komárno",
+        "name:sk": "Komárno",
+        "place": "town",
+        "population": "36066",
+        "region_id": "401",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://komarno.sk/",
+        "wikidata": "Q210796",
+        "wikipedia": "sk:Komárno"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1298249,
+          47.7574079
+        ]
+      },
+      "id": "node/26037382"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037388",
+        "city_id": "511218",
+        "city_type": "county_city",
+        "ele": "168",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Losonc,Losoncz,Lucenec,Luchenec,Lučenec",
+        "name": "Lučenec",
+        "name:de": "Lizenz",
+        "name:hu": "Losonc",
+        "name:pl": "Łuczeniec",
+        "name:ru": "Лученец",
+        "name:sk": "Lučenec",
+        "place": "town",
+        "population": "27690",
+        "region_id": "606",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.lucenec.sk/",
+        "wikidata": "Q728965",
+        "wikipedia": "sk:Lučenec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6634149,
+          48.3303886
+        ]
+      },
+      "id": "node/26037388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037409",
+        "city_id": "519006",
+        "city_type": "county_city",
+        "ele": "353",
+        "heritage": "1",
+        "heritage:operator": "whc",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Bardejov,Bartfa,Bartfeld,Bártf",
+        "name": "Bardejov",
+        "name:de": "Bartfeld",
+        "name:hu": "Bártfa",
+        "name:pl": "Bardejów",
+        "name:sk": "Bardejov",
+        "name:uk": "Бардейов",
+        "place": "town",
+        "population": "33405",
+        "postal_code": "085 01",
+        "region_id": "701",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.bardejov.sk/",
+        "wikidata": "Q27007",
+        "wikipedia": "sk:Bardejov"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2756031,
+          49.2926871
+        ]
+      },
+      "id": "node/26037409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037417",
+        "city_id": "504815",
+        "city_type": "county_city",
+        "ele": "173",
+        "import_ref": "city_import_sk_1",
+        "name": "Skalica",
+        "name:de": "Skalitz",
+        "name:hu": "Szakolca",
+        "name:la": "Sakolcium",
+        "name:pl": "Skalica",
+        "name:ru": "Скалица",
+        "name:sk": "Skalica",
+        "place": "town",
+        "population": "14948",
+        "postal_code": "909 01",
+        "region_id": "206",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.skalica.sk/",
+        "wikidata": "Q649076",
+        "wikipedia": "sk:Skalica (mesto)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2287837,
+          48.8461007
+        ]
+      },
+      "id": "node/26037417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037425",
+        "city_id": "543594",
+        "ele": "382",
+        "import_ref": "city_import_sk_1",
+        "name": "Spišské Vlachy",
+        "name:de": "Wallendorf",
+        "name:hu": "Szepesolaszi",
+        "name:la": "Latina villa",
+        "name:pl": "Spiskie Włochy",
+        "name:sk": "Spišské Vlachy",
+        "name:uk": "Спішске Влахи",
+        "place": "town",
+        "population": "3635",
+        "postal_code": "053 61",
+        "region_id": "810",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.spisskevlachy.sk/",
+        "wikidata": "Q524405",
+        "wikipedia": "sk:Spišské Vlachy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.7974076,
+          48.9466482
+        ]
+      },
+      "id": "node/26037425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037427",
+        "city_id": "525634",
+        "ele": "475",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Dobshina;Dobšiná",
+        "name": "Dobšiná",
+        "name:de": "Dobschau",
+        "name:hu": "Dobsina",
+        "name:la": "Dobsinium",
+        "name:pl": "Dobszyna",
+        "name:ru": "Добшина",
+        "name:sk": "Dobšiná",
+        "place": "town",
+        "population": "5148",
+        "postal_code": "049 25",
+        "region_id": "808",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.dobsina.sk/",
+        "wikidata": "Q279005",
+        "wikipedia": "sk:Dobšiná"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3649119,
+          48.8211362
+        ]
+      },
+      "id": "node/26037427"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037466",
+        "city_id": "515850",
+        "city_type": "county_city",
+        "ele": "189",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Krtis,Krtíš",
+        "name": "Veľký Krtíš",
+        "name:hu": "Nagykürtös",
+        "name:pl": "Veľký Krtíš",
+        "name:ru": "Вельки-Кртиш",
+        "name:sk": "Veľký Krtíš",
+        "place": "town",
+        "population": "13649",
+        "postal_code": "990 01",
+        "region_id": "610",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.velky-krtis.sk/",
+        "wikidata": "Q673741",
+        "wikipedia": "sk:Veľký Krtíš"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.3490365,
+          48.2093428
+        ]
+      },
+      "id": "node/26037466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037507",
+        "alt_name:de": "Pistian",
+        "city_id": "507440",
+        "city_type": "county_city",
+        "ele": "158",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Piesťanoch,Piestany,Pieszczany,Piešťanoch,Piešťany,Poestyen,Pöstyén,peshtjany",
+        "name": "Piešťany",
+        "name:de": "Pistyan",
+        "name:hu": "Pöstyén",
+        "name:pl": "Pieszczany",
+        "name:ru": "Пьештяны",
+        "name:sk": "Piešťany",
+        "place": "town",
+        "population": "29587",
+        "postal_code": "921 01",
+        "region_id": "204",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.piestany.sk/",
+        "wikidata": "Q321074",
+        "wikipedia": "sk:Piešťany"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8213848,
+          48.5895247
+        ]
+      },
+      "id": "node/26037507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037521",
+        "city_id": "509248",
+        "ele": "384",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Krasno,Krásno",
+        "name": "Krásno nad Kysucou",
+        "name:de": "Krasno an der Kischütz",
+        "name:hu": "Karásznó",
+        "name:sk": "Krásno nad Kysucou",
+        "place": "town",
+        "population": "6790",
+        "postal_code": "023 02",
+        "region_id": "502",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "start_date": "1325",
+        "website": "https://www.mestokrasno.sk/",
+        "wikidata": "Q909281",
+        "wikipedia": "sk:Krásno nad Kysucou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8322043,
+          49.3896875
+        ]
+      },
+      "id": "node/26037521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037523",
+        "city_id": "503584",
+        "ele": "130",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Parkan,Parkany,Párkány,Shturovo,Sturovo",
+        "name": "Štúrovo",
+        "name:de": "Gockern",
+        "name:hu": "Párkány",
+        "name:pl": "Sturovo",
+        "name:sk": "Štúrovo",
+        "old_name:pl": "Parkany",
+        "place": "town",
+        "population": "10901",
+        "postal_code": "943 01",
+        "region_id": "404",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.sturovo.sk/",
+        "wikidata": "Q60038",
+        "wikipedia": "sk:Štúrovo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7158785,
+          47.7978002
+        ]
+      },
+      "id": "node/26037523"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037541",
+        "city_id": "518387",
+        "ele": "129",
+        "import_ref": "city_import_sk_1",
+        "name": "Dudince",
+        "name:de": "Dudintze",
+        "name:hu": "Gyűgy",
+        "name:pl": "Dudince",
+        "name:sk": "Dudince",
+        "place": "town",
+        "population": "1520",
+        "postal_code": "962 71",
+        "region_id": "605",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.dudince-mesto.sk/",
+        "wikidata": "Q531445",
+        "wikipedia": "sk:Dudince"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8823161,
+          48.1691898
+        ]
+      },
+      "id": "node/26037541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037553",
+        "city_id": "523828",
+        "ele": "583",
+        "import_ref": "city_import_sk_1",
+        "name": "Spišská Belá",
+        "name:de": "Zipser Bela",
+        "name:hu": "Szepesbéla",
+        "name:pl": "Biała Spiska",
+        "name:sk": "Spišská Belá",
+        "place": "town",
+        "population": "6265",
+        "postal_code": "059 01",
+        "region_id": "703",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://spisskabela.sk/",
+        "wikidata": "Q605059",
+        "wikipedia": "sk:Spišská Belá"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4553246,
+          49.1900051
+        ]
+      },
+      "id": "node/26037553"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037561",
+        "alt_name:de": "Briesen",
+        "city_id": "508497",
+        "city_type": "county_city",
+        "ele": "541",
+        "import_ref": "city_import_sk_1",
+        "name": "Brezno",
+        "name:de": "Bries",
+        "name:hu": "Breznóbánya",
+        "name:pl": "Brezno",
+        "name:sk": "Brezno",
+        "old_name": "Brezno nad Hronom",
+        "place": "town",
+        "population": "22116",
+        "region_id": "603",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.brezno.sk/",
+        "wikidata": "Q465312",
+        "wikipedia": "sk:Brezno"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6409612,
+          48.8053349
+        ]
+      },
+      "id": "node/26037561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037569",
+        "city_id": "524140",
+        "city_type": "region_city",
+        "ele": "227",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Eperjes,Presov,Presova,Preszow,Preszów,Prešov,Prešova",
+        "name": "Prešov",
+        "name:ar": "بريشوف",
+        "name:de": "Preschau",
+        "name:en": "Prešov",
+        "name:es": "Prešov",
+        "name:fr": "Prešov",
+        "name:hu": "Eperjes",
+        "name:lt": "Prešovas",
+        "name:pl": "Preszów",
+        "name:ru": "Прешов",
+        "name:sk": "Prešov",
+        "name:sr": "Прешов",
+        "name:uk": "Пряшів",
+        "place": "city",
+        "population": "91498",
+        "region_id": "707",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.presov.sk/",
+        "wikidata": "Q26119",
+        "wikipedia": "sk:Prešov"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2392122,
+          49.0000074
+        ]
+      },
+      "id": "node/26037569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037578",
+        "city_id": "511391",
+        "ele": "178",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Fulek,Fülek",
+        "name": "Fiľakovo",
+        "name:de": "Fileck",
+        "name:hu": "Fülek",
+        "name:pl": "Filakovo",
+        "name:ru": "Филяково",
+        "name:sk": "Fiľakovo",
+        "place": "town",
+        "population": "10342",
+        "postal_code": "986 01",
+        "region_id": "606",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.filakovo.sk/index.php/sk/",
+        "wikidata": "Q247620",
+        "wikipedia": "sk:Fiľakovo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8222938,
+          48.2701641
+        ]
+      },
+      "id": "node/26037578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037584",
+        "city_id": "527840",
+        "city_type": "county_city",
+        "ele": "221",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Stropkov,Sztropko,Sztropkó",
+        "name": "Stropkov",
+        "name:de": "Stroppkau",
+        "name:hu": "Sztropkó",
+        "name:pl": "Stropkow",
+        "name:sk": "Stropkov",
+        "name:uk": "Стропків",
+        "place": "town",
+        "population": "10833",
+        "postal_code": "091 01",
+        "region_id": "711",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.stropkov.sk/",
+        "wikidata": "Q750413",
+        "wikipedia": "sk:Stropkov"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6521343,
+          49.2020091
+        ]
+      },
+      "id": "node/26037584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037592",
+        "alt_name:pl": "Dunajská Streda",
+        "city_id": "501433",
+        "city_type": "county_city",
+        "ele": "116",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Duna-Szerdahely,Dunajska Streda,Dunajská Streda,Dunaszerdahely",
+        "name": "Dunajská Streda",
+        "name:de": "Niedermarkt",
+        "name:hu": "Dunaszerdahely",
+        "name:pl": "Dunajská Streda",
+        "name:ru": "Дунайска Стреда",
+        "name:sk": "Dunajská Streda",
+        "place": "town",
+        "population": "23419",
+        "postal_code": "929 01",
+        "region_id": "201",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://dunstreda.sk/",
+        "wikidata": "Q646393",
+        "wikipedia": "sk:Dunajská Streda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6202595,
+          47.9893751
+        ]
+      },
+      "id": "node/26037592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037598",
+        "alt_name:de": "Leopoldstadt",
+        "alt_name:hu": "Lipótvár",
+        "city_id": "507253",
+        "ele": "144",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Leopoldov,Mestecko,Mestečko,Ujvaroska,Újvároska",
+        "name": "Leopoldov",
+        "name:de": "Leopold-Neustadtl",
+        "name:hu": "Újvároska",
+        "name:pl": "Leopoldov",
+        "name:sk": "Leopoldov",
+        "place": "town",
+        "population": "4102",
+        "postal_code": "920 41",
+        "region_id": "203",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.leopoldov.sk/",
+        "wikidata": "Q690807",
+        "wikipedia": "sk:Leopoldov"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7654426,
+          48.4441776
+        ]
+      },
+      "id": "node/26037598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037614",
+        "city_id": "506338",
+        "city_type": "county_city",
+        "ele": "167",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Nove Mesto nad Vagom,Nove Mesto nad Vahom,Nové Mesto nad Váhom,Otura,Vagujhely,Vágújhely,Ótura",
+        "name": "Nové Mesto nad Váhom",
+        "name:de": "Neustadt an der Waag",
+        "name:hu": "Vágújhely",
+        "name:pl": "Nowe Miasto nad Wagiem",
+        "name:ru": "Нове-Место-над-Вагом",
+        "name:sk": "Nové Mesto nad Váhom",
+        "name:uk": "Нове Место-над-Вагом",
+        "place": "town",
+        "population": "20505",
+        "postal_code": "915 01",
+        "region_id": "304",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.nove-mesto.sk/",
+        "wikidata": "Q376987",
+        "wikipedia": "sk:Nové Mesto nad Váhom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8303857,
+          48.7633248
+        ]
+      },
+      "id": "node/26037614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037616",
+        "city_id": "509132",
+        "city_type": "county_city",
+        "ele": "420",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Cadca,Chadca,Csaca,Csacza,Czaca,Čadca",
+        "name": "Čadca",
+        "name:de": "Tschadsa",
+        "name:hu": "Csaca",
+        "name:pl": "Czadca",
+        "name:sk": "Čadca",
+        "old_name": "Čaca",
+        "place": "town",
+        "population": "24315",
+        "region_id": "502",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.mestocadca.sk/",
+        "wikidata": "Q337478",
+        "wikipedia": "sk:Čadca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7896041,
+          49.4375146
+        ]
+      },
+      "id": "node/26037616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037619",
+        "city_id": "508179",
+        "city_type": "county_city",
+        "ele": "132",
+        "import_ref": "city_import_sk_1",
+        "name": "Pezinok",
+        "name:de": "Bösing",
+        "name:hu": "Bazin",
+        "name:la": "Bazinium",
+        "name:pl": "Pezinok",
+        "name:ru": "Пезинок",
+        "name:sk": "Pezinok",
+        "place": "town",
+        "population": "21656",
+        "region_id": "107",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.pezinok.sk/",
+        "wikidata": "Q659424",
+        "wikipedia": "sk:Pezinok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.270194,
+          48.2854539
+        ]
+      },
+      "id": "node/26037619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037628",
+        "city_id": "526975",
+        "ele": "632",
+        "import_ref": "city_import_sk_1",
+        "name": "Podolínec",
+        "name:de": "Pudlein",
+        "name:hu": "Podolin",
+        "name:pl": "Podoliniec",
+        "name:sk": "Podolínec",
+        "place": "town",
+        "population": "3243",
+        "postal_code": "065 03",
+        "region_id": "710",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.podolinec.eu/",
+        "wikidata": "Q852324",
+        "wikipedia": "sk:Podolínec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5337909,
+          49.2571147
+        ]
+      },
+      "id": "node/26037628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037632",
+        "city_id": "506745",
+        "city_type": "region_city",
+        "ele": "163",
+        "import_ref": "city_import_sk_1",
+        "name": "Trnava",
+        "name:ar": "ترنافا",
+        "name:de": "Tyrnau",
+        "name:en": "Trnava",
+        "name:es": "Trnava",
+        "name:fr": "Trnava",
+        "name:hu": "Nagyszombat",
+        "name:la": "Tyrnavia",
+        "name:pl": "Trnawa",
+        "name:ru": "Трнава",
+        "name:sk": "Trnava",
+        "name:sr": "Трнава",
+        "name:uk": "Трнава",
+        "place": "city",
+        "population": "68038",
+        "region_id": "207",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.trnava.sk/sk",
+        "wikidata": "Q26175",
+        "wikipedia": "sk:Trnava"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5858175,
+          48.3767652
+        ]
+      },
+      "id": "node/26037632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037643",
+        "city_id": "518808",
+        "ele": "438",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Sliacske Kupele,Sliačské Kúpele",
+        "name": "Sliač",
+        "name:hu": "Szilács",
+        "name:pl": "Sliač",
+        "name:sk": "Sliač",
+        "place": "town",
+        "population": "4845",
+        "postal_code": "962 31",
+        "region_id": "611",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.sliac.sk/",
+        "wikidata": "Q258439",
+        "wikipedia": "sk:Sliač"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1423663,
+          48.6131806
+        ]
+      },
+      "id": "node/26037643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037649",
+        "city_id": "510114",
+        "city_type": "county_city",
+        "ele": "650",
+        "import_ref": "city_import_sk_1",
+        "name": "Tvrdošín",
+        "name:cs": "Tvrdošín",
+        "name:de": "Turdoschin",
+        "name:hu": "Turdossin",
+        "name:pl": "Twardoszyn",
+        "name:ru": "Тврдошин",
+        "name:sk": "Tvrdošín",
+        "place": "town",
+        "population": "9401",
+        "postal_code": "027 44",
+        "region_id": "510",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.tvrdosin.sk/",
+        "wikidata": "Q509715",
+        "wikipedia": "sk:Tvrdošín"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5554346,
+          49.3341474
+        ]
+      },
+      "id": "node/26037649"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037655",
+        "city_id": "518468",
+        "ele": "521",
+        "import_ref": "city_import_sk_1",
+        "name": "Hriňová",
+        "name:de": "Hrinau",
+        "name:hu": "Herencsvölgy",
+        "name:pl": "Hrinova",
+        "name:sk": "Hriňová",
+        "old_name:hu": "Hrinyová",
+        "place": "town",
+        "population": "7923",
+        "postal_code": "962 05",
+        "region_id": "604",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.hrinova.sk/",
+        "wikidata": "Q846431",
+        "wikipedia": "sk:Hriňová"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.525865,
+          48.5764603
+        ]
+      },
+      "id": "node/26037655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037683",
+        "city_id": "517933",
+        "ele": "431",
+        "import_ref": "city_import_sk_1",
+        "name": "Rajecké Teplice",
+        "name:de": "Bad Rajetz",
+        "name:hu": "Rajecfürdő",
+        "name:mk": "Рајецке Теплице",
+        "name:pl": "Rajecké Teplice",
+        "name:sk": "Rajecké Teplice",
+        "name:uk": "Раєцке Тепліце",
+        "place": "town",
+        "population": "2936",
+        "postal_code": "013 13",
+        "region_id": "511",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.rajecke-teplice.info/",
+        "wikidata": "Q135655",
+        "wikipedia": "sk:Rajecké Teplice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6828969,
+          49.1275286
+        ]
+      },
+      "id": "node/26037683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037696",
+        "city_id": "504351",
+        "ele": "199",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Egbell",
+        "name": "Gbely",
+        "name:de": "Egbell",
+        "name:hu": "Egbell",
+        "name:pl": "Gbely",
+        "name:sk": "Gbely",
+        "place": "town",
+        "population": "5153",
+        "postal_code": "908 45",
+        "region_id": "206",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.gbely.sk/",
+        "wikidata": "Q846424",
+        "wikipedia": "sk:Gbely"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1177133,
+          48.7176973
+        ]
+      },
+      "id": "node/26037696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037771",
+        "city_id": "510998",
+        "city_type": "county_city",
+        "ele": "463",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Rosenberg,Rozahegy,Rozsahegy,Roźahegy,Ruzomberok,Ružomberok,Rózsahegy",
+        "name": "Ružomberok",
+        "name:de": "Rosenberg",
+        "name:hu": "Rózsahegy",
+        "name:pl": "Rużomberk",
+        "name:sk": "Ružomberok",
+        "place": "town",
+        "population": "29793",
+        "region_id": "508",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.ruzomberok.sk/",
+        "wikidata": "Q27541",
+        "wikipedia": "sk:Ružomberok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.3034168,
+          49.0815718
+        ]
+      },
+      "id": "node/26037771"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037848",
+        "alt_name:de": "Sankt Nikolaus in der Liptau",
+        "city_id": "510262",
+        "city_type": "county_city",
+        "ele": "561",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Liptoszentmiklos,Liptovski Mikulash,Liptovsky Mikulas,Liptovsky Svaty Mikulas,Liptovský Mikuláš,Liptovský Svätý Mikuláš,Liptószentmiklós",
+        "name": "Liptovský Mikuláš",
+        "name:de": "Liptau-Nikolaus",
+        "name:hu": "Liptószentmiklós",
+        "name:pl": "Liptowski Mikułasz",
+        "name:sk": "Liptovský Mikuláš",
+        "old_name:hu": "Liptovský Svätý Mikuláš",
+        "place": "town",
+        "population": "32748",
+        "region_id": "505",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.mikulas.sk/",
+        "wikidata": "Q272040",
+        "wikipedia": "pl:Liptowski Mikułasz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.612785,
+          49.0835785
+        ]
+      },
+      "id": "node/26037848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037873",
+        "capital": "4",
+        "city_id": "508438",
+        "city_type": "region_city",
+        "ele": "332",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Banska Bystrica,Banská Bystrica,Bańska Bystrzyca,Besztercebanya",
+        "name": "Banská Bystrica",
+        "name:ar": "بانسكا بيستريتسا",
+        "name:de": "Neusohl",
+        "name:en": "Banská Bystrica",
+        "name:es": "Banská Bystrica",
+        "name:fr": "Banská Bystrica",
+        "name:hu": "Besztercebánya",
+        "name:it": "Banská Bystrica",
+        "name:la": "Neosolium",
+        "name:pl": "Bańska Bystrzyca",
+        "name:ru": "Банска-Бистрица",
+        "name:sk": "Banská Bystrica",
+        "name:sr": "Банска Бистрица",
+        "name:uk": "Банська Бистриця",
+        "old_name": "Baňská Bystrica",
+        "place": "city",
+        "population": "80466",
+        "region_id": "601",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.banskabystrica.sk/",
+        "wikidata": "Q144983",
+        "wikipedia": "sk:Banská Bystrica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1585805,
+          48.7383895
+        ]
+      },
+      "id": "node/26037873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037896",
+        "city_id": "513440",
+        "ele": "239",
+        "import_ref": "city_import_sk_1",
+        "name": "Nová Dubnica",
+        "name:de": "Neudubnitz",
+        "name:hu": "Újtölgyes",
+        "name:pl": "Nová Dubnica",
+        "name:sk": "Nová Dubnica",
+        "place": "town",
+        "population": "11932",
+        "postal_code": "018 51",
+        "region_id": "302",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.novadubnica.eu/",
+        "wikidata": "Q249935",
+        "wikipedia": "sk:Nová Dubnica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1457351,
+          48.9358736
+        ]
+      },
+      "id": "node/26037896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037902",
+        "city_id": "519197",
+        "ele": "246",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Oiraltovce",
+        "name": "Giraltovce",
+        "name:hu": "Girált",
+        "name:pl": "Giraltovce",
+        "name:ru": "Гиралтовце",
+        "name:sk": "Giraltovce",
+        "name:uk": "Ґіралтовце",
+        "place": "town",
+        "population": "4166",
+        "postal_code": "087 01",
+        "region_id": "712",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.giraltovce.sk/",
+        "wikidata": "Q550357",
+        "wikipedia": "sk:Giraltovce"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5166587,
+          49.1135267
+        ]
+      },
+      "id": "node/26037902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037916",
+        "city_id": "523101",
+        "ele": "123",
+        "import_ref": "city_import_sk_1",
+        "name": "Strážske",
+        "name:de": "Straschke",
+        "name:hu": "Őrmező",
+        "name:pl": "Strážske",
+        "name:sk": "Strážske",
+        "old_name": "Stražské",
+        "place": "town",
+        "population": "4579",
+        "postal_code": "072 22",
+        "region_id": "807",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://strazske.sk/",
+        "wikidata": "Q846434",
+        "wikipedia": "sk:Strážske"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8337692,
+          48.8746597
+        ]
+      },
+      "id": "node/26037916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037934",
+        "city_id": "501140",
+        "ele": "143",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Ogyalla,Stara ďala,Stará ďala,Ógyalla",
+        "name": "Hurbanovo",
+        "name:de": "Altdala",
+        "name:hu": "Ógyalla",
+        "name:pl": "Hurbanovo",
+        "name:sk": "Hurbanovo",
+        "old_name": "Stará Ďala",
+        "place": "town",
+        "population": "8118",
+        "region_id": "401",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.hurbanovo.sk/",
+        "wikidata": "Q856402",
+        "wikipedia": "sk:Hurbanovo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.198313,
+          47.8761227
+        ]
+      },
+      "id": "node/26037934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26037969",
+        "city_id": "508217",
+        "city_type": "county_city",
+        "ele": "126",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Senec,Szenc",
+        "name": "Senec",
+        "name:de": "Wartberg",
+        "name:hu": "Szenc",
+        "name:pl": "Senec",
+        "name:sk": "Senec",
+        "old_name:hu": "Szempc",
+        "place": "town",
+        "population": "15750",
+        "postal_code": "903 01",
+        "region_id": "108",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.senec.sk/sk",
+        "wikidata": "Q754790",
+        "wikipedia": "sk:Senec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3969901,
+          48.2199473
+        ]
+      },
+      "id": "node/26037969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26038012",
+        "city_id": "525791",
+        "ele": "246",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Elshava,Jelsava,Jelšava,Jolsva,Velsava",
+        "name": "Jelšava",
+        "name:de": "Eltsch",
+        "name:hu": "Jolsva",
+        "name:la": "Alnovia",
+        "name:pl": "Jelšava",
+        "name:sk": "Jelšava",
+        "place": "town",
+        "population": "3152",
+        "postal_code": "049 16",
+        "region_id": "608",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.jelsava.sk/",
+        "wikidata": "Q846853",
+        "wikipedia": "sk:Jelšava (mesto)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2402981,
+          48.627958
+        ]
+      },
+      "id": "node/26038012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26038066",
+        "city_id": "518263",
+        "city_type": "county_city",
+        "ele": "457",
+        "import_ref": "city_import_sk_1",
+        "name": "Detva",
+        "name:hu": "Gyetva",
+        "name:pl": "Detva",
+        "name:sk": "Detva",
+        "place": "town",
+        "population": "14977",
+        "postal_code": "962 12",
+        "region_id": "604",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.detva.sk/",
+        "wikidata": "Q11857",
+        "wikipedia": "sk:Detva"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.4205586,
+          48.5595662
+        ]
+      },
+      "id": "node/26038066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26038091",
+        "city_id": "504262",
+        "ele": "264",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Berezo,Berezó",
+        "name": "Brezová pod Bradlom",
+        "name:de": "Birkenhain",
+        "name:hu": "Berezó",
+        "name:pl": "Brezová pod Bradlom",
+        "name:sk": "Brezová pod Bradlom",
+        "place": "town",
+        "population": "5419",
+        "postal_code": "906 13",
+        "region_id": "303",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.brezova.sk/",
+        "wikidata": "Q135818",
+        "wikipedia": "sk:Brezová pod Bradlom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5370299,
+          48.6616437
+        ]
+      },
+      "id": "node/26038091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26038123",
+        "city_id": "543578",
+        "ele": "468",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Spishske Podgraďe,Spiskie Podhradie,Spisske Podhradie,Spiśkie Podhradie,Spišské Podhradie,Szepesvaralja,Szepesváralja",
+        "name": "Spišské Podhradie",
+        "name:de": "Kirchdrauf",
+        "name:hu": "Szepesváralja",
+        "name:pl": "Spiskie Podgrodzie",
+        "name:sk": "Spišské Podhradie",
+        "name:uk": "Спішске Подградіє",
+        "old_name:de": "Kirchdorf",
+        "place": "town",
+        "population": "3892",
+        "postal_code": "053 04",
+        "region_id": "704",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.spisskepodhradie.sk/",
+        "wikidata": "Q537778",
+        "wikipedia": "sk:Spišské Podhradie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.7510716,
+          49.000035
+        ]
+      },
+      "id": "node/26038123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26038139",
+        "city_id": "526509",
+        "city_type": "county_city",
+        "ele": "545",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Gelnica,Goelnicbanya,Gollnitz,Gölnicbánya",
+        "name": "Gelnica",
+        "name:de": "Göllnitz",
+        "name:hu": "Gölnicbánya",
+        "name:pl": "Gelnica",
+        "name:sk": "Gelnica",
+        "name:uk": "Ґелніца",
+        "place": "town",
+        "population": "6157",
+        "postal_code": "056 01",
+        "region_id": "801",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.gelnica.sk/",
+        "wikidata": "Q842028",
+        "wikipedia": "sk:Gelnica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9369156,
+          48.8532052
+        ]
+      },
+      "id": "node/26038139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26038145",
+        "city_id": "513881",
+        "city_type": "county_city",
+        "ele": "266",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Previdza,Prievidza,Privigye",
+        "name": "Prievidza",
+        "name:de": "Priwitz",
+        "name:hu": "Privigye",
+        "name:pl": "Prievidza",
+        "name:sk": "Prievidza",
+        "name:uk": "Прєвідза",
+        "place": "town",
+        "population": "50919",
+        "postal_code": "971 01",
+        "region_id": "307",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://prievidza.sk/",
+        "wikidata": "Q208750",
+        "wikipedia": "sk:Prievidza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6234916,
+          48.7718361
+        ]
+      },
+      "id": "node/26038145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26038248",
+        "city_id": "557358",
+        "ele": "386",
+        "import_ref": "city_import_sk_1",
+        "name": "Vrútky",
+        "name:de": "Ruttek",
+        "name:hu": "Ruttka",
+        "name:pl": "Vrútky",
+        "name:sk": "Vrútky",
+        "place": "town",
+        "population": "7347",
+        "postal_code": "038 61",
+        "region_id": "506",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.vrutky.sk/",
+        "wikidata": "Q837456",
+        "wikipedia": "sk:Vrútky"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9250702,
+          49.1088603
+        ]
+      },
+      "id": "node/26038248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26038252",
+        "city_id": "510106",
+        "ele": "606",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Trstena,Trstená,Trsztena,Trzciana",
+        "name": "Trstená",
+        "name:be": "Трсцена",
+        "name:hu": "Trsztena",
+        "name:pl": "Trzciana",
+        "name:ru": "Трстена",
+        "name:sk": "Trstená",
+        "place": "town",
+        "population": "7537",
+        "postal_code": "028 01",
+        "region_id": "510",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.trstena.sk/",
+        "wikidata": "Q847350",
+        "wikipedia": "sk:Trstená"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6078094,
+          49.3593197
+        ]
+      },
+      "id": "node/26038252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26038282",
+        "city_id": "503011",
+        "city_type": "county_city",
+        "ele": "122",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Ersekujvar,Neuhaeusel,Neuhaus,Neuhausel,Neuhäusel,Nove Zamky,Nové Zámky,nove zamki,Érsekújvár",
+        "name": "Nové Zámky",
+        "name:de": "Neuhäusel",
+        "name:hu": "Érsekújvár",
+        "name:la": "Novum Castrum",
+        "name:pl": "Nowe Zamki",
+        "name:ru": "Нове Замки",
+        "name:sk": "Nové Zámky",
+        "name:tr": "Uyvar",
+        "place": "town",
+        "population": "40840",
+        "postal_code": "940 02",
+        "region_id": "404",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.novezamky.sk/",
+        "wikidata": "Q276362",
+        "wikipedia": "sk:Nové Zámky"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1631415,
+          47.9861843
+        ]
+      },
+      "id": "node/26038282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26038294",
+        "city_id": "512681",
+        "ele": "395",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Turany nad Vahom",
+        "name": "Turany",
+        "name:hu": "Nagyturány",
+        "name:pl": "Turany",
+        "name:sk": "Turany",
+        "place": "town",
+        "population": "4364",
+        "postal_code": "038 53",
+        "region_id": "506",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.turany.sk/",
+        "wikidata": "Q1023443",
+        "wikipedia": "sk:Turany"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0391539,
+          49.1163981
+        ]
+      },
+      "id": "node/26038294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26038362",
+        "city_id": "527106",
+        "city_type": "county_city",
+        "ele": "216",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Felsovizkoez,Felsővízköz,Svidnik,Svidník,Vysnyj Svidnik,Vyšnyj Svidnik",
+        "name": "Svidník",
+        "name:de": "Oberswidnik",
+        "name:hu": "Felsővízköz",
+        "name:lt": "Svidnykas",
+        "name:pl": "Świdnik",
+        "name:ru": "Свидник",
+        "name:rue": "Свідник",
+        "name:sk": "Svidník",
+        "name:sr": "Свидњик",
+        "name:uk": "Свидник",
+        "name:zh": "斯維德尼克",
+        "place": "town",
+        "population": "12156",
+        "postal_code": "089 01",
+        "region_id": "712",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.svidnik.sk/",
+        "wikidata": "Q833845",
+        "wikipedia": "sk:Svidník"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5733508,
+          49.3085082
+        ]
+      },
+      "id": "node/26038362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26038384",
+        "city_id": "517917",
+        "ele": "468",
+        "import_ref": "city_import_sk_1",
+        "name": "Rajec",
+        "name:de": "Rajetz",
+        "name:hu": "Rajec",
+        "name:pl": "Rajec",
+        "name:sk": "Rajec",
+        "name:uk": "Раєц",
+        "place": "town",
+        "population": "6076",
+        "postal_code": "015 01",
+        "region_id": "511",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "http://www.rajec.info/",
+        "wikidata": "Q909333",
+        "wikipedia": "sk:Rajec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6352209,
+          49.0886262
+        ]
+      },
+      "id": "node/26038384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26038399",
+        "city_id": "543853",
+        "ele": "103",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Kapusany,Kapušany,Nagy-Kapos",
+        "name": "Veľké Kapušany",
+        "name:hu": "Nagykapos",
+        "name:pl": "Wielkie Kapuszany",
+        "name:sk": "Veľké Kapušany",
+        "place": "town",
+        "population": "9549",
+        "postal_code": "079 01",
+        "region_id": "807",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.vkapusany.sk/",
+        "wikidata": "Q842022",
+        "wikipedia": "sk:Veľké Kapušany"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0773719,
+          48.5538814
+        ]
+      },
+      "id": "node/26038399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26038401",
+        "alt_name:pl": "Sered",
+        "city_id": "504009",
+        "ele": "127",
+        "import_ref": "city_import_sk_1",
+        "name": "Sereď",
+        "name:de": "Sereth",
+        "name:hu": "Szered",
+        "name:pl": "Sereď",
+        "name:sk": "Sereď",
+        "place": "town",
+        "population": "17045",
+        "postal_code": "926 01",
+        "region_id": "202",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.sered.sk/",
+        "wikidata": "Q429676",
+        "wikipedia": "sk:Sereď"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7308808,
+          48.2889032
+        ]
+      },
+      "id": "node/26038401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26038409",
+        "city_id": "560103",
+        "ele": "853",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Smokovec",
+        "name": "Vysoké Tatry",
+        "name:de": "Hohe Tatra",
+        "name:hu": "Tátrafüred",
+        "name:pl": "Wysokie Tatry",
+        "name:sk": "Vysoké Tatry",
+        "place": "town",
+        "population": "4593",
+        "postal_code": "062 01",
+        "region_id": "706",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.vysoketatry.sk/",
+        "wikidata": "Q612516",
+        "wikipedia": "sk:Vysoké Tatry (mesto)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.220797,
+          49.1385895
+        ]
+      },
+      "id": "node/26038409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26038421",
+        "city_id": "544051",
+        "city_type": "county_city",
+        "ele": "188",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Varanno,Varannó,Vranov,Vranov nad Toplou,Vranov nad Topľou,Vranov",
+        "name": "Vranov nad Topľou",
+        "name:de": "Fröhnel",
+        "name:hu": "Varannó",
+        "name:pl": "Vranov nad Topľou",
+        "name:ru": "Вранов-над-Топлёу",
+        "name:sk": "Vranov nad Topľou",
+        "name:uk": "Вранов-над-Топльоу",
+        "place": "town",
+        "population": "23109",
+        "region_id": "713",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.vranov.sk/",
+        "wikidata": "Q842005",
+        "wikipedia": "sk:Vranov nad Topľou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6822318,
+          48.8891513
+        ]
+      },
+      "id": "node/26038421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26038430",
+        "city_id": "516589",
+        "city_type": "county_city",
+        "ele": "253",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Svaty Kriz nad Hronom,Svätý Kríž nad Hronom",
+        "name": "Žiar nad Hronom",
+        "name:de": "Heiligenkreuz an der Gran",
+        "name:hu": "Garamszentkereszt",
+        "name:pl": "Żar nad Hronem",
+        "name:sk": "Žiar nad Hronom",
+        "old_name:de:1773-1808": "Heiliges Creütz",
+        "old_name:de:1808-1873": "Heiligen Kreutz",
+        "old_name:sk:1237-1773": "Kríž Pána",
+        "old_name:sk:1773-1873": "Svätý Kríž",
+        "old_name:sk:1873-1955": "Svätý Kríž nad Hronom",
+        "place": "town",
+        "population": "17032",
+        "postal_code": "965 01",
+        "region_id": "613",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.ziar.sk/",
+        "wikidata": "Q393925",
+        "wikipedia": "sk:Žiar nad Hronom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8500892,
+          48.5910183
+        ]
+      },
+      "id": "node/26038430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26901997",
+        "city_id": "508101",
+        "name": "Modra",
+        "name:de": "Modern",
+        "name:hu": "Modor",
+        "name:la": "Modorinum",
+        "name:pl": "Modra",
+        "name:ru": "Модра",
+        "name:sk": "Modra",
+        "place": "town",
+        "population": "8804",
+        "postal_code": "900 01",
+        "source:name": "http://www.statistics.sk",
+        "website": "https://www.modra.sk/",
+        "wikidata": "Q596044",
+        "wikipedia": "sk:Modra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3087863,
+          48.3357255
+        ]
+      },
+      "id": "node/26901997"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/203077481",
+        "city_id": "523381",
+        "city_type": "county_city",
+        "ele": "687",
+        "loc_name": "Deutschendorf",
+        "name": "Poprad",
+        "name:de": "Deutschendorf",
+        "name:hu": "Poprád",
+        "name:ru": "Попрад",
+        "name:sk": "Poprad",
+        "place": "town",
+        "population": "54931",
+        "region_id": "706",
+        "source:name": "http://www.statistics.sk",
+        "website": "https://www.poprad.sk/",
+        "wikidata": "Q26393",
+        "wikipedia": "sk:Poprad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2976401,
+          49.0541521
+        ]
+      },
+      "id": "node/203077481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/289862512",
+        "fixme": "čo s týmto prvkom? máme ho zrušiť alebo nechať a upraviť?",
+        "name": "Trnava",
+        "note": "zbytočný prvok, zrušiť!",
+        "place": "city",
+        "website": "https://www.trnava.sk/sk",
+        "wikidata": "Q26175",
+        "wikipedia": "sk:Trnava",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5809419,
+          48.3742932
+        ]
+      },
+      "id": "way/289862512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/297488440",
+        "city_id": "507989",
+        "name": "Svätý Jur",
+        "name:de": "Sankt Georgen",
+        "name:hu": "Szentgyörgy",
+        "name:pl": "Svätý Jur",
+        "name:sk": "Svätý Jur",
+        "old_name": "Jur pri Bratislave",
+        "place": "town",
+        "website": "https://www.svatyjur.sk/",
+        "wikidata": "Q247240",
+        "wikipedia": "sk:Svätý Jur",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2149234,
+          48.2527853
+        ]
+      },
+      "id": "way/297488440"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/311068491",
+        "name": "Malacky",
+        "name:de": "Malatzka",
+        "name:hu": "Malacka",
+        "name:pl": "Malacky",
+        "name:ru": "Малацки",
+        "name:sk": "Malacky",
+        "old_name:de": "Kirchlee;Kyrchle",
+        "place": "town",
+        "website": "https://www.malacky.sk/",
+        "wikidata": "Q837464",
+        "wikipedia": "sk:Malacky",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0209172,
+          48.4323971
+        ]
+      },
+      "id": "way/311068491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/530544335",
+        "city_id": "529311",
+        "name": "Podunajské Biskupice",
+        "name:de": "Bischdorf",
+        "name:hu": "Pozsonypüspöki",
+        "name:pl": "Podunajské Biskupice",
+        "name:sk": "Podunajské Biskupice",
+        "old_name": "Biskupice (pri Dunaji)",
+        "old_name:hu": "Püspöki",
+        "place": "town",
+        "population": "20717",
+        "postal_code": "821 06",
+        "reg_name": "Bratislava - Podunajské Biskupice",
+        "region_id": "102",
+        "source:name": "http://www.statistics.sk",
+        "website": "https://www.biskupice.sk/",
+        "wikidata": "Q683983",
+        "wikipedia": "sk:Bratislava – mestská časť Podunajské Biskupice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2074215,
+          48.130042
+        ]
+      },
+      "id": "node/530544335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/530544336",
+        "city_id": "529435",
+        "ele": "130",
+        "name": "Čunovo",
+        "name:de": "Sarndorf",
+        "name:hu": "Dunacsún",
+        "name:sk": "Čunovo",
+        "place": "town",
+        "population": "936",
+        "postal_code": "851 10",
+        "reg_name": "Bratislava - Čunovo",
+        "region_id": "105",
+        "source:name": "http://www.statistics.sk/mosmis/run.html",
+        "website": "http://www.cunovo.eu",
+        "wikidata": "Q341724",
+        "wikipedia": "sk:Bratislava – mestská časť Čunovo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1995727,
+          48.029636
+        ]
+      },
+      "id": "node/530544336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/530544337",
+        "city_id": "529494",
+        "name": "Rusovce",
+        "name:de": "Karlburg",
+        "name:hr": "Rosvar",
+        "name:hu": "Oroszvár",
+        "name:sk": "Rusovce",
+        "place": "town",
+        "population": "2422",
+        "postal_code": "851 10",
+        "reg_name": "Bratislava - Rusovce",
+        "region_id": "105",
+        "source:name": "www.statistics.sk",
+        "website": "https://www.bratislava-rusovce.sk/",
+        "wikidata": "Q1091791",
+        "wikipedia": "sk:Bratislava – mestská časť Rusovce"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1469174,
+          48.052647
+        ]
+      },
+      "id": "node/530544337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/530544338",
+        "city_id": "529320",
+        "contact:rss": "https://www.ruzinov.sk/sk/aktuality/rss",
+        "name": "Ružinov",
+        "name:de": "Rosenheim",
+        "name:hu": "Főrév",
+        "name:pl": "Ružinov",
+        "name:sk": "Ružinov",
+        "place": "town",
+        "population": "70692",
+        "reg_name": "Bratislava - Ružinov",
+        "region_id": "102",
+        "source:name": "http://www.statistics.sk",
+        "website": "https://www.ruzinov.sk",
+        "wikidata": "Q934473",
+        "wikipedia": "sk:Bratislava – mestská časť Ružinov"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1645049,
+          48.1493142
+        ]
+      },
+      "id": "node/530544338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/530544340",
+        "alt_name:de": "Preßburg-Fragendorf",
+        "alt_name:hu": "Pozsony-Vereknye",
+        "city_id": "529338",
+        "name": "Vrakuňa",
+        "name:de": "Fragendorf",
+        "name:hu": "Vereknye",
+        "name:pl": "Vrakuňa",
+        "name:sk": "Vrakuňa",
+        "place": "town",
+        "population": "19320",
+        "postal_code": "821 07",
+        "reg_name": "Bratislava - Vrakuňa",
+        "region_id": "102",
+        "source:name": "www.statistics.sk",
+        "website": "https://www.vrakuna.sk/",
+        "wikidata": "Q1020906",
+        "wikipedia": "sk:Bratislava – mestská časť Vrakuňa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2004942,
+          48.145195
+        ]
+      },
+      "id": "node/530544340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/530544342",
+        "admin_level": "2",
+        "capital": "yes",
+        "capital_ISO3166-1": "yes",
+        "city_id": "582000",
+        "contact:instagram": "https://www.instagram.com/bratislava.sk/",
+        "int_name": "Bratislava",
+        "name": "Bratislava",
+        "name:ar": "براتيسلافا",
+        "name:arc": "ܒܪܛܝܣܠܐܒܐ",
+        "name:azb": "براتیسلاوا",
+        "name:be": "Браціслава",
+        "name:be-tarask": "Браціслава",
+        "name:br": "Bratislava",
+        "name:ckb": "براتسیلاڤا",
+        "name:cu": "Братислава",
+        "name:cv": "Братислава",
+        "name:de": "Bratislava",
+        "name:diq": "Bratislawa",
+        "name:el": "Μπρατισλάβα",
+        "name:en": "Bratislava",
+        "name:eo": "Bratislavo",
+        "name:es": "Bratislava",
+        "name:fa": "براتیسلاوا",
+        "name:fr": "Bratislava",
+        "name:gr": "Ἰστρόπολις",
+        "name:grc": "Ἰστρόπολις",
+        "name:hr": "Bratislava",
+        "name:hu": "Pozsony",
+        "name:it": "Bratislava",
+        "name:ja": "ブラチスラヴァ",
+        "name:ka": "ბრატისლავა",
+        "name:kk": "Братислава",
+        "name:kn": "ಬ್ರಾಟಿಸ್ಲಾವಾ",
+        "name:ko": "브라티슬라바",
+        "name:koi": "Братислава",
+        "name:ku": "Bratîslava",
+        "name:kv": "Братислава",
+        "name:la": "Posonium",
+        "name:lt": "Bratislava",
+        "name:mk": "Братислава",
+        "name:ml": "ബ്രാട്ടിസ്ലാവ",
+        "name:mn": "Братислав",
+        "name:mr": "ब्रातिस्लाव्हा",
+        "name:nds": "Pressburg",
+        "name:nl": "Bratislava",
+        "name:no": "Bratislava",
+        "name:oc": "Bratislava",
+        "name:os": "Братиславæ",
+        "name:pl": "Bratysława",
+        "name:pnb": "براتسلاوا",
+        "name:pt": "Bratislava",
+        "name:ro": "Bratislava",
+        "name:ru": "Братислава",
+        "name:rue": "Братїслава",
+        "name:sah": "Братислава",
+        "name:sk": "Bratislava",
+        "name:sq": "Bratisllava",
+        "name:sr": "Братислава",
+        "name:sv": "Bratislava",
+        "name:syc": "ܒܪܛܝܣܠܐܒܐ",
+        "name:ta": "பிராத்திஸ்லாவா",
+        "name:tg": "Братислава",
+        "name:th": "บราติสลาวา",
+        "name:tt": "Братислава",
+        "name:udm": "Братислава",
+        "name:ug": "براتىسلاۋا",
+        "name:uk": "Братислава",
+        "name:ur": "براٹیسلاوا",
+        "name:vep": "Bratislav",
+        "name:yi": "בראטיסלאווא",
+        "name:yue": "布拉迪斯拉發",
+        "name:zh": "布拉迪斯拉發",
+        "name:zh-Hans": "布拉迪斯拉发",
+        "name:zh-Hant": "布拉迪斯拉發",
+        "old_name:cs": "Prešpurk",
+        "old_name:de": "Preßburg",
+        "old_name:en": "Pressburg",
+        "old_name:es": "Presburgo",
+        "old_name:gr": "Istropolis",
+        "old_name:hr": "Požun",
+        "old_name:hu": "Pozsony",
+        "old_name:la": "Posonium",
+        "old_name:nds": "Preßburg",
+        "old_name:sk": "Prešporok",
+        "place": "city",
+        "population": "432801",
+        "source:name": "http://www.statistics.sk",
+        "source:name:br": "ofis publik ar brezhoneg",
+        "source:name:oc": "Lo Congrès",
+        "website": "https://bratislava.sk/",
+        "wikidata": "Q1780",
+        "wikipedia": "sk:Bratislava",
+        "@relations": [
+          {
+            "role": "admin_centre",
+            "rel": 3992676,
+            "reltags": {
+              "capital": "yes",
+              "name": "Bratislava",
+              "name:ar": "براتيسلافا",
+              "name:arc": "ܒܪܛܝܣܠܐܒܐ",
+              "name:azb": "براتیسلاوا",
+              "name:be": "Браціслава",
+              "name:be-tarask": "Браціслава",
+              "name:ckb": "براتسیلاڤا",
+              "name:cu": "Братислава",
+              "name:cv": "Братислава",
+              "name:de": "Bratislava",
+              "name:diq": "Bratislawa",
+              "name:el": "Μπρατισλάβα",
+              "name:en": "Bratislava",
+              "name:eo": "Bratislavo",
+              "name:es": "Bratislava",
+              "name:fa": "براتیسلاوا",
+              "name:gr": "Ἰστρόπολις",
+              "name:grc": "Ἰστρόπολις",
+              "name:hr": "Bratislava",
+              "name:hu": "Pozsony",
+              "name:it": "Bratislava",
+              "name:ja": "ブラチスラヴァ",
+              "name:jbo": "bratislavas",
+              "name:ka": "ბრატისლავა",
+              "name:kk": "Братислава",
+              "name:kn": "ಬ್ರಾಟಿಸ್ಲಾವಾ",
+              "name:ko": "브라티슬라바",
+              "name:koi": "Братислава",
+              "name:ku": "Bratîslava",
+              "name:kv": "Братислава",
+              "name:la": "Posonium",
+              "name:lt": "Bratislava",
+              "name:mk": "Братислава",
+              "name:ml": "ബ്രാട്ടിസ്‌ലാവ",
+              "name:mn": "Братислав",
+              "name:mr": "ब्रातिस्लाव्हा",
+              "name:nds": "Preßburg",
+              "name:nl": "Bratislava",
+              "name:no": "Bratislava",
+              "name:os": "Братиславæ",
+              "name:pl": "Bratysława",
+              "name:pnb": "براتسلاوا",
+              "name:pt": "Bratislava",
+              "name:ru": "Братислава",
+              "name:rue": "Братїслава",
+              "name:sah": "Братислава",
+              "name:sq": "Bratisllava",
+              "name:sr": "Братислава",
+              "name:sr-Latn": "Bratislava",
+              "name:sv": "Bratislava",
+              "name:syc": "ܒܪܛܝܣܠܐܒܐ",
+              "name:ta": "பிராத்திஸ்லாவா",
+              "name:tg": "Братислава",
+              "name:th": "บราติสลาวา",
+              "name:tt": "Братислава",
+              "name:udm": "Братислава",
+              "name:ug": "براتىسلاۋا",
+              "name:uk": "Братислава",
+              "name:ur": "براٹیسلاوا",
+              "name:vep": "Bratislav",
+              "name:yi": "בראטיסלאווא",
+              "name:yue": "布拉迪斯拉發",
+              "name:zh": "布拉迪斯拉發",
+              "name:zh-Hans": "布拉迪斯拉发",
+              "name:zh-Hant": "布拉迪斯拉發",
+              "old_name:cs": "Prešpurk",
+              "old_name:de": "Preßburg",
+              "old_name:en": "Pressburg",
+              "old_name:es": "Presburgo",
+              "old_name:hr": "Požun",
+              "old_name:hu": "Pozsony",
+              "old_name:la": "Posonium",
+              "old_name:nds": "Preßburg",
+              "old_name:sk": "Prešporok",
+              "place": "city",
+              "population": "432801",
+              "type": "multipolygon",
+              "wikidata": "Q1780",
+              "wikipedia": "sk:Bratislava"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1093063,
+          48.1516988
+        ]
+      },
+      "id": "node/530544342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/530544346",
+        "city_id": "529397",
+        "name": "Karlova Ves",
+        "name:de": "Karlsdorf",
+        "name:hu": "Károlyfalu",
+        "name:pl": "Karlova Ves",
+        "name:sk": "Karlova Ves",
+        "place": "town",
+        "population": "33876",
+        "reg_name": "Bratislava - Karlova Ves",
+        "region_id": "104",
+        "source:name": "www.statistics.sk",
+        "website": "https://www.karlovaves.sk/",
+        "wikidata": "Q1012707",
+        "wikipedia": "sk:Bratislava – mestská časť Karlova Ves"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0526768,
+          48.1592404
+        ]
+      },
+      "id": "node/530544346"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/530544348",
+        "city_id": "529443",
+        "name": "Jarovce",
+        "name:de": "Kroatisch-Jahrndorf",
+        "name:hr": "Hrvatski Jandrof",
+        "name:hu": "Horvátjárfalu",
+        "name:sk": "Jarovce",
+        "place": "town",
+        "population": "1296",
+        "postal_code": "851 10",
+        "reg_name": "Bratislava - Jarovce",
+        "region_id": "105",
+        "source:name": "www.statistics.sk",
+        "website": "http://www.jarovce.sk/",
+        "wikidata": "Q1055697",
+        "wikipedia": "sk:Bratislava – mestská časť Jarovce"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1129421,
+          48.0652367
+        ]
+      },
+      "id": "node/530544348"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/530544350",
+        "city_id": "528595",
+        "contact:facebook": "https://www.facebook.com/staremesto.sk/",
+        "contact:instagram": "https://www.instagram.com/staremestosrdcebratislavy/",
+        "contact:rss": "https://www.staremesto.sk/sk/news/rss",
+        "contact:twitter": "https://twitter.com/staremestoba",
+        "name": "Staré Mesto",
+        "name:de": "Altstadt",
+        "name:en": "Old Town",
+        "name:hu": "Pozsony-Óváros",
+        "name:pl": "Stare Miasto",
+        "name:sk": "Staré Mesto",
+        "name:uk": "Старе Місто",
+        "place": "town",
+        "population": "41255",
+        "reg_name": "Bratislava - Staré Mesto",
+        "region_id": "101",
+        "source:name": "www.statistics.sk",
+        "website": "https://www.staremesto.sk/",
+        "wikidata": "Q1898406",
+        "wikipedia": "sk:Bratislava – mestská časť Staré Mesto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1123274,
+          48.1405887
+        ]
+      },
+      "id": "node/530544350"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/530544351",
+        "alt_name:de": "Audorf",
+        "city_id": "529460",
+        "contact:facebook": "https://www.facebook.com/BratislavaPetrzalka/",
+        "contact:instagram": "https://www.instagram.com/mestskacastpetrzalka/",
+        "contact:rss": "https://www.petrzalka.sk/rss-zivot-v-samosprave",
+        "name": "Petržalka",
+        "name:de": "Engerau",
+        "name:hr": "Nijebrod",
+        "name:hu": "Pozsonyligetfalu",
+        "name:pl": "Petržalka",
+        "name:sk": "Petržalka",
+        "old_name:hu": "Ligetfalu",
+        "place": "town",
+        "population": "113443",
+        "reg_name": "Bratislava - Petržalka",
+        "region_id": "105",
+        "source:name": "www.statistics.sk",
+        "website": "https://www.petrzalka.sk/",
+        "wikidata": "Q1013328",
+        "wikipedia": "sk:Bratislava – mestská časť Petržalka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1112897,
+          48.110972
+        ]
+      },
+      "id": "node/530544351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/530544353",
+        "city_id": "529371",
+        "name": "Devínska Nová Ves",
+        "name:de": "Theben-Neudorf",
+        "name:hr": "Devinsko Novo Selo",
+        "name:hu": "Dévényújfalu",
+        "name:pl": "Devínska Nová Ves",
+        "name:sk": "Devínska Nová Ves",
+        "place": "town",
+        "population": "15948",
+        "reg_name": "Bratislava - Devínska Nová Ves",
+        "region_id": "104",
+        "source:name": "www.statistics.sk",
+        "website": "https://www.devinskanovaves.sk/",
+        "wikidata": "Q970325",
+        "wikipedia": "sk:Bratislava – mestská časť Devínska Nová Ves"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.973894,
+          48.2091751
+        ]
+      },
+      "id": "node/530544353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/530544354",
+        "alt_name:de": "Lamatsch",
+        "city_id": "529419",
+        "name": "Lamač",
+        "name:de": "Blumenau",
+        "name:hu": "Lamacs",
+        "name:pl": "Lamač",
+        "name:sk": "Lamač",
+        "old_name:hu": "Lamács",
+        "place": "town",
+        "population": "6580",
+        "postal_code": "841 03",
+        "reg_name": "Bratislava - Lamač",
+        "region_id": "104",
+        "source:name": "www.statistics.sk",
+        "website": "https://www.lamac.sk/",
+        "wikidata": "Q787303",
+        "wikipedia": "sk:Bratislava – mestská časť Lamač"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0542794,
+          48.1911965
+        ]
+      },
+      "id": "node/530544354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/530544357",
+        "city_id": "507989",
+        "ele": "117",
+        "import_ref": "city_import_sk_1",
+        "name": "Svätý Jur",
+        "name:de": "Sankt Georgen",
+        "name:hu": "Szentgyörgy",
+        "name:pl": "Svätý Jur",
+        "name:sk": "Svätý Jur",
+        "old_name": "Jur pri Bratislave",
+        "place": "town",
+        "population": "4972",
+        "postal_code": "900 21",
+        "region_id": "107",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.svatyjur.sk/",
+        "wikidata": "Q247240",
+        "wikipedia": "sk:Svätý Jur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2127253,
+          48.2541879
+        ]
+      },
+      "id": "node/530544357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/530544360",
+        "city_id": "529346",
+        "name": "Nové Mesto",
+        "name:de": "Neustadt",
+        "name:hu": "Pozsony-Újváros",
+        "name:pl": "Nowe Miasto",
+        "name:sk": "Nové Mesto",
+        "name:uk": "Нове Місто",
+        "place": "town",
+        "population": "37048",
+        "reg_name": "Bratislava - Nové Mesto",
+        "region_id": "103",
+        "source:name": "www.statistics.sk",
+        "website": "https://www.banm.sk/",
+        "wikidata": "Q740351",
+        "wikipedia": "sk:Bratislava – mestská časť Nové Mesto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1383524,
+          48.1671622
+        ]
+      },
+      "id": "node/530544360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/530544365",
+        "city_id": "529427",
+        "name": "Záhorská Bystrica",
+        "name:de": "Bisternitz",
+        "name:hr": "Bistrica",
+        "name:hu": "Pozsonybeszterce",
+        "name:pl": "Zahorska Bystrzyca",
+        "name:sk": "Záhorská Bystrica",
+        "old_name:hu": "Beszterce",
+        "place": "town",
+        "population": "2852",
+        "postal_code": "841 06",
+        "reg_name": "Bratislava - Záhorská Bystrica",
+        "region_id": "104",
+        "source:name": "www.statistics.sk",
+        "website": "https://zahorskabystrica.sk/",
+        "wikidata": "Q246755",
+        "wikipedia": "sk:Bratislava – mestská časť Záhorská Bystrica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0383357,
+          48.2392876
+        ]
+      },
+      "id": "node/530544365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/530544367",
+        "city_id": "529389",
+        "name": "Dúbravka",
+        "name:de": "Kaltenbrunn",
+        "name:hu": "Pozsonyhidegkút",
+        "name:pl": "Dúbravka",
+        "name:sk": "Dúbravka",
+        "old_name:hu": "Hidegkút",
+        "place": "town",
+        "population": "34405",
+        "reg_name": "Bratislava - Dúbravka",
+        "region_id": "104",
+        "source:name": "www.statistics.sk",
+        "website": "https://www.dubravka.sk/",
+        "wikidata": "Q616170",
+        "wikipedia": "sk:Bratislava – mestská časť Dúbravka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0375032,
+          48.1870886
+        ]
+      },
+      "id": "node/530544367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/530544368",
+        "city_id": "529401",
+        "name": "Devín",
+        "name:de": "Theben",
+        "name:es": "Devín",
+        "name:hr": "Tibanj",
+        "name:hu": "Dévény",
+        "name:pl": "Devín",
+        "name:sk": "Devín",
+        "place": "town",
+        "population": "1040",
+        "postal_code": "841 10",
+        "reg_name": "Bratislava - Devín",
+        "region_id": "104",
+        "source:name": "www.statistics.sk",
+        "website": "https://www.devin.sk/",
+        "wikidata": "Q661046",
+        "wikipedia": "sk:Bratislava – mestská časť Devín"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9826096,
+          48.1745864
+        ]
+      },
+      "id": "node/530544368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/530544369",
+        "city_id": "529362",
+        "name": "Vajnory",
+        "name:de": "Weinern",
+        "name:hu": "Pozsonyszőlős",
+        "name:pl": "Vajnory",
+        "name:sk": "Vajnory",
+        "place": "town",
+        "population": "4659",
+        "postal_code": "831 07",
+        "reg_name": "Bratislava - Vajnory",
+        "source:name": "http://www.statistics.sk",
+        "website": "https://www.vajnory.sk/",
+        "wikidata": "Q1091778",
+        "wikipedia": "sk:Bratislava – mestská časť Vajnory"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2065787,
+          48.2049103
+        ]
+      },
+      "id": "node/530544369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/530544371",
+        "city_id": "500011",
+        "city_type": "region_city",
+        "ele": "140",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Neutra,Nyitra",
+        "name": "Nitra",
+        "name:ar": "نيترا",
+        "name:de": "Neutra",
+        "name:en": "Nitra",
+        "name:eo": "Nitro",
+        "name:es": "Nitra",
+        "name:fr": "Nitra",
+        "name:hu": "Nyitra",
+        "name:ka": "ნიტრა",
+        "name:pl": "Nitra",
+        "name:ru": "Нитра",
+        "name:sk": "Nitra",
+        "name:sr": "Њитра",
+        "name:uk": "Нітра",
+        "place": "city",
+        "population": "84444",
+        "region_id": "403",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://nitra.sk/",
+        "wikidata": "Q26397",
+        "wikipedia": "sk:Nitra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0894593,
+          48.31295
+        ]
+      },
+      "id": "node/530544371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/530544378",
+        "city_id": "502031",
+        "city_type": "county_city",
+        "ele": "172",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Leva,Levice,Léva",
+        "name": "Levice",
+        "name:de": "Lewenz",
+        "name:hu": "Léva",
+        "name:pl": "Levice",
+        "name:ru": "Левице",
+        "name:sk": "Levice",
+        "place": "town",
+        "population": "35830",
+        "region_id": "402",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.levice.sk/",
+        "wikidata": "Q506693",
+        "wikipedia": "sk:Levice (Slovensko)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6000869,
+          48.2163194
+        ]
+      },
+      "id": "node/530544378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/530544392",
+        "city_id": "517461",
+        "city_type": "county_city",
+        "ele": "299",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Bitcha,Bytca,Bytča,Nagybiccse",
+        "name": "Bytča",
+        "name:de": "Bitsch",
+        "name:hu": "Nagybiccse",
+        "name:lt": "Bitča",
+        "name:pl": "Bytča",
+        "name:sk": "Bytča",
+        "name:skr": "Bytča",
+        "name:uk": "Битча",
+        "place": "town",
+        "population": "11600",
+        "postal_code": "014 01",
+        "region_id": "501",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "http://www.bytca.sk/",
+        "wikidata": "Q27907",
+        "wikipedia": "sk:Bytča"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5586825,
+          49.2235748
+        ]
+      },
+      "id": "node/530544392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/530544418",
+        "city_id": "521698",
+        "ele": "220",
+        "import_ref": "city_import_sk_1",
+        "name": "Moldava nad Bodvou",
+        "name:de": "Moldau an der Bodwa",
+        "name:hu": "Szepsi",
+        "name:pl": "Moldava nad Bodvou",
+        "name:sk": "Moldava nad Bodvou",
+        "name:uk": "Молдава-над-Бодвоу",
+        "place": "town",
+        "population": "11000",
+        "postal_code": "045 01",
+        "region_id": "806",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.moldava.sk/",
+        "wikidata": "Q846440",
+        "wikipedia": "sk:Moldava nad Bodvou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9973314,
+          48.6141424
+        ]
+      },
+      "id": "node/530544418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/530544420",
+        "city_id": "521671",
+        "ele": "312",
+        "import_ref": "city_import_sk_1",
+        "loc_name": "Nizni Medzev,Nizny Medzev,Nižní Medzev,Nižný Medzev,Unter-Metzenseifen",
+        "name": "Medzev",
+        "name:de": "Metzenseifen",
+        "name:hu": "Meczenzéf",
+        "name:pl": "Medzev",
+        "name:ru": "Медзев",
+        "name:sk": "Medzev",
+        "name:uk": "Медзев",
+        "place": "town",
+        "population": "3846",
+        "postal_code": "044 25",
+        "region_id": "806",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.medzev.sk/",
+        "wikidata": "Q135727",
+        "wikipedia": "sk:Medzev"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.892266,
+          48.7003257
+        ]
+      },
+      "id": "node/530544420"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/530544488",
+        "city_id": "599981",
+        "city_type": "region_city",
+        "contact:instagram": "https://www.instagram.com/kosice_official/",
+        "contact:rss": "https://www.kosice.sk/rss/aktuality",
+        "ele": "208",
+        "name": "Košice",
+        "name:ar": "كوشيتسه",
+        "name:az": "Koşitse",
+        "name:az-Arab": "کوشیتسه",
+        "name:azb": "کوشیتسه",
+        "name:ba": "Кошице",
+        "name:be": "Кошыцы",
+        "name:bg": "Кошице",
+        "name:ce": "Кошици",
+        "name:cs": "Košice",
+        "name:cu": "Кошицє",
+        "name:de": "Kaschau",
+        "name:el": "Κόσιτσε",
+        "name:en": "Košice",
+        "name:es": "Košice",
+        "name:fa": "کوشیتسه",
+        "name:fr": "Košice",
+        "name:he": "קושיצה",
+        "name:hu": "Kassa",
+        "name:hy": "Կոշիցե",
+        "name:ja": "コシツェ",
+        "name:ka": "კოშიცე",
+        "name:ko": "코시체",
+        "name:ky": "Кошице",
+        "name:la": "Cassovia",
+        "name:lt": "Košicė",
+        "name:mk": "Кошице",
+        "name:mr": "कोशित्सा",
+        "name:os": "Кошице",
+        "name:pl": "Koszyce",
+        "name:pnb": "کوشیسے",
+        "name:ps": "کوشیتسه",
+        "name:ro": "Cașovia",
+        "name:ru": "Кошице",
+        "name:rue": "Кошіцї",
+        "name:sk": "Košice",
+        "name:sq": "Koshice",
+        "name:sr": "Кошице",
+        "name:th": "กอชิตเซ",
+        "name:tr": "Cana",
+        "name:tt": "Кошице",
+        "name:uk": "Кошиці",
+        "name:ur": "کوشیسہ",
+        "name:wuu": "科希策",
+        "name:yi": "קאשוי",
+        "name:yue": "高溪樹",
+        "name:zh": "科希策",
+        "old_name": "Kassa",
+        "old_name:fr": "Cassovie",
+        "place": "city",
+        "population": "238593",
+        "source:name": "https://www.statistics.sk/",
+        "website": "https://www.kosice.sk/",
+        "wikidata": "Q25409",
+        "wikipedia": "sk:Košice",
+        "year": "1230"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2496774,
+          48.7172272
+        ]
+      },
+      "id": "node/530544488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/555326196",
+        "city_id": "504025",
+        "city_type": "county_city",
+        "name": "Šaľa",
+        "name:de": "Schala",
+        "name:hu": "Vágsellye",
+        "name:pl": "Šaľa",
+        "name:sk": "Šaľa",
+        "place": "town",
+        "population": "24099",
+        "source:name": "http://www.statistics.sk",
+        "website": "https://sala.sk/",
+        "wikidata": "Q391361",
+        "wikipedia": "sk:Šaľa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8748587,
+          48.151379
+        ]
+      },
+      "id": "node/555326196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1828995697",
+        "city_id": "504203",
+        "city_type": "county_city",
+        "ele": "383",
+        "import_ref": "city_import_sk_1",
+        "name": "Senica",
+        "name:de": "Senitz",
+        "name:hu": "Szenice",
+        "name:pl": "Senica",
+        "name:sk": "Senica",
+        "old_name:hu": "Szenic",
+        "place": "town",
+        "population": "20723",
+        "postal_code": "905 01",
+        "region_id": "205",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://senica.sk/",
+        "wikidata": "Q750407",
+        "wikipedia": "sk:Senica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3661529,
+          48.6787557
+        ]
+      },
+      "id": "node/1828995697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2137762280",
+        "alt_name:uk": "Липани",
+        "city_id": "524778",
+        "name": "Lipany",
+        "name:de": "Siebenlinden",
+        "name:hu": "Héthárs",
+        "name:la": "Septemtiliae",
+        "name:pl": "Lipany",
+        "name:ru": "Липаны",
+        "name:sk": "Lipany",
+        "name:uk": "Ліпани",
+        "place": "town",
+        "population": "6302",
+        "postal_code": "082 71",
+        "region_id": "708",
+        "website": "https://www.lipany.sk/",
+        "wikidata": "Q847118",
+        "wikipedia": "sk:Lipany"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9630923,
+          49.152629
+        ]
+      },
+      "id": "node/2137762280"
+    }
+  ]
+}

@@ -1,0 +1,1831 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-12-16T16:58:34Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/352672",
+        "EHAK:code": "5145",
+        "EHAK:countycode": "0084",
+        "EHAK:parishcode": "0480",
+        "admin_level": "9",
+        "alt_name": "Mõisaküla",
+        "boundary": "administrative",
+        "name": "Mõisaküla linn",
+        "name:lt": "Meisakiulos miestas",
+        "name:lv": "Meizakilas pilsēta",
+        "name:ru": "город Мыйзакюла",
+        "place": "town",
+        "type": "boundary",
+        "wikidata": "Q819395",
+        "wikipedia": "et:Mõisaküla",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1827325,
+          58.0940418
+        ]
+      },
+      "id": "relation/352672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/2133229",
+        "EHAK:code": "0296",
+        "EHAK:countycode": "0037",
+        "EHAK:parishcode": "0296",
+        "admin_level": "9",
+        "alt_name": "Keila",
+        "alt_name:ee": "Keila",
+        "alt_name:vro": "Keilä",
+        "boundary": "administrative",
+        "name": "Keila linn",
+        "name:ee": "Keila linn",
+        "name:lt": "Keila",
+        "name:ru": "Кейла",
+        "name:uk": "Кейла",
+        "name:vro": "Keilä liin",
+        "place": "town",
+        "type": "boundary",
+        "wikidata": "Q207275",
+        "wikipedia": "et:Keila",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3865119,
+          59.3113501
+        ]
+      },
+      "id": "relation/2133229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/2133246",
+        "EHAK:code": "0919",
+        "EHAK:countycode": "0087",
+        "EHAK:parishcode": "0919",
+        "admin_level": "9",
+        "alt_name": "Võru",
+        "alt_name:et": "Võru",
+        "alt_name:vro": "Võro",
+        "boundary": "administrative",
+        "name": "Võru linn",
+        "name:et": "Võru linn",
+        "name:lt": "Veru",
+        "name:lv": "Veru",
+        "name:ru": "Выру",
+        "name:uk": "Виру",
+        "name:vro": "Võro liin",
+        "place": "town",
+        "type": "boundary",
+        "wikidata": "Q205271",
+        "wikipedia": "et:Võru",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0071289,
+          57.8355823
+        ]
+      },
+      "id": "relation/2133246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/2164745",
+        "EHAK:code": "0784",
+        "EHAK:countycode": "0037",
+        "EHAK:parishcode": "0784",
+        "admin_level": "8",
+        "alt_name:ba": "Та́ллинн",
+        "alt_name:gl": "Tallin",
+        "alt_name:la": "Tallinna",
+        "alt_name:pt": "Talim",
+        "alt_name:ru": "Таллин",
+        "alt_name:rue": "Таллинн",
+        "alt_name:tl": "Tallin",
+        "alt_name:vep": "Tallinn",
+        "boundary": "administrative",
+        "capital": "yes",
+        "description": "linn (asustusüksus)",
+        "int_name": "Tallinn",
+        "name": "Tallinn",
+        "name:ace": "Tallinn",
+        "name:af": "Tallinn",
+        "name:am": "ታሊን",
+        "name:an": "Tallinn",
+        "name:ang": "Reval",
+        "name:ar": "تالين",
+        "name:arz": "تالين",
+        "name:ast": "Tallín",
+        "name:az": "Tallin",
+        "name:ba": "Таллин",
+        "name:bat-smg": "Talins",
+        "name:be": "Талін",
+        "name:be-tarask": "Талін",
+        "name:bg": "Талин",
+        "name:bn": "তাল্লিন",
+        "name:bo": "ཏཱལ་་ལིན།",
+        "name:br": "Tallinn",
+        "name:bs": "Tallinn",
+        "name:ca": "Tallinn",
+        "name:cdo": "Tallinn",
+        "name:ce": "Таллин",
+        "name:ceb": "Tallinn",
+        "name:ckb": "تاڵین",
+        "name:co": "Tallinn",
+        "name:cs": "Tallinn",
+        "name:csb": "Tallinn",
+        "name:cv": "Таллин",
+        "name:cy": "Tallinn",
+        "name:da": "Tallinn",
+        "name:de": "Tallinn",
+        "name:diq": "Talin",
+        "name:dsb": "Tallinn",
+        "name:ee": "Tallinn",
+        "name:el": "Ταλίν",
+        "name:en": "Tallinn",
+        "name:eo": "Talino",
+        "name:es": "Tallin",
+        "name:et": "Tallinn",
+        "name:eu": "Tallinn",
+        "name:fa": "تالین",
+        "name:fi": "Tallinna",
+        "name:fo": "Tallinn",
+        "name:fr": "Tallinn",
+        "name:frr": "Tallinn",
+        "name:fy": "Tallin",
+        "name:ga": "Taillinn",
+        "name:gag": "Tallinn",
+        "name:gd": "Tallinn",
+        "name:gl": "Talín",
+        "name:gn": "Talin",
+        "name:gv": "Tallinn",
+        "name:hak": "Tallinn",
+        "name:he": "טאלין",
+        "name:hi": "ताल्लिन",
+        "name:hif": "Tallinn",
+        "name:hr": "Tallinn",
+        "name:hsb": "Tallinn",
+        "name:ht": "Talin",
+        "name:hu": "Tallin",
+        "name:hy": "Տալլին",
+        "name:ia": "Tallinn",
+        "name:id": "Tallinn",
+        "name:ie": "Tallinn",
+        "name:io": "Tallinn",
+        "name:is": "Tallinn",
+        "name:it": "Tallinn",
+        "name:ja": "タリン",
+        "name:ka": "ტალინი",
+        "name:kaa": "Tallin",
+        "name:kk": "Таллин",
+        "name:kl": "Tallinn",
+        "name:ko": "탈린",
+        "name:koi": "Таллинн",
+        "name:ku": "Tallinn",
+        "name:kv": "Таллинн",
+        "name:kw": "Tallinn",
+        "name:ky": "Таллин",
+        "name:la": "Castrum Danorum",
+        "name:lad": "Tallin",
+        "name:lb": "Tallinn",
+        "name:li": "Tallinn",
+        "name:lij": "Tallinn",
+        "name:lmo": "Tallinn",
+        "name:ln": "Tallinn",
+        "name:lrc": "تالین",
+        "name:lt": "Talinas",
+        "name:ltg": "Talins",
+        "name:lv": "Tallina",
+        "name:mdf": "Таллинн",
+        "name:mg": "Tallinn",
+        "name:mhr": "Таллинн",
+        "name:mi": "Tallinn",
+        "name:mk": "Талин",
+        "name:ml": "ടാലിൻ",
+        "name:mn": "Та́ллин",
+        "name:mr": "तालिन",
+        "name:mrj": "Таллинн",
+        "name:ms": "Tallinn",
+        "name:mt": "Tallinn",
+        "name:myv": "Таллин ош",
+        "name:mzn": "تالین",
+        "name:na": "Tallinn",
+        "name:nah": "Tallin",
+        "name:nan": "Tallinn",
+        "name:nds": "Revel",
+        "name:nl": "Tallinn",
+        "name:nn": "Tallinn",
+        "name:no": "Tallinn",
+        "name:nov": "Tallinn",
+        "name:ny": "Tallinn",
+        "name:oc": "Tallinn",
+        "name:olo": "Tallinn",
+        "name:os": "Таллин",
+        "name:pa": "ਤਾਲਿਨ",
+        "name:pap": "Tallinn",
+        "name:pdc": "Tallinn",
+        "name:pih": "Tallinn",
+        "name:pl": "Tallinn",
+        "name:pms": "Tallin",
+        "name:pnb": "ٹالن",
+        "name:pt": "Tallinn",
+        "name:qu": "Tallinn",
+        "name:rmy": "Tallinn",
+        "name:ro": "Tallinn",
+        "name:ru": "Таллинн",
+        "name:rue": "Таллінн",
+        "name:sah": "Таллинн",
+        "name:sc": "Tallinn",
+        "name:scn": "Tallin",
+        "name:sco": "Tallinn",
+        "name:se": "Tallinn",
+        "name:sh": "Talin",
+        "name:sk": "Tallinn",
+        "name:sl": "Talin",
+        "name:sn": "Tallinn",
+        "name:sq": "Talini",
+        "name:sr": "Талин",
+        "name:st": "Tallinn",
+        "name:stq": "Tallinn",
+        "name:sv": "Tallinn",
+        "name:sw": "Tallinn",
+        "name:szl": "Tallinn",
+        "name:ta": "தாலின்",
+        "name:tg": "Таллин",
+        "name:th": "ทาลลินน์",
+        "name:tk": "Tallin",
+        "name:tl": "Tallinn",
+        "name:tpi": "Talin",
+        "name:tr": "Tallinn",
+        "name:tt": "Tallinn",
+        "name:tw": "Tallinn",
+        "name:udm": "Таллин",
+        "name:ug": "تاللىن",
+        "name:uk": "Таллінн",
+        "name:ur": "ٹالن",
+        "name:uz": "Tallin",
+        "name:vec": "Tallinn",
+        "name:vep": "Tallidn",
+        "name:vi": "Tallinn",
+        "name:vo": "Tallinn",
+        "name:vro": "Talliin",
+        "name:war": "Tallinn",
+        "name:wo": "Talin",
+        "name:xmf": "ტალინი",
+        "name:yi": "טאלין",
+        "name:yo": "Tallinn",
+        "name:yue": "塔林",
+        "name:zh": "塔林",
+        "old_name:af": "Reval",
+        "old_name:bs": "Reval",
+        "old_name:da": "Lyndanisse",
+        "old_name:de": "Reval",
+        "old_name:fi": "Rääveli",
+        "old_name:id": "Reval",
+        "old_name:la": "Revalia",
+        "old_name:li": "Reval",
+        "old_name:ln": "Reval",
+        "old_name:pa": "ਰੇਵਾਲ",
+        "old_name:pt": "Reval",
+        "old_name:ru": "Ревель",
+        "old_name:rue": "Ревал",
+        "old_name:sco": "Lindanisa",
+        "old_name:se": "Reval",
+        "old_name:sv": "Reval",
+        "old_name:tt": "Reval",
+        "old_name:uz": "Revel",
+        "place": "city",
+        "population": "443623",
+        "type": "boundary",
+        "wikidata": "Q1770",
+        "wikipedia": "et:Tallinn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7382266,
+          59.4716923
+        ]
+      },
+      "id": "relation/2164745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21670333",
+        "is_in": "Ida-Viru, Estonia, EU",
+        "name": "Narva",
+        "name:az": "Narva",
+        "name:be": "Нарва",
+        "name:de": "Narwa",
+        "name:en": "Narva",
+        "name:et": "Narva",
+        "name:he": "נרבה",
+        "name:lt": "Narva",
+        "name:pl": "Narwa",
+        "name:ru": "Нарва",
+        "name:uk": "Нарва",
+        "name:uz": "Narva",
+        "name:zh": "纳尔瓦",
+        "place": "city",
+        "population": "53424",
+        "population:date": "2021-01-01",
+        "website": "https://www.narva.ee/",
+        "wikidata": "Q102158",
+        "wikipedia": "et:Narva"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1921457,
+          59.3766729
+        ]
+      },
+      "id": "node/21670333"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/28577941",
+        "admin_level": "6",
+        "name": "Pärnu",
+        "name:de": "Pernau",
+        "name:he": "פרנו",
+        "name:lt": "Pernu",
+        "name:lv": "Pērnava",
+        "name:pl": "Parnawa",
+        "name:ru": "Пярну",
+        "name:uk": "Пярну",
+        "place": "city",
+        "population": "43528",
+        "wikidata": "Q102365",
+        "wikipedia": "et:Pärnu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5081751,
+          58.3835136
+        ]
+      },
+      "id": "node/28577941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29120272",
+        "name": "Kunda",
+        "name:en": "Kunda",
+        "name:lt": "Kunda",
+        "name:ru": "Кунда",
+        "name:uk": "Кунда",
+        "place": "town",
+        "population": "3669",
+        "population:date": "2010-01-01",
+        "source": "Maa-amet ADS 2011-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.5175577,
+          59.5021795
+        ]
+      },
+      "id": "node/29120272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29174618",
+        "name": "Tapa",
+        "name:de": "Taps",
+        "name:en": "Tapa",
+        "name:lt": "Tapa",
+        "name:ru": "Тапа",
+        "place": "town",
+        "population": "9448",
+        "wikidata": "Q650577",
+        "wikipedia": "et:Tapa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9626869,
+          59.2618575
+        ]
+      },
+      "id": "node/29174618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29378756",
+        "name": "Paldiski",
+        "name:ba": "Палдиски",
+        "name:en": "Paldiski",
+        "name:lt": "Paldiskis",
+        "name:ru": "Палдиски",
+        "name:uk": "Палдіскі",
+        "old_name:de": "Baltischport",
+        "old_name:se": "Rågervik",
+        "place": "town",
+        "population": "4154",
+        "website": "http://paldiski.ee/",
+        "wikidata": "Q204091",
+        "wikipedia": "et:Paldiski"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0801736,
+          59.349089
+        ]
+      },
+      "id": "node/29378756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29525427",
+        "admin_level": "6",
+        "name": "Valga",
+        "name:de": "Walk",
+        "name:en": "Valga",
+        "name:et": "Valga",
+        "name:lt": "Valga",
+        "name:pl": "Wałk",
+        "name:ru": "Валга",
+        "name:uk": "Валга",
+        "place": "town",
+        "population": "12040",
+        "population:date": "2020-01-01",
+        "source:population": "wikipedia",
+        "wikidata": "Q193905",
+        "wikipedia": "et:Valga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0315628,
+          57.777034
+        ]
+      },
+      "id": "node/29525427"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29683679",
+        "name": "Keila",
+        "name:de": "Kegel",
+        "name:en": "Keila",
+        "name:lt": "Keila",
+        "name:ru": "Кейла",
+        "name:uk": "Кейла",
+        "place": "town",
+        "population": "10030",
+        "wikidata": "Q207275",
+        "wikipedia": "et:Keila"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.420907,
+          59.3110918
+        ]
+      },
+      "id": "node/29683679"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29787492",
+        "admin_level": "2",
+        "capital": "yes",
+        "capital_ISO3166-1": "yes",
+        "is_in:country": "Estonia",
+        "is_in:country_code": "EE",
+        "name": "Tallinn",
+        "name:am": "ታሊን",
+        "name:ar": "تالين",
+        "name:arz": "تالين",
+        "name:ast": "Tallín",
+        "name:az": "Tallin",
+        "name:bat-smg": "Talins",
+        "name:be": "Талін",
+        "name:be-tarask": "Талін",
+        "name:bg": "Талин",
+        "name:bn": "তাল্লিন",
+        "name:bo": "ཏཱལ་་ལིན།",
+        "name:br": "Tallinn",
+        "name:ce": "Таллин",
+        "name:ckb": "تاڵین",
+        "name:cv": "Таллин",
+        "name:de": "Tallinn",
+        "name:diq": "Talin",
+        "name:el": "Ταλίν",
+        "name:en": "Tallinn",
+        "name:eo": "Talino",
+        "name:es": "Tallin",
+        "name:et": "Tallinn",
+        "name:fa": "تالین",
+        "name:fi": "Tallinna",
+        "name:fr": "Tallinn",
+        "name:fy": "Tallin",
+        "name:ga": "Taillinn",
+        "name:gl": "Talín - Tallinn",
+        "name:gn": "Talin",
+        "name:he": "טאלין",
+        "name:hi": "ताल्लिन",
+        "name:ht": "Talin",
+        "name:hu": "Tallin",
+        "name:hy": "Տալլին",
+        "name:is": "Tallinn",
+        "name:it": "Tallinn",
+        "name:ja": "タリン",
+        "name:ka": "ტალინი",
+        "name:kk": "Таллин",
+        "name:ko": "탈린",
+        "name:koi": "Таллинн",
+        "name:kv": "Таллинн",
+        "name:ky": "Таллин",
+        "name:la": "Castrum Danorum",
+        "name:lad": "Tallin",
+        "name:lt": "Talinas",
+        "name:ltg": "Talins",
+        "name:lv": "Tallina",
+        "name:mdf": "Таллинн",
+        "name:mhr": "Таллинн",
+        "name:mk": "Талин",
+        "name:ml": "ടാലിൻ",
+        "name:mr": "तालिन",
+        "name:mrj": "Таллинн",
+        "name:myv": "Таллин ош",
+        "name:mzn": "تالین",
+        "name:nah": "Tallin",
+        "name:nds": "Revel",
+        "name:no": "Tallinn",
+        "name:oc": "Tallinn",
+        "name:os": "Таллин",
+        "name:pl": "Tallinn",
+        "name:pms": "Tallin",
+        "name:pnb": "ٹالن",
+        "name:ru": "Таллин",
+        "name:sah": "Таллинн",
+        "name:scn": "Tallin",
+        "name:sh": "Talin",
+        "name:sk": "Tallinn",
+        "name:sl": "Talin",
+        "name:sq": "Talini",
+        "name:sr": "Талин",
+        "name:sv": "Tallinn",
+        "name:ta": "தாலின்",
+        "name:tg": "Таллин",
+        "name:th": "ทาลลินน์",
+        "name:tpi": "Talin",
+        "name:udm": "Таллин",
+        "name:ug": "تاللىن",
+        "name:uk": "Таллінн",
+        "name:ur": "ٹالن",
+        "name:vro": "Talliin",
+        "name:wo": "Talin",
+        "name:yi": "טאלין",
+        "name:yue": "塔林",
+        "name:zh": "塔林",
+        "name:zh-Hans": "塔林",
+        "old_name:de": "Reval",
+        "old_name:la": "Revalia",
+        "old_name:sv": "Reval",
+        "place": "city",
+        "population": "462120",
+        "population:date": "2023-11",
+        "source:name:br": "ofis publik ar brezhoneg",
+        "source:name:oc": "Lo Congrès",
+        "source:population": "Rahvastikuregister",
+        "start_date:old_name:la": "before 1532",
+        "wikidata": "Q1770",
+        "wikipedia": "et:Tallinn",
+        "@relations": [
+          {
+            "role": "admin_centre",
+            "rel": 2164745,
+            "reltags": {
+              "EHAK:code": "0784",
+              "EHAK:countycode": "0037",
+              "EHAK:parishcode": "0784",
+              "admin_level": "8",
+              "alt_name:ba": "Та́ллинн",
+              "alt_name:gl": "Tallin",
+              "alt_name:la": "Tallinna",
+              "alt_name:pt": "Talim",
+              "alt_name:ru": "Таллин",
+              "alt_name:rue": "Таллинн",
+              "alt_name:tl": "Tallin",
+              "alt_name:vep": "Tallinn",
+              "boundary": "administrative",
+              "capital": "yes",
+              "description": "linn (asustusüksus)",
+              "int_name": "Tallinn",
+              "name": "Tallinn",
+              "name:ace": "Tallinn",
+              "name:af": "Tallinn",
+              "name:am": "ታሊን",
+              "name:an": "Tallinn",
+              "name:ang": "Reval",
+              "name:ar": "تالين",
+              "name:arz": "تالين",
+              "name:ast": "Tallín",
+              "name:az": "Tallin",
+              "name:ba": "Таллин",
+              "name:bat-smg": "Talins",
+              "name:be": "Талін",
+              "name:be-tarask": "Талін",
+              "name:bg": "Талин",
+              "name:bn": "তাল্লিন",
+              "name:bo": "ཏཱལ་་ལིན།",
+              "name:br": "Tallinn",
+              "name:bs": "Tallinn",
+              "name:ca": "Tallinn",
+              "name:cdo": "Tallinn",
+              "name:ce": "Таллин",
+              "name:ceb": "Tallinn",
+              "name:ckb": "تاڵین",
+              "name:co": "Tallinn",
+              "name:cs": "Tallinn",
+              "name:csb": "Tallinn",
+              "name:cv": "Таллин",
+              "name:cy": "Tallinn",
+              "name:da": "Tallinn",
+              "name:de": "Tallinn",
+              "name:diq": "Talin",
+              "name:dsb": "Tallinn",
+              "name:ee": "Tallinn",
+              "name:el": "Ταλίν",
+              "name:en": "Tallinn",
+              "name:eo": "Talino",
+              "name:es": "Tallin",
+              "name:et": "Tallinn",
+              "name:eu": "Tallinn",
+              "name:fa": "تالین",
+              "name:fi": "Tallinna",
+              "name:fo": "Tallinn",
+              "name:fr": "Tallinn",
+              "name:frr": "Tallinn",
+              "name:fy": "Tallin",
+              "name:ga": "Taillinn",
+              "name:gag": "Tallinn",
+              "name:gd": "Tallinn",
+              "name:gl": "Talín",
+              "name:gn": "Talin",
+              "name:gv": "Tallinn",
+              "name:hak": "Tallinn",
+              "name:he": "טאלין",
+              "name:hi": "ताल्लिन",
+              "name:hif": "Tallinn",
+              "name:hr": "Tallinn",
+              "name:hsb": "Tallinn",
+              "name:ht": "Talin",
+              "name:hu": "Tallin",
+              "name:hy": "Տալլին",
+              "name:ia": "Tallinn",
+              "name:id": "Tallinn",
+              "name:ie": "Tallinn",
+              "name:io": "Tallinn",
+              "name:is": "Tallinn",
+              "name:it": "Tallinn",
+              "name:ja": "タリン",
+              "name:ka": "ტალინი",
+              "name:kaa": "Tallin",
+              "name:kk": "Таллин",
+              "name:kl": "Tallinn",
+              "name:ko": "탈린",
+              "name:koi": "Таллинн",
+              "name:ku": "Tallinn",
+              "name:kv": "Таллинн",
+              "name:kw": "Tallinn",
+              "name:ky": "Таллин",
+              "name:la": "Castrum Danorum",
+              "name:lad": "Tallin",
+              "name:lb": "Tallinn",
+              "name:li": "Tallinn",
+              "name:lij": "Tallinn",
+              "name:lmo": "Tallinn",
+              "name:ln": "Tallinn",
+              "name:lrc": "تالین",
+              "name:lt": "Talinas",
+              "name:ltg": "Talins",
+              "name:lv": "Tallina",
+              "name:mdf": "Таллинн",
+              "name:mg": "Tallinn",
+              "name:mhr": "Таллинн",
+              "name:mi": "Tallinn",
+              "name:mk": "Талин",
+              "name:ml": "ടാലിൻ",
+              "name:mn": "Та́ллин",
+              "name:mr": "तालिन",
+              "name:mrj": "Таллинн",
+              "name:ms": "Tallinn",
+              "name:mt": "Tallinn",
+              "name:myv": "Таллин ош",
+              "name:mzn": "تالین",
+              "name:na": "Tallinn",
+              "name:nah": "Tallin",
+              "name:nan": "Tallinn",
+              "name:nds": "Revel",
+              "name:nl": "Tallinn",
+              "name:nn": "Tallinn",
+              "name:no": "Tallinn",
+              "name:nov": "Tallinn",
+              "name:ny": "Tallinn",
+              "name:oc": "Tallinn",
+              "name:olo": "Tallinn",
+              "name:os": "Таллин",
+              "name:pa": "ਤਾਲਿਨ",
+              "name:pap": "Tallinn",
+              "name:pdc": "Tallinn",
+              "name:pih": "Tallinn",
+              "name:pl": "Tallinn",
+              "name:pms": "Tallin",
+              "name:pnb": "ٹالن",
+              "name:pt": "Tallinn",
+              "name:qu": "Tallinn",
+              "name:rmy": "Tallinn",
+              "name:ro": "Tallinn",
+              "name:ru": "Таллинн",
+              "name:rue": "Таллінн",
+              "name:sah": "Таллинн",
+              "name:sc": "Tallinn",
+              "name:scn": "Tallin",
+              "name:sco": "Tallinn",
+              "name:se": "Tallinn",
+              "name:sh": "Talin",
+              "name:sk": "Tallinn",
+              "name:sl": "Talin",
+              "name:sn": "Tallinn",
+              "name:sq": "Talini",
+              "name:sr": "Талин",
+              "name:st": "Tallinn",
+              "name:stq": "Tallinn",
+              "name:sv": "Tallinn",
+              "name:sw": "Tallinn",
+              "name:szl": "Tallinn",
+              "name:ta": "தாலின்",
+              "name:tg": "Таллин",
+              "name:th": "ทาลลินน์",
+              "name:tk": "Tallin",
+              "name:tl": "Tallinn",
+              "name:tpi": "Talin",
+              "name:tr": "Tallinn",
+              "name:tt": "Tallinn",
+              "name:tw": "Tallinn",
+              "name:udm": "Таллин",
+              "name:ug": "تاللىن",
+              "name:uk": "Таллінн",
+              "name:ur": "ٹالن",
+              "name:uz": "Tallin",
+              "name:vec": "Tallinn",
+              "name:vep": "Tallidn",
+              "name:vi": "Tallinn",
+              "name:vo": "Tallinn",
+              "name:vro": "Talliin",
+              "name:war": "Tallinn",
+              "name:wo": "Talin",
+              "name:xmf": "ტალინი",
+              "name:yi": "טאלין",
+              "name:yo": "Tallinn",
+              "name:yue": "塔林",
+              "name:zh": "塔林",
+              "old_name:af": "Reval",
+              "old_name:bs": "Reval",
+              "old_name:da": "Lyndanisse",
+              "old_name:de": "Reval",
+              "old_name:fi": "Rääveli",
+              "old_name:id": "Reval",
+              "old_name:la": "Revalia",
+              "old_name:li": "Reval",
+              "old_name:ln": "Reval",
+              "old_name:pa": "ਰੇਵਾਲ",
+              "old_name:pt": "Reval",
+              "old_name:ru": "Ревель",
+              "old_name:rue": "Ревал",
+              "old_name:sco": "Lindanisa",
+              "old_name:se": "Reval",
+              "old_name:sv": "Reval",
+              "old_name:tt": "Reval",
+              "old_name:uz": "Revel",
+              "place": "city",
+              "population": "443623",
+              "type": "boundary",
+              "wikidata": "Q1770",
+              "wikipedia": "et:Tallinn"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7453688,
+          59.4372155
+        ]
+      },
+      "id": "node/29787492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29926226",
+        "alt_name:ru": "Усть-Нарва",
+        "name": "Narva-Jõesuu",
+        "name:de": "Hungerburg",
+        "name:lt": "Narva Jeesū",
+        "name:lv": "Narva-Jēsū",
+        "name:ru": "Нарва-Йыэсуу",
+        "name:uk": "Нарва-Йиесуу",
+        "old_name:de": "Hungerburg",
+        "place": "town",
+        "population": "2602",
+        "population:date": "2011",
+        "wikidata": "Q723372",
+        "wikipedia": "et:Narva-Jõesuu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0421001,
+          59.4596435
+        ]
+      },
+      "id": "node/29926226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29948213",
+        "name": "Tõrva",
+        "name:de": "Törwa",
+        "name:lt": "Terva",
+        "name:ru": "Тырва",
+        "name:uk": "Тирва",
+        "place": "town",
+        "population": "3130",
+        "wikidata": "Q819514",
+        "wikipedia": "et:Tõrva"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9253612,
+          58.0028204
+        ]
+      },
+      "id": "node/29948213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29949066",
+        "admin_level": "6",
+        "is_in": "Eesti, Europe",
+        "is_in:country": "Eesti",
+        "is_in:country_code": "EE",
+        "name": "Viljandi",
+        "name:de": "Fellin",
+        "name:en": "Viljandi",
+        "name:fi": "Viljandi",
+        "name:lt": "Viljandis",
+        "name:lv": "Vīlande",
+        "name:pl": "Felin",
+        "name:ru": "Вильянди",
+        "name:sv": "Fellin",
+        "name:uk": "Вільянді",
+        "old_name": "Wiljandi",
+        "place": "town",
+        "population": "19100",
+        "website": "https://www.viljandi.ee/",
+        "wikidata": "Q44840",
+        "wikipedia": "et:Viljandi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5878074,
+          58.36454
+        ]
+      },
+      "id": "node/29949066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29950249",
+        "admin_level": "6",
+        "name": "Rapla",
+        "name:de": "Rappel",
+        "name:en": "Rapla",
+        "name:lt": "Rapla",
+        "name:uk": "Рапла",
+        "place": "town",
+        "population": "4918",
+        "population:date": "2023-11",
+        "source:population": "Rapla Teataja (318)",
+        "wikidata": "Q215971",
+        "wikipedia": "et:Rapla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.794397,
+          59.0056905
+        ]
+      },
+      "id": "node/29950249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/30127112",
+        "admin_level": "6",
+        "name": "Haapsalu",
+        "name:de": "Hapsal",
+        "name:en": "Haapsalu",
+        "name:lt": "Hapsalu",
+        "name:lv": "Hāpsalu",
+        "name:ru": "Хаапсалу",
+        "name:sv": "Hapsal",
+        "name:uk": "Хаапсалу",
+        "place": "town",
+        "population": "11593",
+        "wikidata": "Q191106",
+        "wikipedia": "et:Haapsalu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.5414798,
+          58.9399019
+        ]
+      },
+      "id": "node/30127112"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/30436859",
+        "name": "Loksa",
+        "name:en": "Loksa",
+        "name:lt": "Loksa",
+        "name:ru": "Локса",
+        "name:uk": "Локса",
+        "place": "town",
+        "population": "3041",
+        "population:date": "2011-01-01",
+        "source": "Maa-amet ADS 2011-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7220243,
+          59.5816105
+        ]
+      },
+      "id": "node/30436859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/30564962",
+        "name": "Mustvee",
+        "name:de": "Tschorna",
+        "name:en": "Mustvee",
+        "name:lt": "Mustvė",
+        "name:ru": "Муствеэ",
+        "place": "town",
+        "population": "1596",
+        "population:date": "2009-01-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.9347826,
+          58.8484008
+        ]
+      },
+      "id": "node/30564962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/30579730",
+        "admin_level": "6",
+        "name": "Võru",
+        "name:de": "Werro",
+        "name:ee": "Võru",
+        "name:he": "וורו",
+        "name:lt": "Veru",
+        "name:ru": "Выру",
+        "name:uk": "Виру",
+        "name:vro": "Võro",
+        "place": "town",
+        "population": "12951",
+        "wikidata": "Q205271",
+        "wikipedia": "et:Võru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0086505,
+          57.8385759
+        ]
+      },
+      "id": "node/30579730"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/30674074",
+        "name": "Elva",
+        "name:en": "Elva",
+        "name:lt": "Elva",
+        "name:ru": "Элва",
+        "place": "town",
+        "population": "6258",
+        "wikidata": "Q213071",
+        "wikipedia": "et:Elva"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.4131027,
+          58.2233379
+        ]
+      },
+      "id": "node/30674074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/31500814",
+        "name": "Kallaste",
+        "name:en": "Kallaste",
+        "name:lt": "Kalastė",
+        "name:ru": "Калласте",
+        "name:uk": "Калласте",
+        "place": "town",
+        "population": "1115",
+        "population:date": "2010-01-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1631379,
+          58.6631199
+        ]
+      },
+      "id": "node/31500814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/31868445",
+        "name": "Tamsalu",
+        "name:de": "Tamsal",
+        "name:lt": "Tamsalu",
+        "name:ru": "Тамсалу",
+        "name:uk": "Тамсалу",
+        "place": "town",
+        "population": "2629",
+        "population:date": "2006-01-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1105674,
+          59.1614172
+        ]
+      },
+      "id": "node/31868445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/34819436",
+        "name": "Lihula",
+        "name:de": "Leal",
+        "name:en": "Lihula",
+        "name:lt": "Lihula",
+        "name:ru": "Лихула",
+        "name:uk": "Лихула",
+        "place": "town",
+        "population": "1614",
+        "population:date": "2006-01-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.8324163,
+          58.6846426
+        ]
+      },
+      "id": "node/34819436"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/34819568",
+        "name": "Kilingi-Nõmme",
+        "name:lt": "Kilingi Nemė",
+        "name:lv": "Kilingi-Nemme",
+        "name:ru": "Килинги-Нымме",
+        "place": "town",
+        "population": "2295",
+        "wikidata": "Q1146736",
+        "wikipedia": "et:Kilingi-Nõmme"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9627322,
+          58.1530218
+        ]
+      },
+      "id": "node/34819568"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/34823927",
+        "name": "Otepää",
+        "name:de": "Odenpäh",
+        "name:et": "Otepää",
+        "name:he": "אוטפה",
+        "name:lt": "Otepė",
+        "name:ru": "Отепяэ",
+        "name:uk": "Отепяе",
+        "name:vro": "Otõmpää",
+        "place": "town",
+        "population": "4123",
+        "wikidata": "Q339347",
+        "wikipedia": "et:Otepää"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.4960599,
+          58.0584907
+        ]
+      },
+      "id": "node/34823927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/35311924",
+        "int_name": "Jõhvi",
+        "name": "Jõhvi",
+        "name:de": "Jewe",
+        "name:en": "Jõhvi",
+        "name:lt": "Jehvis",
+        "name:ru": "Йыхви",
+        "name:uk": "Йихві",
+        "place": "town",
+        "population": "11600",
+        "wikidata": "Q211059",
+        "wikipedia": "et:Jõhvi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4135654,
+          59.3579433
+        ]
+      },
+      "id": "node/35311924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/242166775",
+        "name": "Kohtla-Järve",
+        "name:de": "Kochtel-Türpsal",
+        "name:lt": "Kohtla Jervė",
+        "name:ru": "Кохтла-Ярве",
+        "name:uk": "Кохтла-Ярве",
+        "place": "town",
+        "population": "44500",
+        "population:date": "2010-01-01",
+        "wikidata": "Q201391",
+        "wikipedia": "et:Kohtla-Järve"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2880288,
+          59.4025488
+        ]
+      },
+      "id": "node/242166775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/254432007",
+        "is_in": "Viljandi maakond",
+        "name": "Suure-Jaani",
+        "name:de": "Groß-St. Johannis",
+        "name:en": "Suure-Jaani",
+        "name:lt": "Sūre Janis",
+        "name:ru": "Сууре-Яани",
+        "name:uk": "Сууре-Яані",
+        "place": "town",
+        "population": "1238",
+        "wikidata": "Q370242",
+        "wikipedia": "et:Suure-Jaani"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4649476,
+          58.5373755
+        ]
+      },
+      "id": "node/254432007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/262767583",
+        "name": "Võhma",
+        "name:de": "Wöchma",
+        "name:lt": "Vehma",
+        "name:ru": "Выхма",
+        "name:uk": "Вихма",
+        "place": "town",
+        "population": "1540"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.554875,
+          58.6318567
+        ]
+      },
+      "id": "node/262767583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/276210109",
+        "name": "Rakvere",
+        "name:de": "Wesenberg",
+        "name:en": "Rakvere",
+        "name:lt": "Rakverė",
+        "name:ru": "Раквере",
+        "name:uk": "Раквере",
+        "place": "town",
+        "population": "16953",
+        "wikidata": "Q191889",
+        "wikipedia": "et:Rakvere"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.3617173,
+          59.3482229
+        ]
+      },
+      "id": "node/276210109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/281044699",
+        "admin_level": "6",
+        "name": "Põltsamaa",
+        "name:de": "Oberpahlen",
+        "name:lt": "Peltsama",
+        "name:ru": "Пылтсамаа",
+        "place": "town",
+        "population": "4640",
+        "wikidata": "Q642660",
+        "wikipedia": "et:Põltsamaa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9791,
+          58.6548999
+        ]
+      },
+      "id": "node/281044699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/281555902",
+        "name": "Sindi",
+        "name:de": "Zintenhof",
+        "name:en": "Sindi",
+        "name:lt": "Sindis",
+        "name:ru": "Синди",
+        "name:uk": "Сінді",
+        "place": "town",
+        "population": "3980"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6583155,
+          58.4075128
+        ]
+      },
+      "id": "node/281555902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/283685722",
+        "name": "Antsla",
+        "name:de": "Anzen",
+        "name:en": "Antsla",
+        "name:lt": "Antsla",
+        "name:ru": "Антсла",
+        "name:uk": "Антсла",
+        "place": "town",
+        "population": "1276",
+        "population:date": "2020-01-01",
+        "source:population": "wikipedia",
+        "wikidata": "Q154994",
+        "wikipedia": "et:Antsla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.5288641,
+          57.8292138
+        ]
+      },
+      "id": "node/283685722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/286918893",
+        "admin_level": "6",
+        "name": "Kärdla",
+        "name:de": "Kertel",
+        "name:lt": "Kerdla",
+        "name:ru": "Кярдла",
+        "name:sv": "Kärrdal",
+        "name:uk": "Кярдла",
+        "place": "town",
+        "population": "3634",
+        "population:date": "2010-01-01",
+        "source": "Maa-amet",
+        "wikidata": "Q155066",
+        "wikipedia": "et:Kärdla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.7411446,
+          59.0012422
+        ]
+      },
+      "id": "node/286918893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/292379707",
+        "name": "Jõgeva",
+        "name:de": "Laisholm",
+        "name:lt": "Jegeva",
+        "name:ru": "Йыгева",
+        "name:uk": "Йигева",
+        "place": "town",
+        "population": "5813",
+        "population:date": "2010-01-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.3872444,
+          58.7441059
+        ]
+      },
+      "id": "node/292379707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/293620554",
+        "admin_level": "6",
+        "is_in:country": "Estonia",
+        "name": "Tartu",
+        "name:be": "Тарту",
+        "name:de": "Dorpat",
+        "name:el": "Ταρτού",
+        "name:en": "Tartu",
+        "name:fi": "Tartto",
+        "name:he": "טרטו",
+        "name:it": "Tartu",
+        "name:lt": "Tartu",
+        "name:pl": "Tartu",
+        "name:ru": "Тарту",
+        "name:uk": "Тарту",
+        "name:vro": "Tarto",
+        "name:zh": "答尔丢夫",
+        "old_name:de": "Dörpt",
+        "old_name:sv": "Dorpat",
+        "place": "city",
+        "population": "102414",
+        "wikidata": "Q13972",
+        "wikipedia": "et:Tartu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.72245,
+          58.3801207
+        ]
+      },
+      "id": "node/293620554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/295044763",
+        "is_in": "Viljandimaa",
+        "name": "Karksi-Nuia",
+        "name:de": "Karkus-Nuija",
+        "name:en": "Karksi-Nuia",
+        "name:lt": "Karksi Nuja",
+        "name:ru": "Каркси-Нуйа",
+        "name:uk": "Каркси-Нуйа",
+        "place": "town",
+        "population": "1975"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5470344,
+          58.1027546
+        ]
+      },
+      "id": "node/295044763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/319954317",
+        "name": "Räpina",
+        "name:de": "Rappin",
+        "name:lt": "Repina",
+        "name:ru": "Ряпина",
+        "name:vro": "Räpinä",
+        "place": "town",
+        "population": "2867",
+        "wikidata": "Q1483558",
+        "wikipedia": "et:Räpina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4642713,
+          58.097553
+        ]
+      },
+      "id": "node/319954317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/448033902",
+        "name": "Abja-Paluoja",
+        "name:de": "Abia-Palloja",
+        "name:en": "Abja-Paluoja",
+        "name:lt": "Abja Paluoja",
+        "name:ru": "Абья-Палуоя",
+        "place": "town",
+        "population": "1041",
+        "population:date": "2020-01-01",
+        "source:population": "wikipedia",
+        "wikidata": "Q321784",
+        "wikipedia": "et:Abja-Paluoja"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3584152,
+          58.1266278
+        ]
+      },
+      "id": "node/448033902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/516447315",
+        "name": "Sillamäe",
+        "name:de": "Sillamäggi",
+        "name:lt": "Silamejė",
+        "name:ru": "Силламяэ",
+        "name:uk": "Сілламяе",
+        "place": "town",
+        "population": "16567",
+        "wikidata": "Q207748",
+        "wikipedia": "et:Sillamäe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7625564,
+          59.396265
+        ]
+      },
+      "id": "node/516447315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/579964361",
+        "name": "Kiviõli",
+        "name:de": "Steinöl",
+        "name:et": "Kiviõli",
+        "name:lt": "Kivielis",
+        "name:ru": "Кивиыли",
+        "place": "town",
+        "population": "6606",
+        "population:date": "2010-01-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.9684677,
+          59.355367
+        ]
+      },
+      "id": "node/579964361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/637658886",
+        "name": "Maardu",
+        "name:de": "Maart",
+        "name:en": "Maardu",
+        "name:lt": "Mardu",
+        "name:lv": "Mārdu",
+        "name:ru": "Маарду",
+        "place": "town",
+        "population": "16529",
+        "population:date": "2010-01-01",
+        "wikidata": "Q206555"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9896751,
+          59.468192
+        ]
+      },
+      "id": "node/637658886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/659837156",
+        "name": "Püssi",
+        "name:lt": "Piusis",
+        "name:ru": "Пюсси",
+        "place": "town",
+        "population": "1083",
+        "population:date": "2011-12-31",
+        "wikidata": "Q172263",
+        "wikipedia": "et:Püssi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0445204,
+          59.3609844
+        ]
+      },
+      "id": "node/659837156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/742645036",
+        "name": "Kehra",
+        "name:de": "Kedder",
+        "name:en": "Kehra",
+        "name:lt": "Kehra",
+        "name:ru": "Кехра",
+        "name:uk": "Кехра",
+        "place": "town",
+        "population": "2641",
+        "population:date": "2018-01-01",
+        "source:population": "stat.ee",
+        "wikidata": "Q985464",
+        "wikipedia": "et:Kehra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3292753,
+          59.3363172
+        ]
+      },
+      "id": "node/742645036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/753254956",
+        "admin_level": "6",
+        "name": "Kuressaare",
+        "name:de": "Arensburg",
+        "name:en": "Kuressaare",
+        "name:lt": "Kuresarė",
+        "name:ru": "Курессааре",
+        "name:uk": "Курессааре",
+        "place": "town",
+        "population": "15170",
+        "wikidata": "Q188179",
+        "wikipedia": "et:Kuressaare"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4849207,
+          58.2527693
+        ]
+      },
+      "id": "node/753254956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/773610650",
+        "name": "Türi",
+        "name:de": "Turgel",
+        "name:lt": "Tiūris",
+        "name:ru": "Тюри",
+        "name:uk": "Тюрі",
+        "place": "town",
+        "population": "6333",
+        "wikidata": "Q141796",
+        "wikipedia": "et:Türi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4252349,
+          58.8101662
+        ]
+      },
+      "id": "node/773610650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/831301151",
+        "admin_level": "6",
+        "name": "Paide",
+        "name:de": "Weißenstein",
+        "name:en": "Paide",
+        "name:he": "פאידה",
+        "name:lt": "Paidė",
+        "name:ru": "Пайде",
+        "name:uk": "Пайде",
+        "place": "town",
+        "population": "9200",
+        "wikidata": "Q45114",
+        "wikipedia": "et:Paide"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5699121,
+          58.8869266
+        ]
+      },
+      "id": "node/831301151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1142692489",
+        "alt_name:lv": "Muižciems",
+        "name": "Mõisaküla",
+        "name:et": "Mõisaküla",
+        "name:lt": "Meisakiula",
+        "name:lv": "Meizakila",
+        "name:ru": "Мыйзакюла",
+        "name:uk": "Мийзакюла",
+        "old_name:lv": "Plātere",
+        "place": "town",
+        "population": "775",
+        "population:date": "2020-01-01",
+        "source:population": "wikipedia",
+        "wikidata": "Q819395",
+        "wikipedia": "et:Mõisaküla",
+        "@relations": [
+          {
+            "role": "admin_centre",
+            "rel": 352672,
+            "reltags": {
+              "EHAK:code": "5145",
+              "EHAK:countycode": "0084",
+              "EHAK:parishcode": "0480",
+              "admin_level": "9",
+              "alt_name": "Mõisaküla",
+              "boundary": "administrative",
+              "name": "Mõisaküla linn",
+              "name:lt": "Meisakiulos miestas",
+              "name:lv": "Meizakilas pilsēta",
+              "name:ru": "город Мыйзакюла",
+              "place": "town",
+              "type": "boundary",
+              "wikidata": "Q819395",
+              "wikipedia": "et:Mõisaküla"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1836234,
+          58.0920278
+        ]
+      },
+      "id": "node/1142692489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1638861584",
+        "admin_level": "6",
+        "alt_name:de": "Pölwa",
+        "name": "Põlva",
+        "name:de": "Pölwe",
+        "name:lt": "Pelva",
+        "name:ru": "Пылва",
+        "name:uk": "Пилва",
+        "place": "town",
+        "population": "6330",
+        "wikidata": "Q45100",
+        "wikipedia": "et:Põlva"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0582568,
+          58.0536163
+        ]
+      },
+      "id": "node/1638861584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1730541019",
+        "name": "Saue",
+        "name:de": "Sauß",
+        "name:en": "Saue",
+        "name:et": "Saue",
+        "name:lt": "Sauė",
+        "name:ru": "Сауэ",
+        "name:uk": "Сауе",
+        "place": "town",
+        "population": "5241",
+        "population:date": "2010-01-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5567256,
+          59.3200001
+        ]
+      },
+      "id": "node/1730541019"
+    }
+  ]
+}

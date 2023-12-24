@@ -1,0 +1,2305 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-12-16T16:58:34Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26707263",
+        "name": "Jelgava",
+        "name:be": "Елгава",
+        "name:bg": "Йелгава",
+        "name:de": "Mitau",
+        "name:fi": "Jelgava",
+        "name:hu": "Jelgava",
+        "name:lt": "Jelgava",
+        "name:lv": "Jelgava",
+        "name:pl": "Jełgawa",
+        "name:ru": "Елгава",
+        "name:uk": "Єлгава",
+        "old_name:pl": "Mitawa",
+        "place": "city",
+        "population": "63534",
+        "website": "https://www.jelgava.lv/",
+        "wikidata": "Q179830",
+        "wikipedia": "lv:Jelgava"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7339143,
+          56.6514394
+        ]
+      },
+      "id": "node/26707263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26707967",
+        "admin_level": "2",
+        "alt_name": "Riiga",
+        "capital": "yes",
+        "int_name": "Rīga",
+        "name": "Rīga",
+        "name:af": "Riga",
+        "name:am": "ሪጋ",
+        "name:an": "Riga",
+        "name:ar": "ريغا",
+        "name:arz": "ريجا",
+        "name:ast": "Riga",
+        "name:az": "Riqa",
+        "name:azb": "ریقا",
+        "name:bat-smg": "Rīga",
+        "name:be": "Рыга",
+        "name:be-tarask": "Рыга",
+        "name:bg": "Рига",
+        "name:bn": "রিগা",
+        "name:bo": "རི་ག",
+        "name:br": "Riga",
+        "name:bs": "Riga",
+        "name:ca": "Riga",
+        "name:ckb": "ڕیگا",
+        "name:cs": "Riga",
+        "name:cu": "Рига",
+        "name:cv": "Рига",
+        "name:cy": "Riga",
+        "name:da": "Riga",
+        "name:de": "Riga",
+        "name:ee": "Riga",
+        "name:el": "Ρίγα",
+        "name:en": "Riga",
+        "name:eo": "Rigo",
+        "name:es": "Riga",
+        "name:et": "Riia",
+        "name:eu": "Riga",
+        "name:fa": "ریگا",
+        "name:fi": "Riika",
+        "name:fo": "Riga",
+        "name:fr": "Riga",
+        "name:fy": "Riga",
+        "name:ga": "Ríge",
+        "name:gd": "Riga",
+        "name:gl": "Riga",
+        "name:grc": "Ῥῖγα",
+        "name:gv": "Rīga",
+        "name:he": "ריגה",
+        "name:hi": "रीगा",
+        "name:hr": "Riga",
+        "name:ht": "Riga",
+        "name:hu": "Riga",
+        "name:hy": "Ռիգա",
+        "name:id": "Riga",
+        "name:ie": "Riga",
+        "name:io": "Riga",
+        "name:is": "Ríga",
+        "name:it": "Riga",
+        "name:ja": "リガ",
+        "name:jv": "Riga",
+        "name:ka": "რიგა",
+        "name:kk": "Рига",
+        "name:kl": "Riga",
+        "name:ko": "리가",
+        "name:koi": "Рига",
+        "name:ku": "Rîga",
+        "name:kv": "Рига",
+        "name:kw": "Rīga",
+        "name:ky": "Рига",
+        "name:la": "Riga",
+        "name:lb": "Rīga",
+        "name:lez": "Рига",
+        "name:liv": "Rīgõ",
+        "name:ln": "Riga",
+        "name:lt": "Ryga",
+        "name:ltg": "Reiga",
+        "name:lv": "Rīga",
+        "name:mdf": "Рига",
+        "name:mg": "Riga",
+        "name:mhr": "Рига",
+        "name:mi": "Riga",
+        "name:mk": "Рига",
+        "name:mr": "रिगा",
+        "name:mrj": "Рига",
+        "name:ms": "Riga",
+        "name:mt": "Riga",
+        "name:my": "ရီဂါမြို့",
+        "name:na": "Riga",
+        "name:nah": "Rīga",
+        "name:nds": "Riga",
+        "name:nl": "Riga",
+        "name:nn": "Riga",
+        "name:no": "Riga",
+        "name:nv": "Wiiga",
+        "name:oc": "Riga",
+        "name:os": "Ригæ",
+        "name:pa": "ਰੀਗਾ",
+        "name:pih": "Riigaa",
+        "name:pl": "Ryga",
+        "name:pnb": "ریگا",
+        "name:pt": "Riga",
+        "name:qu": "Riga",
+        "name:ro": "Riga",
+        "name:ru": "Рига",
+        "name:rue": "Ріґа",
+        "name:sah": "Рига",
+        "name:se": "Riga",
+        "name:sk": "Riga",
+        "name:sl": "Riga",
+        "name:sq": "Riga",
+        "name:sr": "Рига",
+        "name:st": "Riga",
+        "name:sv": "Riga",
+        "name:sw": "Riga",
+        "name:szl": "Ryga",
+        "name:ta": "ரீகா",
+        "name:tg": "Рига",
+        "name:th": "รีกา",
+        "name:tl": "Riga",
+        "name:tr": "Riga",
+        "name:tt": "Рига",
+        "name:udm": "Рига",
+        "name:ug": "رىگا",
+        "name:uk": "Рига",
+        "name:ur": "ریگا",
+        "name:uz": "Riga",
+        "name:vep": "Rig",
+        "name:vi": "Riga",
+        "name:vo": "Rīga",
+        "name:vro": "Riia",
+        "name:wo": "Riga",
+        "name:yi": "ריגע",
+        "name:yo": "Riga",
+        "name:zh": "里加",
+        "name:zh-Hans": "里加",
+        "name:zh-Hant": "裏加",
+        "name:zu": "IRiga",
+        "place": "city",
+        "population": "660187",
+        "population:date": "2023",
+        "wikidata": "Q1773",
+        "wikipedia": "lv:Rīga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1051846,
+          56.9493977
+        ]
+      },
+      "id": "node/26707967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26745085",
+        "name": "Saulkrasti",
+        "name:de": "Neubad",
+        "name:lt": "Saulkrastai",
+        "name:lv": "Saulkrasti",
+        "name:ru": "Саулкрасты",
+        "name:uk": "Саулкрасти",
+        "place": "town",
+        "population": "3298",
+        "website": "https://www.saulkrasti.lv/",
+        "wikidata": "Q840823",
+        "wikipedia": "lv:Saulkrasti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.415245,
+          57.263391
+        ]
+      },
+      "id": "node/26745085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26745589",
+        "name": "Ādaži",
+        "name:de": "Neuermühlen",
+        "name:lt": "Adažai",
+        "name:lv": "Ādaži",
+        "name:ru": "Адажи",
+        "place": "town",
+        "population": "4610",
+        "website": "https://www.adazi.lv/",
+        "wikidata": "Q336006",
+        "wikipedia": "lv:Ādaži"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3243287,
+          57.0819829
+        ]
+      },
+      "id": "node/26745589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26804967",
+        "name": "Valmiera",
+        "name:be": "Валміера",
+        "name:de": "Wolmar",
+        "name:ee": "Volmari",
+        "name:fi": "Valmiera",
+        "name:he": "ולמירה",
+        "name:hu": "Valmiera",
+        "name:lt": "Valmiera",
+        "name:lv": "Valmiera",
+        "name:pl": "Valmiera",
+        "name:ru": "Валмиера",
+        "name:uk": "Валмієра",
+        "old_name:pl": "Wolmar",
+        "old_name:ru": "Вольмар",
+        "place": "city",
+        "population": "26674",
+        "website": "https://www.valmiera.lv/",
+        "wikidata": "Q108037",
+        "wikipedia": "lv:Valmiera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4261688,
+          57.5389148
+        ]
+      },
+      "id": "node/26804967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27083904",
+        "name": "Ludza",
+        "name:be": "Люцын",
+        "name:de": "Ludsen",
+        "name:el": "Λούτζα",
+        "name:et": "Lutsi",
+        "name:fa": "لودزا",
+        "name:he": "לודזה",
+        "name:ko": "루자",
+        "name:lt": "Ludza",
+        "name:ltg": "Ludza",
+        "name:lv": "Ludza",
+        "name:pl": "Lucyn",
+        "name:ru": "Лудза",
+        "name:uk": "Лудза",
+        "name:vro": "Lutsi",
+        "name:zh": "盧扎",
+        "place": "town",
+        "population": "9380",
+        "website": "https://www.ludzaspils.lv/",
+        "wikidata": "Q744259",
+        "wikipedia": "lv:Ludza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7242092,
+          56.5477177
+        ]
+      },
+      "id": "node/27083904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27132074",
+        "alt_name:be": "Екабпілс",
+        "name": "Jēkabpils",
+        "name:be": "Якубава",
+        "name:de": "Jakobstadt",
+        "name:he": "יקבפילס",
+        "name:hu": "Jēkabpils",
+        "name:lt": "Jekabpilis",
+        "name:ltg": "Jākubmīsts",
+        "name:lv": "Jēkabpils",
+        "name:pl": "Jakubowo",
+        "name:ru": "Екабпилс",
+        "old_name:pl": "Jakubów",
+        "place": "city",
+        "population": "2588",
+        "website": "https://www.jekabpils.lv/",
+        "wikidata": "Q191120",
+        "wikipedia": "lv:Jēkabpils"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8687747,
+          56.4958638
+        ]
+      },
+      "id": "node/27132074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27155834",
+        "alt_name:be": "Ліепая",
+        "name": "Liepāja",
+        "name:be": "Лібава",
+        "name:de": "Libau",
+        "name:en": "Liepaja",
+        "name:fi": "Liepāja",
+        "name:he": "לייפאיה",
+        "name:hu": "Liepāja",
+        "name:lt": "Liepoja",
+        "name:lv": "Liepāja",
+        "name:pl": "Lipawa",
+        "name:ru": "Лиепая",
+        "name:uk": "Лієпая",
+        "old_name:pl": "Libawa",
+        "old_name:ru": "Либава",
+        "place": "city",
+        "population": "78787",
+        "website": "https://www.liepaja.lv/",
+        "wikidata": "Q167668",
+        "wikipedia": "lv:Liepāja"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0070903,
+          56.5048435
+        ]
+      },
+      "id": "node/27155834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27157270",
+        "name": "Saldus",
+        "name:de": "Frauenburg",
+        "name:lt": "Saldus",
+        "name:lv": "Saldus",
+        "name:pl": "Saldus",
+        "name:ru": "Салдус",
+        "name:uk": "Салдус",
+        "name:zh": "薩爾杜斯",
+        "note": "https://turisms.saldus.lv/",
+        "place": "town",
+        "population": "12085",
+        "website": "https://www.saldus.lv/",
+        "wikidata": "Q744247",
+        "wikipedia": "en:Saldus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4936222,
+          56.6659281
+        ]
+      },
+      "id": "node/27157270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27193473",
+        "name": "Tukums",
+        "name:de": "Tuckum",
+        "name:lt": "Tukumas",
+        "name:lv": "Tukums",
+        "name:pl": "Tukum",
+        "name:ru": "Тукумс",
+        "name:uk": "Тукумс",
+        "place": "town",
+        "population": "19729",
+        "website": "https://www.tukums.lv/",
+        "wikidata": "Q636935",
+        "wikipedia": "lv:Tukums"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.1524528,
+          56.9669816
+        ]
+      },
+      "id": "node/27193473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27221363",
+        "name": "Ķekava",
+        "name:de": "Keckau",
+        "name:lv": "Ķekava",
+        "name:ru": "Кекава",
+        "place": "town",
+        "population": "20945",
+        "website": "https://www.kekava.lv/pub/",
+        "wikidata": "Q344608",
+        "wikipedia": "lv:Ķekava"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.233653,
+          56.8261827
+        ]
+      },
+      "id": "node/27221363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27221368",
+        "name": "Iecava",
+        "name:de": "Eckau",
+        "name:lt": "Iecava",
+        "name:lv": "Iecava",
+        "name:pl": "Ekawa",
+        "name:ru": "Иецава",
+        "old_name:de": "Groß Ekau",
+        "place": "town",
+        "population": "9201",
+        "website": "https://www.iecava.lv/",
+        "wikidata": "Q1023764",
+        "wikipedia": "lv:Iecava"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.198738,
+          56.5975778
+        ]
+      },
+      "id": "node/27221368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/28448871",
+        "name": "Baloži",
+        "name:de": "Rollbusch",
+        "name:lt": "Baluožiai",
+        "name:lv": "Baloži",
+        "name:ru": "Баложи",
+        "name:uk": "Баложі",
+        "place": "town",
+        "population": "6780",
+        "website": "http://www.balozipilseta.lv/",
+        "wikidata": "Q757043",
+        "wikipedia": "lv:Baloži (pilsēta)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1179447,
+          56.8763194
+        ]
+      },
+      "id": "node/28448871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/28913929",
+        "name": "Mārupe",
+        "name:de": "Marienbach",
+        "name:lt": "Marupė",
+        "name:lv": "Mārupe",
+        "name:ru": "Марупе",
+        "place": "town",
+        "population": "7754",
+        "website": "https://www.marupe.lv/",
+        "wikidata": "Q987175",
+        "wikipedia": "lv:Mārupe",
+        "wikipedia:en": "Mārupe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.043818,
+          56.9048817
+        ]
+      },
+      "id": "node/28913929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29012444",
+        "name": "Skrunda",
+        "name:de": "Schrunden",
+        "name:lt": "Skrunda",
+        "name:lv": "Skrunda",
+        "name:ru": "Скрунда",
+        "name:uk": "Скрунда",
+        "place": "town",
+        "population": "2415",
+        "website": "https://www.skrunda.lv/",
+        "wikidata": "Q267871",
+        "wikipedia": "en:Skrunda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0156057,
+          56.6768396
+        ]
+      },
+      "id": "node/29012444"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29457480",
+        "alt_name": "Zēgevolde",
+        "name": "Sigulda",
+        "name:de": "Segewold",
+        "name:he": "סיגולדה",
+        "name:ja": "スィグルダ",
+        "name:ka": "სიგულდა",
+        "name:ko": "시굴다",
+        "name:lt": "Sigulda",
+        "name:lv": "Sigulda",
+        "name:pl": "Zygwold",
+        "name:ru": "Сигулда",
+        "name:uk": "Сігулда",
+        "name:zh": "錫古爾達",
+        "place": "town",
+        "population": "11368",
+        "website": "https://www.sigulda.lv/",
+        "wikidata": "Q465698",
+        "wikipedia": "lv:Sigulda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8567141,
+          57.1540561
+        ]
+      },
+      "id": "node/29457480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29457482",
+        "alt_name": "Lejaslīgatne",
+        "name": "Līgatne",
+        "name:de": "Ligat",
+        "name:lt": "Lygatnė",
+        "name:lv": "Līgatne",
+        "name:ru": "Лигатне",
+        "name:uk": "Лігатне",
+        "place": "town",
+        "population": "1212",
+        "website": "https://www.ligatne.lv/",
+        "wikidata": "Q853761",
+        "wikipedia": "lv:Līgatne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0397886,
+          57.2331358
+        ]
+      },
+      "id": "node/29457482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29488307",
+        "name": "Salaspils",
+        "name:de": "Kirchholm",
+        "name:lt": "Salaspilis",
+        "name:lv": "Salaspils",
+        "name:ru": "Саласпилс",
+        "name:uk": "Саласпілс",
+        "place": "town",
+        "population": "18039",
+        "ref:avtk": "0801211",
+        "website": "https://salaspils.lv/",
+        "wikidata": "Q732986",
+        "wikipedia": "lv:Salaspils"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3545214,
+          56.8634541
+        ]
+      },
+      "id": "node/29488307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29488309",
+        "name": "Dobele",
+        "name:de": "Doblen",
+        "name:he": "דובלה",
+        "name:lt": "Duobelė",
+        "name:lv": "Dobele",
+        "name:ru": "Добеле",
+        "name:uk": "Добеле",
+        "place": "town",
+        "population": "10895",
+        "website": "https://www.dobele.lv/",
+        "wikidata": "Q729447",
+        "wikipedia": "lv:Dobele"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.277275,
+          56.6257485
+        ]
+      },
+      "id": "node/29488309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29488312",
+        "alt_name:pl": "Goldynga",
+        "atvk": "0620201",
+        "name": "Kuldīga",
+        "name:de": "Goldingen",
+        "name:en": "Kuldīga",
+        "name:lt": "Kuldyga",
+        "name:lv": "Kuldīga",
+        "name:pl": "Kuldyga",
+        "name:ru": "Кулдига",
+        "name:uk": "Кулдіга",
+        "old_name": "Goldingen",
+        "place": "town",
+        "population": "12494",
+        "website": "https://www.kuldiga.lv/",
+        "wikidata": "Q155281",
+        "wikipedia": "lv:Kuldīga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.960778,
+          56.9685757
+        ]
+      },
+      "id": "node/29488312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29488313",
+        "alt_name:be": "Вентспілс",
+        "name": "Ventspils",
+        "name:be": "Віндава",
+        "name:de": "Windau",
+        "name:et": "Vindavi",
+        "name:fi": "Ventspils",
+        "name:liv": "Vǟnta",
+        "name:lt": "Ventspilis",
+        "name:ltg": "Ventspiļs",
+        "name:lv": "Ventspils",
+        "name:pl": "Windawa",
+        "name:ru": "Вентспилс",
+        "name:sgs": "Vėntspėlis",
+        "name:uk": "Вентспілс",
+        "old_name:ru": "Виндава",
+        "place": "city",
+        "population": "41998",
+        "website": "https://www.ventspils.lv",
+        "wikidata": "Q104036",
+        "wikipedia": "lv:Ventspils"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5635991,
+          57.3903918
+        ]
+      },
+      "id": "node/29488313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29488825",
+        "name": "Talsi",
+        "name:de": "Talsen",
+        "name:liv": "Tālsa",
+        "name:lt": "Talsai",
+        "name:lv": "Talsi",
+        "name:pl": "Talsi",
+        "name:ru": "Талси",
+        "name:uk": "Талсі",
+        "place": "town",
+        "population": "10962",
+        "website": "http://www.talsi.lv/",
+        "wikidata": "Q520405",
+        "wikipedia": "lv:Talsi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5903003,
+          57.2451926
+        ]
+      },
+      "id": "node/29488825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29488826",
+        "name": "Stende",
+        "name:de": "Stenden",
+        "name:lt": "Stendė",
+        "name:lv": "Stende",
+        "name:ru": "Стенде",
+        "name:uk": "Стенде",
+        "place": "town",
+        "population": "1871",
+        "website": "http://www.stende.lv/",
+        "wikidata": "Q909654",
+        "wikipedia": "en:Stende"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5336563,
+          57.1429254
+        ]
+      },
+      "id": "node/29488826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29488827",
+        "name": "Kandava",
+        "name:de": "Kandau",
+        "name:lt": "Kandava",
+        "name:lv": "Kandava",
+        "name:pl": "Kandawa",
+        "name:ru": "Кандава",
+        "name:uk": "Кандава",
+        "place": "town",
+        "population": "4202",
+        "website": "http://www.kandava.lv/",
+        "wikidata": "Q849152",
+        "wikipedia": "lv:Kandava"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.777147,
+          57.0374924
+        ]
+      },
+      "id": "node/29488827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29488828",
+        "name": "Sabile",
+        "name:de": "Zabeln",
+        "name:lt": "Sabilė",
+        "name:lv": "Sabile",
+        "name:ru": "Сабиле",
+        "name:uk": "Сабіле",
+        "place": "town",
+        "population": "1402",
+        "website": "https://www.sabile.lv/",
+        "wikidata": "Q650475",
+        "wikipedia": "lv:Sabile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5710898,
+          57.0482993
+        ]
+      },
+      "id": "node/29488828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29488931",
+        "alt_name:de": "Hasenpoth",
+        "name": "Aizpute",
+        "name:de": "Hasenpot",
+        "name:lt": "Aizputė",
+        "name:lv": "Aizpute",
+        "name:pl": "Hazenpot",
+        "name:ru": "Айзпуте",
+        "place": "town",
+        "population": "4983",
+        "website": "http://www.aizpute.lv/",
+        "wikidata": "Q411723",
+        "wikipedia": "en:Aizpute"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6067429,
+          56.7226275
+        ]
+      },
+      "id": "node/29488931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29488934",
+        "name": "Durbe",
+        "name:de": "Durben",
+        "name:lt": "Durbė",
+        "name:lv": "Durbe",
+        "name:pl": "Durbe",
+        "name:ru": "Дурбе",
+        "name:uk": "Дурбе",
+        "place": "town",
+        "population": "612",
+        "website": "http://www.durbe.lv/",
+        "wikidata": "Q840801",
+        "wikipedia": "en:Durbe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3726593,
+          56.5860468
+        ]
+      },
+      "id": "node/29488934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29512126",
+        "name": "Madona",
+        "name:de": "Madohn",
+        "name:lt": "Maduona",
+        "name:ltg": "Modyune",
+        "name:lv": "Madona",
+        "name:ru": "Мадона",
+        "name:uk": "Мадона",
+        "place": "town",
+        "population": "8653",
+        "website": "http://www.madona.lv/",
+        "wikidata": "Q586048",
+        "wikipedia": "en:Madona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2184769,
+          56.8517467
+        ]
+      },
+      "id": "node/29512126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29512141",
+        "name": "Balvi",
+        "name:bg": "Балви",
+        "name:de": "Bolwen",
+        "name:he": "בלבי",
+        "name:lt": "Balvai",
+        "name:ltg": "Bolvi",
+        "name:lv": "Balvi",
+        "name:ru": "Балви",
+        "name:uk": "Балві",
+        "place": "town",
+        "population": "7738",
+        "website": "https://www.balvi.lv/",
+        "wikidata": "Q218402",
+        "wikipedia": "lv:Balvi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2650194,
+          57.1330207
+        ]
+      },
+      "id": "node/29512141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29512146",
+        "name": "Viļaka",
+        "name:de": "Marienhausen",
+        "name:lt": "Viliaka",
+        "name:lv": "Viļaka",
+        "name:pl": "Marjenhuza",
+        "name:ru": "Виляка",
+        "name:uk": "Віляка",
+        "place": "town",
+        "population": "1519",
+        "website": "http://www.vilaka.lv/",
+        "wikidata": "Q26441",
+        "wikipedia": "lv:Viļaka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.674161,
+          57.1849442
+        ]
+      },
+      "id": "node/29512146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29512403",
+        "alt_name:et": "Võnnu",
+        "name": "Cēsis",
+        "name:de": "Wenden",
+        "name:et": "Cēsis",
+        "name:he": "צסיס",
+        "name:lt": "Cėsys",
+        "name:lv": "Cēsis",
+        "name:pl": "Kieś",
+        "name:ru": "Цесис",
+        "name:uk": "Цесіс",
+        "old_name:ru": "Венден,Кесь",
+        "place": "town",
+        "population": "17673",
+        "website": "https://www.cesis.lv/",
+        "wikidata": "Q107582",
+        "wikipedia": "lv:Cēsis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2748551,
+          57.3131712
+        ]
+      },
+      "id": "node/29512403"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29525414",
+        "name": "Limbaži",
+        "name:de": "Lemsal",
+        "name:ee": "Lemsalu",
+        "name:lt": "Limbažiai",
+        "name:lv": "Limbaži",
+        "name:ru": "Лимбажи",
+        "name:uk": "Лімбажі",
+        "place": "town",
+        "population": "8290",
+        "website": "https://www.limbazi.lv/limbazu-pilseta.html",
+        "wikidata": "Q166684",
+        "wikipedia": "lv:Limbaži"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7131536,
+          57.5146586
+        ]
+      },
+      "id": "node/29525414"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29525418",
+        "alt_name:et": "Väike-Salatsi",
+        "name": "Mazsalaca",
+        "name:de": "Salisburg",
+        "name:et": "Mazsalaca",
+        "name:lt": "Mazsalaca",
+        "name:lv": "Mazsalaca",
+        "name:ru": "Мазсалаца",
+        "name:uk": "Мазсалаца",
+        "place": "town",
+        "population": "1427",
+        "website": "https://www.mazsalaca.lv/",
+        "wikidata": "Q844468",
+        "wikipedia": "lv:Mazsalaca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.051106,
+          57.8660745
+        ]
+      },
+      "id": "node/29525418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29525419",
+        "alt_name:de": "Hainasch",
+        "name": "Ainaži",
+        "name:de": "Haynasch",
+        "name:et": "Heinaste",
+        "name:lt": "Ainažiai",
+        "name:lv": "Ainaži",
+        "name:ru": "Айнажи",
+        "name:uk": "Айнажі",
+        "place": "town",
+        "population": "994",
+        "website": "https://www.salacgriva.lv/lat/ainazi/",
+        "wikidata": "Q405931",
+        "wikipedia": "lv:Ainaži"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3586456,
+          57.8636569
+        ]
+      },
+      "id": "node/29525419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29525420",
+        "name": "Aloja",
+        "name:de": "Allendorf",
+        "name:lt": "Aluoja",
+        "name:lv": "Aloja",
+        "name:ru": "Алоя",
+        "place": "town",
+        "population": "1346",
+        "website": "https://www.aloja.lv/",
+        "wikidata": "Q659019",
+        "wikipedia": "lv:Aloja"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.876095,
+          57.7701621
+        ]
+      },
+      "id": "node/29525420"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29525424",
+        "name": "Rūjiena",
+        "name:de": "Rujen",
+        "name:et": "Ruhja",
+        "name:lt": "Rūjiena",
+        "name:lv": "Rūjiena",
+        "name:ru": "Руйиена",
+        "name:uk": "Руїєна",
+        "place": "town",
+        "population": "3342",
+        "website": "http://www.rujiena.lv",
+        "wikidata": "Q765976",
+        "wikipedia": "lv:Rūjiena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3261273,
+          57.8973517
+        ]
+      },
+      "id": "node/29525424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29525425",
+        "name": "Strenči",
+        "name:de": "Stackeln",
+        "name:lt": "Strenčiai",
+        "name:lv": "Strenči",
+        "name:ru": "Стренчи",
+        "name:uk": "Стренчі",
+        "place": "town",
+        "population": "1372",
+        "website": "http://www.strencunovads.lv/",
+        "wikidata": "Q851399",
+        "wikipedia": "lv:Strenči"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6859132,
+          57.6278347
+        ]
+      },
+      "id": "node/29525425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29525428",
+        "name": "Gulbene",
+        "name:de": "Schwanenburg",
+        "name:lt": "Gulbenė",
+        "name:lv": "Gulbene",
+        "name:ru": "Гулбене",
+        "name:uk": "Гулбене",
+        "place": "town",
+        "population": "8588",
+        "website": "https://www.gulbene.lv/index.php/novada-raksturojums/pilsta-un-pagasti/55-gulbenes-pilsta",
+        "wikidata": "Q753010",
+        "wikipedia": "en:Gulbene"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.7514713,
+          57.1759721
+        ]
+      },
+      "id": "node/29525428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29532672",
+        "name": "Lielvārde",
+        "name:de": "Lennewarden",
+        "name:lt": "Lielvardė",
+        "name:lv": "Lielvārde",
+        "name:ru": "Лиелварде",
+        "name:uk": "Лієлварде",
+        "old_name": "Rembate",
+        "place": "town",
+        "population": "6666",
+        "website": "http://www.lielvarde.lv",
+        "wikidata": "Q597346",
+        "wikipedia": "lv:Lielvārde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.795892,
+          56.7263693
+        ]
+      },
+      "id": "node/29532672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29532673",
+        "name": "Ogre",
+        "name:de": "Oger",
+        "name:lt": "Uogrė",
+        "name:lv": "Ogre",
+        "name:ru": "Огре",
+        "name:uk": "Огре",
+        "place": "city",
+        "population": "26579",
+        "source": "Ortofoto 1:10000, 2007 gads, © Latvijas Ģeotelpiskās informācijas aģentūra",
+        "website": "http://www.ogre.lv/",
+        "wikidata": "Q731915",
+        "wikipedia": "en:Ogre, Latvia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6074393,
+          56.8192045
+        ]
+      },
+      "id": "node/29532673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29532674",
+        "name": "Ikšķile",
+        "name:de": "Uexküll",
+        "name:fi": "Ykskylä",
+        "name:lt": "Ikškilė",
+        "name:lv": "Ikšķile",
+        "name:ru": "Икшкиле",
+        "name:uk": "Ікшкіле",
+        "place": "town",
+        "population": "4022",
+        "wikidata": "Q753029",
+        "wikipedia": "lv:Ikšķile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4975204,
+          56.8375098
+        ]
+      },
+      "id": "node/29532674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29532675",
+        "name": "Ķegums",
+        "name:de": "Keggum",
+        "name:lt": "Kegumas",
+        "name:lv": "Ķegums",
+        "name:ru": "Кегумс",
+        "place": "town",
+        "population": "2433",
+        "website": "http://www.kegums.lv",
+        "wikidata": "Q344621",
+        "wikipedia": "lv:Ķegums"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7249454,
+          56.7470635
+        ]
+      },
+      "id": "node/29532675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/30391426",
+        "alt_name:be": "Дзьвінск",
+        "description": "Second largest city in Latvia, on the banks of the Daugava River.",
+        "int_name": "Daugavpils",
+        "name": "Daugavpils",
+        "name:ar": "دوغفبلس",
+        "name:be": "Даўгаўпілс",
+        "name:be-tarask": "Дзьвінск",
+        "name:de": "Dünaburg",
+        "name:en": "Daugavpils",
+        "name:es": "Daugavpils",
+        "name:fi": "Väinänlinna",
+        "name:fr": "Daugavpils",
+        "name:la": "Duneburgum",
+        "name:lt": "Daugpilis",
+        "name:lv": "Daugavpils",
+        "name:pl": "Dyneburg",
+        "name:ru": "Даугавпилс",
+        "name:uk": "Даугавпілс",
+        "name:yi": "דינעבורג",
+        "old_name:pl": "Dźwińsk",
+        "place": "city",
+        "population": "101057",
+        "wikidata": "Q80021",
+        "wikipedia": "lv:Daugavpils"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.5159337,
+          55.8712267
+        ]
+      },
+      "id": "node/30391426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/41214309",
+        "name": "Baldone",
+        "name:de": "Baldohn",
+        "name:lt": "Balduonė",
+        "name:lv": "Baldone",
+        "name:pl": "Baldona",
+        "name:ru": "Балдоне",
+        "name:uk": "Балдоне",
+        "place": "town",
+        "population": "3996",
+        "website": "https://www.baldone.lv/",
+        "wikidata": "Q789351",
+        "wikipedia": "lv:Baldone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3939847,
+          56.7403058
+        ]
+      },
+      "id": "node/41214309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/58422785",
+        "name": "Rēzekne",
+        "name:be": "Рэзэкнэ",
+        "name:de": "Rositten",
+        "name:en": "Rezekne",
+        "name:fi": "Rēzekne",
+        "name:lt": "Rėzeknė",
+        "name:lv": "Rēzekne",
+        "name:pl": "Rzeżyca",
+        "name:ru": "Резекне",
+        "name:uk": "Rezekne",
+        "old_name:ru": "Режица;Розиттен",
+        "place": "city",
+        "population": "33936",
+        "website": "https://www.rezekne.lv/",
+        "wikidata": "Q180379",
+        "wikipedia": "lv:Rēzekne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3306623,
+          56.506281
+        ]
+      },
+      "id": "node/58422785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/59772550",
+        "name": "Viļāni",
+        "name:be": "Віляны",
+        "name:de": "Welonen",
+        "name:lt": "Vilianai",
+        "name:lv": "Viļāni",
+        "name:pl": "Wielony",
+        "name:ru": "Виляны",
+        "name:uk": "Віляни",
+        "place": "town",
+        "population": "3360",
+        "website": "https://www.vilanunovads.lv/",
+        "wikidata": "Q836513",
+        "wikipedia": "lv:Viļāni"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.9288591,
+          56.5549602
+        ]
+      },
+      "id": "node/59772550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/60142603",
+        "name": "Salacgrīva",
+        "name:de": "Salismünde",
+        "name:et": "Salatsi",
+        "name:fi": "Salatsi",
+        "name:lt": "Salacgryva",
+        "name:lv": "Salacgrīva",
+        "name:pl": "Salis",
+        "name:ru": "Салацгрива",
+        "name:uk": "Салацгріва",
+        "place": "town",
+        "population": "3205",
+        "website": "http://www.salacgriva.lv/",
+        "wikidata": "Q659665",
+        "wikipedia": "lv:Salacgrīva"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3570447,
+          57.7567573
+        ]
+      },
+      "id": "node/60142603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/60616322",
+        "name": "Jaunjelgava",
+        "name:de": "Friedrichstadt",
+        "name:lt": "Jaunjelgava",
+        "name:lv": "Jaunjelgava",
+        "name:pl": "Frydrychsztat",
+        "name:ru": "Яунелгава",
+        "name:uk": "Яунєлгава",
+        "place": "town",
+        "population": "2221",
+        "website": "http://www.jaunjelgava.lv/",
+        "wikidata": "Q835771",
+        "wikipedia": "lv:Jaunjelgava"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0797322,
+          56.6159987
+        ]
+      },
+      "id": "node/60616322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/119246280",
+        "image": "File:Brivibas iela in Kraslava.jpg",
+        "int_name": "Kraslava",
+        "name": "Krāslava",
+        "name:be": "Краслава",
+        "name:de": "Kreslau",
+        "name:en": "Kraslava",
+        "name:lt": "Kraslava",
+        "name:lv": "Krāslava",
+        "name:pl": "Krasław",
+        "name:ru": "Краслава",
+        "old_name:ru": "Краславка;Креславка;Креславль",
+        "place": "town",
+        "population": "9114",
+        "website": "https://kraslava.lv/",
+        "wikidata": "Q638592",
+        "wikipedia": "en:Krāslava"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1619304,
+          55.895206
+        ]
+      },
+      "id": "node/119246280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/119253538",
+        "name": "Dagda",
+        "name:be": "Дагда",
+        "name:de": "Dageten",
+        "name:lt": "Dagda",
+        "name:lv": "Dagda",
+        "name:ru": "Дагда",
+        "name:uk": "Дагда",
+        "place": "town",
+        "population": "2447",
+        "website": "https://dagda.lv/",
+        "wikidata": "Q757101",
+        "wikipedia": "lv:Dagda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5374136,
+          56.0948815
+        ]
+      },
+      "id": "node/119253538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/129965572",
+        "name": "Preiļi",
+        "name:lt": "Preiliai",
+        "name:ltg": "Preili",
+        "name:lv": "Preiļi",
+        "name:pl": "Prele",
+        "name:ru": "Прейли",
+        "name:uk": "Прейлі",
+        "place": "town",
+        "population": "7734",
+        "website": "https://www.preili.lv/",
+        "wikidata": "Q858476",
+        "wikipedia": "en:Preiļi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.7266734,
+          56.2937366
+        ]
+      },
+      "id": "node/129965572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/148149352",
+        "name": "Zilupe",
+        "name:de": "Rosenau",
+        "name:lt": "Zilupė",
+        "name:ltg": "Sīnuoja",
+        "name:lv": "Zilupe",
+        "name:ru": "Зилупе",
+        "name:uk": "Зілупе",
+        "old_name": "Sīnupe",
+        "place": "town",
+        "population": "1730",
+        "website": "http://www.zilupe.junik.lv/",
+        "wikidata": "Q203375",
+        "wikipedia": "lv:Zilupe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.121471,
+          56.3864345
+        ]
+      },
+      "id": "node/148149352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/157088773",
+        "alt_name:de": "Warkland",
+        "name": "Varakļāni",
+        "name:bat-smg": "Varaklenē",
+        "name:be": "Варакляны",
+        "name:de": "Warkelen",
+        "name:lt": "Varaklianai",
+        "name:ltg": "Varakļuoni",
+        "name:lv": "Varakļāni",
+        "name:pl": "Warklany",
+        "name:ru": "Варакляны",
+        "name:uk": "Варакляни",
+        "place": "town",
+        "population": "2083",
+        "website": "https://www.varaklani.lv/",
+        "wikidata": "Q849141",
+        "wikipedia": "lv:Varakļāni"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.7615482,
+          56.6139756
+        ]
+      },
+      "id": "node/157088773"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/157344234",
+        "name": "Kārsava",
+        "name:de": "Karsau",
+        "name:lt": "Karsava",
+        "name:ltg": "Kuorsova",
+        "name:lv": "Kārsava",
+        "name:pl": "Korsówka",
+        "name:ru": "Карсава",
+        "old_name:ru": "Корсовка",
+        "place": "town",
+        "population": "2386",
+        "wikidata": "Q849147",
+        "wikipedia": "lv:Kārsava"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6733754,
+          56.7874531
+        ]
+      },
+      "id": "node/157344234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/180310845",
+        "ele": "217",
+        "name": "Alūksne",
+        "name:de": "Marienburg",
+        "name:he": "אלוקסנה",
+        "name:lt": "Alūksnė",
+        "name:ltg": "Olyuksna",
+        "name:lv": "Alūksne",
+        "name:ru": "Алуксне",
+        "name:uk": "Алуксне",
+        "place": "town",
+        "population": "8653",
+        "website": "https://www.aluksne.lv/",
+        "wikidata": "Q291333",
+        "wikipedia": "lv:Alūksne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0505075,
+          57.4204759
+        ]
+      },
+      "id": "node/180310845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/183167063",
+        "name": "Pāvilosta",
+        "name:de": "Paulshafen",
+        "name:lt": "Paviluosta",
+        "name:lv": "Pāvilosta",
+        "name:ru": "Павилоста",
+        "place": "town",
+        "population": "1127",
+        "website": "http://www.pavilosta.lv/",
+        "wikidata": "Q840717",
+        "wikipedia": "lv:Pāvilosta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1825221,
+          56.8888663
+        ]
+      },
+      "id": "node/183167063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/246824618",
+        "name": "Pļaviņas",
+        "name:de": "Stockmannshof",
+        "name:lt": "Pliavinios",
+        "name:lv": "Pļaviņas",
+        "name:ru": "Плявиняс",
+        "name:uk": "Плявіняс",
+        "name:zh": "普拉維納斯",
+        "place": "town",
+        "population": "3619",
+        "website": "https://www.plavinas.lv/",
+        "wikidata": "Q567747",
+        "wikipedia": "lv:Pļaviņas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7403324,
+          56.6194037
+        ]
+      },
+      "id": "node/246824618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/250832635",
+        "name": "Aizkraukle",
+        "name:de": "Ascheraden",
+        "name:he": "אייזקראוקלה",
+        "name:lt": "Aizkrauklė",
+        "name:lv": "Aizkraukle",
+        "name:ru": "Айзкраукле",
+        "name:uk": "Айзкраукле",
+        "place": "town",
+        "population": "8403",
+        "website": "https://www.aizkraukle.lv/",
+        "wikidata": "Q411715",
+        "wikipedia": "lv:Aizkraukle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2542544,
+          56.6010778
+        ]
+      },
+      "id": "node/250832635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/252953801",
+        "alt_name:pl": "Lubań",
+        "name": "Lubāna",
+        "name:be": "Лубана",
+        "name:de": "Lubahn",
+        "name:lt": "Lubana",
+        "name:lv": "Lubāna",
+        "name:pl": "Łubań",
+        "name:ru": "Лубана",
+        "name:uk": "Лубана",
+        "place": "town",
+        "population": "1851",
+        "website": "http://www.lubana.lv/",
+        "wikidata": "Q844477",
+        "wikipedia": "lv:Lubāna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.7181189,
+          56.9041243
+        ]
+      },
+      "id": "node/252953801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/257028555",
+        "name": "Ilūkste",
+        "name:de": "Illuxt",
+        "name:lt": "Alūksta",
+        "name:lv": "Ilūkste",
+        "name:pl": "Iłukszta",
+        "name:ru": "Илуксте",
+        "name:uk": "Ілуксте",
+        "old_name:pl": "Iłłukszta",
+        "place": "town",
+        "population": "2809",
+        "website": "https://www.ilukste.lv/",
+        "wikidata": "Q580373",
+        "wikipedia": "lv:Ilūkste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2973333,
+          55.9766951
+        ]
+      },
+      "id": "node/257028555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/257030735",
+        "alt_name:pl": "Subaty",
+        "name": "Subate",
+        "name:de": "Subbath",
+        "name:lt": "Subatė",
+        "name:lv": "Subate",
+        "name:pl": "Subata",
+        "name:ru": "Субате",
+        "old_name:lt": "Subačius",
+        "place": "town",
+        "population": "739",
+        "wikidata": "Q60044",
+        "wikipedia": "lv:Subate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9062903,
+          56.0055185
+        ]
+      },
+      "id": "node/257030735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/257061739",
+        "name": "Viesīte",
+        "name:de": "Eckengrafen",
+        "name:lt": "Viesytė",
+        "name:lv": "Viesīte",
+        "name:ru": "Виесите",
+        "name:uk": "Вієсіте",
+        "place": "town",
+        "population": "1836",
+        "website": "https://www.viesite.lv/",
+        "wikidata": "Q641220",
+        "wikipedia": "lv:Viesīte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5571515,
+          56.3456802
+        ]
+      },
+      "id": "node/257061739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/266279182",
+        "name": "Cesvaine",
+        "name:ar": "سيسفين",
+        "name:de": "Seßwegen",
+        "name:lt": "Cesvainė",
+        "name:lv": "Cesvaine",
+        "name:ru": "Цесвайне",
+        "name:uk": "Цесвайне",
+        "place": "town",
+        "population": "1637",
+        "website": "http://www.cesvaine.lv/",
+        "wikidata": "Q757050",
+        "wikipedia": "lv:Cesvaine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.3089758,
+          56.9657879
+        ]
+      },
+      "id": "node/266279182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/266286945",
+        "name": "Koknese",
+        "name:de": "Kokenhusen",
+        "name:lt": "Koknesė",
+        "name:lv": "Koknese",
+        "name:pl": "Kokenhuza",
+        "name:ru": "Кокнесе",
+        "name:uk": "Кокнесе",
+        "place": "town",
+        "population": "2906",
+        "website": "https://www.koknese.lv/",
+        "wikidata": "Q504681",
+        "wikipedia": "lv:Koknese"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4368636,
+          56.6494318
+        ]
+      },
+      "id": "node/266286945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/278826695",
+        "name": "Auce",
+        "name:de": "Alt-Autz",
+        "name:lt": "Aucė",
+        "name:lv": "Auce",
+        "name:ru": "Ауце",
+        "name:uk": "Ауце",
+        "old_name": "Vecauce",
+        "place": "town",
+        "population": "2981",
+        "website": "https://www.auce.lv/",
+        "wikidata": "Q758578",
+        "wikipedia": "lv:Auce"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8960281,
+          56.4652968
+        ]
+      },
+      "id": "node/278826695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/281102424",
+        "name": "Grobiņa",
+        "name:de": "Grobin",
+        "name:lt": "Gruobinia",
+        "name:lv": "Grobiņa",
+        "name:ru": "Гробиня",
+        "name:uk": "Гробіня",
+        "place": "town",
+        "population": "4184",
+        "website": "http://grobina.lv/",
+        "wikidata": "Q757049",
+        "wikipedia": "en:Grobiņa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1676042,
+          56.5368569
+        ]
+      },
+      "id": "node/281102424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/343697069",
+        "alt_name:de": "Marienland",
+        "name": "Bauska",
+        "name:be": "Баўска",
+        "name:de": "Bauske",
+        "name:lt": "Bauskė",
+        "name:lv": "Bauska",
+        "name:pl": "Bowsk",
+        "name:ru": "Бауска",
+        "place": "town",
+        "population": "9796",
+        "website": "https://bauska.lv/",
+        "wikidata": "Q498256",
+        "wikipedia": "lv:Bauska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1876674,
+          56.4082863
+        ]
+      },
+      "id": "node/343697069"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/360624803",
+        "alt_name:lt": "Aknysta",
+        "name": "Aknīste",
+        "name:de": "Oknist",
+        "name:lt": "Aknystė",
+        "name:lv": "Aknīste",
+        "name:pl": "Oknista",
+        "name:ru": "Акнисте",
+        "place": "town",
+        "population": "1210",
+        "wikidata": "Q420333",
+        "wikipedia": "lv:Aknīste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7483539,
+          56.1614742
+        ]
+      },
+      "id": "node/360624803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/416933700",
+        "name": "Piltene",
+        "name:de": "Pilten",
+        "name:lt": "Piltenė",
+        "name:lv": "Piltene",
+        "name:pl": "Piltyń",
+        "name:ru": "Пилтене",
+        "place": "town",
+        "population": "973",
+        "wikidata": "Q838491",
+        "wikipedia": "lv:Piltene"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6727721,
+          57.2259625
+        ]
+      },
+      "id": "node/416933700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/431037548",
+        "name": "Olaine",
+        "name:de": "Olai",
+        "name:en": "Olaine",
+        "name:lt": "Uolainė",
+        "name:lv": "Olaine",
+        "name:ru": "Олайне",
+        "place": "town",
+        "population": "11910",
+        "website": "https://www.olaine.lv/",
+        "wikidata": "Q249715",
+        "wikipedia": "lv:Olaine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.9331981,
+          56.7905906
+        ]
+      },
+      "id": "node/431037548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/444735701",
+        "name": "Valdemārpils",
+        "name:lt": "Valdemarpilis",
+        "name:lv": "Valdemārpils",
+        "name:ru": "Валдемарпилс",
+        "old_name": "Sasmaka",
+        "old_name:de": "Saßmacken",
+        "place": "town",
+        "population": "1365",
+        "wikidata": "Q846341",
+        "wikipedia": "lv:Valdemārpils"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5895069,
+          57.369306
+        ]
+      },
+      "id": "node/444735701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/457015340",
+        "name": "Brocēni",
+        "name:de": "Berghof",
+        "name:lt": "Bruocėnai",
+        "name:lv": "Brocēni",
+        "name:ru": "Броцены",
+        "name:uk": "Броцени",
+        "place": "town",
+        "population": "3376",
+        "source": "Brocēnu novada teritorijas plānojuma. (2006.-2018.)",
+        "website": "https://broceni.lv/",
+        "wikidata": "Q840836",
+        "wikipedia": "en:Brocēni"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5664558,
+          56.6845332
+        ]
+      },
+      "id": "node/457015340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/462007984",
+        "name": "Valka",
+        "name:de": "Walk",
+        "name:el": "Βάλκα",
+        "name:lt": "Valka",
+        "name:lv": "Valka",
+        "name:pl": "Wałk",
+        "name:ru": "Валка",
+        "name:uk": "Валка",
+        "place": "town",
+        "population": "5891",
+        "website": "https://valka.lv/",
+        "wikidata": "Q323774",
+        "wikipedia": "et:Valka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0160341,
+          57.7729106
+        ]
+      },
+      "id": "node/462007984"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/471564472",
+        "name": "Seda",
+        "name:de": "Sedde",
+        "name:lt": "Seda",
+        "name:lv": "Seda",
+        "name:pl": "Seda",
+        "name:ru": "Седа",
+        "name:uk": "Седа",
+        "place": "town",
+        "population": "1519",
+        "wikidata": "Q578527",
+        "wikipedia": "lv:Seda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7509504,
+          57.6502886
+        ]
+      },
+      "id": "node/471564472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/560248969",
+        "name": "Ape",
+        "name:de": "Hoppenhof",
+        "name:en": "Ape",
+        "name:et": "Hopa",
+        "name:lt": "Apė",
+        "name:lv": "Ape",
+        "name:ru": "Апе",
+        "name:uk": "Апе",
+        "place": "town",
+        "population": "1043",
+        "wikidata": "Q618119",
+        "wikipedia": "lv:Ape"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.6904607,
+          57.5404485
+        ]
+      },
+      "id": "node/560248969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/561313673",
+        "name": "Priekule",
+        "name:de": "Preekuln",
+        "name:lt": "Priekulė",
+        "name:lv": "Priekule",
+        "name:pl": "Priekule",
+        "name:ru": "Приекуле",
+        "place": "town",
+        "population": "2377",
+        "website": "http://www.priekulesnovads.lv/",
+        "wikidata": "Q908683",
+        "wikipedia": "en:Priekule, Latvia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6006939,
+          56.4494915
+        ]
+      },
+      "id": "node/561313673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/834663689",
+        "name": "Staicele",
+        "name:de": "Staizel",
+        "name:lt": "Staicelė",
+        "name:lv": "Staicele",
+        "name:ru": "Стайцеле",
+        "place": "town",
+        "population": "1149",
+        "wikidata": "Q844464",
+        "wikipedia": "lv:Staicele"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7476708,
+          57.8341258
+        ]
+      },
+      "id": "node/834663689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1262375112",
+        "name": "Jūrmala",
+        "name:de": "Rigaer Strand",
+        "name:fi": "Jūrmala",
+        "name:lt": "Jūrmala",
+        "name:lv": "Jūrmala",
+        "name:pl": "Jurmała",
+        "name:ru": "Юрмала",
+        "name:uk": "Юрмала",
+        "name:zh-Hans": "尤尔马拉",
+        "name:zh-Hant": "尤爾馬拉",
+        "old_name": "Rīgas Jūrmala",
+        "place": "city",
+        "population": "57671",
+        "website": "https://www.jurmala.lv/",
+        "wikidata": "Q178382",
+        "wikipedia": "lv:Jūrmala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7886979,
+          56.9727164
+        ]
+      },
+      "id": "node/1262375112"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1536214278",
+        "name": "Vangaži",
+        "name:de": "Wangasch",
+        "name:lt": "Vangažiai",
+        "name:lv": "Vangaži",
+        "name:ru": "Вангажи",
+        "place": "town",
+        "population": "3958",
+        "website": "https://www.incukalns.lv/",
+        "wikidata": "Q849832",
+        "wikipedia": "lv:Vangaži"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5446193,
+          57.09222
+        ]
+      },
+      "id": "node/1536214278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2298737778",
+        "name": "Līvāni",
+        "name:de": "Līvāni (Lievenhof)",
+        "name:lt": "Lyvanai",
+        "name:lv": "Līvāni",
+        "name:ru": "Ливаны",
+        "place": "town",
+        "population": "8589",
+        "website": "https://livani.lv/",
+        "wikidata": "Q849156",
+        "wikipedia": "lv:Līvāni"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.177657,
+          56.3531859
+        ]
+      },
+      "id": "node/2298737778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4033428059",
+        "name": "Smiltene",
+        "name:de": "Smilten",
+        "name:lt": "Smiltenė",
+        "name:lv": "Smiltene",
+        "name:ru": "Смилтене",
+        "place": "town",
+        "population": "5786",
+        "wikidata": "Q840806",
+        "wikipedia": "lv:Smiltene"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9045413,
+          57.4243197
+        ]
+      },
+      "id": "node/4033428059"
+    }
+  ]
+}

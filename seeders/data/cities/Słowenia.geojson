@@ -1,0 +1,2382 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-12-16T17:00:43Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6968827",
+        "admin_level": "2",
+        "alt_name:gl": "Ljubljana",
+        "alt_name:la": "Aemona",
+        "capital": "yes",
+        "name": "Ljubljana",
+        "name:am": "ልዩብልያና",
+        "name:ar": "ليوبليانا",
+        "name:arz": "ليوبليانا",
+        "name:ast": "Liubliana",
+        "name:av": "Любляна",
+        "name:az": "Lyublyana",
+        "name:ba": "Любляна",
+        "name:bar": "Laiboch",
+        "name:bat-smg": "Liublijana",
+        "name:be": "Любляна",
+        "name:be-tarask": "Любляна",
+        "name:bg": "Любляна",
+        "name:bn": "লিউব্লিয়ানা",
+        "name:bo": "ལི་པོ་ཡ་ན།",
+        "name:br": "Ljubljana",
+        "name:ce": "Любляна",
+        "name:ckb": "لیوبلیانا",
+        "name:crh": "Lüblâna",
+        "name:cs": "Lublaň",
+        "name:cu": "Люблꙗна",
+        "name:cv": "Любляна",
+        "name:de": "Laibach",
+        "name:el": "Λιουμπλιάνα",
+        "name:en": "Ljubljana",
+        "name:eo": "Ljubljano",
+        "name:es": "Liubliana",
+        "name:ext": "Liubliana",
+        "name:fa": "لیوبلیانا",
+        "name:fr": "Ljubljana",
+        "name:fur": "Lubiane",
+        "name:ga": "Liúibleána",
+        "name:gag": "L'yublyana",
+        "name:gl": "Liubliana",
+        "name:gsw": "Laibach",
+        "name:he": "ליובליאנה",
+        "name:hi": "लुब्लियाना",
+        "name:ht": "Lyoubyana",
+        "name:hu": "Ljubljana",
+        "name:hy": "Լյուբլյանա",
+        "name:is": "Ljubljana",
+        "name:it": "Lubiana",
+        "name:ja": "リュブリャナ",
+        "name:ka": "ლიუბლიანა",
+        "name:kaa": "Lyublyana",
+        "name:kab": "Lyubyana",
+        "name:kk": "Любляна",
+        "name:ko": "류블랴나",
+        "name:ku": "Ljubljana",
+        "name:ky": "Любляна",
+        "name:la": "Labacum",
+        "name:lij": "Lubiann-a",
+        "name:lmo": "Lübiana",
+        "name:ln": "Lyublyana",
+        "name:lt": "Liubliana",
+        "name:lv": "Ļubļana",
+        "name:mk": "Љубљана",
+        "name:ml": "ലുബ്ലിയാന",
+        "name:mn": "Любляна",
+        "name:mr": "लियुब्लियाना",
+        "name:myv": "Любляна",
+        "name:nah": "Liubliana",
+        "name:no": "Ljubljana",
+        "name:nrm": "Liublianne",
+        "name:oc": "Ljubljana",
+        "name:os": "Люблянæ",
+        "name:pa": "ਲਿਊਬਲਿਆਨਾ",
+        "name:pl": "Lublana",
+        "name:pms": "Lubian-a",
+        "name:pnb": "لیوبلیانا",
+        "name:pt": "Liubliana",
+        "name:ru": "Любляна",
+        "name:rue": "Любляна",
+        "name:sah": "Любляна",
+        "name:sc": "Lubiana",
+        "name:sgs": "Liublijana",
+        "name:sk": "Ľubľana",
+        "name:sl": "Ljubljana",
+        "name:sq": "Lubjana",
+        "name:sr": "Љубљана",
+        "name:sv": "Ljubljana",
+        "name:sw": "Lyublyana",
+        "name:ta": "லியுப்லியானா",
+        "name:tg": "Любляна",
+        "name:th": "ลูบลิยานา",
+        "name:tt": "Любляна",
+        "name:udm": "Любляна",
+        "name:ug": "ليۇبليانا",
+        "name:uk": "Любляна",
+        "name:ur": "لیوبلیانا",
+        "name:uz": "Lyublyana",
+        "name:vec": "Łubiana",
+        "name:vep": "Lüblän",
+        "name:wo": "Jubaljana",
+        "name:wuu": "卢布尔雅那",
+        "name:xmf": "ლიუბლიანა",
+        "name:yi": "ליובליאנא",
+        "name:yue": "盧布爾雅那",
+        "name:zh": "盧布爾雅那",
+        "name:zh-Hans": "卢布尔雅那",
+        "old_name:el": "Λάιμπαχ",
+        "place": "city",
+        "population": "285604",
+        "postal_code": "1000",
+        "source:name:br": "ofis publik ar brezhoneg",
+        "source:name:oc": "Lo Congrès",
+        "source:population": "https://pxweb.stat.si/SiStatData/pxweb/en/Data/-/H232S.px/",
+        "watch:StefanB": "1",
+        "website": "https://www.ljubljana.si/",
+        "wikidata": "Q437",
+        "wikipedia": "sl:Ljubljana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5069289,
+          46.0500268
+        ]
+      },
+      "id": "node/6968827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9678943",
+        "place": "town",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4325572,
+          45.7238389
+        ]
+      },
+      "id": "relation/9678943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/28844011",
+        "name": "Postojna",
+        "name:de": "Adelsberg",
+        "name:it": "Postumia",
+        "name:lt": "Postoina",
+        "name:ru": "Постойна",
+        "name:sl": "Postojna",
+        "name:sr": "Постојна",
+        "old_name:it": "Postumia Grotte",
+        "place": "town",
+        "population": "9100",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15901",
+        "wikipedia": "sl:Postojna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2139937,
+          45.7752847
+        ]
+      },
+      "id": "node/28844011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29098903",
+        "alt_name:it": "Pirano d'Istria",
+        "alt_name:la": "Piranum;Pyrhanum;Castrum Pyrhani",
+        "name": "Piran / Pirano",
+        "name:ar": "بيران",
+        "name:bg": "Пиран",
+        "name:ce": "Пиран",
+        "name:el": "Πιράν",
+        "name:fa": "پیران",
+        "name:he": "פיראן",
+        "name:hr": "Piran",
+        "name:it": "Pirano",
+        "name:ja": "ピラン",
+        "name:ka": "პირანი",
+        "name:ko": "피란",
+        "name:la": "Pyrrhanum",
+        "name:lt": "Piranas",
+        "name:mk": "Пиран",
+        "name:ru": "Пиран",
+        "name:sl": "Piran",
+        "name:sr": "Пиран",
+        "name:tt": "Пиран",
+        "name:uk": "Пиран",
+        "name:ur": "پیران",
+        "name:vec": "Piràn",
+        "name:zh-Hans": "皮兰",
+        "name:zh-Hant": "皮蘭",
+        "old_name:de": "Pirian",
+        "place": "town",
+        "population": "3787",
+        "population:date": "2023",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "website": "https://www.piran.si/",
+        "wikidata": "Q1382",
+        "wikipedia": "sl:Piran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.5684485,
+          45.5284919
+        ]
+      },
+      "id": "node/29098903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29098904",
+        "alt_name:it": "Isola d'Istria",
+        "alt_name:la": "Insula;Insula Histriae;Haliaetum;Alietum",
+        "int_name": "Izola",
+        "is_in": "Slovenia, Europe",
+        "is_in:country": "Slovenia",
+        "is_in:country_code": "SI",
+        "name": "Izola / Isola",
+        "name:ar": "إيزولا",
+        "name:bg": "Изола",
+        "name:ce": "Изола",
+        "name:fa": "ایزولا",
+        "name:he": "איזולה",
+        "name:hr": "Izola",
+        "name:hy": "Իզոլա",
+        "name:it": "Isola",
+        "name:ja": "イゾラ",
+        "name:ka": "იზოლა",
+        "name:ko": "이졸라",
+        "name:la": "Insulae",
+        "name:lt": "Izola",
+        "name:mdf": "Изола",
+        "name:mk": "Изола",
+        "name:ru": "Изола",
+        "name:sl": "Izola",
+        "name:sr": "Изола",
+        "name:sr-Latn": "Izola",
+        "name:tt": "Изола",
+        "name:uk": "Ізола",
+        "name:vec": "Isola",
+        "name:zh": "伊佐拉",
+        "old_name:de": "Insel im Küstenländchen",
+        "place": "town",
+        "population": "11300",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "website": "https://izola.si/",
+        "wikidata": "Q15877",
+        "wikipedia": "sl:Izola"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.65939,
+          45.5398936
+        ]
+      },
+      "id": "node/29098904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29098951",
+        "alt_name:it": "Carnio",
+        "alt_name:ja": "クラン",
+        "alt_name:la": "Carnium",
+        "alt_name:os": "Крайнбург",
+        "name": "Kranj",
+        "name:ar": "كراني",
+        "name:be": "Крань",
+        "name:bg": "Кран",
+        "name:ce": "Крань",
+        "name:de": "Krainburg",
+        "name:el": "Κραν",
+        "name:fa": "کرانی",
+        "name:he": "קראן",
+        "name:hy": "Կրան",
+        "name:it": "Craimburgo",
+        "name:ja": "クラーニ",
+        "name:ka": "კრანი",
+        "name:ko": "크란",
+        "name:la": "Carnioburgum",
+        "name:lt": "Kranis",
+        "name:lv": "Kraņa",
+        "name:mdf": "Крань",
+        "name:mk": "Крањ",
+        "name:os": "Крань",
+        "name:pnb": "کرانج",
+        "name:ps": "کراني",
+        "name:ru": "Крань",
+        "name:sl": "Kranj",
+        "name:sr": "Крањ",
+        "name:th": "คราน",
+        "name:tt": "Крань",
+        "name:uk": "Крань",
+        "name:ur": "کران",
+        "name:wuu": "克拉尼",
+        "name:zh": "克拉尼",
+        "place": "city",
+        "population": "36800",
+        "postal_code": "4000",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "website": "https://www.kranj.si/",
+        "wikidata": "Q1021",
+        "wikipedia": "sl:Kranj"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3549353,
+          46.2432913
+        ]
+      },
+      "id": "node/29098951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29524465",
+        "alt_name:la": "Muraszombota;Murazombatya;Murazombatha;Murazumbota;Sobota",
+        "name": "Murska Sobota",
+        "name:ar": "موسكا سوبوتا",
+        "name:be": "Мурска-Собата",
+        "name:bg": "Мурска Собота",
+        "name:ce": "Мурська Собота",
+        "name:de": "Olsnitz",
+        "name:fa": "مورسکا سبتا",
+        "name:he": "מורסקה סובוטה",
+        "name:hu": "Muraszombat",
+        "name:hy": "Մուրսկա Սոբոտա",
+        "name:ja": "ムルスカ・ソボタ",
+        "name:ka": "მურსკა-სობოტა",
+        "name:ko": "무르스카소보타",
+        "name:la": "Belmura",
+        "name:lt": "Murska Sobota",
+        "name:mk": "Мурска Собота",
+        "name:ru": "Мурска-Собота",
+        "name:sl": "Murska Sobota",
+        "name:sr": "Мурска Собота",
+        "name:th": "มูร์สกาโซบอตา",
+        "name:tt": "Мурска Собота",
+        "name:uk": "Мурська Собота",
+        "name:ur": "مورسکا سوبوتا",
+        "name:zh-Hans": "穆尔斯卡索博塔",
+        "name:zh-Hant": "穆爾斯卡索博塔",
+        "place": "town",
+        "population": "11700",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "website": "https://www.murska-sobota.si/",
+        "wikidata": "Q15899",
+        "wikipedia": "sl:Murska Sobota"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1655256,
+          46.6624644
+        ]
+      },
+      "id": "node/29524465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/30483320",
+        "alt_name:it": "Cilli",
+        "alt_name:os": "Целье",
+        "alt_name:uk": "Целе",
+        "ele": "238",
+        "name": "Celje",
+        "name:ar": "تسليه",
+        "name:az": "Sele",
+        "name:ba": "Целе",
+        "name:be": "Цэле",
+        "name:bg": "Целе",
+        "name:de": "Cilli",
+        "name:el": "Τσέλιε",
+        "name:fa": "تسلیه",
+        "name:he": "צליה",
+        "name:hu": "Cille",
+        "name:hy": "Ցելե",
+        "name:ja": "ツェリェ",
+        "name:ka": "ცელიე",
+        "name:ko": "첼레",
+        "name:ky": "Целле",
+        "name:la": "Celeia",
+        "name:lt": "Celė",
+        "name:lv": "Ceļe",
+        "name:mdf": "Цэле",
+        "name:mk": "Цеље",
+        "name:os": "Целе",
+        "name:pnb": "سیلیے",
+        "name:ru": "Целе",
+        "name:sl": "Celje",
+        "name:sr": "Цеље",
+        "name:th": "แซลิแย",
+        "name:tt": "Целе",
+        "name:uk": "Целє",
+        "name:ur": "تسیلیے",
+        "name:wuu": "采列",
+        "name:zh": "采列",
+        "place": "city",
+        "population": "37872",
+        "postal_code": "3000",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "website": "https://www.celje.si/",
+        "wikidata": "Q1012",
+        "wikipedia": "sl:Celje"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2616828,
+          46.2293889
+        ]
+      },
+      "id": "node/30483320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/30761275",
+        "name": "Ajdovščina",
+        "name:de": "Haidenschaft",
+        "name:it": "Aidussina",
+        "name:lt": "Aidovščina",
+        "name:ru": "Айдовшчина",
+        "name:sl": "Ajdovščina",
+        "name:sr": "Ајдовшчина",
+        "place": "town",
+        "population": "6600",
+        "source": "landsat",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15854",
+        "wikipedia": "sl:Ajdovščina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.9048561,
+          45.8885557
+        ]
+      },
+      "id": "node/30761275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/30839841",
+        "alt_name:de": "Stein in Oberkrain",
+        "alt_name:la": "Civitas Stain",
+        "name": "Kamnik",
+        "name:ar": "كامنيك",
+        "name:be": "Камнік",
+        "name:bg": "Камник",
+        "name:ce": "Камник",
+        "name:fa": "کامنیک",
+        "name:hy": "Կամնիկ",
+        "name:ja": "カムニーク",
+        "name:ka": "კამნიკი",
+        "name:ko": "캄니크",
+        "name:la": "Lithopolis",
+        "name:lt": "Kamnikas",
+        "name:mk": "Камник",
+        "name:ru": "Камник",
+        "name:sl": "Kamnik",
+        "name:sr": "Камник",
+        "name:th": "คามนิก",
+        "name:tt": "Камник",
+        "name:uk": "Камник",
+        "name:zh": "卡姆尼克",
+        "place": "town",
+        "population": "13700",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "website": "https://www.kamnik.si/",
+        "wikidata": "Q15883",
+        "wikipedia": "sl:Kamnik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6118936,
+          46.2257358
+        ]
+      },
+      "id": "node/30839841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/30894276",
+        "alt_name:de": "Gonobitz",
+        "name": "Slovenske Konjice",
+        "name:de": "Slovenske Konjice",
+        "name:lt": "Slovenske Konicės",
+        "name:ru": "Словенске-Конице",
+        "name:sl": "Slovenske Konjice",
+        "name:sr": "Словенске Коњице",
+        "place": "town",
+        "population": "5000",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15919",
+        "wikipedia": "sl:Slovenske Konjice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4230172,
+          46.3381954
+        ]
+      },
+      "id": "node/30894276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/35526498",
+        "alt_name:de": "Pettau",
+        "alt_name:it": "Poetovio",
+        "alt_name:la": "Poetovio;Colonia Ulpia Traiana Poetovio",
+        "name": "Ptuj",
+        "name:ar": "بيتوج",
+        "name:ba": "Птуй",
+        "name:be": "Птуй",
+        "name:bg": "Птуй",
+        "name:de": "Ptuj",
+        "name:el": "Πτούι",
+        "name:fa": "پتوی",
+        "name:he": "פטוי",
+        "name:hy": "Պտույ",
+        "name:ja": "プトゥイ",
+        "name:ka": "პტუი",
+        "name:ko": "프투이",
+        "name:la": "Poetovium",
+        "name:lt": "Ptujus",
+        "name:mdf": "Птуй",
+        "name:mk": "Птуј",
+        "name:pnb": "پتوئی",
+        "name:ru": "Птуй",
+        "name:sl": "Ptuj",
+        "name:sr": "Птуј",
+        "name:th": "ปตูย",
+        "name:uk": "Птуй",
+        "name:zh-Hans": "普图伊",
+        "name:zh-Hant": "普圖伊",
+        "old_name:hu": "Potoly",
+        "place": "town",
+        "population": "18339",
+        "postal_code": "2250",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "website": "https://www.ptuj.si/",
+        "wikidata": "Q15906",
+        "wikimedia_commons": "File:Ptuj_above_Drava.jpg",
+        "wikipedia": "sl:Ptuj"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8717378,
+          46.4198096
+        ]
+      },
+      "id": "node/35526498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/36667529",
+        "alt_name:de": "Marburg an der Drau",
+        "alt_name:it": "Marburgo sulla Drava",
+        "alt_name:ko": "마르부르크안데어드라우",
+        "alt_name:la": "Marburgum super Dravum",
+        "name": "Maribor",
+        "name:ar": "ماريبور",
+        "name:ba": "Марибор",
+        "name:bar": "Marburg an da Drau",
+        "name:be": "Марыбар",
+        "name:bg": "Марибор",
+        "name:ce": "Марибор",
+        "name:de": "Maribor",
+        "name:el": "Μάριμπορ",
+        "name:fa": "ماریبور",
+        "name:fur": "Marburc",
+        "name:he": "מריבור",
+        "name:hr": "Maribor",
+        "name:hy": "Մարիբոր",
+        "name:it": "Maribor",
+        "name:ja": "マリボル",
+        "name:ja-Latn": "mariboru",
+        "name:ka": "მარიბორი",
+        "name:ko": "마리보르",
+        "name:la": "Marburgum",
+        "name:lt": "Mariboras",
+        "name:lv": "Maribora",
+        "name:mdf": "Марибор",
+        "name:mk": "Марибор",
+        "name:mr": "मारिबोर",
+        "name:os": "Марибор",
+        "name:pnb": "ماریبور",
+        "name:ps": "ماریبور",
+        "name:ru": "Марибор",
+        "name:sl": "Maribor",
+        "name:sq": "Maribori",
+        "name:sr": "Марибор",
+        "name:th": "มาริบอร์",
+        "name:tt": "Марибор",
+        "name:uk": "Марибор",
+        "name:ur": "ماریبور",
+        "name:vec": "Marburgo",
+        "name:wuu": "马里博尔",
+        "name:xmf": "მარიბორი",
+        "name:zh-Hans": "马里博尔",
+        "name:zh-Hant": "馬里波爾",
+        "old_name": "Marburg an der Drau",
+        "old_name:it": "Marburgo",
+        "place": "city",
+        "population": "96000",
+        "postal_code": "2000",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "website": "https://maribor.si/",
+        "wikidata": "Q1010",
+        "wikipedia": "sl:Maribor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6455854,
+          46.5576439
+        ]
+      },
+      "id": "node/36667529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/39284817",
+        "name": "Slovenska Bistrica",
+        "name:lt": "Slovenska Bistrica",
+        "name:ru": "Словенска-Бистрица",
+        "name:sl": "Slovenska Bistrica",
+        "name:sr": "Словенска Бистрица",
+        "old_name:de": "Windisch-Feistritz",
+        "place": "town",
+        "population": "7400",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15917",
+        "wikipedia": "sl:Slovenska Bistrica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5727757,
+          46.391944
+        ]
+      },
+      "id": "node/39284817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/44729636",
+        "name": "Tržič",
+        "name:de": "Neumarktl",
+        "name:lt": "Tržičius",
+        "name:ru": "Тржич",
+        "name:sl": "Tržič",
+        "name:sr": "Тржич",
+        "place": "town",
+        "population": "3900",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q2638131",
+        "wikipedia": "sl:Tržič"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3095397,
+          46.3636679
+        ]
+      },
+      "id": "node/44729636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/44826837",
+        "alt_name:de": "Pletz",
+        "name": "Bovec",
+        "name:de": "Flitsch",
+        "name:fur": "Pleç",
+        "name:it": "Plezzo",
+        "name:ru": "Бовец",
+        "name:sl": "Bovec",
+        "name:sr": "Бовец",
+        "place": "town",
+        "population": "1600",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15855",
+        "wikipedia": "sl:Bovec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.552419,
+          46.3385847
+        ]
+      },
+      "id": "node/44826837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/44870243",
+        "alt_name:de": "Neu-Görz",
+        "alt_name:it": "Nuova Gorizia",
+        "name": "Nova Gorica",
+        "name:ar": "نوفا جوريتسا",
+        "name:be": "Нова-Горыца",
+        "name:bg": "Нова Горица",
+        "name:ce": "Нова Гориця",
+        "name:el": "Νόβα Γκορίτσα",
+        "name:fa": "نووا گوریتسا",
+        "name:fur": "Gnove Gurize",
+        "name:he": "נובה גוריצה",
+        "name:hy": "Նովա Գորիցա",
+        "name:it": "Nova Gorica",
+        "name:ja": "ノヴァ・ゴリツァ",
+        "name:ka": "ნოვა-გორიცა",
+        "name:ko": "노바고리차",
+        "name:la": "Goritia Nova",
+        "name:lt": "Nova Gorica",
+        "name:mk": "Нова Горица",
+        "name:pnb": "نووا گوریکا",
+        "name:ru": "Нова-Горица",
+        "name:sl": "Nova Gorica",
+        "name:sr": "Нова Горица",
+        "name:th": "นอวากอรีตซา",
+        "name:tt": "Нова Гориця",
+        "name:uk": "Нова Гориця",
+        "name:ur": "نووا گوریتسا",
+        "name:wuu": "新戈里察",
+        "name:zh-Hans": "新戈里察",
+        "name:zh-Hant": "新哥里察",
+        "place": "town",
+        "population": "13500",
+        "postal_code": "5000",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "website": "https://nova-gorica.si/",
+        "wikidata": "Q1018",
+        "wikipedia": "sl:Nova Gorica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6474706,
+          45.9580549
+        ]
+      },
+      "id": "node/44870243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/53385278",
+        "name": "Brežice",
+        "name:de": "Rann",
+        "name:lt": "Brežicės",
+        "name:ru": "Брежице",
+        "name:sl": "Brežice",
+        "name:sr": "Брежице",
+        "place": "town",
+        "population": "6600",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15858",
+        "wikipedia": "sl:Brežice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5930859,
+          45.9038696
+        ]
+      },
+      "id": "node/53385278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/56699213",
+        "name": "Domžale",
+        "name:de": "Domschale",
+        "name:lt": "Domžalės",
+        "name:ru": "Домжале",
+        "name:sl": "Domžale",
+        "name:sr": "Домжале",
+        "place": "town",
+        "population": "12400",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15865",
+        "wikipedia": "sl:Domžale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5944553,
+          46.1394296
+        ]
+      },
+      "id": "node/56699213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/56742189",
+        "name": "Škofja Loka",
+        "name:de": "Bischoflack",
+        "name:en": "Skofja Loka",
+        "name:lt": "Škofja Loka",
+        "name:ru": "Шкофья-Лока",
+        "name:sl": "Škofja Loka",
+        "name:sr": "Шкофја Лока",
+        "place": "town",
+        "population": "12100",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15922",
+        "wikipedia": "sl:Škofja Loka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3067474,
+          46.165274
+        ]
+      },
+      "id": "node/56742189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/56745686",
+        "name": "Železniki",
+        "name:de": "Eisnern",
+        "name:lt": "Železnikai",
+        "name:ru": "Железники",
+        "name:sl": "Železniki",
+        "name:sr": "Железники",
+        "place": "town",
+        "population": "3100",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q3440936",
+        "wikipedia": "sl:Železniki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1693085,
+          46.2257913
+        ]
+      },
+      "id": "node/56745686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/56749775",
+        "name": "Mengeš",
+        "name:de": "Mannsburg",
+        "name:lt": "Mengešas",
+        "name:ru": "Менгеш",
+        "name:sl": "Mengeš",
+        "name:sr": "Менгеш",
+        "place": "town",
+        "population": "6100",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q3499878",
+        "wikipedia": "sl:Mengeš"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5722166,
+          46.1629579
+        ]
+      },
+      "id": "node/56749775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/56754609",
+        "name": "Medvode",
+        "name:de": "Zwischenwassern",
+        "name:lt": "Medvodės",
+        "name:ru": "Медводе",
+        "name:sl": "Medvode",
+        "name:sr": "Медводе",
+        "place": "town",
+        "population": "5100",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q2094435",
+        "wikipedia": "sl:Medvode"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4130728,
+          46.1402285
+        ]
+      },
+      "id": "node/56754609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/56756021",
+        "name": "Litija",
+        "name:de": "Littai",
+        "name:lt": "Litija",
+        "name:ru": "Лития",
+        "name:sl": "Litija",
+        "name:sr": "Литија",
+        "place": "town",
+        "population": "6500",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q2115226",
+        "wikipedia": "sl:Litija"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8314192,
+          46.0575677
+        ]
+      },
+      "id": "node/56756021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/56756941",
+        "name": "Grosuplje",
+        "name:de": "Großlupp",
+        "name:lt": "Grosuplės",
+        "name:ru": "Гросупле",
+        "name:sl": "Grosuplje",
+        "name:sr": "Гросупље",
+        "place": "town",
+        "population": "7000",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15870",
+        "wikipedia": "sl:Grosuplje"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6554806,
+          45.9571788
+        ]
+      },
+      "id": "node/56756941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/56758589",
+        "alt_name:de": "Wöllan",
+        "name": "Velenje",
+        "name:ar": "فيلينيه",
+        "name:az": "Velenye",
+        "name:be": "Вяленье",
+        "name:bg": "Велене",
+        "name:ce": "Велене",
+        "name:el": "Βελένιε",
+        "name:fa": "ولنیه",
+        "name:hy": "Վելենիե",
+        "name:ja": "ヴェレニエ",
+        "name:ka": "ველენიე",
+        "name:ko": "벨레네",
+        "name:lt": "Velenė",
+        "name:mk": "Велење",
+        "name:os": "Веленье",
+        "name:pnb": "ویلینیو",
+        "name:ru": "Веленье",
+        "name:sl": "Velenje",
+        "name:sr": "Велење",
+        "name:th": "แวแลนิแย",
+        "name:tt": "Велене",
+        "name:uk": "Веленє",
+        "name:zh-Hans": "韦莱涅",
+        "name:zh-Hant": "韋萊涅",
+        "old_name": "Titovo Velenje",
+        "old_name:be": "Цітава Вяленье",
+        "old_name:el": "Τίτοβο Βελένιε;Βελένιε του Τίτο",
+        "old_name:en": "Tito's Velenje",
+        "old_name:hy": "Տիտովո Վելենիե",
+        "old_name:it": "Velenje di Tito",
+        "old_name:ko": "티토보벨레네",
+        "old_name:mk": "Титово Велење",
+        "old_name:sr": "Титово Велење",
+        "old_name:uk": "Тітово Веленє",
+        "place": "town",
+        "population": "25800",
+        "postal_code": "3320",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "website": "https://www.velenje.si/",
+        "wikidata": "Q15928",
+        "wikipedia": "sl:Velenje"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1150301,
+          46.3592869
+        ]
+      },
+      "id": "node/56758589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/57074435",
+        "alt_name:de": "Rudolfswerth;Neustadtl;Neustädtl",
+        "alt_name:he": "העיר החדשה",
+        "alt_name:hu": "Újhely;Újváros",
+        "alt_name:it": "Nuova Città",
+        "alt_name:ja": "ルドルフスヴェルト",
+        "alt_name:ko": "루돌프스베르트",
+        "alt_name:sr": "Нови Град",
+        "alt_name:sr-Latn": "Novi Grad",
+        "alt_name:uk": "Нове Место",
+        "name": "Novo mesto",
+        "name:ar": "نوفو ميتسو",
+        "name:ba": "Ново-Место",
+        "name:be": "Нова-Места",
+        "name:bg": "Ново место",
+        "name:el": "Νόβο Μέστο",
+        "name:en": "Novo Mesto",
+        "name:fa": "نوو مستو",
+        "name:he": "נובו מסטו",
+        "name:hy": "Նովո Մեստո",
+        "name:ja": "ノヴォ・メスト",
+        "name:ka": "ნოვო-მესტო",
+        "name:ko": "노보메스토",
+        "name:lt": "Novo Mestas",
+        "name:mdf": "Ново-Место",
+        "name:mk": "Ново Место",
+        "name:pnb": "نوو مسٹو",
+        "name:ru": "Ново-Место",
+        "name:sl": "Novo mesto",
+        "name:sr": "Ново Место",
+        "name:sr-Latn": "Novo Mesto",
+        "name:th": "นอวอเมสตอ",
+        "name:uk": "Ново Место",
+        "name:ur": "نوو میستو",
+        "name:wuu": "新梅斯托",
+        "name:xmf": "ნოვო-მესტო",
+        "name:zh": "新梅斯托",
+        "old_name:de": "Růdolfswerde;Rudolfswerd;Ruodolphswert",
+        "place": "town",
+        "population": "23200",
+        "postal_code": "8000",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "website": "https://www.novomesto.si/",
+        "wikidata": "Q5266",
+        "wikipedia": "sl:Novo mesto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1696684,
+          45.8040475
+        ]
+      },
+      "id": "node/57074435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/57076536",
+        "name": "Trebnje",
+        "name:de": "Treffen",
+        "name:lt": "Trebnė",
+        "name:ru": "Требне",
+        "name:sl": "Trebnje",
+        "name:sr": "Требње",
+        "place": "town",
+        "population": "3927",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15926",
+        "wikipedia": "sl:Trebnje"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0071462,
+          45.9079394
+        ]
+      },
+      "id": "node/57076536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/57082764",
+        "alt_name:sq": "Kërshko",
+        "name": "Krško",
+        "name:ar": "كرشكو",
+        "name:be": "Кршко",
+        "name:bg": "Кръшко",
+        "name:ca": "Krsko",
+        "name:ce": "Кршко",
+        "name:de": "Gurkfeld",
+        "name:fa": "کرشکو",
+        "name:he": "קרשקו",
+        "name:ja": "クルシュコ",
+        "name:ko": "크르슈코",
+        "name:la": "Gurkfeldum",
+        "name:lt": "Krškas",
+        "name:mk": "Кршко",
+        "name:pnb": "کرسکو",
+        "name:ru": "Кршко",
+        "name:sl": "Krško",
+        "name:sr": "Кршко",
+        "name:tt": "Кршко",
+        "name:uk": "Кршко",
+        "name:ur": "کرشکو",
+        "name:zh-Hans": "克尔什科",
+        "name:zh-Hant": "克爾什科",
+        "place": "town",
+        "population": "7097",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "website": "https://www.krsko.si/",
+        "wikidata": "Q15886",
+        "wikipedia": "sl:Krško"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4946767,
+          45.9576446
+        ]
+      },
+      "id": "node/57082764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/57091263",
+        "alt_name:de": "Trifail",
+        "alt_name:la": "Triuella",
+        "alt_name:uk": "Трбовле",
+        "name": "Trbovlje",
+        "name:ar": "تربوفلجه",
+        "name:be": "Трбоўле",
+        "name:bg": "Тръбволе",
+        "name:ce": "Трбовле",
+        "name:el": "Τρμπόβλιε",
+        "name:fa": "تربولیه",
+        "name:hy": "Տրբովլե",
+        "name:ja": "トルボヴリェ",
+        "name:ka": "ტრბოვლიე",
+        "name:ko": "트르보블레",
+        "name:la": "Castrum Tiuelis",
+        "name:lt": "Trbovlės",
+        "name:mk": "Трбовље",
+        "name:mn": "Трбовле",
+        "name:ru": "Трбовле",
+        "name:sl": "Trbovlje",
+        "name:sr": "Трбовље",
+        "name:tt": "Трбовле",
+        "name:uk": "Трбовлє",
+        "name:ur": "تربوولیے",
+        "name:zh-Hans": "特尔伯夫列",
+        "name:zh-Hant": "特爾伯夫列",
+        "place": "town",
+        "population": "15500",
+        "postal_code": "1420",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "website": "https://www.trbovlje.si/",
+        "wikidata": "Q8011202",
+        "wikipedia": "sl:Trbovlje"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0540204,
+          46.1558964
+        ]
+      },
+      "id": "node/57091263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/57091407",
+        "ele": "296",
+        "name": "Hrastnik",
+        "name:de": "Eichthal",
+        "name:lt": "Chrastnikas",
+        "name:ru": "Храстник",
+        "name:sl": "Hrastnik",
+        "name:sr": "Храстник",
+        "place": "town",
+        "population": "5700",
+        "postal_code": "1430",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15871",
+        "wikipedia": "sl:Hrastnik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0817358,
+          46.1456196
+        ]
+      },
+      "id": "node/57091407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/57091710",
+        "name": "Zagorje ob Savi",
+        "name:de": "Seger an der Sau",
+        "name:lt": "Zagorė prie Savos",
+        "name:ru": "Загорье-об-Сави",
+        "name:sl": "Zagorje ob Savi",
+        "name:sr": "Загорје об Сави",
+        "place": "town",
+        "population": "6500",
+        "postal_code": "1410",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15930",
+        "wikipedia": "sl:Zagorje ob Savi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9952714,
+          46.1342168
+        ]
+      },
+      "id": "node/57091710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/57091959",
+        "ele": "194",
+        "name": "Radeče",
+        "name:de": "Ratschach",
+        "name:ru": "Радече",
+        "name:sl": "Radeče",
+        "name:sr": "Радече",
+        "place": "town",
+        "population": "2296",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15908",
+        "wikipedia": "sl:Radeče"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1818757,
+          46.0661317
+        ]
+      },
+      "id": "node/57091959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/57092168",
+        "name": "Sevnica",
+        "name:de": "Lichtenwald",
+        "name:lt": "Sevnica",
+        "name:ru": "Севница",
+        "name:sl": "Sevnica",
+        "name:sr": "Севница",
+        "place": "town",
+        "population": "4700",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15915",
+        "wikipedia": "sl:Sevnica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3037138,
+          46.0097431
+        ]
+      },
+      "id": "node/57092168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/57096731",
+        "name": "Črnomelj",
+        "name:ar": "تشرنملي",
+        "name:ce": "Чрномель",
+        "name:de": "Tschernembl",
+        "name:fa": "چرنملی",
+        "name:it": "Cernomegli",
+        "name:ja": "チュルノメリ",
+        "name:ko": "치르노멜",
+        "name:lt": "Črnomelis",
+        "name:mk": "Чрномељ",
+        "name:ru": "Чрномель",
+        "name:sl": "Črnomelj",
+        "name:sr": "Чрномељ",
+        "name:tt": "Чрномель",
+        "name:uk": "Чрномель",
+        "name:ur": "چرنومیل",
+        "name:zh-Hans": "奇尔诺梅利",
+        "name:zh-Hant": "奇爾諾梅利",
+        "old_name:sl": "Černomelj",
+        "place": "town",
+        "population": "5800",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "website": "https://www.crnomelj.si/",
+        "wikidata": "Q15861",
+        "wikipedia": "sl:Črnomelj"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1923324,
+          45.5700965
+        ]
+      },
+      "id": "node/57096731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/57099014",
+        "alt_name:bg": "Готшее",
+        "alt_name:de": "Gottschee",
+        "alt_name:it": "Cocevie",
+        "alt_name:ko": "고체;코체비에",
+        "alt_name:mk": "Готче",
+        "alt_name:ru": "Готшее",
+        "name": "Kočevje",
+        "name:be": "Кочаўе",
+        "name:bg": "Кочеве",
+        "name:ce": "Кочевье",
+        "name:de": "Gottschee",
+        "name:el": "Κοτσέβιε",
+        "name:ja": "コチェーヴィエ",
+        "name:ko": "코체베",
+        "name:lt": "Kočevė",
+        "name:mk": "Кочевје",
+        "name:ru": "Кочевье",
+        "name:sl": "Kočevje",
+        "name:sr": "Кочевје",
+        "name:th": "คอเชวิแย",
+        "name:tt": "Кочевье",
+        "name:uk": "Кочев'є",
+        "name:zh-Hans": "科切维",
+        "name:zh-Hant": "科切維",
+        "old_name:de": "Göttscheab;Gətscheab",
+        "place": "town",
+        "population": "8800",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "website": "https://www.kocevje.si/",
+        "wikidata": "Q12958961",
+        "wikipedia": "sl:Kočevje"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8552701,
+          45.6430266
+        ]
+      },
+      "id": "node/57099014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/57099335",
+        "name": "Ribnica",
+        "name:de": "Reifnitz",
+        "name:ru": "Рибница",
+        "name:sl": "Ribnica",
+        "name:sr": "Рибница",
+        "place": "town",
+        "population": "3600",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q2596325",
+        "wikipedia": "sl:Ribnica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7261067,
+          45.7399923
+        ]
+      },
+      "id": "node/57099335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/57102712",
+        "addr:postcode": "1360",
+        "name": "Vrhnika",
+        "name:de": "Oberlaibach",
+        "name:it": "Nauporto",
+        "name:la": "Nauportus",
+        "name:ru": "Врхника",
+        "name:sl": "Vrhnika",
+        "name:sr": "Врхника",
+        "place": "town",
+        "population": "8200",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q438",
+        "wikipedia": "sl:Vrhnika"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2980772,
+          45.9663607
+        ]
+      },
+      "id": "node/57102712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/57103061",
+        "name": "Logatec",
+        "name:de": "Loitsch",
+        "name:it": "Longatico",
+        "name:la": "Longaticum",
+        "name:ru": "Логатец",
+        "name:sl": "Logatec",
+        "name:sr": "Логатец",
+        "note": "Don't use old_name=* without relative name=*. If you don't use a name in a language, it doesn't mean it is no more used. Moreover also Latin is no more used, but it's not correct to define it with old_name:la, it's simply name:la.",
+        "place": "town",
+        "population": "8800",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q2752423",
+        "wikipedia": "sl:Logatec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2233802,
+          45.9178067
+        ]
+      },
+      "id": "node/57103061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/64001817",
+        "alt_name:bg": "Виндишгрец",
+        "alt_name:cs": "Slovinský Hradec",
+        "alt_name:de": "Windischgraz",
+        "alt_name:la": "Graecium Slovenum",
+        "is_in:country": "Slovenia",
+        "is_in:country_code": "SI",
+        "name": "Slovenj Gradec",
+        "name:ar": "سلوفينج غرادتس",
+        "name:ba": "Словень-Градец",
+        "name:be": "Словень-Градэц",
+        "name:bg": "Словен градец",
+        "name:ce": "Словень Градець",
+        "name:el": "Σλοβένι Γκράντετς",
+        "name:fa": "سلونی گرادتس",
+        "name:hy": "Սլովեն Գրադեց",
+        "name:ja": "スロヴェニ・グラデツ",
+        "name:ko": "슬로벤그라데츠",
+        "name:la": "Colatio",
+        "name:lt": "Sloven Gradecas",
+        "name:mk": "Словењ Градец",
+        "name:ru": "Словень-Градец",
+        "name:sl": "Slovenj Gradec",
+        "name:sr": "Словењ Градец",
+        "name:th": "สลอเวงกราเดิตส์",
+        "name:tt": "Словень Градець",
+        "name:uk": "Словень Градець",
+        "name:zh-Hans": "斯洛文尼亚格拉代茨",
+        "name:zh-Hant": "斯洛維尼亞格拉代茨",
+        "old_name:de": "Windischgrätz",
+        "place": "town",
+        "population": "7500",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "website": "https://www.slovenjgradec.si/",
+        "wikidata": "Q15918",
+        "wikipedia": "sl:Slovenj Gradec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0790677,
+          46.509144
+        ]
+      },
+      "id": "node/64001817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/64002482",
+        "ele": "390.4",
+        "is_in:country": "Slovenia",
+        "is_in:country_code": "SI",
+        "name": "Dravograd",
+        "name:ru": "Дравоград",
+        "name:sl": "Dravograd",
+        "name:sr": "Дравоград",
+        "old_name:de": "Unterdrauburg",
+        "place": "town",
+        "population": "3088",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15867",
+        "wikipedia": "sl:Dravograd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0235456,
+          46.5896276
+        ]
+      },
+      "id": "node/64002482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/83450062",
+        "name": "Šentjur",
+        "name:de": "Sankt Georgen bei Cilli",
+        "name:sl": "Šentjur",
+        "name:sr": "Шентјур",
+        "place": "town",
+        "population": "4700",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15921",
+        "wikipedia": "sl:Šentjur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3937905,
+          46.2168375
+        ]
+      },
+      "id": "node/83450062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/87279980",
+        "ele": "553.4",
+        "name": "Cerknica",
+        "name:de": "Zirknitz",
+        "name:it": "Circonio",
+        "name:ru": "Церкница",
+        "name:sl": "Cerknica",
+        "name:sr": "Церкница",
+        "place": "town",
+        "population": "3900",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15860",
+        "wikipedia": "sl:Cerknica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.361883,
+          45.7936578
+        ]
+      },
+      "id": "node/87279980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/88222100",
+        "alt_name:bg": "Аслинг",
+        "alt_name:de": "Aßling",
+        "alt_name:ko": "아슬링",
+        "ele": "576",
+        "name": "Jesenice",
+        "name:ar": "جيسينتسي",
+        "name:be": "Есеніцы",
+        "name:bg": "Йесенице",
+        "name:ce": "Есенице",
+        "name:fa": "یسنیتسه",
+        "name:hy": "Եսենիցե",
+        "name:ja": "イェセニツェ",
+        "name:ka": "ესენიცე",
+        "name:ko": "예세니체",
+        "name:lt": "Jesenicės",
+        "name:mk": "Јесенице",
+        "name:ru": "Есенице",
+        "name:sl": "Jesenice",
+        "name:sr": "Јесенице",
+        "name:tt": "Есенице",
+        "name:uk": "Єсениці",
+        "name:ur": "یسینیتسے",
+        "name:zh": "耶塞尼采",
+        "place": "town",
+        "population": "13400",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "website": "https://www.jesenice.si/",
+        "wikidata": "Q4165497",
+        "wikipedia": "sl:Jesenice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0623337,
+          46.4323791
+        ]
+      },
+      "id": "node/88222100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/95920483",
+        "name": "Gornja Radgona",
+        "name:de": "Oberradkersburg",
+        "name:hu": "Felsőregede",
+        "name:ru": "Горня-Радгона",
+        "name:sl": "Gornja Radgona",
+        "name:sr": "Горња Радгона",
+        "place": "town",
+        "population": "3200",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15868",
+        "wikipedia": "sl:Gornja Radgona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9913176,
+          46.6769963
+        ]
+      },
+      "id": "node/95920483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/96028058",
+        "ele": "307.7",
+        "name": "Ruše",
+        "name:en": "Ruše",
+        "name:ru": "Руше",
+        "name:sl": "Ruše",
+        "name:sr": "Руше",
+        "old_name:de": "Maria Rast",
+        "place": "town",
+        "population": "4500",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15914",
+        "wikipedia": "sl:Ruše"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5139415,
+          46.5386688
+        ]
+      },
+      "id": "node/96028058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/96591043",
+        "ele": "218",
+        "name": "Ormož",
+        "name:de": "Friedau",
+        "name:hu": "Ormosd",
+        "name:ru": "Ормож",
+        "name:sl": "Ormož",
+        "name:sr": "Ормож",
+        "place": "town",
+        "population": "1914",
+        "population:date": "2022",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q1944509",
+        "wikipedia": "sl:Ormož"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1489979,
+          46.4072568
+        ]
+      },
+      "id": "node/96591043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/96959453",
+        "name": "Šoštanj",
+        "name:de": "Schönstein",
+        "name:ru": "Шоштань",
+        "name:sl": "Šoštanj",
+        "name:sr": "Шоштањ",
+        "place": "town",
+        "population": "2900",
+        "source:population": "http://www.stat.si/KrajevnaImena/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0459505,
+          46.3773929
+        ]
+      },
+      "id": "node/96959453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/160235617",
+        "name": "Lenart v Slovenskih goricah",
+        "name:de": "Sankt Leonhard in Windischbüheln",
+        "name:ru": "Ленарт",
+        "name:sl": "Lenart v Slovenskih goricah",
+        "name:sr": "Ленарт в Словенских Горицах",
+        "place": "town",
+        "population": "3184",
+        "short_name": "Lenart",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15889",
+        "wikipedia": "sl:Lenart v Slovenskih goricah"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.830971,
+          46.5763667
+        ]
+      },
+      "id": "node/160235617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/203397917",
+        "ele": "161",
+        "name": "Lendava / Lendva",
+        "name:de": "Unter-Limbach",
+        "name:hu": "Lendva",
+        "name:ru": "Лендава",
+        "name:sl": "Lendava",
+        "name:sr": "Лендава",
+        "old_name:hu": "Alsólendva",
+        "place": "town",
+        "population": "2954",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "website": "https://www.lendava.si/",
+        "wikidata": "Q15890",
+        "wikipedia": "en:Lendava"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4526468,
+          46.5639639
+        ]
+      },
+      "id": "node/203397917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/206182471",
+        "name": "Rogaška Slatina",
+        "name:ru": "Рогашка-Слатина",
+        "name:sl": "Rogaška Slatina",
+        "name:sr": "Рогашка Слатина",
+        "old_name:de": "Rohitsch-Sauerbrunn",
+        "place": "town",
+        "population": "5200",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q3502521",
+        "wikipedia": "sl:Rogaška Slatina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6384369,
+          46.2329898
+        ]
+      },
+      "id": "node/206182471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/264999178",
+        "alt_name:de": "Markt Tüffer",
+        "name": "Laško",
+        "name:ru": "Лашко",
+        "name:sl": "Laško",
+        "name:sr": "Лашко",
+        "old_name:de": "Tüffer",
+        "place": "town",
+        "population": "3500",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q1292940",
+        "wikipedia": "sl:Laško"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2354706,
+          46.1537984
+        ]
+      },
+      "id": "node/264999178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/268436671",
+        "ele": "175.1",
+        "name": "Ljutomer",
+        "name:de": "Luttenberg in der Steiermark",
+        "name:ru": "Лютомер",
+        "name:sl": "Ljutomer",
+        "name:sr": "Љутомер",
+        "place": "town",
+        "population": "3400",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q13377820",
+        "wikipedia": "sl:Ljutomer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1967404,
+          46.5187046
+        ]
+      },
+      "id": "node/268436671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/279372024",
+        "name": "Žalec",
+        "name:de": "Sachsenfeld",
+        "name:ru": "Жалец",
+        "name:sl": "Žalec",
+        "name:sr": "Жалец",
+        "place": "town",
+        "population": "5000",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q631387",
+        "wikipedia": "sl:Žalec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1632057,
+          46.2517774
+        ]
+      },
+      "id": "node/279372024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/280339374",
+        "name": "Radovljica",
+        "name:de": "Radmannsdorf",
+        "name:ru": "Радовлица",
+        "name:sl": "Radovljica",
+        "name:sr": "Радовљица",
+        "place": "town",
+        "population": "6000",
+        "source": "landsat",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q604194",
+        "wikipedia": "sl:Radovljica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1720227,
+          46.343509
+        ]
+      },
+      "id": "node/280339374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/287385515",
+        "name": "Mežica",
+        "name:ru": "Межица",
+        "name:sl": "Mežica",
+        "name:sr": "Межица",
+        "old_name:de": "Mießdorf",
+        "place": "town",
+        "population": "3400",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15898",
+        "wikipedia": "sl:Mežica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8521528,
+          46.5195022
+        ]
+      },
+      "id": "node/287385515"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/287387287",
+        "name": "Ravne na Koroškem",
+        "name:ru": "Равне-на-Корошкем",
+        "name:sl": "Ravne na Koroškem",
+        "name:sr": "Равне на Корошкем",
+        "old_name": "Guštanj",
+        "old_name:de": "Gutenstein",
+        "place": "town",
+        "population": "7000",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15911",
+        "wikipedia": "sl:Ravne na Koroškem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9622863,
+          46.5446516
+        ]
+      },
+      "id": "node/287387287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/288997618",
+        "name": "Tolmin",
+        "name:de": "Tolmein",
+        "name:fur": "Tulmin",
+        "name:it": "Tolmino",
+        "name:ru": "Толмин",
+        "name:sl": "Tolmin",
+        "name:sr": "Толмин",
+        "old_name:it": "Tulmino",
+        "place": "town",
+        "population": "3600",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q8011223",
+        "wikipedia": "sl:Tolmin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7328983,
+          46.1828005
+        ]
+      },
+      "id": "node/288997618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/290381247",
+        "alt_name:la": "Idria;Hydria Superior;Idria Superior",
+        "ele": "334",
+        "name": "Idrija",
+        "name:ar": "إيدرييا",
+        "name:az": "İdriya",
+        "name:ce": "Идрия",
+        "name:de": "Idria",
+        "name:fa": "ایدرییا",
+        "name:he": "אידריה",
+        "name:hy": "Իդրիա",
+        "name:it": "Idria",
+        "name:ja": "イドリヤ",
+        "name:ka": "იდრია",
+        "name:ko": "이드리야",
+        "name:la": "Hydria",
+        "name:mk": "Идрија",
+        "name:ru": "Идрия",
+        "name:sl": "Idrija",
+        "name:sr": "Идрија",
+        "name:sr-Latn": "Idrija",
+        "name:tt": "Идрия",
+        "name:uk": "Ідрія",
+        "name:xmf": "იიდრიია",
+        "name:zh-Hans": "伊德里亚",
+        "name:zh-Hant": "伊德里亞",
+        "old_name": "Zgornja Idrija",
+        "place": "town",
+        "population": "6000",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15875",
+        "wikipedia": "sl:Idrija"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0273014,
+          46.0023983
+        ]
+      },
+      "id": "node/290381247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/290421432",
+        "ele": "415",
+        "name": "Prevalje",
+        "name:ru": "Превале",
+        "name:sl": "Prevalje",
+        "name:sr": "Преваље",
+        "old_name:de": "Prävali",
+        "place": "town",
+        "population": "4700",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15905",
+        "wikipedia": "sl:Prevalje"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9169796,
+          46.5460617
+        ]
+      },
+      "id": "node/290421432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/307824253",
+        "name": "Višnja Gora",
+        "name:de": "Weixelburg",
+        "name:ru": "Вишня-Гора",
+        "name:sl": "Višnja Gora",
+        "name:sr": "Вишња Гора",
+        "place": "town",
+        "population": "1090",
+        "population:date": "2020",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15929",
+        "wikipedia": "sl:Višnja Gora"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7440991,
+          45.9554365
+        ]
+      },
+      "id": "node/307824253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/387482821",
+        "alt_name": "Kostanjevica ob Krki",
+        "alt_name:sl": "Dolenjske Benetke",
+        "name": "Kostanjevica na Krki",
+        "name:ru": "Костаневица-на-Крки",
+        "name:sl": "Kostanjevica na Krki",
+        "name:sr": "Костањевица на Крки",
+        "old_name:de": "Landstraß an der Gurk",
+        "place": "town",
+        "population": "729",
+        "source:population": "https://www.stat.si/StatWeb/News/Index/8135",
+        "wikidata": "Q15885",
+        "wikipedia": "sl:Kostanjevica na Krki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4202287,
+          45.8456674
+        ]
+      },
+      "id": "node/387482821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/475065211",
+        "name": "Sežana",
+        "name:de": "Zizan",
+        "name:it": "Sesana",
+        "name:ru": "Сежана",
+        "name:sl": "Sežana",
+        "name:sr": "Сежана",
+        "old_name:it": "Sesana",
+        "place": "town",
+        "population": "5500",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15916",
+        "wikipedia": "sl:Sežana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8730989,
+          45.7091799
+        ]
+      },
+      "id": "node/475065211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/862116228",
+        "alt_name:de": "Feldes;Veldes",
+        "alt_name:it": "Bleda",
+        "alt_name:ko": "펠데스",
+        "name": "Bled",
+        "name:ar": "بليد",
+        "name:ba": "Блед",
+        "name:bg": "Блед",
+        "name:fa": "بلد",
+        "name:he": "בלד",
+        "name:hy": "Բլեդ",
+        "name:it": "Bled",
+        "name:ja": "ブレッド",
+        "name:ko": "블레트",
+        "name:lt": "Bledas",
+        "name:mk": "Блед",
+        "name:ru": "Блед",
+        "name:sl": "Bled",
+        "name:sr": "Блед",
+        "name:uk": "Блед",
+        "name:ur": "بلیت",
+        "name:zh-Hans": "布莱德",
+        "name:zh-Hant": "布萊德",
+        "old_name": "Ueldes",
+        "place": "town",
+        "population": "5200",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "website": "https://www.e-bled.si/",
+        "wikidata": "Q202852",
+        "wikipedia": "sl:Bled"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1100595,
+          46.3684202
+        ]
+      },
+      "id": "node/862116228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1147409484",
+        "ele": "72",
+        "name": "Šempeter pri Gorici",
+        "name:de": "Sankt Peter",
+        "name:it": "San Pietro di Gorizia",
+        "name:sl": "Šempeter pri Gorici",
+        "name:sr": "Шемпетер при Горици",
+        "place": "town",
+        "population": "3694",
+        "postal_code": "5290",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15853",
+        "wikipedia": "it:San Pietro (San Pietro-Vertoiba)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6398587,
+          45.9303401
+        ]
+      },
+      "id": "node/1147409484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1603396944",
+        "alt_name:it": "Villa del Nevoso",
+        "alt_name:ko": "일뤼리슈파이스트리츠;빌라델네보소",
+        "alt_name:la": "Villa Montis Albii",
+        "alt_name:sq": "Bistrica ilire;Lumbardhi ilir",
+        "name": "Ilirska Bistrica",
+        "name:ar": "إيليرسكا بيتريسا",
+        "name:ce": "Илирська Бистриця",
+        "name:de": "Illyrisch Feistritz",
+        "name:fa": "ایلیرسکا بیتریتسا",
+        "name:it": "Bisterza",
+        "name:ja": "イリルスカ・ビストリツァ",
+        "name:ko": "일리르스카비스트리차",
+        "name:la": "Bistertia Illyrica",
+        "name:mk": "Илирска Бистрица",
+        "name:ru": "Илирска-Бистрица",
+        "name:sl": "Ilirska Bistrica",
+        "name:sr": "Илирска Бистрица",
+        "name:tt": "Илирська Бистриця",
+        "name:uk": "Ілірська Бистриця",
+        "name:vec": "Bisterza",
+        "name:zh-Hans": "伊利尔斯卡比斯特里察",
+        "name:zh-Hant": "伊利爾斯卡比斯特里察",
+        "place": "town",
+        "population": "4600",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "website": "https://www.ilirska-bistrica.si/",
+        "wikidata": "Q15876",
+        "wikipedia": "sl:Ilirska Bistrica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2453318,
+          45.5636618
+        ]
+      },
+      "id": "node/1603396944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1640456909",
+        "alt_name:hy": "Կապոդիստրիա",
+        "alt_name:la": "Caput Histriae;Capris;Capraria;Caprea",
+        "alt_name:sr": "Копер",
+        "alt_name:th": "กาโปดิสเตรีย",
+        "int_name": "Koper",
+        "name": "Koper / Capodistria",
+        "name:ar": "كوبر",
+        "name:ba": "Копер",
+        "name:be": "Копер",
+        "name:bg": "Копер",
+        "name:da": "Koper",
+        "name:el": "Κόπερ",
+        "name:fa": "کوپر",
+        "name:fur": "Cjaudistrie",
+        "name:he": "קופר",
+        "name:hr": "Kopar",
+        "name:hy": "Կոպեր",
+        "name:it": "Capodistria",
+        "name:ja": "コペル",
+        "name:ka": "კოპერი",
+        "name:ko": "코페르",
+        "name:la": "Iustinopolis",
+        "name:lt": "Koperis",
+        "name:lv": "Kopera",
+        "name:mk": "Копер",
+        "name:pnb": "کوپر",
+        "name:ps": "کپر",
+        "name:ru": "Копер",
+        "name:sl": "Koper",
+        "name:sr": "Копар",
+        "name:th": "โคเปอร์",
+        "name:uk": "Копер",
+        "name:ur": "کوپر",
+        "name:vec": "Capodistria",
+        "name:wuu": "科佩尔",
+        "name:zh-Hans": "科佩尔",
+        "name:zh-Hant": "科佩爾",
+        "old_name": "Capodistria",
+        "old_name:de": "Gafers",
+        "place": "town",
+        "population": "24900",
+        "postal_code": "6000",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "website": "https://www.koper.si/",
+        "wikidata": "Q1015",
+        "wikipedia": "sl:Koper"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7304781,
+          45.5479864
+        ]
+      },
+      "id": "node/1640456909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1698217078",
+        "name": "Zreče",
+        "name:de": "Rötschach bei Gobonitz",
+        "name:ru": "Зрече",
+        "name:sr": "Зрече",
+        "place": "town",
+        "population": "2935"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3900185,
+          46.3716354
+        ]
+      },
+      "id": "node/1698217078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2548559572",
+        "ele": "175.5",
+        "name": "Metlika",
+        "name:de": "Möttling",
+        "name:ru": "Метлика",
+        "name:sl": "Metlika",
+        "name:sr": "Метлика",
+        "old_name:de": "Merling",
+        "place": "town",
+        "population": "3206"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3174483,
+          45.6501029
+        ]
+      },
+      "id": "node/2548559572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3426274016",
+        "name": "Žiri",
+        "name:de": "Sairach",
+        "name:ru": "Жири",
+        "name:sl": "Žiri",
+        "name:sr": "Жири",
+        "place": "town",
+        "population": "3600",
+        "source:population": "http://www.stat.si/KrajevnaImena/",
+        "wikidata": "Q15933",
+        "wikipedia": "sl:Žiri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1106226,
+          46.0510703
+        ]
+      },
+      "id": "node/3426274016"
+    }
+  ]
+}
