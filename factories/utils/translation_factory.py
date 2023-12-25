@@ -46,7 +46,7 @@ class TranslationFactory:
         for meeting_id in meeting_ids:
             language_id = choice(list(self.languages.keys()))
             translator_id = choice(self.languages[language_id])
-            translation = self.fake.paragraph(nb_sentences=randrange(100, 1000)) if randrange(10) < 9 else None
+            translation = self.fake.paragraph(nb_sentences=randrange(50, 200)) if randrange(10) < 9 else None
 
             self.cursor.execute(f"""
                 INSERT INTO {self.schema}.meeting_translations (meeting_id, language_id, translator_id, translation)
