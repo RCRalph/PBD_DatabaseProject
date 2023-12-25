@@ -66,13 +66,13 @@ class PassesAndPresenceFactory:
         self.student_meetings = list(map(lambda x: StudentMeeting(x[0], x[1]), cursor.fetchall()))
 
         cursor.execute(f"""
-            SELECT rcralph_test.courses.activity_id
-            FROM rcralph_test.courses
-                JOIN rcralph_test.products ON rcralph_test.courses.activity_id = rcralph_test.products.activity_id
+            SELECT {schema}.courses.activity_id
+            FROM {schema}.courses
+                JOIN {schema}.products ON {schema}.courses.activity_id = {schema}.products.activity_id
             UNION
-            SELECT rcralph_test.meetings.activity_id
-            FROM rcralph_test.meetings
-                JOIN rcralph_test.products ON rcralph_test.meetings.activity_id = rcralph_test.products.activity_id
+            SELECT {schema}.meetings.activity_id
+            FROM {schema}.meetings
+                JOIN {schema}.products ON {schema}.meetings.activity_id = {schema}.products.activity_id
         """)
 
         self.products = list(map(lambda x: x[0], cursor.fetchall()))
