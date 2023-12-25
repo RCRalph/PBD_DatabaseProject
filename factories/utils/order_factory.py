@@ -61,7 +61,7 @@ class OrderFactory:
 
     def generate_order(self):
         student_id = choice(self.students)
-        payment_url = self.fake.uri()
+        payment_url = self.fake.unique.uri()
         order_date = datetime.today() - timedelta(days=randrange(3650))
 
         self.cursor.execute(f"""
