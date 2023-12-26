@@ -219,7 +219,7 @@ class ActivityFactory:
             """, course_id, coordinator_id)
 
             module_count = randrange(3, 10)
-            start_date = datetime.today() - timedelta(days=3650)
+            start_date = datetime.today() - timedelta(days=randrange(3650))
             total_meeting_count = randrange(module_count * 2, module_count * 4)
             end_date = start_date + timedelta(days=randrange(total_meeting_count // 5, total_meeting_count) + 1)
 
