@@ -33,34 +33,51 @@ class PassesAndPresenceFactory:
         self.fake = Faker("pl_PL")
 
         cursor.execute(f"""
-            SELECT {schema}.orders.student_id, {schema}.study_modules.activity_id
+            SELECT DISTINCT {schema}.orders.student_id, {schema}.study_modules.activity_id
             FROM {schema}.order_details
                 JOIN {schema}.orders ON {schema}.order_details.order_id = {schema}.orders.id
                 JOIN {schema}.studies ON {schema}.order_details.product_id = {schema}.studies.activity_id
                 JOIN {schema}.study_modules ON {schema}.studies.activity_id = {schema}.study_modules.study_id
+            WHERE NOT EXISTS (
+                SELECT {schema}.study_module_passes.student_id, {schema}.study_module_passes.module_id
+                FROM {schema}.study_module_passes
+                WHERE {schema}.study_module_passes.student_id = {schema}.orders.student_id
+                    AND {schema}.study_module_passes.module_id = {schema}.study_modules.activity_id
+            )
         """)
 
         self.student_modules = list(map(lambda x: StudentModule(x[0], x[1]), cursor.fetchall()))
 
         cursor.execute(f"""
-            SELECT {schema}.orders.student_id, {schema}.study_meetings.meeting_id
-            FROM {schema}.order_details
-                JOIN {schema}.orders ON {schema}.order_details.order_id = {schema}.orders.id
-                JOIN {schema}.studies ON {schema}.order_details.product_id = {schema}.studies.activity_id
-                JOIN {schema}.study_modules ON {schema}.studies.activity_id = {schema}.study_modules.study_id
-                JOIN {schema}.study_meetings ON {schema}.study_modules.activity_id = {schema}.study_meetings.module_id
-            UNION
-            SELECT orders.student_id, module_meetings.meeting_id
-            FROM {schema}.order_details
-                JOIN {schema}.orders ON {schema}.order_details.order_id = {schema}.orders.id
-                JOIN {schema}.courses ON {schema}.order_details.product_id = {schema}.courses.activity_id
-                JOIN {schema}.course_modules ON {schema}.courses.activity_id = {schema}.course_modules.course_id
-                JOIN {schema}.module_meetings ON {schema}.course_modules.activity_id = {schema}.module_meetings.module_id
-            UNION
-            SELECT orders.student_id, meetings.activity_id
-            FROM {schema}.order_details
-                JOIN {schema}.orders ON {schema}.order_details.order_id = {schema}.orders.id
-                JOIN {schema}.meetings ON {schema}.order_details.product_id = {schema}.meetings.activity_id
+            WITH meeting_students (student_id, meeting_id) AS (
+                SELECT {schema}.orders.student_id, {schema}.study_meetings.meeting_id
+                FROM {schema}.order_details
+                    JOIN {schema}.orders ON {schema}.order_details.order_id = {schema}.orders.id
+                    JOIN {schema}.studies ON {schema}.order_details.product_id = {schema}.studies.activity_id
+                    JOIN {schema}.study_modules ON {schema}.studies.activity_id = {schema}.study_modules.study_id
+                    JOIN {schema}.study_meetings ON {schema}.study_modules.activity_id = {schema}.study_meetings.module_id
+                UNION
+                SELECT {schema}.orders.student_id, {schema}.module_meetings.meeting_id
+                FROM order_details
+                    JOIN {schema}.orders ON {schema}.order_details.order_id = {schema}.orders.id
+                    JOIN {schema}.courses ON {schema}.order_details.product_id = {schema}.courses.activity_id
+                    JOIN {schema}.course_modules ON {schema}.courses.activity_id = {schema}.course_modules.course_id
+                    JOIN {schema}.module_meetings ON {schema}.course_modules.activity_id = {schema}.module_meetings.module_id
+                UNION
+                SELECT {schema}.orders.student_id, {schema}.meetings.activity_id
+                FROM order_details
+                    JOIN {schema}.orders ON {schema}.order_details.order_id = {schema}.orders.id
+                    JOIN {schema}.meetings ON {schema}.order_details.product_id = {schema}.meetings.activity_id
+            )
+
+            SELECT meeting_students.student_id, meeting_students.meeting_id
+            FROM meeting_students
+            WHERE NOT EXISTS (
+                SELECT {schema}.meeting_presence.student_id, {schema}.meeting_presence.meeting_id
+                FROM {schema}.meeting_presence
+                WHERE {schema}.meeting_presence.student_id = meeting_students.student_id
+                    AND {schema}.meeting_presence.meeting_id = meeting_students.meeting_id
+            )
         """)
 
         self.student_meetings = list(map(lambda x: StudentMeeting(x[0], x[1]), cursor.fetchall()))

@@ -38,12 +38,12 @@ with pyodbc.connect(connection_string, autocommit=True) as connection:
     activity_factory.generate_studies(50)
 
     translation_factory = TranslationFactory(cursor, schema)
-    translation_factory.generate_translations(0.1)
+    translation_factory.generate_translations(0.01)
 
     order_factory = OrderFactory(cursor, schema)
     order_factory.generate_shopping_cart(10000)
-    order_factory.generate_orders(5000)
+    order_factory.generate_orders(15000)
 
     passes_and_presence_factory = PassesAndPresenceFactory(cursor, schema)
     passes_and_presence_factory.generate_passes(0.95)
-    passes_and_presence_factory.generate_presence(0.95, 0.05)
+    passes_and_presence_factory.generate_presence(0.9, 0.05)
