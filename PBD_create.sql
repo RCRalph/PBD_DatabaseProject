@@ -1,5 +1,5 @@
 -- Created by Vertabelo (http://vertabelo.com)
--- Last modification date: 2023-12-24 11:51:08.662
+-- Last modification date: 2023-12-27 12:29:36.663
 
 -- tables
 -- Table: activities
@@ -109,12 +109,11 @@ CREATE TABLE meeting_schedule (
     CONSTRAINT meeting_schedule_pk PRIMARY KEY  (meeting_id)
 );
 
--- Table: meeting_translations
-CREATE TABLE meeting_translations (
+-- Table: meeting_translators
+CREATE TABLE meeting_translators (
     meeting_id int  NOT NULL,
-    language_id int  NOT NULL,
     translator_id int  NOT NULL,
-    translation nvarchar(max)  NULL,
+    language_id int  NOT NULL,
     CONSTRAINT translations_pk PRIMARY KEY  (meeting_id)
 );
 
@@ -158,8 +157,8 @@ CREATE TABLE online_platforms (
 CREATE TABLE online_synchronous_meetings (
     meeting_id int  NOT NULL,
     platform_id int  NOT NULL,
-    meeting_url nvarchar(128)  NULL,
-    recording_url nvarchar(128)  NULL,
+    meeting_url nvarchar(128)  NULL DEFAULT NULL,
+    recording_url nvarchar(128)  NULL DEFAULT NULL,
     CONSTRAINT online_synchronous_meetings_pk PRIMARY KEY  (meeting_id)
 );
 
@@ -374,13 +373,13 @@ ALTER TABLE meeting_schedule ADD CONSTRAINT meeting_schedule_meetings
     FOREIGN KEY (meeting_id)
     REFERENCES meetings (activity_id);
 
--- Reference: meeting_translations_languages (table: meeting_translations)
-ALTER TABLE meeting_translations ADD CONSTRAINT meeting_translations_languages
+-- Reference: meeting_translations_languages (table: meeting_translators)
+ALTER TABLE meeting_translators ADD CONSTRAINT meeting_translations_languages
     FOREIGN KEY (language_id)
     REFERENCES languages (id);
 
--- Reference: meeting_translations_translators (table: meeting_translations)
-ALTER TABLE meeting_translations ADD CONSTRAINT meeting_translations_translators
+-- Reference: meeting_translations_translators (table: meeting_translators)
+ALTER TABLE meeting_translators ADD CONSTRAINT meeting_translations_translators
     FOREIGN KEY (translator_id)
     REFERENCES translators (user_id);
 
@@ -389,8 +388,8 @@ ALTER TABLE meetings ADD CONSTRAINT meetings_activities
     FOREIGN KEY (activity_id)
     REFERENCES activities (id);
 
--- Reference: meetings_meeting_translations (table: meeting_translations)
-ALTER TABLE meeting_translations ADD CONSTRAINT meetings_meeting_translations
+-- Reference: meetings_meeting_translations (table: meeting_translators)
+ALTER TABLE meeting_translators ADD CONSTRAINT meetings_meeting_translations
     FOREIGN KEY (meeting_id)
     REFERENCES meetings (activity_id);
 
