@@ -12,7 +12,7 @@ AS BEGIN
         WHERE translator_id = @translator_id AND
             language_id = @language_id
     )
-        THROW 50002, 'Language was not assigned to translator', 16;
+        THROW 50002, 'Language is not assigned to translator', 16;
 
     DELETE translators_languages WHERE
         translator_id = @translator_id AND
