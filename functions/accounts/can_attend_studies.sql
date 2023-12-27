@@ -5,9 +5,7 @@ BEGIN
 
     IF @user_id IN (SELECT user_id FROM students) AND
        @user_id IN (SELECT student_id FROM addresses)
-    BEGIN
-        SET @result = 1;
-    END
+        SET @result = 1
 
     RETURN @result;
 END

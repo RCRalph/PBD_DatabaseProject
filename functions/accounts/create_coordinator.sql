@@ -1,9 +1,10 @@
-CREATE PROCEDURE create_coordinator
+CREATE FUNCTION create_coordinator(
     @email NVARCHAR(64),
     @password NVARCHAR(64),
     @first_name NVARCHAR(64),
     @last_name NVARCHAR(64),
     @phone NVARCHAR(16)
+) RETURNS INT
 AS BEGIN
     INSERT INTO users (email, password, first_name, last_name, phone)
     VALUES (@email, @password, @first_name, @last_name, @phone);
@@ -12,4 +13,6 @@ AS BEGIN
 
     INSERT INTO coordinators (user_id)
     VALUES (@user_id);
+
+    RETURN @user_id;
 END

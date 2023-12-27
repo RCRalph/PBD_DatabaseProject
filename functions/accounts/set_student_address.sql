@@ -5,18 +5,17 @@ CREATE PROCEDURE set_student_address
     @city_id INT
 AS BEGIN
     IF @student_id NOT IN (SELECT id FROM users)
-    BEGIN
         THROW 50000, 'User not found', 11;
-    END
     ELSE IF @student_id NOT IN (SELECT user_id FROM students)
-    BEGIN
         THROW 50001, 'User is not a student', 11;
-    END
     ELSE IF @city_id NOT IN (SELECT id FROM cities)
-    BEGIN
         THROW 50002, 'City not found', 11;
-    END
 
-    INSERT INTO addresses (student_id, street, zip_code, city_id)
-    VALUES (@student_id, @street, @zip_code, @city_id);
+    IF @student_id IN (SELECT student_id FROM addresses)
+        UPDATE addresses
+        SET street = @street, zip_code = @zip_code, city_id = @city_id
+        WHERE student_id = @student_id;
+    ELSE
+        INSERT INTO addresses (student_id, street, zip_code, city_id)
+        VALUES (@student_id, @street, @zip_code, @city_id);
 END
