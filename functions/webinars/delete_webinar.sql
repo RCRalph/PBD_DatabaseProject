@@ -1,7 +1,7 @@
 CREATE PROCEDURE delete_webinar
     @webinar_id INT
 AS BEGIN
-    IF @webinar_id NOT IN (SELECT webinar_id FROM webinars)
+    IF @webinar_id NOT IN (SELECT webinar_id FROM webinar_information)
         THROW 50000, 'Webinar not found', 11;
 
     UPDATE products

@@ -1,4 +1,4 @@
-CREATE VIEW webinars AS
+CREATE VIEW webinar_information AS
 SELECT
 	online_synchronous_meetings.meeting_id AS webinar_id,
 	activities.title AS title,
