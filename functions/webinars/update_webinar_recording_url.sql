@@ -1,4 +1,4 @@
-CREATE PROCEDURE update_webinar_meeting_recording_url
+CREATE PROCEDURE update_webinar_recording_url
     @webinar_id INT,
     @recording_url NVARCHAR(128)
 AS BEGIN

@@ -6,7 +6,7 @@ SELECT
 	meetings.tutor_id AS tutor_id,
 	meeting_schedule.start_time AS start_time,
 	meeting_schedule.end_time AS end_time,
-    ISNULL(languages.name, 'Polski') AS language,
+    meeting_translators.language_id AS language_id,
     meeting_translators.translator_id AS translator_id,
 	online_synchronous_meetings.meeting_url AS meeting_url,
 	online_synchronous_meetings.recording_url AS recording_url,
@@ -19,7 +19,6 @@ FROM online_synchronous_meetings
 	JOIN online_platforms ON online_synchronous_meetings.platform_id = online_platforms.id
 	JOIN products ON online_synchronous_meetings.meeting_id = products.activity_id
     LEFT JOIN meeting_translators ON meetings.activity_id = meeting_translators.meeting_id
-    LEFT JOIN languages ON meeting_translators.language_id = languages.id
 WHERE
 	online_synchronous_meetings.meeting_id NOT IN (
 		SELECT study_meetings.meeting_id
