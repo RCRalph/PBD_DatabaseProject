@@ -7,7 +7,7 @@ AS BEGIN
         THROW 50000, 'Webinar not found', 11;
     ELSE IF @language_id NOT IN (SELECT id FROM languages)
         THROW 50001, 'Language not found', 11;
-    ELSE IF @translator_id IS NULL
+    ELSE IF @translator_id NOT IN (SELECT user_id FROM translators)
         THROW 50002, 'Translator not found', 11;
     ELSE IF NOT EXISTS (
         SELECT 1
