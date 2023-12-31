@@ -1,7 +1,7 @@
 CREATE PROCEDURE create_course_module
+    @course_id INT,
     @title NVARCHAR(128),
     @description NVARCHAR(MAX),
-    @course_id INT,
     @activity_id INT OUTPUT
 AS BEGIN
     IF @course_id NOT IN (SELECT activity_id FROM courses)

@@ -15,7 +15,7 @@ AS BEGIN
 
     WHILE @@FETCH_STATUS = 0
     BEGIN
-        dbo.delete_course_module_meeting @meeting_id;
+        EXEC dbo.delete_course_module_meeting @meeting_id;
 
         FETCH NEXT FROM meeting_cursor INTO @meeting_id;
     END

@@ -21,9 +21,5 @@ SELECT
             JOIN meetings ON module_meetings.meeting_id = meetings.activity_id
             JOIN online_asynchronous_meetings ON meetings.activity_id = online_asynchronous_meetings.meeting_id
         WHERE module_meetings.module_id = course_modules.activity_id
-    ) AS online_asynchronous_meeting_count,
-    (
-        SELECT DISTINCT
-        FROM course_module_meeting_languages
-    )
+    ) AS online_asynchronous_meeting_count
 FROM course_modules

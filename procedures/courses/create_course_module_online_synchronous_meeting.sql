@@ -1,4 +1,4 @@
-CREATE PROCEDURE create_course_module_online_asynchronous_meeting
+CREATE PROCEDURE create_course_module_online_synchronous_meeting
     @module_id INT,
     @title NVARCHAR(128),
     @description NVARCHAR(MAX),
@@ -16,19 +16,19 @@ AS BEGIN
         THROW 50002, 'Online platform not found', 11;
     ELSE IF @start_time > @end_time
         THROW 50003, 'Start time must be before end time', 16;
-    ELSE IF 1 = dbo.intersects_with_schedule(
-        @start_time,
-        @end_time,
-        (
-            SELECT start_time, end_time
-            FROM course_meetings
-            WHERE course_id = (
-                SELECT course_modules.course_id
-                FROM course_modules
-                WHERE course_modules.activity_id = @module_id
-            )
-        )
-    )
+
+    DECLARE @course_schedule SCHEDULE;
+
+    INSERT INTO @course_schedule (start_time, end_time)
+    SELECT start_time, end_time
+    FROM course_meetings
+    WHERE course_id = (
+        SELECT course_modules.course_id
+        FROM course_modules
+        WHERE course_modules.activity_id = @module_id
+    );
+
+    IF 1 = dbo.intersects_with_schedule(@start_time, @end_time, @course_schedule)
         THROW 50004, 'Meeting intersects with other meetings in this course', 16;
 
     DECLARE @inserted_activity TABLE (id INT);

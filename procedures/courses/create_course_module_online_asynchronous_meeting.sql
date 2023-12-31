@@ -29,4 +29,7 @@ AS BEGIN
 
     INSERT INTO online_asynchronous_meetings (meeting_id, recording_url)
     VALUES (@activity_id, @recording_url);
+
+    INSERT INTO module_meetings (meeting_id, module_id)
+    VALUES (@activity_id, @module_id);
 END

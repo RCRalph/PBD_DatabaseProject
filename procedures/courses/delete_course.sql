@@ -15,7 +15,7 @@ AS BEGIN
 
     WHILE @@FETCH_STATUS = 0
     BEGIN
-        dbo.delete_course_module @module_id;
+        EXEC dbo.delete_course_module @module_id;
 
         FETCH NEXT FROM module_cursor INTO @module_id;
     END

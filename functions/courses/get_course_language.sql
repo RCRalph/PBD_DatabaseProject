@@ -3,9 +3,6 @@ CREATE FUNCTION get_course_language(
 )
     RETURNS NVARCHAR(max)
 BEGIN
-    IF @course_id NOT IN (SELECT activity_id FROM courses)
-        THROW 50000, 'Course not found', 11;
-
     DECLARE @result NVARCHAR(max) = '';
 
     DECLARE module_meetings_cursor CURSOR FOR
