@@ -6,7 +6,7 @@ CREATE PROCEDURE create_course_module_online_synchronous_meeting
     @platform_id INT,
     @start_time DATETIME,
     @end_time DATETIME,
-    @activity_id INT OUTPUT
+    @meeting_id INT OUTPUT
 AS BEGIN
     IF @module_id NOT IN (SELECT activity_id FROM course_modules)
         THROW 50000, 'Course module not found', 11;
@@ -37,18 +37,17 @@ AS BEGIN
     OUTPUT INSERTED.id INTO @inserted_activity
     VALUES (@title, @description);
 
-    SELECT @activity_id = id FROM @inserted_activity;
-    SELECT @activity_id AS activity_id;
+    SELECT @meeting_id = id FROM @inserted_activity;
 
     INSERT INTO meetings (activity_id, tutor_id)
-    VALUES (@activity_id, @tutor_id);
+    VALUES (@meeting_id, @tutor_id);
 
     INSERT INTO online_synchronous_meetings (meeting_id, platform_id)
-    VALUES (@activity_id, @platform_id);
+    VALUES (@meeting_id, @platform_id);
 
     INSERT INTO meeting_schedule (meeting_id, start_time, end_time)
-    VALUES (@activity_id, @start_time, @end_time);
+    VALUES (@meeting_id, @start_time, @end_time);
 
     INSERT INTO module_meetings (meeting_id, module_id)
-    VALUES (@activity_id, @module_id);
+    VALUES (@meeting_id, @module_id);
 END

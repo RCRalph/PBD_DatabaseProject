@@ -3,7 +3,7 @@ CREATE PROCEDURE create_course
     @description NVARCHAR(MAX),
     @coordinator_id INT,
     @price MONEY,
-    @activity_id INT OUTPUT
+    @course_id INT OUTPUT
 AS BEGIN
     IF @coordinator_id NOT IN (SELECT user_id FROM coordinators)
         THROW 50000, 'Coordinator not found', 11;
@@ -16,12 +16,11 @@ AS BEGIN
     OUTPUT INSERTED.id INTO @inserted_activity
     VALUES (@title, @description);
 
-    SELECT @activity_id = id FROM @inserted_activity;
-    SELECT @activity_id AS activity_id;
+    SELECT @course_id = id FROM @inserted_activity;
 
     INSERT INTO courses (activity_id, coordinator_id)
-    VALUES (@activity_id, @coordinator_id);
+    VALUES (@course_id, @coordinator_id);
 
     INSERT INTO products (activity_id, price)
-    VALUES (@activity_id, @price);
+    VALUES (@course_id, @price);
 END

@@ -48,7 +48,6 @@ AS BEGIN
     VALUES (@title, @description);
 
     SELECT @meeting_id = id FROM @inserted_activity;
-    SELECT @meeting_id AS meeting_id;
 
     INSERT INTO meetings (activity_id, tutor_id)
     VALUES (@meeting_id, @tutor_id);

@@ -6,7 +6,7 @@ CREATE PROCEDURE create_webinar
     @start_time DATETIME,
     @end_time DATETIME,
     @price MONEY,
-    @activity_id INT OUTPUT
+    @webinar_id INT OUTPUT
 AS BEGIN
     IF @tutor_id NOT IN (SELECT user_id FROM tutors)
         THROW 50000, 'Tutor not found', 11;
@@ -23,19 +23,18 @@ AS BEGIN
     OUTPUT INSERTED.id INTO @inserted_activity
     VALUES (@title, @description);
 
-    SELECT @activity_id = id FROM @inserted_activity;
-    SELECT @activity_id AS activity_id;
+    SELECT @webinar_id = id FROM @inserted_activity;
 
     INSERT INTO meetings (activity_id, tutor_id)
-    VALUES (@activity_id, @tutor_id);
+    VALUES (@webinar_id, @tutor_id);
 
     INSERT INTO online_synchronous_meetings (meeting_id, platform_id)
-    VALUES (@activity_id, @online_platform_id);
+    VALUES (@webinar_id, @online_platform_id);
 
     INSERT INTO meeting_schedule (meeting_id, start_time, end_time)
-    VALUES (@activity_id, @start_time, @end_time);
+    VALUES (@webinar_id, @start_time, @end_time);
 
     INSERT INTO products (activity_id, price)
-    VALUES (@activity_id, @price);
+    VALUES (@webinar_id, @price);
 END
 

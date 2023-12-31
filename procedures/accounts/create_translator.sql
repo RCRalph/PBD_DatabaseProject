@@ -13,7 +13,6 @@ AS BEGIN
     VALUES (@email, @password, @first_name, @last_name, @phone);
 
     SELECT @user_id = id FROM @inserted_user;
-    SELECT @user_id AS user_id;
 
     INSERT INTO translators (user_id)
     VALUES (@user_id);
