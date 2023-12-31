@@ -2,7 +2,7 @@ CREATE PROCEDURE update_course_module_on_site_meeting_room
     @meeting_id INT,
     @room_id INT
 AS BEGIN
-    IF @meeting_id NOT IN (SELECT meeting_id FROM course_meetings WHERE meeting_type = 'on_site')
+    IF @meeting_id NOT IN (SELECT meeting_id FROM course_meeting_information WHERE meeting_type = 'on_site')
         THROW 50000, 'Meeting not found', 11;
     ELSE IF @room_id NOT IN (SELECT id FROM rooms)
         THROW 50001, 'Room not found', 11;

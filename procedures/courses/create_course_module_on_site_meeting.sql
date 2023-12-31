@@ -21,7 +21,7 @@ AS BEGIN
 
     INSERT INTO @course_schedule (start_time, end_time)
     SELECT start_time, end_time
-    FROM course_meetings
+    FROM course_meeting_information
     WHERE course_id = (
         SELECT course_modules.course_id
         FROM course_modules

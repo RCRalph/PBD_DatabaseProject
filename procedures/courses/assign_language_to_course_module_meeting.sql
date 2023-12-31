@@ -3,7 +3,7 @@ CREATE PROCEDURE assign_language_to_course_module_meeting
     @language_id INT,
     @translator_id INT
 AS BEGIN
-    IF @meeting_id NOT IN (SELECT meeting_id FROM course_meetings)
+    IF @meeting_id NOT IN (SELECT meeting_id FROM course_meeting_information)
         THROW 50000, 'Meeting not found', 11;
     ELSE IF @language_id NOT IN (SELECT id FROM languages)
         THROW 50001, 'Language not found', 11;

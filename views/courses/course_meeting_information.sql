@@ -1,4 +1,4 @@
-CREATE VIEW course_meetings AS
+CREATE VIEW course_meeting_information AS
 SELECT
     course_modules.course_id AS course_id,
     course_modules.activity_id AS module_id,
