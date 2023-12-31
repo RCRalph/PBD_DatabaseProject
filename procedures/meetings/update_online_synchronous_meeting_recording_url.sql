@@ -4,12 +4,14 @@ CREATE PROCEDURE update_online_synchronous_meeting_recording_url
 AS BEGIN
     IF @meeting_id NOT IN (SELECT meeting_id FROM online_synchronous_meetings)
         THROW 50000, 'Meeting not found', 11;
-    ELSE IF @recording_url IN (SELECT meeting_url FROM online_synchronous_meetings)
-        THROW 50001, 'Meeting URL has to be unique', 16;
+    ELSE IF @recording_url IN (SELECT recording_url FROM online_synchronous_meetings)
+        THROW 50001, 'Recording URL has to be unique', 16;
     ELSE IF @recording_url IS NULL
         THROW 50002, 'Cannot update meeting URL to NULL', 16;
+    ELSE IF (SELECT meeting_url FROM online_synchronous_meetings WHERE meeting_id = @meeting_id) IS NULL
+        THROW 50003, 'Cannot set recording URL if meeting URL is NULL', 16;
     ELSE IF GETDATE() < (SELECT end_time FROM meeting_schedule WHERE meeting_id = @meeting_id)
-        THROW 50003, 'Cannot set recording URL before the meeting ends', 16;
+        THROW 50004, 'Cannot set recording URL before the meeting ends', 16;
 
     UPDATE online_synchronous_meetings
     SET recording_url = @recording_url
