@@ -1,4 +1,4 @@
-CREATE PROCEDURE add_language_to_translator
+CREATE PROCEDURE assign_language_to_translator
     @translator_id INT,
     @language_id INT
 AS BEGIN

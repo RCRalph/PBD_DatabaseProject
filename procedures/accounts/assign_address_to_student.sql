@@ -1,4 +1,4 @@
-CREATE PROCEDURE set_student_address
+CREATE PROCEDURE assign_address_to_student
     @student_id INT,
     @street NVARCHAR(128),
     @zip_code NVARCHAR(8),

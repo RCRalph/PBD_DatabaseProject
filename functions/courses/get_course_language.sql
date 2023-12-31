@@ -1,7 +1,5 @@
-CREATE FUNCTION get_course_language(
-    @course_id INT
-)
-    RETURNS NVARCHAR(max)
+CREATE FUNCTION get_course_language(@course_id INT)
+RETURNS NVARCHAR(max)
 BEGIN
     DECLARE @result NVARCHAR(max) = '';
 

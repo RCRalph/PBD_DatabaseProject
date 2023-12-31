@@ -1,9 +1,7 @@
-CREATE FUNCTION get_course_module_language(
-    @module_id INT
-)
-RETURNS NVARCHAR(max)
+CREATE FUNCTION get_course_module_language(@module_id INT)
+RETURNS NVARCHAR(MAX)
 BEGIN
-    DECLARE @result NVARCHAR(max) = '';
+    DECLARE @result NVARCHAR(MAX) = '';
 
     DECLARE module_meetings_cursor CURSOR FOR
         SELECT DISTINCT ISNULL(languages.name, 'Polski') AS language

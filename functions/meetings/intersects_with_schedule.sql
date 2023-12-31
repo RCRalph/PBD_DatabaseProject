@@ -1,7 +1,7 @@
 CREATE FUNCTION intersects_with_schedule(
     @start_time DATETIME,
     @end_time DATETIME,
-    @schedule schedule READONLY
+    @schedule SCHEDULE READONLY
 ) RETURNS BIT
 BEGIN
     DECLARE @result BIT = 0;
