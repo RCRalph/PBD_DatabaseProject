@@ -20,9 +20,9 @@ AS BEGIN
         FETCH NEXT FROM meeting_cursor INTO @meeting_id;
     END
 
-    DELETE course_modules
-    WHERE activity_id = @module_id;
-
     CLOSE meeting_cursor;
     DEALLOCATE meeting_cursor;
+
+    DELETE course_modules
+    WHERE activity_id = @module_id;
 END

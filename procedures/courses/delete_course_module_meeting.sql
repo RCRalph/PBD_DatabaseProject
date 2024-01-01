@@ -9,5 +9,6 @@ AS BEGIN
     DELETE online_synchronous_meetings WHERE meeting_id = @meeting_id;
     DELETE meeting_schedule WHERE meeting_id = @meeting_id;
     DELETE meeting_translators WHERE meeting_id = @meeting_id;
+    DELETE module_meetings WHERE meeting_id = @meeting_id;
     DELETE meetings WHERE activity_id = @meeting_id;
 END

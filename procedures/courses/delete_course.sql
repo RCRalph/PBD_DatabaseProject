@@ -20,13 +20,13 @@ AS BEGIN
         FETCH NEXT FROM module_cursor INTO @module_id;
     END
 
+    CLOSE module_cursor;
+    DEALLOCATE module_cursor;
+
     UPDATE products
     SET active = 0
     WHERE activity_id = @course_id;
 
     DELETE courses
     WHERE activity_id = @course_id;
-
-    CLOSE module_cursor;
-    DEALLOCATE module_cursor;
 END
