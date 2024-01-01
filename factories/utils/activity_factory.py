@@ -266,7 +266,7 @@ class ActivityFactory:
     def generate_study_modules(self, study_id):
         module_ids = []
 
-        for _ in range(randrange(10, 30)):
+        for _ in range(randrange(4, 8)):
             module_id = self.generate_activity()
 
             self.cursor.execute(f"""
@@ -278,7 +278,7 @@ class ActivityFactory:
 
         return module_ids
 
-    def generate_study_sessions(self, study_id, module_ids, rooms):
+    def generate_study_sessions(self, study_id, rooms):
         def study_session_end_time(start: datetime):
             return start + timedelta(days=2, hours=8)
 
@@ -293,6 +293,8 @@ class ActivityFactory:
             semesters.append((start_date - timedelta(6 * 30), start_date))
 
         for (start, end) in semesters:
+            module_ids = self.generate_study_modules(study_id)
+
             start_time = start + timedelta(days=(4 - start.weekday() + 7) % 7, hours=8)
 
             while study_session_end_time(datetime_next_week(start_time)) < end:
@@ -387,8 +389,7 @@ class ActivityFactory:
                 VALUES (?, ?)
             """, study_id, study_place_limit)
 
-            modules = self.generate_study_modules(study_id)
-            self.generate_study_sessions(study_id, modules, self.rooms[rooms_smallest_index:])
+            self.generate_study_sessions(study_id, self.rooms[rooms_smallest_index:])
 
             self.cursor.execute(f"""
                 INSERT INTO {self.schema}.products (activity_id, price)
