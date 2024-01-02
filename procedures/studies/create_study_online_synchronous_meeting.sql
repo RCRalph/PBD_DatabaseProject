@@ -16,7 +16,7 @@ AS BEGIN
         THROW 50001, 'Study session not found', 11;
     ELSE IF 0 = dbo.study_module_and_session_same_studies(@module_id, @session_id)
         THROW 50002, 'Study session and study module must belong to the same studies', 16;
-    ELSE IF 1 = dbo.is_internship_module(@module_id)
+    ELSE IF dbo.is_study_module_empty(@module_id) = 0 AND dbo.is_internship_module(@module_id) = 1
         THROW 50003, 'Study module cannot be an internship module', 16;
     ELSE IF @tutor_id NOT IN (SELECT user_id FROM tutors)
         THROW 50004, 'Tutor not found', 11;
@@ -74,5 +74,5 @@ AS BEGIN
     VALUES (@meeting_id, @module_id, @session_id);
 
     INSERT INTO products (activity_id, price)
-    VALUES (@meeting_id, price);
+    VALUES (@meeting_id, @price);
 END

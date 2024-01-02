@@ -4,6 +4,7 @@ AS BEGIN
     IF @meeting_id NOT IN (SELECT meeting_id FROM study_meeting_information)
         THROW 50000, 'Meeting not found', 11;
 
+    DELETE internships WHERE meeting_id = @meeting_id;
     DELETE on_site_meetings WHERE meeting_id = @meeting_id;
     DELETE online_asynchronous_meetings WHERE meeting_id = @meeting_id;
     DELETE online_synchronous_meetings WHERE meeting_id = @meeting_id;

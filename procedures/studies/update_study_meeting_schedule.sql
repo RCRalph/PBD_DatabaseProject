@@ -35,7 +35,7 @@ AS BEGIN
     IF 1 = dbo.intersects_with_schedule(@start_time, @end_time, @session_schedule)
         THROW 50003, 'Meeting session intersects with other sessions in in the studies', 16;
 
-    IF @meeting_id IN (SELECT meeting_id FROM course_meeting_information WHERE meeting_type = 'on_site')
+    IF @meeting_id IN (SELECT meeting_id FROM study_meeting_information WHERE meeting_type = 'on_site')
     BEGIN
         DECLARE @room_schedule SCHEDULE;
 

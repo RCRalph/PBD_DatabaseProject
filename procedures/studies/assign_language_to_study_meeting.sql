@@ -1,4 +1,4 @@
-CREATE PROCEDURE assign_language_to_course_module_meeting
+CREATE PROCEDURE assign_language_to_study_meeting
     @meeting_id INT,
     @language_id INT,
     @translator_id INT
