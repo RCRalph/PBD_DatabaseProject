@@ -12,4 +12,8 @@ AS BEGIN
     DELETE meeting_translators WHERE meeting_id = @meeting_id;
     DELETE study_meetings WHERE meeting_id = @meeting_id;
     DELETE meetings WHERE activity_id = @meeting_id;
+
+    UPDATE products
+    SET active = 0
+    WHERE activity_id = @meeting_id
 END
