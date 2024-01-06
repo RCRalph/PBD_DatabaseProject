@@ -18,11 +18,15 @@ AS BEGIN
         WHERE order_id = @order_id AND product_id = @product_id
     )
 
-    IF GETDATE() > (SELECT latest_payment_time FROM product_schedule WHERE product_id = @product_id) AND
+    IF @current_order_status_id = (SELECT id FROM order_statuses WHERE name = N'Zamówienie opłacone')
+        THROW 50004, 'Full payment already accepted', 16;
+    ELSE IF @current_order_status_id = (SELECT id FROM order_statuses WHERE name = N'Zamówienie anulowane')
+        THROW 50005, 'Product order was canceled', 16;
+    IF GETDATE() > (SELECT latest_payment_time FROM product_payment_information WHERE product_id = @product_id) AND
        @current_order_status_id IN (SELECT id FROM order_statuses WHERE name NOT LIKE N'Płatność odroczona%')
-        THROW 50004, 'Missed payment deadline', 16;
+        THROW 50006, 'Missed payment deadline', 16;
 
     UPDATE order_details
     SET status_id = (SELECT id FROM order_statuses WHERE name = N'Zamówienie opłacone')
-    WHERE order_id = @order_id AND @product_id = @product_id;
+    WHERE order_id = @order_id AND product_id = @product_id;
 END

@@ -1,3 +1,4 @@
+CREATE VIEW order_payment_information AS
 SELECT
     orders.id AS order_id,
     orders.student_id AS student_id,

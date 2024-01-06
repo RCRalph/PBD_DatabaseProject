@@ -18,13 +18,19 @@ AS BEGIN
         SELECT status_id
         FROM order_details
         WHERE order_id = @order_id AND product_id = @product_id
-    )
+    );
 
-    IF GETDATE() > (SELECT latest_payment_time FROM product_schedule WHERE product_id = @product_id) AND
+    IF @current_order_status_id IN (SELECT id FROM order_statuses WHERE name LIKE N'%zaliczka')
+        THROW 50005, 'Advancement already paid', 16;
+    ELSE IF @current_order_status_id = (SELECT id FROM order_statuses WHERE name = N'Zamówienie opłacone')
+        THROW 50006, 'Full payment already accepted', 16;
+    ELSE IF @current_order_status_id = (SELECT id FROM order_statuses WHERE name = N'Zamówienie anulowane')
+        THROW 50007, 'Product order was canceled', 16;
+    ELSE IF GETDATE() > (SELECT latest_payment_time FROM product_payment_information WHERE product_id = @product_id) AND
        @current_order_status_id IN (SELECT id FROM order_statuses WHERE name NOT LIKE N'Płatność odroczona%')
-        THROW 50005, 'Missed payment deadline', 16;
-    ELSE IF @current_order_status_id IN (SELECT id FROM order_statuses WHERE name LIKE N'%zaliczka')
-        THROW 50006, 'Advancement already paid', 16;
+        THROW 50008, 'Missed payment deadline', 16;
+    ELSE IF 0 >= (SELECT places_left FROM product_places_left WHERE product_id = @product_id)
+        THROW 50009, 'Place limit reached', 16;
 
     UPDATE order_details
     SET status_id = (
@@ -36,5 +42,5 @@ AS BEGIN
             N'Wpłacona zaliczka'
         )
     )
-    WHERE order_id = @order_id AND @product_id = @product_id;
+    WHERE order_id = @order_id AND product_id = @product_id;
 END
