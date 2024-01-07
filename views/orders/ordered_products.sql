@@ -3,6 +3,7 @@ SELECT
     orders.student_id AS student_id,
     order_details.product_id AS product_id,
     order_statuses.name AS order_status,
+    order_details.price AS price,
     ROUND(order_details.price * (1 - IIF(
         order_statuses.name LIKE N'%zaliczka',
         dbo.advance_payment_value(orders.order_date),

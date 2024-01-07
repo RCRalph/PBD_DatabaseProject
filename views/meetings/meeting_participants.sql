@@ -2,14 +2,16 @@ CREATE VIEW meeting_participants AS
 SELECT
     meetings.activity_id AS meeting_id,
     product_owners.student_id,
-    dbo.is_student_present(
-        meetings.activity_id,
-        product_owners.student_id
-    ) AS presence
+    CASE
+        WHEN meeting_types.meeting_type <> 'webinar'
+        THEN dbo.is_student_present(
+            meetings.activity_id,
+            product_owners.student_id
+        )
+    END AS presence
 FROM meetings
     JOIN product_owners ON meetings.activity_id = product_owners.product_id
     JOIN meeting_types ON meetings.activity_id = meeting_types.meeting_id
-WHERE meeting_types.meeting_type <> 'webinar'
 UNION
 SELECT
     study_meeting_information.meeting_id,
