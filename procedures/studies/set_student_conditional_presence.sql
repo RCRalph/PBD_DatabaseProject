@@ -26,4 +26,13 @@ AS BEGIN
 
     INSERT INTO meeting_presence_make_up (meeting_id, student_id, activity_id)
     VALUES (@meeting_id, @student_id, @conditional_activity_id)
+
+    IF 1 = dbo.is_conditional_presence_cycle(@meeting_id, @student_id)
+        DELETE meeting_presence_make_up
+        WHERE meeting_id = @meeting_id AND student_id = @student_id;
+
+        DELETE meeting_presence
+        WHERE meeting_id = @meeting_id AND student_id = @student_id;
+
+        THROW 50005, 'Setting this conditional activity would introduce a cycle', 16;
 END
