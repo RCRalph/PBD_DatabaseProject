@@ -5,7 +5,8 @@ BEGIN
         SELECT COUNT(*)
         FROM studies
             JOIN study_modules ON studies.activity_id = study_modules.study_id
-        WHERE studies.activity_id = @study_id
+        WHERE studies.activity_id = @study_id AND
+              dbo.is_internship_module(study_modules.activity_id) = 0
     );
 
     DECLARE @module_passes_count INT = (
@@ -18,7 +19,8 @@ BEGIN
 
     DECLARE @result BIT = 0;
 
-    IF @study_module_count = @module_passes_count
+    IF dbo.is_student_passing_internships(@study_id, @student_id) AND
+       @study_module_count = @module_passes_count
         SET @result = 1;
 
     RETURN @result;

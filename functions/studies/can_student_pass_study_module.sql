@@ -21,7 +21,8 @@ BEGIN
 
     DECLARE @result BIT = 0;
 
-    IF @student_id NOT IN (SELECT student_id FROM study_module_passes WHERE module_id = @module_id) AND
+    IF dbo.is_internship_module(@module_id) = 0 AND
+       @student_id NOT IN (SELECT student_id FROM study_module_passes WHERE module_id = @module_id) AND
        @study_module_meeting_presence_count >= @study_module_meeting_count * 0.8
         SET @result = 1;
 
