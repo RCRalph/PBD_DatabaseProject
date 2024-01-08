@@ -28,4 +28,3 @@ FROM product_information
     LEFT JOIN ordered_products ON product_information.product_id = ordered_products.product_id
 WHERE product_information.product_type IN ('webinar', 'course', 'study')
 GROUP BY product_information.product_id, product_information.product_type
-ORDER BY product_id
