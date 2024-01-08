@@ -111,7 +111,7 @@ class ActivityFactory:
     def generate_random_meeting_times(self, start_date: datetime, end_date: datetime, n: int):
         def check_conflict(meeting_times, new_start, new_end):
             for start, end in meeting_times:
-                if new_start < end and new_end > start:
+                if new_start <= end and new_end >= start:
                     return True
 
             return False
@@ -178,7 +178,7 @@ class ActivityFactory:
                 self.cursor.execute(f"""
                     DECLARE @module_id INT;
                     EXEC {self.schema}.create_course_module ?, ?, ?, @module_id OUTPUT;
-                    SELECT @course_id;
+                    SELECT @module_id;
                 """, course_id, *self.generate_activity_data())
 
                 result = self.cursor.fetchone()
@@ -195,15 +195,17 @@ class ActivityFactory:
                         case "on_site_meetings":
                             room_id = choice(list(map(lambda x: x.id, self.rooms)))
 
-                            self.cursor.execute(
-                                f"""
-                                    DECLARE @meeting_id INT;
-                                    EXEC {self.schema}.create_course_module_on_site_meeting
-                                        ?, ?, ?, ?, ?, ?, ?, @meeting_id OUTPUT;
-                                """,
-                                module_id, *self.generate_activity_data(),
-                                tutor_id, room_id, start_time, end_time
-                            )
+                            try:
+                                self.cursor.execute(
+                                    f"""
+                                        DECLARE @meeting_id INT;
+                                        EXEC {self.schema}.create_course_module_on_site_meeting
+                                            ?, ?, ?, ?, ?, ?, ?, @meeting_id OUTPUT;
+                                    """,
+                                    module_id, *self.generate_activity_data(),
+                                    tutor_id, room_id, start_time, end_time
+                                )
+                            except Exception: pass
 
                         case "online_asynchronous_meetings":
                             recording_url = self.fake.unique.uri()
@@ -319,42 +321,48 @@ class ActivityFactory:
                         case "on_site_meetings":
                             room_id = choice(list(map(lambda x: x.id, rooms)))
 
-                            self.cursor.execute(
-                                f"""
-                                    DECLARE @meeting_id INT;
-                                    EXEC {self.schema}.create_study_on_site_meeting
-                                        ?, ?, ?, ?, ?, ?, ?, @meeting_id OUTPUT;
-                                """,
-                                module_id, session_id, *self.generate_activity_data(),
-                                tutor_id, room_id, meeting_start, meeting_end, price
-                            )
+                            try:
+                                self.cursor.execute(
+                                    f"""
+                                        DECLARE @meeting_id INT;
+                                        EXEC {self.schema}.create_study_on_site_meeting
+                                            ?, ?, ?, ?, ?, ?, ?, ?, ?, @meeting_id OUTPUT;
+                                    """,
+                                    module_id, session_id, *self.generate_activity_data(),
+                                    tutor_id, room_id, meeting_start, meeting_end, price
+                                )
+                            except Exception: pass
 
                         case "online_asynchronous_meetings":
                             recording_url = self.fake.unique.uri()
 
-                            self.cursor.execute(
-                                f"""
-                                    DECLARE @meeting_id INT;
-                                    EXEC {self.schema}.create_study_online_asynchronous_meeting
-                                        ?, ?, ?, ?, ?, @meeting_id OUTPUT;
-                                """,
-                                module_id, session_id, *self.generate_activity_data(),
-                                tutor_id, recording_url, price
-                            )
+                            try:
+                                self.cursor.execute(
+                                    f"""
+                                        DECLARE @meeting_id INT;
+                                        EXEC {self.schema}.create_study_online_asynchronous_meeting
+                                            ?, ?, ?, ?, ?, ?, ?, @meeting_id OUTPUT;
+                                    """,
+                                    module_id, session_id, *self.generate_activity_data(),
+                                    tutor_id, recording_url, price
+                                )
+                            except Exception: pass
 
                         case "online_synchronous_meetings":
                             platform_id = choice(self.online_platforms)
 
-                            self.cursor.execute(
-                                f"""
-                                    DECLARE @meeting_id INT;
-                                    EXEC {self.schema}.create_study_online_synchronous_meeting
-                                        ?, ?, ?, ?, ?, ?, ?, @meeting_id OUTPUT;
-                                    SELECT @meeting_id;
-                                """,
-                                module_id, session_id, *self.generate_activity_data(),
-                                tutor_id, platform_id, meeting_start, meeting_end, price
-                            )
+                            try:
+                                self.cursor.execute(
+                                    f"""
+                                        DECLARE @meeting_id INT;
+                                        EXEC {self.schema}.create_study_online_synchronous_meeting
+                                            ?, ?, ?, ?, ?, ?, ?, ?, ?, @meeting_id OUTPUT;
+                                        SELECT @meeting_id;
+                                    """,
+                                    module_id, session_id, *self.generate_activity_data(),
+                                    tutor_id, platform_id, meeting_start, meeting_end, price
+                                )
+                            except Exception: pass
 
                             result = self.cursor.fetchone()
                             if result is None:
@@ -415,14 +423,16 @@ class ActivityFactory:
             for (meeting_start, meeting_end) in meeting_times:
                 tutor_id = choice(self.tutors)
 
-                self.cursor.execute(
-                    f"""
-                        DECLARE @meeting_id INT;
-                        EXEC {self.schema}.create_study_internship_meeting ?, ?, ?, ?, ?, ?, ?, @meeting_id OUTPUT;
-                    """,
-                    internship_module_id, internship_session_id, *self.generate_activity_data(),
-                    tutor_id, meeting_start, meeting_end
-                )
+                try:
+                    self.cursor.execute(
+                        f"""
+                            DECLARE @meeting_id INT;
+                            EXEC {self.schema}.create_study_internship_meeting ?, ?, ?, ?, ?, ?, ?, @meeting_id OUTPUT;
+                        """,
+                        internship_module_id, internship_session_id, *self.generate_activity_data(),
+                        tutor_id, meeting_start, meeting_end
+                    )
+                except Exception: pass
 
     def generate_studies(self, count: int):
         print(f"Generating studies... ({count})")

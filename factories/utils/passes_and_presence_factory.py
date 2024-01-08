@@ -98,10 +98,12 @@ class PassesAndPresenceFactory:
         print(f"Generating passes... ({len(self.student_modules)})")
 
         for student_module in self.student_modules:
-            self.cursor.execute(
-                f"EXEC {self.schema}.give_student_module_pass ?, ?;",
-                student_module.module_id, student_module.student_id
-            )
+            try:
+                self.cursor.execute(
+                    f"EXEC {self.schema}.give_student_module_pass ?, ?;",
+                    student_module.module_id, student_module.student_id
+                )
+            except Exception: pass
 
     def generate_presence(self, presence_ratio: float, presence_makeup_ratio: float):
         presence = sample(self.student_meetings, round(len(self.student_meetings) * presence_ratio))

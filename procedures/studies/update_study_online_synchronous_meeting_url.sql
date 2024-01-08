@@ -1,4 +1,4 @@
-CREATE PROCEDURE update_study_module_online_synchronous_meeting_url
+CREATE PROCEDURE update_study_online_synchronous_meeting_url
     @meeting_id INT,
     @meeting_url NVARCHAR(128)
 AS BEGIN
