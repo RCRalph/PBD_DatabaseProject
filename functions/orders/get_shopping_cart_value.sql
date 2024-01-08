@@ -5,7 +5,7 @@ BEGIN
 
     SELECT @result = ISNULL(SUM(products.price), 0)
     FROM shopping_cart
-        JOIN products ON shopping_cart.student_id = products.activity_id
+        JOIN products ON shopping_cart.product_id = products.activity_id
     WHERE shopping_cart.student_id = @student_id
 
     RETURN @result;

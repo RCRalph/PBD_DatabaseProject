@@ -5,17 +5,12 @@ BEGIN
 
     IF @student_id IN (SELECT student_id FROM meeting_presence_make_up WHERE meeting_id = @meeting_id)
     BEGIN
-        DECLARE @replacement_activity_id INT = (
-            SELECT activity_id
-            FROM meeting_presence_make_up
-            WHERE meeting_id = @meeting_id AND
-                  student_id = @student_id
+        DECLARE @replacement_activity_id INT = dbo.get_make_up_presence_activity(
+            @meeting_id,
+            @student_id
         );
 
-        IF @replacement_activity_id IN (
-            SELECT activity_id
-            FROM courses
-        )
+        IF @replacement_activity_id IN (SELECT activity_id FROM courses)
             SET @result = dbo.is_student_passing_course(
                 @replacement_activity_id,
                 @student_id
