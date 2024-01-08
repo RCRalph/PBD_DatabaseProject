@@ -37,7 +37,7 @@ class Factory:
 
             cursor.execute("SET NOCOUNT ON;")
 
-            """user_factory = UserFactory(cursor, self.schema)
+            user_factory = UserFactory(cursor, self.schema)
             user_factory.generate_students(400)
             user_factory.generate_tutors(60)
             user_factory.generate_coordinators(25)
@@ -53,11 +53,11 @@ class Factory:
 
             order_factory = OrderFactory(cursor, self.schema)
             order_factory.generate_orders(5000)
-            order_factory.generate_shopping_cart(1000)"""
+            order_factory.generate_shopping_cart(1000)
 
             passes_and_presence_factory = PassesAndPresenceFactory(cursor, self.schema)
+            passes_and_presence_factory.generate_presence(0.95, 0.05)
             passes_and_presence_factory.generate_passes()
-            passes_and_presence_factory.generate_presence(0.95, 0.1)
 
 if __name__ == "__main__":
     Factory().generate_data()
