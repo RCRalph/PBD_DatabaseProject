@@ -52,7 +52,7 @@ class Factory:
             translation_factory.generate_translations(0.01)
 
             order_factory = OrderFactory(cursor, self.schema)
-            order_factory.generate_orders(5000)
+            order_factory.generate_orders(15000)
             order_factory.generate_shopping_cart(1000)
 
             passes_and_presence_factory = PassesAndPresenceFactory(cursor, self.schema)
