@@ -19,8 +19,8 @@ class TranslationFactory:
             SELECT activity_id
             FROM {schema}.meetings
             WHERE activity_id NOT IN (
-                SELECT {schema}.meeting_translations.meeting_id
-                FROM {schema}.meeting_translations
+                SELECT {schema}.meeting_translators.meeting_id
+                FROM {schema}.meeting_translators
             )
         """)
 

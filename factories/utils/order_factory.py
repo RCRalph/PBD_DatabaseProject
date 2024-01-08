@@ -49,9 +49,12 @@ class OrderFactory:
         self.statuses = list(map(lambda x: x[0], cursor.fetchall()))
 
     def get_not_ordered_products(self, student_id: int):
-        return [
-            item for item in self.products if item not in self.already_ordered_products[student_id]
-        ]
+        if student_id in self.already_ordered_products:
+            return [
+                item for item in self.products if item not in self.already_ordered_products[student_id]
+            ]
+        else:
+            return self.products
 
     def generate_shopping_cart(self, count: int):
         print(f"Generating shopping cart... ({count})")
@@ -62,10 +65,12 @@ class OrderFactory:
             cart_set.add((choice(self.get_not_ordered_products(student_id)).id, student_id))
 
         for product_id, student_id in cart_set:
-            self.cursor.execute(
-                f"EXEC {self.schema}.add_product_to_shopping_cart ?, ?;",
-                student_id, product_id
-            )
+            try:
+                self.cursor.execute(
+                    f"EXEC {self.schema}.add_product_to_shopping_cart ?, ?;",
+                    student_id, product_id
+                )
+            except Exception: pass
 
     def generate_order(self):
         student_id = choice(self.students)
@@ -91,7 +96,7 @@ class OrderFactory:
         for _ in range(count):
             order_id, student_id = self.generate_order()
             products = sample(
-                [item for item in self.products if item not in self.already_ordered_products[student_id]],
+                self.get_not_ordered_products(student_id),
                 randrange(1, 10)
             )
             status_id = choice(self.statuses)
@@ -102,4 +107,7 @@ class OrderFactory:
                     VALUES (?, ?, ?, ?)
                 """, order_id, product.id, product.price, status_id)
 
-                self.already_ordered_products[student_id].append(product)
+                if student_id in self.already_ordered_products:
+                    self.already_ordered_products[student_id].append(product)
+                else:
+                    self.already_ordered_products[student_id] = []

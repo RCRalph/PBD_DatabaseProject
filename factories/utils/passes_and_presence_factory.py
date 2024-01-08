@@ -114,12 +114,16 @@ class PassesAndPresenceFactory:
             if random() < presence_makeup_ratio:
                 make_up_activity_id = choice([i for i in self.products if i != student_meeting.meeting_id])
 
-                self.cursor.execute(
-                    f"EXEC {self.schema}.set_student_conditional_presence ?, ?;",
-                    student_meeting.meeting_id, student_meeting.student_id, make_up_activity_id
-                )
+                try:
+                    self.cursor.execute(
+                        f"EXEC {self.schema}.set_student_conditional_presence ?, ?, ?;",
+                        student_meeting.meeting_id, student_meeting.student_id, make_up_activity_id
+                    )
+                except Exception: pass
             else:
-                self.cursor.execute(
-                    f"EXEC {self.schema}.register_student_presence ?, ?;",
-                    student_meeting.meeting_id, student_meeting.student_id
-                )
+                try:
+                    self.cursor.execute(
+                        f"EXEC {self.schema}.register_student_presence ?, ?;",
+                        student_meeting.meeting_id, student_meeting.student_id
+                    )
+                except Exception: pass
