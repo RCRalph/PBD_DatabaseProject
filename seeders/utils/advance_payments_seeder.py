@@ -20,11 +20,11 @@ def seed_advance_payments(cursor: pyodbc.Cursor, schema: str):
         print(f"Already in the database ({row_count})")
         return
 
-    start_date = datetime.today() - timedelta(days=3650)
-    end_date = datetime.today() - timedelta(days=randrange(10, 100))
+    start_date = datetime.today() - timedelta(days=365)
+    end_date = datetime.today() - timedelta(days=randrange(10, 60))
     date_range = end_date - start_date
 
-    date_deltas = sample(range(date_range.days), randrange(20, 40))
+    date_deltas = sample(range(date_range.days), randrange(10, 20))
     date_deltas.sort()
 
     random_dates = [(start_date + timedelta(days)).strftime("%Y-%m-%d") for days in date_deltas]
