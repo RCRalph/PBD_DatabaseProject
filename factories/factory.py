@@ -9,41 +9,55 @@ from utils.passes_and_presence_factory import PassesAndPresenceFactory
 
 load_dotenv()
 
-connection_string = ";".join([
-    f"SERVER={os.getenv('DB_SERVER')}",
-    f"DATABASE={os.getenv('DB_DATABASE')}",
-    f"UID={os.getenv('DB_USERNAME')}",
-    f"PWD={os.getenv('DB_PASSWORD')}",
-    "DRIVER={ODBC Driver 18 for SQL Server}",
-    "ENCRYPT=NO",
-    "CHARSET=UTF8",
-])
+class Factory:
+    cursor: pyodbc.Cursor
+    connection_string: str
+    schema: str
 
-schema = os.getenv('SCHEMA_NAME')
-if schema is None:
-    raise KeyError()
+    def __init__(self):
+        self.connection_string = ";".join([
+            f"SERVER={os.getenv('DB_SERVER')}",
+            f"DATABASE={os.getenv('DB_DATABASE')}",
+            f"UID={os.getenv('DB_USERNAME')}",
+            f"PWD={os.getenv('DB_PASSWORD')}",
+            "DRIVER={ODBC Driver 18 for SQL Server}",
+            "ENCRYPT=NO",
+            "CHARSET=UTF8",
+        ])
 
-with pyodbc.connect(connection_string, autocommit=True) as connection:
-    cursor = connection.cursor()
+        schema = os.getenv('SCHEMA_NAME')
+        if schema is None:
+            raise KeyError()
+        else:
+            self.schema = schema
 
-    user_factory = UserFactory(cursor, schema)
-    user_factory.generate_students(900)
-    user_factory.generate_tutors(60)
-    user_factory.generate_coordinators(25)
-    user_factory.generate_translators(15)
+    def generate_data(self):
+        with pyodbc.connect(self.connection_string, autocommit=True) as connection:
+            cursor = connection.cursor()
 
-    activity_factory = ActivityFactory(cursor, schema)
-    activity_factory.generate_webinars(2500)
-    activity_factory.generate_courses(250)
-    activity_factory.generate_studies(50)
+            cursor.execute("SET NOCOUNT ON;")
 
-    translation_factory = TranslationFactory(cursor, schema)
-    translation_factory.generate_translations(0.01)
+            user_factory = UserFactory(cursor, self.schema)
+            user_factory.generate_students(400)
+            user_factory.generate_tutors(60)
+            user_factory.generate_coordinators(25)
+            user_factory.generate_translators(15)
 
-    order_factory = OrderFactory(cursor, schema)
-    order_factory.generate_shopping_cart(10000)
-    order_factory.generate_orders(15000)
+            activity_factory = ActivityFactory(cursor, self.schema)
+            activity_factory.generate_webinars(500)
+            activity_factory.generate_courses(250)
+            activity_factory.generate_studies(50)
 
-    passes_and_presence_factory = PassesAndPresenceFactory(cursor, schema)
-    passes_and_presence_factory.generate_passes(0.95)
-    passes_and_presence_factory.generate_presence(0.9, 0.05)
+            translation_factory = TranslationFactory(cursor, self.schema)
+            translation_factory.generate_translations(0.01)
+
+            order_factory = OrderFactory(cursor, self.schema)
+            order_factory.generate_orders(5000)
+            order_factory.generate_shopping_cart(1000)
+
+            passes_and_presence_factory = PassesAndPresenceFactory(cursor, self.schema)
+            passes_and_presence_factory.generate_passes()
+            passes_and_presence_factory.generate_presence(0.9, 0.05)
+
+if __name__ == "__main__":
+    Factory().generate_data()

@@ -1,6 +1,6 @@
 import pyodbc
 from faker import Faker
-from random import sample, choice, randrange, random
+from random import sample, choice, random
 
 class StudentModule:
     student_id: int
@@ -94,16 +94,14 @@ class PassesAndPresenceFactory:
 
         self.products = list(map(lambda x: x[0], cursor.fetchall()))
 
-    def generate_passes(self, ratio: float):
-        passes = sample(self.student_modules, round(len(self.student_modules) * ratio))
+    def generate_passes(self):
+        print(f"Generating passes... ({len(self.student_modules)})")
 
-        print(f"Generating passes... ({len(passes)})")
-
-        for student_module in passes:
-            self.cursor.execute(f"""
-                INSERT INTO {self.schema}.study_module_passes (student_id, module_id)
-                VALUES (?, ?)
-            """, student_module.student_id, student_module.module_id)
+        for student_module in self.student_modules:
+            self.cursor.execute(
+                f"EXEC {self.schema}.give_student_module_pass ?, ?;",
+                student_module.module_id, student_module.student_id
+            )
 
     def generate_presence(self, presence_ratio: float, presence_makeup_ratio: float):
         presence = sample(self.student_meetings, round(len(self.student_meetings) * presence_ratio))
@@ -111,15 +109,15 @@ class PassesAndPresenceFactory:
         print(f"Generating presence... ({len(presence)})")
 
         for student_meeting in presence:
-            self.cursor.execute(f"""
-                INSERT INTO {self.schema}.meeting_presence (student_id, meeting_id)
-                VALUES (?, ?)
-            """, student_meeting.student_id, student_meeting.meeting_id)
-
             if random() < presence_makeup_ratio:
                 make_up_activity_id = choice([i for i in self.products if i != student_meeting.meeting_id])
 
-                self.cursor.execute(f"""
-                    INSERT INTO {self.schema}.meeting_presence_make_up (student_id, meeting_id, activity_id)
-                    VALUES (?, ?, ?)
-                """, student_meeting.student_id, student_meeting.meeting_id, make_up_activity_id)
+                self.cursor.execute(
+                    f"EXEC {self.schema}.set_student_conditional_presence ?, ?;",
+                    student_meeting.meeting_id, student_meeting.student_id, make_up_activity_id
+                )
+            else:
+                self.cursor.execute(
+                    f"EXEC {self.schema}.register_student_presence ?, ?;",
+                    student_meeting.meeting_id, student_meeting.student_id
+                )

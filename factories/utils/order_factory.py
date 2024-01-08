@@ -20,6 +20,8 @@ class OrderFactory:
     students: list[int]
     statuses: list[int]
 
+    already_ordered_products: dict[int, list[Product]] = {}
+
     def __init__(self, cursor: pyodbc.Cursor, schema: str):
         self.cursor = cursor
         self.schema = schema
@@ -46,23 +48,29 @@ class OrderFactory:
 
         self.statuses = list(map(lambda x: x[0], cursor.fetchall()))
 
+    def get_not_ordered_products(self, student_id: int):
+        return [
+            item for item in self.products if item not in self.already_ordered_products[student_id]
+        ]
+
     def generate_shopping_cart(self, count: int):
         print(f"Generating shopping cart... ({count})")
 
         cart_set = set()
         while len(cart_set) < count:
-            cart_set.add((choice(self.products).id, choice(self.students)))
+            student_id = choice(self.students)
+            cart_set.add((choice(self.get_not_ordered_products(student_id)).id, student_id))
 
         for product_id, student_id in cart_set:
-            self.cursor.execute(f"""
-                INSERT INTO {self.schema}.shopping_cart (product_id, student_id)
-                VALUES (?, ?)
-            """, product_id, student_id)
+            self.cursor.execute(
+                f"EXEC {self.schema}.add_product_to_shopping_cart ?, ?;",
+                student_id, product_id
+            )
 
     def generate_order(self):
         student_id = choice(self.students)
         payment_url = self.fake.unique.uri()
-        order_date = datetime.today() - timedelta(days=randrange(3650))
+        order_date = datetime.today() - timedelta(days=randrange(365))
 
         self.cursor.execute(f"""
             INSERT INTO {self.schema}.orders (student_id, payment_url, order_date)
@@ -75,14 +83,17 @@ class OrderFactory:
         if result is None:
             raise ValueError()
 
-        return result[0]
+        return result[0], student_id
 
     def generate_orders(self, count: int):
         print(f"Generating orders... ({count})")
 
         for _ in range(count):
-            order_id = self.generate_order()
-            products = sample(self.products, randrange(1, 10))
+            order_id, student_id = self.generate_order()
+            products = sample(
+                [item for item in self.products if item not in self.already_ordered_products[student_id]],
+                randrange(1, 10)
+            )
             status_id = choice(self.statuses)
 
             for product in products:
@@ -90,3 +101,5 @@ class OrderFactory:
                     INSERT INTO {self.schema}.order_details (order_id, product_id, price, status_id)
                     VALUES (?, ?, ?, ?)
                 """, order_id, product.id, product.price, status_id)
+
+                self.already_ordered_products[student_id].append(product)

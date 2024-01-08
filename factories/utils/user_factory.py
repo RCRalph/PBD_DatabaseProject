@@ -40,36 +40,30 @@ class UserFactory:
 
         self.foreign_cities = list(map(lambda x: x[0], cursor.fetchall()))
 
-    def generate_user(self):
+    def generate_user_data(self):
         email = self.fake.unique.email()
         password = sha256(self.fake.password().encode("utf-8")).hexdigest()
         first_name = self.fake.first_name()
         last_name = self.fake.last_name()
         phone = self.fake.phone_number().replace(" ", "") if random.randrange(5) < 2 else None
 
-        self.cursor.execute(f"""
-            INSERT INTO {self.schema}.users (email, password, first_name, last_name, phone)
-            VALUES (?, ?, ?, ?, ?)
-        """, email, password, first_name, last_name, phone)
-
-        self.cursor.execute("SELECT @@IDENTITY;")
-
-        result = self.cursor.fetchone()
-        if result is None:
-            raise ValueError()
-
-        return result[0]
+        return (email, password, first_name, last_name, phone)
 
     def generate_students(self, count: int):
         print(f"Generating students... ({count})")
 
         for _ in range(count):
-            user_id = self.generate_user()
-
             self.cursor.execute(f"""
-                INSERT INTO {self.schema}.students (user_id)
-                VALUES (?)
-            """, user_id)
+                DECLARE @user_id INT;
+                EXEC {self.schema}.create_student ?, ?, ?, ?, ?, @user_id OUTPUT;
+                SELECT @user_id;
+            """, *self.generate_user_data())
+
+            result = self.cursor.fetchone()
+            if result is None:
+                raise ValueError()
+
+            user_id = result[0]
 
             if random.randrange(5) < 3:
                 street = self.fake.street_address()
@@ -77,45 +71,46 @@ class UserFactory:
                 city_id = random.choice(self.polish_cities if random.randrange(10) < 8 else self.foreign_cities)
 
                 self.cursor.execute(f"""
-                    INSERT INTO {self.schema}.addresses (student_id, street, zip_code, city_id)
-                    VALUES (?, ?, ?, ?)
+                    EXEC {self.schema}.assign_address_to_student ?, ?, ?, ?;
                 """, user_id, street, zip_code, city_id)
 
     def generate_tutors(self, count: int):
         print(f"Generating tutors... ({count})")
 
         for _ in range(count):
-            user_id = self.generate_user()
-
             self.cursor.execute(f"""
-                INSERT INTO {self.schema}.tutors (user_id)
-                VALUES (?)
-            """, user_id)
+                DECLARE @user_id INT;
+                EXEC {self.schema}.create_tutor ?, ?, ?, ?, ?, @user_id OUTPUT;
+                SELECT @user_id;
+            """, *self.generate_user_data())
 
     def generate_coordinators(self, count: int):
         print(f"Generating coordinators... ({count})")
 
         for _ in range(count):
-            user_id = self.generate_user()
-
             self.cursor.execute(f"""
-                INSERT INTO {self.schema}.coordinators (user_id)
-                VALUES (?)
-            """, user_id)
+                DECLARE @user_id INT;
+                EXEC {self.schema}.create_coordinator ?, ?, ?, ?, ?, @user_id OUTPUT;
+                SELECT @user_id;
+            """, *self.generate_user_data())
 
     def generate_translators(self, count: int):
         print(f"Generating translators... ({count})")
 
         for _ in range(count):
-            user_id = self.generate_user()
-
             self.cursor.execute(f"""
-                INSERT INTO {self.schema}.translators (user_id)
-                VALUES (?)
-            """, user_id)
+                DECLARE @user_id INT;
+                EXEC {self.schema}.create_translator ?, ?, ?, ?, ?, @user_id OUTPUT;
+                SELECT @user_id;
+            """, *self.generate_user_data())
+
+            result = self.cursor.fetchone()
+            if result is None:
+                raise ValueError()
+
+            user_id = result[0]
 
             for language_id in random.sample(self.languages, random.randrange(5) + 1):
                 self.cursor.execute(f"""
-                    INSERT INTO {self.schema}.translators_languages (translator_id, language_id)
-                    VALUES (?, ?)
+                    EXEC {self.schema}.assign_language_to_translator ?, ?;
                 """, user_id, language_id)

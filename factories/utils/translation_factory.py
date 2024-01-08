@@ -44,13 +44,12 @@ class TranslationFactory:
         print(f"Generating translations... ({len(meeting_ids)})")
 
         for meeting_id in meeting_ids:
-            language_id = choice(list(self.languages.keys()))
+            # English most common language
+            language_id = 6 if randrange(100) else choice(list(self.languages.keys()))
             translator_id = choice(self.languages[language_id])
-            translation = self.fake.paragraph(nb_sentences=randrange(50, 200)) if randrange(10) < 9 else None
 
             self.cursor.execute(f"""
-                INSERT INTO {self.schema}.meeting_translations (meeting_id, language_id, translator_id, translation)
-                VALUES (?, ?, ?, ?)
-            """, meeting_id, language_id, translator_id, translation)
+                EXEC {self.schema}.assign_language_to_meeting ?, ?, ?;
+            """, meeting_id, language_id, translator_id)
 
 

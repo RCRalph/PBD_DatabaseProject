@@ -57,67 +57,56 @@ class ActivityFactory:
 
         self.rooms = [Room(item[0], item[1]) for item in cursor.fetchall()]
 
-    def generate_activity(self):
+    def generate_activity_data(self):
         title = None
         while not title or len(title) > 128:
             title = self.fake.unique.sentence()[:-1]
 
-        description = self.fake.paragraph()
+        description = self.fake.sentence()
 
-        self.cursor.execute(f"""
-            INSERT INTO {self.schema}.activities (title, description)
-            VALUES (?, ?)
-        """, title, description)
-
-        self.cursor.execute("SELECT @@IDENTITY;")
-
-        result = self.cursor.fetchone()
-        if result is None:
-            raise ValueError()
-
-        return result[0]
+        return (title, description)
 
     def generate_webinars(self, count: int):
         print(f"Generating webinars... ({count})")
 
         for _ in range(count):
-            activity_id = self.generate_activity()
-
             tutor_id = choice(self.tutors)
-
-            self.cursor.execute(f"""
-                INSERT INTO {self.schema}.meetings (activity_id, tutor_id)
-                VALUES (?, ?)
-            """, activity_id, tutor_id)
-
             platform_id = choice(self.online_platforms)
-            meeting_url = self.fake.unique.uri() if randrange(10) < 9 else None
-            recording_url = self.fake.unique.uri() if meeting_url is not None and randrange(3) < 2 else None
-
-            self.cursor.execute(f"""
-                INSERT INTO {self.schema}.online_synchronous_meetings (meeting_id, platform_id, meeting_url, recording_url)
-                VALUES (?, ?, ?, ?)
-            """, activity_id, platform_id, meeting_url, recording_url)
-
             start_time = datetime.today() - timedelta(
-                days=randrange(3649),
+                days=randrange(-365, 365),
                 hours=randrange(8, 17),
                 minutes=randrange(4)*15
             )
-
             end_time = start_time + timedelta(hours=randrange(3), minutes=randrange(2) * 30)
+            price = max(round(randrange(11000) / 100, 2) - 10, 0)
 
             self.cursor.execute(f"""
-                INSERT INTO {self.schema}.meeting_schedule (meeting_id, start_time, end_time)
-                VALUES (?, ?, ?)
-            """, activity_id, start_time, end_time)
+                DECLARE @webinar_id INT;
+                EXEC {self.schema}.create_webinar ?, ?, ?, ?, ?, ?, ?, @webinar_id OUTPUT;
+                SELECT @webinar_id;
+            """, *self.generate_activity_data(), tutor_id, platform_id, start_time, end_time, price)
 
-            price = round(randrange(10000) / 100, 2)
+            result = self.cursor.fetchone()
+            if result is None:
+                raise ValueError()
 
-            self.cursor.execute(f"""
-                INSERT INTO {self.schema}.products (activity_id, price)
-                VALUES (?, ?)
-            """, activity_id, price)
+            webinar_id = result[0]
+
+            if datetime.now() + timedelta(days=30) > start_time:
+                meeting_url = self.fake.unique.uri()
+
+                self.cursor.execute(
+                    f"EXEC {self.schema}.update_webinar_meeting_url ?, ?;",
+                    webinar_id, meeting_url
+                )
+
+            if datetime.now() > end_time:
+                recording_url = self.fake.unique.uri()
+
+                self.cursor.execute(
+                    f"EXEC {self.schema}.update_webinar_recording_url ?, ?;",
+                    webinar_id, recording_url
+                )
 
     def generate_random_meeting_times(self, start_date: datetime, end_date: datetime, n: int):
         def check_conflict(meeting_times, new_start, new_end):
@@ -150,76 +139,27 @@ class ActivityFactory:
 
         return meeting_times
 
-    def generate_meeting(self, meeting_type: str, start_time: datetime, end_time: datetime, rooms: list[Room]):
-        meeting_id = self.generate_activity()
-
-        self.cursor.execute(f"""
-            INSERT INTO {self.schema}.meetings (activity_id, tutor_id)
-            VALUES (?, ?)
-        """, meeting_id, choice(self.tutors))
-
-        match meeting_type:
-            case "on_site_meetings":
-                self.cursor.execute(f"""
-                    INSERT INTO {self.schema}.on_site_meetings (meeting_id, room_id)
-                    VALUES (?, ?)
-                """, meeting_id, choice(list(map(lambda x: x.id, rooms))))
-
-                self.cursor.execute(f"""
-                    INSERT INTO {self.schema}.meeting_schedule (meeting_id, start_time, end_time)
-                    VALUES (?, ?, ?)
-                """, meeting_id, start_time, end_time)
-
-            case "online_synchronous_meetings":
-                meeting_url = self.fake.unique.uri() if randrange(10) < 9 else None
-                recording_url = self.fake.unique.uri() if meeting_url is not None and randrange(3) < 2 else None
-
-                self.cursor.execute(f"""
-                    INSERT INTO {self.schema}.online_synchronous_meetings (meeting_id, platform_id, meeting_url, recording_url)
-                    VALUES (?, ?, ?, ?)
-                """, meeting_id, choice(self.online_platforms), meeting_url, recording_url)
-
-                self.cursor.execute(f"""
-                    INSERT INTO {self.schema}.meeting_schedule (meeting_id, start_time, end_time)
-                    VALUES (?, ?, ?)
-                """, meeting_id, start_time, end_time)
-
-            case "online_asynchronous_meetings":
-                recording_url = self.fake.unique.uri()
-
-                self.cursor.execute(f"""
-                    INSERT INTO {self.schema}.online_asynchronous_meetings (meeting_id, recording_url)
-                    VALUES (?, ?)
-                """, meeting_id, recording_url)
-
-            case "internships":
-                self.cursor.execute(f"""
-                    INSERT INTO {self.schema}.internships (meeting_id)
-                    VALUES (?)
-                """, meeting_id)
-
-                self.cursor.execute(f"""
-                    INSERT INTO {self.schema}.meeting_schedule (meeting_id, start_time, end_time)
-                    VALUES (?, ?, ?)
-                """, meeting_id, start_time, end_time)
-
-        return meeting_id
-
     def generate_courses(self, count: int):
         print(f"Generating courses... ({count})")
 
         for _ in range(count):
-            course_id = self.generate_activity()
-
             coordinator_id = choice(self.coordinators)
+            price = round(randrange(10000) / 100, 2)
 
             self.cursor.execute(f"""
-                INSERT INTO {self.schema}.courses (activity_id, coordinator_id)
-                VALUES (?, ?)
-            """, course_id, coordinator_id)
+                DECLARE @course_id INT;
+                EXEC {self.schema}.create_course ?, ?, ?, ?, @course_id OUTPUT;
+                SELECT @course_id;
+            """, *self.generate_activity_data(), coordinator_id, price)
+
+            result = self.cursor.fetchone()
+            if result is None:
+                raise ValueError()
+
+            course_id = result[0]
 
             module_count = randrange(3, 10)
-            start_date = datetime.today() - timedelta(days=randrange(3650))
+            start_date = datetime.today() - timedelta(days=randrange(-365, 365))
             total_meeting_count = randrange(module_count * 2, module_count * 4)
             end_date = start_date + timedelta(days=randrange(total_meeting_count // 5, total_meeting_count) + 1)
 
@@ -235,57 +175,110 @@ class ActivityFactory:
             subranges = [(custom_breakpoints[i], custom_breakpoints[i + 1]) for i in range(len(custom_breakpoints) - 1)]
 
             for (i, j) in subranges:
-                module_id = self.generate_activity()
+                self.cursor.execute(f"""
+                    DECLARE @module_id INT;
+                    EXEC {self.schema}.create_course_module ?, ?, ?, @module_id OUTPUT;
+                    SELECT @course_id;
+                """, course_id, *self.generate_activity_data())
+
+                result = self.cursor.fetchone()
+                if result is None:
+                    raise ValueError()
+
+                module_id = result[0]
                 module_type = choice(self.meeting_types + ["hybrid"])
 
-                self.cursor.execute(f"""
-                    INSERT INTO {self.schema}.course_modules (activity_id, course_id)
-                    VALUES (?, ?)
-                """, module_id, course_id)
-
                 for (start_time, end_time) in meeting_times[i:j]:
-                    meeting_id = self.generate_meeting(
-                        choice(self.meeting_types) if module_type == "hybrid" else module_type,
-                        start_time,
-                        end_time,
-                        self.rooms
-                    )
+                    tutor_id = choice(self.tutors)
 
-                    self.cursor.execute(f"""
-                        INSERT INTO {self.schema}.module_meetings (meeting_id, module_id)
-                        VALUES (?, ?)
-                    """, meeting_id, module_id)
+                    match choice(self.meeting_types) if module_type == "hybrid" else module_type:
+                        case "on_site_meetings":
+                            room_id = choice(list(map(lambda x: x.id, self.rooms)))
 
-            price = round(randrange(10000) / 100, 2)
+                            self.cursor.execute(
+                                f"""
+                                    DECLARE @meeting_id INT;
+                                    EXEC {self.schema}.create_course_module_on_site_meeting
+                                        ?, ?, ?, ?, ?, ?, ?, @meeting_id OUTPUT;
+                                """,
+                                module_id, *self.generate_activity_data(),
+                                tutor_id, room_id, start_time, end_time
+                            )
 
-            self.cursor.execute(f"""
-                INSERT INTO {self.schema}.products (activity_id, price)
-                VALUES (?, ?)
-            """, course_id, price)
+                        case "online_asynchronous_meetings":
+                            recording_url = self.fake.unique.uri()
+
+                            self.cursor.execute(
+                                f"""
+                                    DECLARE @meeting_id INT;
+                                    EXEC {self.schema}.create_course_module_online_asynchronous_meeting
+                                        ?, ?, ?, ?, ?, @meeting_id OUTPUT;
+                                """,
+                                module_id, *self.generate_activity_data(),
+                                tutor_id, recording_url
+                            )
+
+                        case "online_synchronous_meetings":
+                            platform_id = choice(self.online_platforms)
+
+                            self.cursor.execute(
+                                f"""
+                                    DECLARE @meeting_id INT;
+                                    EXEC {self.schema}.create_course_module_online_synchronous_meeting
+                                        ?, ?, ?, ?, ?, ?, ?, @meeting_id OUTPUT;
+                                    SELECT @meeting_id;
+                                """,
+                                module_id, *self.generate_activity_data(),
+                                tutor_id, platform_id, start_time, end_time
+                            )
+
+                            result = self.cursor.fetchone()
+                            if result is None:
+                                raise ValueError()
+
+                            meeting_id = result[0]
+
+                            if datetime.now() + timedelta(days=30) > start_time:
+                                meeting_url = self.fake.unique.uri()
+
+                                self.cursor.execute(
+                                    f"EXEC {self.schema}.update_course_module_online_synchronous_meeting_url ?, ?;",
+                                    meeting_id, meeting_url
+                                )
+
+                            if datetime.now() > end_time:
+                                recording_url = self.fake.unique.uri()
+
+                                self.cursor.execute(
+                                    f"EXEC {self.schema}.update_course_module_online_synchronous_meeting_recording_url ?, ?;",
+                                    meeting_id, recording_url
+                                )
 
     def generate_study_modules(self, study_id):
         module_ids = []
 
         for _ in range(randrange(4, 8)):
-            module_id = self.generate_activity()
+            coordinator_id = choice(self.coordinators)
 
             self.cursor.execute(f"""
-                INSERT INTO {self.schema}.study_modules (activity_id, study_id, coordinator_id)
-                VALUES (?, ?, ?)
-            """, module_id, study_id, choice(self.coordinators))
+                DECLARE @module_id INT;
+                EXEC {self.schema}.create_study_module ?, ?, ?, ?, @module_id OUTPUT;
+                SELECT @module_id;
+            """, study_id, *self.generate_activity_data(), coordinator_id)
 
-            module_ids.append(module_id)
+            result = self.cursor.fetchone()
+            if result is None:
+                raise ValueError()
+
+            module_ids.append(result[0])
 
         return module_ids
 
-    def generate_study_sessions(self, study_id, rooms):
+    def generate_study_sessions(self, study_id, rooms: list[Room]):
         def study_session_end_time(start: datetime):
             return start + timedelta(days=2, hours=8)
 
-        def datetime_next_week(time: datetime):
-            return time + timedelta(weeks=1)
-
-        start_date = datetime(randrange(2015, 2022), 9, 1)
+        start_date = datetime(randrange(2020, 2025), 9, 1)
         semesters = []
         for _ in range(randrange(3, 6)):
             semesters.append((start_date, start_date + timedelta(6 * 30)))
@@ -294,21 +287,22 @@ class ActivityFactory:
 
         for (start, end) in semesters:
             module_ids = self.generate_study_modules(study_id)
-
             start_time = start + timedelta(days=(4 - start.weekday() + 7) % 7, hours=8)
 
-            while study_session_end_time(datetime_next_week(start_time)) < end:
-                session_id = self.generate_activity()
+            while study_session_end_time(start_time + timedelta(weeks=2)) < end:
+                price = round(randrange(10000) / 100, 2)
 
                 self.cursor.execute(f"""
-                    INSERT INTO {self.schema}.study_sessions (activity_id, study_id)
-                    VALUES (?, ?)
-                """, session_id, study_id)
+                    DECLARE @session_id INT;
+                    EXEC {self.schema}.create_study_session ?, ?, ?, ?, @session_id OUTPUT;
+                    SELECT @session_id;
+                """, study_id, *self.generate_activity_data(), price)
 
-                self.cursor.execute(f"""
-                    INSERT INTO {self.schema}.products (activity_id, price)
-                    VALUES (?, ?)
-                """, session_id, round(randrange(10000, 100000) / 100, 2))
+                result = self.cursor.fetchone()
+                if result is None:
+                    raise ValueError()
+
+                session_id = result[0]
 
                 meeting_times = self.generate_random_meeting_times(
                     start_time,
@@ -317,36 +311,100 @@ class ActivityFactory:
                 )
 
                 for (meeting_start, meeting_end) in meeting_times:
-                    meeting_id = self.generate_meeting(
-                        choice(self.meeting_types),
-                        meeting_start,
-                        meeting_end,
-                        rooms
-                    )
+                    tutor_id = choice(self.tutors)
+                    module_id = choice(module_ids)
+                    price = round(randrange(10000) / 100, 2)
 
-                    self.cursor.execute(f"""
-                        INSERT INTO {self.schema}.products (activity_id, price)
-                        VALUES (?, ?)
-                    """, meeting_id, round(randrange(10000) / 100, 2))
+                    match choice(self.meeting_types):
+                        case "on_site_meetings":
+                            room_id = choice(list(map(lambda x: x.id, rooms)))
 
-                    self.cursor.execute(f"""
-                        INSERT INTO {self.schema}.study_meetings (meeting_id, session_id, module_id)
-                        VALUES (?, ?, ?)
-                    """, meeting_id, session_id, choice(module_ids))
+                            self.cursor.execute(
+                                f"""
+                                    DECLARE @meeting_id INT;
+                                    EXEC {self.schema}.create_study_on_site_meeting
+                                        ?, ?, ?, ?, ?, ?, ?, @meeting_id OUTPUT;
+                                """,
+                                module_id, session_id, *self.generate_activity_data(),
+                                tutor_id, room_id, meeting_start, meeting_end, price
+                            )
 
-                start_time += timedelta(weeks=1)
+                        case "online_asynchronous_meetings":
+                            recording_url = self.fake.unique.uri()
 
-            session_id = self.generate_activity()
+                            self.cursor.execute(
+                                f"""
+                                    DECLARE @meeting_id INT;
+                                    EXEC {self.schema}.create_study_online_asynchronous_meeting
+                                        ?, ?, ?, ?, ?, @meeting_id OUTPUT;
+                                """,
+                                module_id, session_id, *self.generate_activity_data(),
+                                tutor_id, recording_url, price
+                            )
 
+                        case "online_synchronous_meetings":
+                            platform_id = choice(self.online_platforms)
+
+                            self.cursor.execute(
+                                f"""
+                                    DECLARE @meeting_id INT;
+                                    EXEC {self.schema}.create_study_online_synchronous_meeting
+                                        ?, ?, ?, ?, ?, ?, ?, @meeting_id OUTPUT;
+                                    SELECT @meeting_id;
+                                """,
+                                module_id, session_id, *self.generate_activity_data(),
+                                tutor_id, platform_id, meeting_start, meeting_end, price
+                            )
+
+                            result = self.cursor.fetchone()
+                            if result is None:
+                                raise ValueError()
+
+                            meeting_id = result[0]
+
+                            if datetime.now() + timedelta(days=30) > meeting_start:
+                                meeting_url = self.fake.unique.uri()
+
+                                self.cursor.execute(
+                                    f"EXEC {self.schema}.update_study_online_synchronous_meeting_url ?, ?;",
+                                    meeting_id, meeting_url
+                                )
+
+                            if datetime.now() > meeting_end:
+                                recording_url = self.fake.unique.uri()
+
+                                self.cursor.execute(
+                                    f"EXEC {self.schema}.update_study_online_synchronous_meeting_recording_url ?, ?;",
+                                    meeting_id, recording_url
+                                )
+
+                start_time += timedelta(weeks=2)
+
+            price = round(randrange(10000) / 100, 2)
             self.cursor.execute(f"""
-                INSERT INTO {self.schema}.study_sessions (activity_id, study_id)
-                VALUES (?, ?)
-            """, session_id, study_id)
+                DECLARE @session_id INT;
+                EXEC {self.schema}.create_study_session ?, ?, ?, ?, @session_id OUTPUT;
+                SELECT @session_id;
+            """, study_id, *self.generate_activity_data(), price)
 
+            result = self.cursor.fetchone()
+            if result is None:
+                raise ValueError()
+
+            internship_session_id = result[0]
+
+            internship_coordinator_id = choice(self.coordinators)
             self.cursor.execute(f"""
-                INSERT INTO {self.schema}.products (activity_id, price)
-                VALUES (?, ?)
-            """, session_id, round(randrange(10000, 100000) / 100, 2))
+                DECLARE @module_id INT;
+                EXEC {self.schema}.create_study_module ?, ?, ?, ?, @module_id OUTPUT;
+                SELECT @module_id;
+            """, study_id, *self.generate_activity_data(), internship_coordinator_id)
+
+            result = self.cursor.fetchone()
+            if result is None:
+                raise ValueError()
+
+            internship_module_id = result[0]
 
             meeting_times = self.generate_random_meeting_times(
                 start_time,
@@ -355,43 +413,39 @@ class ActivityFactory:
             )
 
             for (meeting_start, meeting_end) in meeting_times:
-                meeting_id = self.generate_meeting(
-                    "internships",
-                    meeting_start,
-                    meeting_end,
-                    rooms
+                tutor_id = choice(self.tutors)
+
+                self.cursor.execute(
+                    f"""
+                        DECLARE @meeting_id INT;
+                        EXEC {self.schema}.create_study_internship_meeting ?, ?, ?, ?, ?, ?, ?, @meeting_id OUTPUT;
+                    """,
+                    internship_module_id, internship_session_id, *self.generate_activity_data(),
+                    tutor_id, meeting_start, meeting_end
                 )
-
-                self.cursor.execute(f"""
-                    INSERT INTO {self.schema}.products (activity_id, price)
-                    VALUES (?, ?)
-                """, meeting_id, round(randrange(10000) / 100, 2))
-
-                self.cursor.execute(f"""
-                    INSERT INTO {self.schema}.study_meetings (meeting_id, session_id, module_id)
-                    VALUES (?, ?, ?)
-                """, meeting_id, session_id, choice(module_ids))
 
     def generate_studies(self, count: int):
         print(f"Generating studies... ({count})")
 
         for _ in range(count):
-            study_id = self.generate_activity()
-            study_place_limit = randrange(self.rooms[0].place_limit, self.rooms[-1].place_limit)
+            price = round(randrange(10000) / 100, 2) + 100
+            place_limit = randrange(self.rooms[0].place_limit, self.rooms[-1].place_limit)
+
+            self.cursor.execute(f"""
+                DECLARE @study_id INT;
+                EXEC {self.schema}.create_study ?, ?, ?, ?, @study_id OUTPUT;
+                SELECT @study_id;
+            """, *self.generate_activity_data(), price, place_limit)
+
+            result = self.cursor.fetchone()
+            if result is None:
+                raise ValueError()
+
+            study_id = result[0]
 
             rooms_smallest_index = 0
             for rooms_smallest_index, room in enumerate(self.rooms):
-                if room.place_limit >= study_place_limit:
+                if room.place_limit >= place_limit:
                     break
 
-            self.cursor.execute(f"""
-                INSERT INTO {self.schema}.studies (activity_id, place_limit)
-                VALUES (?, ?)
-            """, study_id, study_place_limit)
-
             self.generate_study_sessions(study_id, self.rooms[rooms_smallest_index:])
-
-            self.cursor.execute(f"""
-                INSERT INTO {self.schema}.products (activity_id, price)
-                VALUES (?, ?)
-            """, study_id, round(randrange(10000) / 100, 2))
