@@ -1,3 +1,4 @@
+CREATE VIEW study_offers AS
 SELECT
     study_information.study_id AS study_id,
     activities.title,

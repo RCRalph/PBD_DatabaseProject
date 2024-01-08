@@ -1,4 +1,4 @@
-CREATE PROCEDURE register_user_presence
+CREATE PROCEDURE register_student_presence
     @meeting_id INT,
     @student_id INT
 AS BEGIN

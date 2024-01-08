@@ -19,7 +19,7 @@ BEGIN
 
     DECLARE @result BIT = 0;
 
-    IF dbo.is_student_passing_internships(@study_id, @student_id) AND
+    IF 1 = dbo.is_student_passing_internships(@study_id, @student_id) AND
        @study_module_count = @module_passes_count
         SET @result = 1;
 
